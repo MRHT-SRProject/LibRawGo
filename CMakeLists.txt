@@ -19,19 +19,19 @@ set(PROJECT_NAME librawgo)
 project(${PROJECT_NAME})
 
 SET (CMAKE_LIBRARY_OUTPUT_DIRECTORY
-        ${CMAKE_SOURCE_DIR}/librawgo
+        ${CMAKE_BINARY_DIR}
         CACHE PATH
         "Single Directory for all"
     )
 
 SET (CMAKE_RUNTIME_OUTPUT_DIRECTORY
-        ${CMAKE_SOURCE_DIR}/librawgo
+        ${CMAKE_BINARY_DIR}
         CACHE PATH
         "Single Directory for all"
     )
 
 SET (CMAKE_ARCHIVE_OUTPUT_DIRECTORY
-        ${CMAKE_SOURCE_DIR}/librawgo
+        ${CMAKE_BINARY_DIR}
         CACHE PATH
         "Single Directory for all"
     )
@@ -64,7 +64,7 @@ message("\n--------------------------------\n")
 set(${PROJECT_NAME}_sources ${CMAKE_SOURCE_DIR}/src/librawgo.i )
 
 
-swig_add_library(${PROJECT_NAME} TYPE SHARED LANGUAGE go SOURCES ${${PROJECT_NAME}_sources})
+swig_add_library(${PROJECT_NAME} TYPE STATIC LANGUAGE go SOURCES ${${PROJECT_NAME}_sources})
 
 # NOTE: this will slow down compilation, but you'll have static code analysis :)
 if(CLANG_TIDY)

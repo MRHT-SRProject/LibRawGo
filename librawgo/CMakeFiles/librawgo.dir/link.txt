@@ -1,0 +1,2 @@
+/usr/bin/ar qc librawgo.a CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o
+/usr/bin/ranlib librawgo.a
