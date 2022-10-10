@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rich/code/LibRawGo/src/librawgo.i
+libraw/libraw.h
+-
+librawgo.h
+/home/rich/code/LibRawGo/src/librawgo.h
+
