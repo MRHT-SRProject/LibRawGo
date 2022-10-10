@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,librawgo.so -o /home/rich/code/LibRawGo/librawgo/librawgo.so CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o 

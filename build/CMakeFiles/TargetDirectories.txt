@@ -1,4 +1,0 @@
-/home/rich/code/LibRawGo/build/CMakeFiles/librawgo.dir
-/home/rich/code/LibRawGo/build/CMakeFiles/librawgo_swig_compilation.dir
-/home/rich/code/LibRawGo/build/CMakeFiles/edit_cache.dir
-/home/rich/code/LibRawGo/build/CMakeFiles/rebuild_cache.dir
