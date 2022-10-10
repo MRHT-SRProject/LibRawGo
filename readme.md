@@ -1,6 +1,11 @@
 # LibRawGo
 
-A wrapper around [libraw](https://libraw.org/) written for [GO](https://golang.google.cn) using [SWIG](https://swig.org)
+A wrapper around [libraw](https://www.libraw.org/) written for [GO](https://golang.google.cn) using [SWIG](https://swig.org)
+Currently tested on 
+
+- Linux (64bit)
+
+
 
 ## Getting Started
 
@@ -22,6 +27,24 @@ Most linux distros have this version available on their package manager. If not 
 
 To include this library in your go project, install it by running `go install github.com/MRHT-SRProject/LibRawGo/librawgo` and include it in your project. Or include `github.com/MRHT-SRProject/LibRawGo` in your project and run `go mod tidy`
 
+### Usage
+
+This wrapper wraps the C API for libraw. See their [documentation](https://www.libraw.org/docs/API-C.html) for more usage details.
+
+```go
+package libraw
+
+import (
+	raw "github.com/MRHT-SRProject/LibRawGo/librawgo"
+)
+
+func TestLibRaw() **uint16 {
+	lr := raw.Libraw_init(0)
+	raw.Libraw_open_file(lr, "/home/rich/code/camcapture/libraw/city.ARW")
+	return lr.GetImage()
+}
+```
+
 ## Running the tests
 
 **TODO**
@@ -39,24 +62,21 @@ To include this library in your go project, install it by running `go install gi
 
   - [SWIG](https://swig.org)
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
+We use [Semantic Versioning](http://semver.org/) for versioning. All production versions start at `1.x` and the sub-versions match the version of `libraw`. For the versions
 available, see the [tags on this
 repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
+
+
 ## Authors
 
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
+- **Richard Baird**
 
 See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
+[contributors](#)
 who participated in this project.
 
 ## License
@@ -68,4 +88,6 @@ details
 ## Acknowledgments
 
   - [libraw](https://libraw.org/) for writing such a useful library!
+  - **Billie Thompson** - *Provided README Template* -
+    [PurpleBooth](https://github.com/PurpleBooth)
 
