@@ -17,6 +17,7 @@ package librawgo
 #define intgo swig_intgo
 typedef void *swig_voidp;
 
+#include <libraw/libraw.h>
 #include <stdint.h>
 
 
@@ -29,73 +30,1994 @@ typedef struct { char *p; intgo n; } _gostring_;
 typedef struct { void* array; intgo len; intgo cap; } _goslice_;
 
 
-typedef long long swig_type_1;
+typedef _gostring_ swig_type_1;
 typedef _gostring_ swig_type_2;
 typedef _gostring_ swig_type_3;
 typedef _gostring_ swig_type_4;
 typedef _gostring_ swig_type_5;
-typedef long long swig_type_6;
-typedef _gostring_ swig_type_7;
-typedef _gostring_ swig_type_8;
-typedef _gostring_ swig_type_9;
-typedef _gostring_ swig_type_10;
-extern void _wrap_Swig_free_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_librawgo_09f81801a9d9dec9(swig_intgo arg1);
-extern swig_type_1 _wrap_LIBRAW_USE_STREAMS_DATASTREAM_MAXSIZE_librawgo_09f81801a9d9dec9(void);
-extern swig_type_2 _wrap_libraw_strerror_librawgo_09f81801a9d9dec9(swig_intgo arg1);
-extern swig_type_3 _wrap_libraw_strprogress_librawgo_09f81801a9d9dec9(swig_intgo arg1);
-extern uintptr_t _wrap_libraw_init_librawgo_09f81801a9d9dec9(swig_intgo arg1);
-extern swig_intgo _wrap_libraw_open_file_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_type_4 arg2);
-extern swig_intgo _wrap_libraw_open_file_ex_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_type_5 arg2, uintptr_t arg3);
-extern swig_intgo _wrap_libraw_open_buffer_librawgo_09f81801a9d9dec9(uintptr_t arg1, uintptr_t arg2, swig_type_6 arg3);
-extern swig_intgo _wrap_libraw_unpack_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern swig_intgo _wrap_libraw_unpack_thumb_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern void _wrap_libraw_recycle_datastream_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern void _wrap_libraw_recycle_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern void _wrap_libraw_close_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern void _wrap_libraw_subtract_black_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern swig_intgo _wrap_libraw_raw2image_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern void _wrap_libraw_free_image_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern swig_type_7 _wrap_libraw_version_librawgo_09f81801a9d9dec9(void);
-extern swig_intgo _wrap_libraw_versionNumber_librawgo_09f81801a9d9dec9(void);
-extern swig_voidp _wrap_libraw_cameraList_librawgo_09f81801a9d9dec9(void);
-extern swig_intgo _wrap_libraw_cameraCount_librawgo_09f81801a9d9dec9(void);
-extern void _wrap_libraw_set_memerror_handler_librawgo_09f81801a9d9dec9(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_libraw_set_exifparser_handler_librawgo_09f81801a9d9dec9(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_libraw_set_dataerror_handler_librawgo_09f81801a9d9dec9(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_libraw_set_progress_handler_librawgo_09f81801a9d9dec9(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern swig_type_8 _wrap_libraw_unpack_function_name_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern swig_intgo _wrap_libraw_get_decoder_info_librawgo_09f81801a9d9dec9(uintptr_t arg1, uintptr_t arg2);
-extern swig_intgo _wrap_libraw_COLOR_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern swig_intgo _wrap_libraw_capabilities_librawgo_09f81801a9d9dec9(void);
-extern swig_intgo _wrap_libraw_adjust_sizes_info_only_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern swig_intgo _wrap_libraw_dcraw_ppm_tiff_writer_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_type_9 arg2);
-extern swig_intgo _wrap_libraw_dcraw_thumb_writer_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_type_10 arg2);
-extern swig_intgo _wrap_libraw_dcraw_process_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern uintptr_t _wrap_libraw_dcraw_make_mem_image_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_libraw_dcraw_make_mem_thumb_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_libraw_dcraw_clear_mem_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern void _wrap_libraw_set_demosaic_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_libraw_set_output_color_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_libraw_set_user_mul_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2, float arg3);
-extern void _wrap_libraw_set_output_bps_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_libraw_set_gamma_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2, float arg3);
-extern void _wrap_libraw_set_no_auto_bright_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_libraw_set_bright_librawgo_09f81801a9d9dec9(uintptr_t arg1, float arg2);
-extern void _wrap_libraw_set_highlight_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_libraw_set_fbdd_noiserd_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_libraw_get_raw_height_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern swig_intgo _wrap_libraw_get_raw_width_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern swig_intgo _wrap_libraw_get_iheight_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern swig_intgo _wrap_libraw_get_iwidth_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern float _wrap_libraw_get_cam_mul_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2);
-extern float _wrap_libraw_get_pre_mul_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2);
-extern float _wrap_libraw_get_rgb_cam_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern swig_intgo _wrap_libraw_get_color_maximum_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern void _wrap_libraw_set_output_tif_librawgo_09f81801a9d9dec9(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_libraw_get_iparams_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern uintptr_t _wrap_libraw_get_lensinfo_librawgo_09f81801a9d9dec9(uintptr_t arg1);
-extern uintptr_t _wrap_libraw_get_imgother_librawgo_09f81801a9d9dec9(uintptr_t arg1);
+typedef void* swig_type_6;
+typedef void* swig_type_7;
+typedef void* swig_type_8;
+typedef void* swig_type_9;
+typedef void* swig_type_10;
+typedef void* swig_type_11;
+typedef void* swig_type_12;
+typedef void* swig_type_13;
+typedef void* swig_type_14;
+typedef void* swig_type_15;
+typedef void* swig_type_16;
+typedef void* swig_type_17;
+typedef void* swig_type_18;
+typedef void* swig_type_19;
+typedef void* swig_type_20;
+typedef void* swig_type_21;
+typedef void* swig_type_22;
+typedef void* swig_type_23;
+typedef void* swig_type_24;
+typedef void* swig_type_25;
+typedef void* swig_type_26;
+typedef void* swig_type_27;
+typedef void* swig_type_28;
+typedef void* swig_type_29;
+typedef void* swig_type_30;
+typedef void* swig_type_31;
+typedef void* swig_type_32;
+typedef void* swig_type_33;
+typedef void* swig_type_34;
+typedef void* swig_type_35;
+typedef _gostring_ swig_type_36;
+typedef _gostring_ swig_type_37;
+typedef _gostring_ swig_type_38;
+typedef _gostring_ swig_type_39;
+typedef _gostring_ swig_type_40;
+typedef _gostring_ swig_type_41;
+typedef _gostring_ swig_type_42;
+typedef _gostring_ swig_type_43;
+typedef _gostring_ swig_type_44;
+typedef _gostring_ swig_type_45;
+typedef _gostring_ swig_type_46;
+typedef _gostring_ swig_type_47;
+typedef _gostring_ swig_type_48;
+typedef _gostring_ swig_type_49;
+typedef _gostring_ swig_type_50;
+typedef _gostring_ swig_type_51;
+typedef _gostring_ swig_type_52;
+typedef _gostring_ swig_type_53;
+typedef _gostring_ swig_type_54;
+typedef _gostring_ swig_type_55;
+typedef _gostring_ swig_type_56;
+typedef _gostring_ swig_type_57;
+typedef _gostring_ swig_type_58;
+typedef _gostring_ swig_type_59;
+typedef _gostring_ swig_type_60;
+typedef _gostring_ swig_type_61;
+typedef _gostring_ swig_type_62;
+typedef _gostring_ swig_type_63;
+typedef _gostring_ swig_type_64;
+typedef _gostring_ swig_type_65;
+typedef _gostring_ swig_type_66;
+typedef _gostring_ swig_type_67;
+typedef _gostring_ swig_type_68;
+typedef _gostring_ swig_type_69;
+typedef _gostring_ swig_type_70;
+typedef _gostring_ swig_type_71;
+typedef _gostring_ swig_type_72;
+typedef _gostring_ swig_type_73;
+typedef _gostring_ swig_type_74;
+typedef _gostring_ swig_type_75;
+typedef _gostring_ swig_type_76;
+typedef _gostring_ swig_type_77;
+typedef _gostring_ swig_type_78;
+typedef _gostring_ swig_type_79;
+typedef _gostring_ swig_type_80;
+typedef _gostring_ swig_type_81;
+typedef _gostring_ swig_type_82;
+typedef _gostring_ swig_type_83;
+typedef _gostring_ swig_type_84;
+typedef _gostring_ swig_type_85;
+typedef _gostring_ swig_type_86;
+typedef _gostring_ swig_type_87;
+typedef _gostring_ swig_type_88;
+typedef _gostring_ swig_type_89;
+typedef _gostring_ swig_type_90;
+typedef _gostring_ swig_type_91;
+typedef _gostring_ swig_type_92;
+typedef _gostring_ swig_type_93;
+typedef _gostring_ swig_type_94;
+typedef _gostring_ swig_type_95;
+typedef _gostring_ swig_type_96;
+typedef _gostring_ swig_type_97;
+typedef _gostring_ swig_type_98;
+typedef _gostring_ swig_type_99;
+typedef _gostring_ swig_type_100;
+typedef _gostring_ swig_type_101;
+typedef _gostring_ swig_type_102;
+typedef _gostring_ swig_type_103;
+typedef _gostring_ swig_type_104;
+typedef _gostring_ swig_type_105;
+typedef _gostring_ swig_type_106;
+typedef _gostring_ swig_type_107;
+typedef _gostring_ swig_type_108;
+typedef _gostring_ swig_type_109;
+typedef _gostring_ swig_type_110;
+typedef _gostring_ swig_type_111;
+typedef _gostring_ swig_type_112;
+typedef _gostring_ swig_type_113;
+typedef _gostring_ swig_type_114;
+typedef _gostring_ swig_type_115;
+typedef long long swig_type_116;
+typedef long long swig_type_117;
+typedef _gostring_ swig_type_118;
+typedef _gostring_ swig_type_119;
+typedef long long swig_type_120;
+typedef long long swig_type_121;
+typedef _gostring_ swig_type_122;
+typedef _gostring_ swig_type_123;
+typedef _gostring_ swig_type_124;
+typedef _gostring_ swig_type_125;
+typedef _gostring_ swig_type_126;
+typedef _gostring_ swig_type_127;
+typedef long long swig_type_128;
+typedef long long swig_type_129;
+typedef _gostring_ swig_type_130;
+typedef _gostring_ swig_type_131;
+typedef long long swig_type_132;
+typedef long long swig_type_133;
+typedef _gostring_ swig_type_134;
+typedef _gostring_ swig_type_135;
+typedef long long swig_type_136;
+typedef long long swig_type_137;
+typedef _gostring_ swig_type_138;
+typedef _gostring_ swig_type_139;
+typedef _gostring_ swig_type_140;
+typedef _gostring_ swig_type_141;
+typedef _gostring_ swig_type_142;
+typedef _gostring_ swig_type_143;
+typedef _gostring_ swig_type_144;
+typedef _gostring_ swig_type_145;
+typedef _gostring_ swig_type_146;
+typedef _gostring_ swig_type_147;
+typedef _gostring_ swig_type_148;
+typedef _gostring_ swig_type_149;
+typedef _gostring_ swig_type_150;
+typedef _gostring_ swig_type_151;
+typedef _gostring_ swig_type_152;
+typedef _gostring_ swig_type_153;
+typedef _gostring_ swig_type_154;
+typedef _gostring_ swig_type_155;
+typedef long long swig_type_156;
+typedef _gostring_ swig_type_157;
+typedef _gostring_ swig_type_158;
+typedef _gostring_ swig_type_159;
+typedef _gostring_ swig_type_160;
+typedef long long swig_type_161;
+typedef long long swig_type_162;
+typedef _gostring_ swig_type_163;
+typedef void* swig_type_164;
+typedef void* swig_type_165;
+typedef void* swig_type_166;
+typedef void* swig_type_167;
+typedef _gostring_ swig_type_168;
+typedef _gostring_ swig_type_169;
+typedef _gostring_ swig_type_170;
+extern void _wrap_Swig_free_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_librawgo_91c7e8cf36b5548d(swig_intgo arg1);
+extern swig_intgo _wrap_LIBRAW_OPEN_BIGFILE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_OPEN_FILE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_OPENBAYER_RGGB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_OPENBAYER_BGGR_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_OPENBAYER_GRBG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_OPENBAYER_GBRG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_FORWARDMATRIX_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_ILLUMINANT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_COLORMATRIX_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_CALIBRATION_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_ANALOGBALANCE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_BLACK_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_WHITE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_OPCODE2_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_LINTABLE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_CROPORIGIN_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_CROPSIZE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_PREVIEWCS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_ASSHOTNEUTRAL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_BASELINEEXPOSURE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNGFM_LINEARRESPONSELIMIT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_ASWB_APPLIED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_ASWB_CANON_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_ASWB_NIKON_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_ASWB_NIKON_SRAW_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_ASWB_PENTAX_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_UNKNOWN_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_BYTE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_ASCII_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_SHORT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_LONG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_RATIONAL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_SBYTE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_UNDEFINED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_SSHORT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_SLONG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_SRATIONAL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_FLOAT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_DOUBLE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_IFD_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_UNICODE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_COMPLEX_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_LONG8_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_SLONG8_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXIFTAG_TYPE_IFD8_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Unknown_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Daylight_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Fluorescent_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Tungsten_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Flash_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_FineWeather_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Cloudy_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Shade_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_FL_D_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_FL_N_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_FL_W_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_FL_WW_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_FL_L_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Ill_A_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Ill_B_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Ill_C_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_D55_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_D65_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_D75_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_D50_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_StudioTungsten_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Sunset_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Underwater_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_FluorescentHigh_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_HT_Mercury_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_AsShot_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Auto_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Custom_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Auto1_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Auto2_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Auto3_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Auto4_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Custom1_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Custom2_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Custom3_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Custom4_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Custom5_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Custom6_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_PC_Set1_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_PC_Set2_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_PC_Set3_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_PC_Set4_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_PC_Set5_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Measured_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_BW_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Kelvin_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_Other_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WBI_None_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_ME_NONE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_ME_SIMPLE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_ME_OVERLAY_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_ME_HDR_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNG_NONE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNG_FLOAT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNG_LINEAR_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNG_DEFLATE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNG_XTRANS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNG_OTHER_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNG_8BIT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNG_ALL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DNG_DEFAULT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAPS_RAWSPEED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAPS_DNGSDK_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAPS_GPRSDK_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAPS_UNICODEPATHS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAPS_X3FTOOLS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAPS_RPI6BY9_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_NotFound_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_sRGB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_AdobeRGB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_WideGamutRGB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_ProPhotoRGB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_ICC_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_Uncalibrated_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_CameraLinearUniWB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_CameraLinear_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_CameraGammaUniWB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_CameraGamma_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_MonochromeLinear_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_MonochromeGamma_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_COLORSPACE_Unknown_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Unknown_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Agfa_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Alcatel_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Apple_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Aptina_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_AVT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Baumer_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Broadcom_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Canon_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Casio_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_CINE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Clauss_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Contax_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Creative_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_DJI_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_DXO_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Epson_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Foculus_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Fujifilm_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Generic_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Gione_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_GITUP_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Google_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_GoPro_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Hasselblad_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_HTC_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_I_Mobile_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Imacon_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_JK_Imaging_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Kodak_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Konica_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Leaf_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Leica_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Lenovo_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_LG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Logitech_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Mamiya_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Matrix_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Meizu_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Micron_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Minolta_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Motorola_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_NGM_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Nikon_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Nokia_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Olympus_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_OmniVison_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Panasonic_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Parrot_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Pentax_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_PhaseOne_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_PhotoControl_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Photron_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Pixelink_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Polaroid_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_RED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Ricoh_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Rollei_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_RoverShot_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Samsung_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Sigma_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Sinar_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_SMaL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Sony_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_ST_Micro_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_THL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_VLUU_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Xiaomi_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_XIAOYI_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_YI_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Yuneec_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_Zeiss_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CAMERAMAKER_TheLastOne_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Unknown_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Alpa_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_C_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Canon_EF_M_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Canon_EF_S_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Canon_EF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Canon_RF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Contax_N_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Contax645_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_FT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_mFT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Fuji_GF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Fuji_GX_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Fuji_X_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Hasselblad_H_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Hasselblad_V_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Hasselblad_XCD_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Leica_M_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Leica_R_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Leica_S_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Leica_SL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Leica_TL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_LPS_L_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Mamiya67_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Mamiya645_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Minolta_A_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Nikon_CX_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Nikon_F_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Nikon_Z_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Pentax_645_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Pentax_K_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Pentax_Q_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_RicohModule_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Rollei_bayonet_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Samsung_NX_M_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Samsung_NX_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Sigma_X3F_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_Sony_E_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_LF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_DigitalBack_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_FixedLens_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_IL_UM_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MOUNT_TheLastOne_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_Unknown_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_APSC_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_FF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_MF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_APSH_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_1INCH_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_1div2p3INCH_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_1div1p7INCH_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_FT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_CROP645_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_LeicaS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_645_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_66_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_69_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_LF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_Leica_DMR_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_67_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_SigmaAPSC_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_SigmaMerrill_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_SigmaAPSH_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_3648_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_68_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FORMAT_TheLastOne_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_IMAGE_ASPECT_UNKNOWN_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_IMAGE_ASPECT_3to2_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_IMAGE_ASPECT_1to1_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_IMAGE_ASPECT_4to3_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_IMAGE_ASPECT_16to9_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_IMAGE_ASPECT_5to4_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_IMAGE_ASPECT_OTHER_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FT_UNDEFINED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FT_PRIME_LENS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FT_ZOOM_LENS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FT_ZOOM_LENS_CONSTANT_APERTURE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FT_ZOOM_LENS_VARIABLE_APERTURE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_UNDEFINED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_JPEG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_CRW_THM_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_AVI_THM_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_TIF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_TIF_JPEG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_CR2_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_CR2_JPEG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_UNKNOWN_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_MOV_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_MP4_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_CRM_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_CR3_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_CR3_JPEG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_HEIF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_CR3_HEIF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Canon_RecordMode_TheLastOne_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_SONY_DSC_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_SONY_DSLR_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_SONY_NEX_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_SONY_SLT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_SONY_ILCE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_SONY_ILCA_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_UnknownSensor_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_M1_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_M15_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_M16_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_M17_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_M2_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_M23_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_M24_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_M3_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_M5_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_M6_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_C14_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_X14_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_Kodak_M11_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_HF_Unknown_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_HF_3FR_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_HF_FFF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_HF_Imacon_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_HF_HasselbladDNG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_HF_AdobeDNG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_HF_AdobeDNG_fromPhocusDNG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_SONYARW2_NONE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_SONYARW2_BASEONLY_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_SONYARW2_DELTAONLY_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_SONYARW2_DELTAZEROBASE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_SONYARW2_DELTATOVALUE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_SONYARW2_ALLFLAGS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_DP2Q_INTERPOLATERG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_DP2Q_INTERPOLATEAF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_PENTAX_PS_ALLFRAMES_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_CONVERTFLOAT_TO_INT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_SRAW_NO_RGB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_SRAW_NO_INTERPOLATE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_ARQ_SKIP_CHANNEL_SWAP_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_NO_ROTATE_FOR_KODAK_THUMBNAILS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_USE_DNG_DEFAULT_CROP_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_USE_PPM16_THUMBS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_SKIP_MAKERNOTES_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_DONT_CHECK_DNG_ILLUMINANT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_DNGSDK_ZEROCOPY_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_ZEROFILTERS_FOR_MONOCHROMETIFFS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_DNG_ADD_ENHANCED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_DNG_ADD_PREVIEWS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_DNG_PREFER_LARGEST_IMAGE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_DNG_STAGE2_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_DNG_STAGE3_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_DNG_ALLOWSIZECHANGE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_DNG_DISABLEWBADJUST_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_PROVIDE_NONSTANDARD_WB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROCESSING_CAMERAWB_FALLBACK_TO_DAYLIGHT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_HASCURVE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_SONYARW2_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_TRYRAWSPEED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_OWNALLOC_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_FIXEDMAXC_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_ADOBECOPYPIXEL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_LEGACY_WITH_MARGINS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_3CHANNEL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_SINAR4SHOT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_FLATDATA_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_FLAT_BG2_SWAPPED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DECODER_NOTSET_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_OPTIONS_NONE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_OPIONS_NO_MEMERR_CALLBACK_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_OPIONS_NO_DATAERR_CALLBACK_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_NONE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_BAD_CAMERA_WB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_NO_METADATA_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_NO_JPEGLIB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_NO_EMBEDDED_PROFILE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_NO_INPUT_PROFILE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_BAD_OUTPUT_PROFILE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_NO_BADPIXELMAP_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_BAD_DARKFRAME_FILE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_BAD_DARKFRAME_DIM_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_NO_JASPER_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_RAWSPEED_PROBLEM_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_RAWSPEED_UNSUPPORTED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_RAWSPEED_PROCESSED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_FALLBACK_TO_AHD_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_PARSEFUJI_PROCESSED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_DNGSDK_PROCESSED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_DNG_IMAGES_REORDERED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_DNG_STAGE2_APPLIED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_WARN_DNG_STAGE3_APPLIED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_NONE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_ALLOC_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_DECODE_RAW_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_DECODE_JPEG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_IO_EOF_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_IO_CORRUPT_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_CANCELLED_BY_CALLBACK_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_BAD_CROP_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_IO_BADFILE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_DECODE_JPEG2000_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_TOOBIG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_EXCEPTION_MEMPOOL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_START_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_OPEN_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_IDENTIFY_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_SIZE_ADJUST_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_LOAD_RAW_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_RAW2_IMAGE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_REMOVE_ZEROES_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_BAD_PIXELS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_DARK_FRAME_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_FOVEON_INTERPOLATE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_SCALE_COLORS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_PRE_INTERPOLATE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_INTERPOLATE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_MIX_GREEN_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_MEDIAN_FILTER_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_HIGHLIGHTS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_FUJI_ROTATE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_FLIP_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_APPLY_PROFILE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_CONVERT_RGB_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_STRETCH_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_STAGE20_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_STAGE21_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_STAGE22_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_STAGE23_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_STAGE24_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_STAGE25_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_STAGE26_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_STAGE27_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_THUMB_LOAD_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_TRESERVED1_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_PROGRESS_TRESERVED2_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_SUCCESS_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_UNSPECIFIED_ERROR_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_FILE_UNSUPPORTED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_REQUEST_FOR_NONEXISTENT_IMAGE_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_OUT_OF_ORDER_CALL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_NO_THUMBNAIL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_UNSUPPORTED_THUMBNAIL_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_INPUT_CLOSED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_NOT_IMPLEMENTED_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_UNSUFFICIENT_MEMORY_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_DATA_ERROR_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_IO_ERROR_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_CANCELLED_BY_CALLBACK_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_BAD_CROP_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_TOO_BIG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_MEMPOOL_OVERFLOW_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_THUMBNAIL_UNKNOWN_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_THUMBNAIL_JPEG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_THUMBNAIL_BITMAP_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_THUMBNAIL_BITMAP16_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_THUMBNAIL_LAYER_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_THUMBNAIL_ROLLEI_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_IMAGE_JPEG_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_LIBRAW_IMAGE_BITMAP_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_libraw_decoder_info_t_decoder_name_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_1 arg2);
+extern swig_type_2 _wrap_libraw_decoder_info_t_decoder_name_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_decoder_info_t_decoder_flags_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_decoder_info_t_decoder_flags_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_decoder_info_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_decoder_info_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_internal_output_params_t_mix_green_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_internal_output_params_t_mix_green_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_internal_output_params_t_raw_color_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_internal_output_params_t_raw_color_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_internal_output_params_t_zero_is_bad_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_internal_output_params_t_zero_is_bad_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_internal_output_params_t_shrink_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_internal_output_params_t_shrink_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_internal_output_params_t_fuji_width_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_internal_output_params_t_fuji_width_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_internal_output_params_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_internal_output_params_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_default_memory_callback_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_3 arg2, swig_type_4 arg3);
+extern void _wrap_default_data_callback_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_5 arg2, swig_intgo arg3);
+extern void _wrap_libraw_callbacks_t_mem_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_6 arg2);
+extern swig_type_7 _wrap_libraw_callbacks_t_mem_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_memcb_data_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_callbacks_t_memcb_data_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_data_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_8 arg2);
+extern swig_type_9 _wrap_libraw_callbacks_t_data_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_datacb_data_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_callbacks_t_datacb_data_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_progress_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_10 arg2);
+extern swig_type_11 _wrap_libraw_callbacks_t_progress_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_progresscb_data_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_callbacks_t_progresscb_data_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_exif_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_12 arg2);
+extern swig_type_13 _wrap_libraw_callbacks_t_exif_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_exifparser_data_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_callbacks_t_exifparser_data_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_pre_identify_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_14 arg2);
+extern swig_type_15 _wrap_libraw_callbacks_t_pre_identify_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_post_identify_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_16 arg2);
+extern swig_type_17 _wrap_libraw_callbacks_t_post_identify_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_pre_subtractblack_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_18 arg2);
+extern swig_type_19 _wrap_libraw_callbacks_t_pre_subtractblack_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_pre_scalecolors_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_20 arg2);
+extern swig_type_21 _wrap_libraw_callbacks_t_pre_scalecolors_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_pre_preinterpolate_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_22 arg2);
+extern swig_type_23 _wrap_libraw_callbacks_t_pre_preinterpolate_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_pre_interpolate_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_24 arg2);
+extern swig_type_25 _wrap_libraw_callbacks_t_pre_interpolate_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_interpolate_bayer_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_26 arg2);
+extern swig_type_27 _wrap_libraw_callbacks_t_interpolate_bayer_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_interpolate_xtrans_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_28 arg2);
+extern swig_type_29 _wrap_libraw_callbacks_t_interpolate_xtrans_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_post_interpolate_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_30 arg2);
+extern swig_type_31 _wrap_libraw_callbacks_t_post_interpolate_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_pre_converttorgb_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_32 arg2);
+extern swig_type_33 _wrap_libraw_callbacks_t_pre_converttorgb_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_callbacks_t_post_converttorgb_cb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_34 arg2);
+extern swig_type_35 _wrap_libraw_callbacks_t_post_converttorgb_cb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_callbacks_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_callbacks_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_processed_image_t_Xtype_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_processed_image_t_Xtype_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_processed_image_t_height_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_processed_image_t_height_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_processed_image_t_width_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_processed_image_t_width_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_processed_image_t_colors_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_processed_image_t_colors_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_processed_image_t_bits_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_processed_image_t_bits_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_processed_image_t_data_size_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_processed_image_t_data_size_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_processed_image_t_data_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_processed_image_t_data_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_processed_image_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_processed_image_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_guard_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_36 arg2);
+extern swig_type_37 _wrap_libraw_iparams_t_guard_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_make_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_38 arg2);
+extern swig_type_39 _wrap_libraw_iparams_t_make_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_model_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_40 arg2);
+extern swig_type_41 _wrap_libraw_iparams_t_model_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_software_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_42 arg2);
+extern swig_type_43 _wrap_libraw_iparams_t_software_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_normalized_make_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_44 arg2);
+extern swig_type_45 _wrap_libraw_iparams_t_normalized_make_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_normalized_model_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_46 arg2);
+extern swig_type_47 _wrap_libraw_iparams_t_normalized_model_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_maker_index_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_iparams_t_maker_index_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_raw_count_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_iparams_t_raw_count_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_dng_version_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_iparams_t_dng_version_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_is_foveon_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_iparams_t_is_foveon_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_colors_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_iparams_t_colors_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_filters_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_iparams_t_filters_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_xtrans_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_iparams_t_xtrans_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_xtrans_abs_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_iparams_t_xtrans_abs_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_cdesc_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_48 arg2);
+extern swig_type_49 _wrap_libraw_iparams_t_cdesc_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_xmplen_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_iparams_t_xmplen_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_iparams_t_xmpdata_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_50 arg2);
+extern swig_type_51 _wrap_libraw_iparams_t_xmpdata_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_iparams_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_iparams_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_raw_inset_crop_t_cleft_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_raw_inset_crop_t_cleft_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_raw_inset_crop_t_ctop_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_raw_inset_crop_t_ctop_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_raw_inset_crop_t_cwidth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_raw_inset_crop_t_cwidth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_raw_inset_crop_t_cheight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_raw_inset_crop_t_cheight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_raw_inset_crop_t_aspect_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_raw_inset_crop_t_aspect_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_raw_inset_crop_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_raw_inset_crop_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_raw_height_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_image_sizes_t_raw_height_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_raw_width_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_image_sizes_t_raw_width_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_height_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_image_sizes_t_height_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_width_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_image_sizes_t_width_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_top_margin_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_image_sizes_t_top_margin_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_left_margin_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_image_sizes_t_left_margin_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_iheight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_image_sizes_t_iheight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_iwidth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_image_sizes_t_iwidth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_raw_pitch_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_image_sizes_t_raw_pitch_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_pixel_aspect_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, double arg2);
+extern double _wrap_libraw_image_sizes_t_pixel_aspect_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_flip_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_image_sizes_t_flip_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_mask_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_image_sizes_t_mask_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_image_sizes_t_raw_inset_crop_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_image_sizes_t_raw_inset_crop_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_image_sizes_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_image_sizes_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_ph1_t_format_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ph1_t_format_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_ph1_t_key_off_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ph1_t_key_off_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_ph1_t_tag_21a_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ph1_t_tag_21a_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_ph1_t_t_black_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ph1_t_t_black_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_ph1_t_split_col_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ph1_t_split_col_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_ph1_t_black_col_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ph1_t_black_col_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_ph1_t_split_row_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ph1_t_split_row_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_ph1_t_black_row_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ph1_t_black_row_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_ph1_t_tag_210_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_ph1_t_tag_210_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_ph1_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_ph1_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_color_t_parsedfields_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_dng_color_t_parsedfields_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_color_t_illuminant_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_dng_color_t_illuminant_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_color_t_calibration_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_dng_color_t_calibration_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_color_t_colormatrix_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_dng_color_t_colormatrix_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_color_t_forwardmatrix_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_dng_color_t_forwardmatrix_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_dng_color_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_dng_color_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_parsedfields_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_dng_levels_t_parsedfields_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_dng_cblack_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_dng_levels_t_dng_cblack_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_dng_black_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_dng_levels_t_dng_black_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_dng_fcblack_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_dng_levels_t_dng_fcblack_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_dng_fblack_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_dng_levels_t_dng_fblack_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_dng_whitelevel_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_dng_levels_t_dng_whitelevel_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_default_crop_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_dng_levels_t_default_crop_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_preview_colorspace_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_dng_levels_t_preview_colorspace_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_analogbalance_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_dng_levels_t_analogbalance_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_asshotneutral_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_dng_levels_t_asshotneutral_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_baseline_exposure_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_dng_levels_t_baseline_exposure_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dng_levels_t_LinearResponseLimit_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_dng_levels_t_LinearResponseLimit_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_dng_levels_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_dng_levels_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_P1_color_t_romm_cam_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_P1_color_t_romm_cam_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_P1_color_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_P1_color_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_ColorDataVer_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_canon_makernotes_t_ColorDataVer_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_ColorDataSubVer_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_canon_makernotes_t_ColorDataSubVer_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_SpecularWhiteLevel_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_canon_makernotes_t_SpecularWhiteLevel_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_NormalWhiteLevel_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_canon_makernotes_t_NormalWhiteLevel_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_ChannelBlackLevel_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_canon_makernotes_t_ChannelBlackLevel_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AverageBlackLevel_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_canon_makernotes_t_AverageBlackLevel_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_multishot_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_canon_makernotes_t_multishot_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_MeteringMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_MeteringMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_SpotMeteringMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_SpotMeteringMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_FlashMeteringMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_canon_makernotes_t_FlashMeteringMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_FlashExposureLock_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_FlashExposureLock_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_ExposureMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_ExposureMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AESetting_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_AESetting_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_HighlightTonePriority_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_canon_makernotes_t_HighlightTonePriority_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFPoint_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_AFPoint_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_FocusContinuous_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_FocusContinuous_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFPointsInFocus30D_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_AFPointsInFocus30D_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFPointsInFocus1D_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_canon_makernotes_t_AFPointsInFocus1D_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFPointsInFocus5D_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_AFPointsInFocus5D_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFAreaMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_AFAreaMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_NumAFPoints_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_NumAFPoints_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_ValidAFPoints_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_ValidAFPoints_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFImageWidth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_AFImageWidth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFImageHeight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_AFImageHeight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFAreaWidths_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_canon_makernotes_t_AFAreaWidths_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFAreaHeights_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_canon_makernotes_t_AFAreaHeights_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFAreaXPositions_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_canon_makernotes_t_AFAreaXPositions_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFAreaYPositions_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_canon_makernotes_t_AFAreaYPositions_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFPointsInFocus_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_canon_makernotes_t_AFPointsInFocus_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFPointsSelected_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_canon_makernotes_t_AFPointsSelected_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_PrimaryAFPoint_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_PrimaryAFPoint_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_FlashMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_FlashMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_FlashActivity_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_FlashActivity_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_FlashBits_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_FlashBits_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_ManualFlashOutput_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_ManualFlashOutput_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_FlashOutput_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_FlashOutput_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_FlashGuideNumber_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_FlashGuideNumber_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_ContinuousDrive_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_ContinuousDrive_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_SensorWidth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_SensorWidth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_SensorHeight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_SensorHeight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_SensorLeftBorder_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_SensorLeftBorder_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_SensorTopBorder_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_SensorTopBorder_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_SensorRightBorder_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_SensorRightBorder_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_SensorBottomBorder_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_SensorBottomBorder_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_BlackMaskLeftBorder_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_BlackMaskLeftBorder_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_BlackMaskTopBorder_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_BlackMaskTopBorder_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_BlackMaskRightBorder_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_BlackMaskRightBorder_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_BlackMaskBottomBorder_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_BlackMaskBottomBorder_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFMicroAdjMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_canon_makernotes_t_AFMicroAdjMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_AFMicroAdjValue_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_canon_makernotes_t_AFMicroAdjValue_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_MakernotesFlip_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_MakernotesFlip_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_RecordMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_RecordMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_SRAWQuality_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_SRAWQuality_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_wbi_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_canon_makernotes_t_wbi_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_firmware_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_canon_makernotes_t_firmware_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_canon_makernotes_t_RF_lensID_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_canon_makernotes_t_RF_lensID_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_canon_makernotes_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_canon_makernotes_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_BaseISO_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_hasselblad_makernotes_t_BaseISO_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_Gain_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, double arg2);
+extern double _wrap_libraw_hasselblad_makernotes_t_Gain_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_Sensor_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_52 arg2);
+extern swig_type_53 _wrap_libraw_hasselblad_makernotes_t_Sensor_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_SensorUnit_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_54 arg2);
+extern swig_type_55 _wrap_libraw_hasselblad_makernotes_t_SensorUnit_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_HostBody_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_56 arg2);
+extern swig_type_57 _wrap_libraw_hasselblad_makernotes_t_HostBody_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_SensorCode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_hasselblad_makernotes_t_SensorCode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_SensorSubCode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_hasselblad_makernotes_t_SensorSubCode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_CoatingCode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_hasselblad_makernotes_t_CoatingCode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_uncropped_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_hasselblad_makernotes_t_uncropped_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_CaptureSequenceInitiator_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_58 arg2);
+extern swig_type_59 _wrap_libraw_hasselblad_makernotes_t_CaptureSequenceInitiator_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_SensorUnitConnector_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_60 arg2);
+extern swig_type_61 _wrap_libraw_hasselblad_makernotes_t_SensorUnitConnector_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_format_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_hasselblad_makernotes_t_format_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_nIFD_CM_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_hasselblad_makernotes_t_nIFD_CM_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_RecommendedCrop_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_hasselblad_makernotes_t_RecommendedCrop_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_hasselblad_makernotes_t_mnColorMatrix_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_hasselblad_makernotes_t_mnColorMatrix_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_hasselblad_makernotes_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_hasselblad_makernotes_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_ExpoMidPointShift_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_fuji_info_t_ExpoMidPointShift_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_DynamicRange_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_DynamicRange_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_FilmMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_FilmMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_DynamicRangeSetting_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_DynamicRangeSetting_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_DevelopmentDynamicRange_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_DevelopmentDynamicRange_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_AutoDynamicRange_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_AutoDynamicRange_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_DRangePriority_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_DRangePriority_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_DRangePriorityAuto_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_DRangePriorityAuto_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_DRangePriorityFixed_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_DRangePriorityFixed_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_BrightnessCompensation_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_fuji_info_t_BrightnessCompensation_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_FocusMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_FocusMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_AFMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_AFMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_FocusPixel_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_fuji_info_t_FocusPixel_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_fuji_info_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_FlashMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_FlashMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_WB_Preset_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_WB_Preset_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_ShutterType_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_ShutterType_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_ExrMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_ExrMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_Macro_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_Macro_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_Rating_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_fuji_info_t_Rating_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_CropMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_CropMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_FrameRate_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_FrameRate_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_FrameWidth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_FrameWidth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_FrameHeight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_FrameHeight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_SerialSignature_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_62 arg2);
+extern swig_type_63 _wrap_libraw_fuji_info_t_SerialSignature_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_RAFVersion_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_64 arg2);
+extern swig_type_65 _wrap_libraw_fuji_info_t_RAFVersion_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_RAFDataVersion_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_RAFDataVersion_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_isTSNERDTS_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_fuji_info_t_isTSNERDTS_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_fuji_info_t_DriveMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_fuji_info_t_DriveMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_fuji_info_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_fuji_info_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sensor_highspeed_crop_t_cleft_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sensor_highspeed_crop_t_cleft_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sensor_highspeed_crop_t_ctop_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sensor_highspeed_crop_t_ctop_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sensor_highspeed_crop_t_cwidth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sensor_highspeed_crop_t_cwidth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sensor_highspeed_crop_t_cheight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sensor_highspeed_crop_t_cheight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_sensor_highspeed_crop_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_sensor_highspeed_crop_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ExposureBracketValue_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, double arg2);
+extern double _wrap_libraw_nikon_makernotes_t_ExposureBracketValue_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ActiveDLighting_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_ActiveDLighting_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ShootingMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_ShootingMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_nikon_makernotes_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_VibrationReduction_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_VibrationReduction_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_VRMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_VRMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_66 arg2);
+extern swig_type_67 _wrap_libraw_nikon_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFPoint_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_AFPoint_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFPointsInFocus_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_AFPointsInFocus_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ContrastDetectAF_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_ContrastDetectAF_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFAreaMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_AFAreaMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_PhaseDetectAF_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_PhaseDetectAF_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_PrimaryAFPoint_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_PrimaryAFPoint_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFPointsUsed_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_nikon_makernotes_t_AFPointsUsed_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFImageWidth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_AFImageWidth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFImageHeight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_AFImageHeight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFAreaXPposition_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_AFAreaXPposition_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFAreaYPosition_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_AFAreaYPosition_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFAreaWidth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_AFAreaWidth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFAreaHeight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_AFAreaHeight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ContrastDetectAFInFocus_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_ContrastDetectAFInFocus_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashSetting_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_68 arg2);
+extern swig_type_69 _wrap_libraw_nikon_makernotes_t_FlashSetting_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashType_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_70 arg2);
+extern swig_type_71 _wrap_libraw_nikon_makernotes_t_FlashType_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ExternalFlashExposureComp_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_nikon_makernotes_t_ExternalFlashExposureComp_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashExposureBracketValue_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_nikon_makernotes_t_FlashExposureBracketValue_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_FlashMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation2_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation2_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation3_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation3_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation4_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation4_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashSource_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_FlashSource_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashFirmware_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_nikon_makernotes_t_FlashFirmware_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ExternalFlashFlags_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_ExternalFlashFlags_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashControlCommanderMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_FlashControlCommanderMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashOutputAndCompensation_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_FlashOutputAndCompensation_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashFocalLength_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_FlashFocalLength_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashGNDistance_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_FlashGNDistance_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashGroupControlMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_nikon_makernotes_t_FlashGroupControlMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashGroupOutputAndCompensation_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_nikon_makernotes_t_FlashGroupOutputAndCompensation_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashColorFilter_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_FlashColorFilter_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_NEFCompression_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_NEFCompression_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ExposureMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_nikon_makernotes_t_ExposureMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ExposureProgram_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_nikon_makernotes_t_ExposureProgram_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_nMEshots_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_nikon_makernotes_t_nMEshots_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_MEgainOn_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_nikon_makernotes_t_MEgainOn_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ME_WB_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_nikon_makernotes_t_ME_WB_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFFineTune_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_AFFineTune_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFFineTuneIndex_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_AFFineTuneIndex_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_AFFineTuneAdj_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_nikon_makernotes_t_AFFineTuneAdj_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_LensDataVersion_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_nikon_makernotes_t_LensDataVersion_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_FlashInfoVersion_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_nikon_makernotes_t_FlashInfoVersion_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_ColorBalanceVersion_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_nikon_makernotes_t_ColorBalanceVersion_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_key_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikon_makernotes_t_key_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_NEFBitDepth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_nikon_makernotes_t_NEFBitDepth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_HighSpeedCropFormat_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_HighSpeedCropFormat_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_SensorHighSpeedCrop_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_nikon_makernotes_t_SensorHighSpeedCrop_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_SensorWidth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_SensorWidth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikon_makernotes_t_SensorHeight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_nikon_makernotes_t_SensorHeight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_nikon_makernotes_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_nikon_makernotes_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_SensorCalibration_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_olympus_makernotes_t_SensorCalibration_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_olympus_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_AutoFocus_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_olympus_makernotes_t_AutoFocus_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_AFPoint_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_olympus_makernotes_t_AFPoint_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_AFAreas_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_olympus_makernotes_t_AFAreas_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_AFPointSelected_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_olympus_makernotes_t_AFPointSelected_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_AFResult_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_olympus_makernotes_t_AFResult_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_DriveMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_olympus_makernotes_t_DriveMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_ColorSpace_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_olympus_makernotes_t_ColorSpace_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_AFFineTune_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_olympus_makernotes_t_AFFineTune_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_AFFineTuneAdj_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_olympus_makernotes_t_AFFineTuneAdj_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_olympus_makernotes_t_CameraType2_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_72 arg2);
+extern swig_type_73 _wrap_libraw_olympus_makernotes_t_CameraType2_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_olympus_makernotes_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_olympus_makernotes_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_panasonic_makernotes_t_Compression_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_panasonic_makernotes_t_Compression_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_panasonic_makernotes_t_BlackLevelDim_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_panasonic_makernotes_t_BlackLevelDim_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_panasonic_makernotes_t_BlackLevel_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_panasonic_makernotes_t_BlackLevel_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_panasonic_makernotes_t_Multishot_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_panasonic_makernotes_t_Multishot_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_panasonic_makernotes_t_gamma_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_panasonic_makernotes_t_gamma_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_panasonic_makernotes_t_HighISOMultiplier_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_panasonic_makernotes_t_HighISOMultiplier_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_panasonic_makernotes_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_panasonic_makernotes_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_pentax_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_pentax_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_pentax_makernotes_t_AFPointSelected_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_pentax_makernotes_t_AFPointSelected_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_pentax_makernotes_t_AFPointsInFocus_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_pentax_makernotes_t_AFPointsInFocus_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_pentax_makernotes_t_FocusPosition_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_pentax_makernotes_t_FocusPosition_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_pentax_makernotes_t_DriveMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_pentax_makernotes_t_DriveMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_pentax_makernotes_t_AFAdjustment_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_pentax_makernotes_t_AFAdjustment_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_pentax_makernotes_t_MultiExposure_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_pentax_makernotes_t_MultiExposure_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_pentax_makernotes_t_Quality_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_pentax_makernotes_t_Quality_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_pentax_makernotes_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_pentax_makernotes_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_samsung_makernotes_t_ImageSizeFull_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_samsung_makernotes_t_ImageSizeFull_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_samsung_makernotes_t_ImageSizeCrop_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_samsung_makernotes_t_ImageSizeCrop_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_samsung_makernotes_t_ColorSpace_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_samsung_makernotes_t_ColorSpace_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_samsung_makernotes_t_key_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_samsung_makernotes_t_key_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_samsung_makernotes_t_DigitalGain_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, double arg2);
+extern double _wrap_libraw_samsung_makernotes_t_DigitalGain_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_samsung_makernotes_t_DeviceType_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_samsung_makernotes_t_DeviceType_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_samsung_makernotes_t_LensFirmware_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_74 arg2);
+extern swig_type_75 _wrap_libraw_samsung_makernotes_t_LensFirmware_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_samsung_makernotes_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_samsung_makernotes_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_BlackLevelTop_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_kodak_makernotes_t_BlackLevelTop_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_BlackLevelBottom_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_kodak_makernotes_t_BlackLevelBottom_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_offset_left_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_kodak_makernotes_t_offset_left_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_offset_top_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_kodak_makernotes_t_offset_top_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_clipBlack_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_kodak_makernotes_t_clipBlack_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_clipWhite_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_kodak_makernotes_t_clipWhite_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_romm_camDaylight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_kodak_makernotes_t_romm_camDaylight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_romm_camTungsten_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_kodak_makernotes_t_romm_camTungsten_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_romm_camFluorescent_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_kodak_makernotes_t_romm_camFluorescent_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_romm_camFlash_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_kodak_makernotes_t_romm_camFlash_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_romm_camCustom_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_kodak_makernotes_t_romm_camCustom_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_romm_camAuto_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_kodak_makernotes_t_romm_camAuto_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_val018percent_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_kodak_makernotes_t_val018percent_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_val100percent_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_kodak_makernotes_t_val100percent_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_val170percent_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_kodak_makernotes_t_val170percent_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_MakerNoteKodak8a_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_kodak_makernotes_t_MakerNoteKodak8a_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_ISOCalibrationGain_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_kodak_makernotes_t_ISOCalibrationGain_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_kodak_makernotes_t_AnalogISO_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_kodak_makernotes_t_AnalogISO_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_kodak_makernotes_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_kodak_makernotes_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_p1_makernotes_t_Software_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_76 arg2);
+extern swig_type_77 _wrap_libraw_p1_makernotes_t_Software_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_p1_makernotes_t_SystemType_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_78 arg2);
+extern swig_type_79 _wrap_libraw_p1_makernotes_t_SystemType_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_p1_makernotes_t_FirmwareString_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_80 arg2);
+extern swig_type_81 _wrap_libraw_p1_makernotes_t_FirmwareString_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_p1_makernotes_t_SystemModel_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_82 arg2);
+extern swig_type_83 _wrap_libraw_p1_makernotes_t_SystemModel_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_p1_makernotes_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_p1_makernotes_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_CameraType_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_CameraType_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_Sony0x9400_version_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_sony_info_t_Sony0x9400_version_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_Sony0x9400_ReleaseMode2_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_sony_info_t_Sony0x9400_ReleaseMode2_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_Sony0x9400_SequenceImageNumber_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_sony_info_t_Sony0x9400_SequenceImageNumber_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_Sony0x9400_SequenceLength1_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_sony_info_t_Sony0x9400_SequenceLength1_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_Sony0x9400_SequenceFileNumber_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_sony_info_t_Sony0x9400_SequenceFileNumber_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_Sony0x9400_SequenceLength2_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_sony_info_t_Sony0x9400_SequenceLength2_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_AFAreaModeSetting_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_sony_info_t_AFAreaModeSetting_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_FlexibleSpotPosition_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_sony_info_t_FlexibleSpotPosition_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_AFPointSelected_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_sony_info_t_AFPointSelected_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_AFPointsUsed_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_sony_info_t_AFPointsUsed_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_AFTracking_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_sony_info_t_AFTracking_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_AFType_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_sony_info_t_AFType_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_FocusLocation_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_sony_info_t_FocusLocation_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_AFMicroAdjValue_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_sony_info_t_AFMicroAdjValue_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_AFMicroAdjOn_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_sony_info_t_AFMicroAdjOn_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_AFMicroAdjRegisteredLenses_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_sony_info_t_AFMicroAdjRegisteredLenses_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_VariableLowPassFilter_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_VariableLowPassFilter_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_LongExposureNoiseReduction_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_sony_info_t_LongExposureNoiseReduction_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_HighISONoiseReduction_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_HighISONoiseReduction_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_HDR_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_sony_info_t_HDR_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_group2010_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_group2010_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_real_iso_offset_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_real_iso_offset_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_MeteringMode_offset_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_MeteringMode_offset_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_ExposureProgram_offset_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_ExposureProgram_offset_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_ReleaseMode2_offset_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_ReleaseMode2_offset_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_MinoltaCamID_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_sony_info_t_MinoltaCamID_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_firmware_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_sony_info_t_firmware_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_ImageCount3_offset_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_ImageCount3_offset_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_ImageCount3_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_sony_info_t_ImageCount3_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_ElectronicFrontCurtainShutter_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_sony_info_t_ElectronicFrontCurtainShutter_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_MeteringMode2_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_MeteringMode2_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_SonyDateTime_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_84 arg2);
+extern swig_type_85 _wrap_libraw_sony_info_t_SonyDateTime_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_ShotNumberSincePowerUp_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_sony_info_t_ShotNumberSincePowerUp_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_PixelShiftGroupPrefix_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_PixelShiftGroupPrefix_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_PixelShiftGroupID_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_sony_info_t_PixelShiftGroupID_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_nShotsInPixelShiftGroup_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_sony_info_t_nShotsInPixelShiftGroup_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_numInPixelShiftGroup_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_sony_info_t_numInPixelShiftGroup_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_prd_ImageHeight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_prd_ImageHeight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_prd_ImageWidth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_prd_ImageWidth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_prd_RawBitDepth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_prd_RawBitDepth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_prd_StorageMethod_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_prd_StorageMethod_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_prd_BayerPattern_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_prd_BayerPattern_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_SonyRawFileType_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_SonyRawFileType_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_RAWFileType_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_RAWFileType_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_Quality_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_sony_info_t_Quality_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_sony_info_t_FileFormat_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_sony_info_t_FileFormat_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_sony_info_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_sony_info_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_curve_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_curve_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_cblack_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_cblack_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_black_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_colordata_t_black_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_data_maximum_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_colordata_t_data_maximum_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_maximum_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_colordata_t_maximum_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_linear_max_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_linear_max_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_fmaximum_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_colordata_t_fmaximum_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_fnorm_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_colordata_t_fnorm_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_white_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_white_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_cam_mul_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_cam_mul_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_pre_mul_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_pre_mul_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_cmatrix_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_cmatrix_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_ccm_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_ccm_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_rgb_cam_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_rgb_cam_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_cam_xyz_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_cam_xyz_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_phase_one_data_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_colordata_t_phase_one_data_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_flash_used_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_colordata_t_flash_used_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_canon_ev_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_colordata_t_canon_ev_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_model2_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_86 arg2);
+extern swig_type_87 _wrap_libraw_colordata_t_model2_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_UniqueCameraModel_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_88 arg2);
+extern swig_type_89 _wrap_libraw_colordata_t_UniqueCameraModel_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_LocalizedCameraModel_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_90 arg2);
+extern swig_type_91 _wrap_libraw_colordata_t_LocalizedCameraModel_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_ImageUniqueID_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_92 arg2);
+extern swig_type_93 _wrap_libraw_colordata_t_ImageUniqueID_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_RawDataUniqueID_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_94 arg2);
+extern swig_type_95 _wrap_libraw_colordata_t_RawDataUniqueID_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_OriginalRawFileName_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_96 arg2);
+extern swig_type_97 _wrap_libraw_colordata_t_OriginalRawFileName_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_profile_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_colordata_t_profile_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_profile_length_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_colordata_t_profile_length_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_black_stat_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_black_stat_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_dng_color_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_colordata_t_dng_color_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_dng_levels_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_colordata_t_dng_levels_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_WB_Coeffs_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_WB_Coeffs_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_WBCT_Coeffs_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_colordata_t_WBCT_Coeffs_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_as_shot_wb_applied_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_colordata_t_as_shot_wb_applied_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_P1_color_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_colordata_t_P1_color_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_raw_bps_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_colordata_t_raw_bps_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_colordata_t_ExifColorSpace_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_colordata_t_ExifColorSpace_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_colordata_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_colordata_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_thumbnail_t_tformat_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_thumbnail_t_tformat_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_thumbnail_t_twidth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_thumbnail_t_twidth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_thumbnail_t_theight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_thumbnail_t_theight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_thumbnail_t_tlength_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_thumbnail_t_tlength_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_thumbnail_t_tcolors_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_thumbnail_t_tcolors_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_thumbnail_t_thumb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_98 arg2);
+extern swig_type_99 _wrap_libraw_thumbnail_t_thumb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_thumbnail_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_thumbnail_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_gps_info_t_latitude_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_gps_info_t_latitude_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_gps_info_t_longitude_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_gps_info_t_longitude_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_gps_info_t_gpstimestamp_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_gps_info_t_gpstimestamp_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_gps_info_t_altitude_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_gps_info_t_altitude_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_gps_info_t_altref_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_gps_info_t_altref_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_gps_info_t_latref_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_gps_info_t_latref_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_gps_info_t_longref_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_gps_info_t_longref_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_gps_info_t_gpsstatus_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_gps_info_t_gpsstatus_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_gps_info_t_gpsparsed_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_gps_info_t_gpsparsed_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_gps_info_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_gps_info_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_imgother_t_iso_speed_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_imgother_t_iso_speed_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_imgother_t_shutter_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_imgother_t_shutter_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_imgother_t_aperture_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_imgother_t_aperture_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_imgother_t_focal_len_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_imgother_t_focal_len_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_imgother_t_timestamp_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_imgother_t_timestamp_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_imgother_t_shot_order_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_imgother_t_shot_order_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_imgother_t_gpsdata_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_imgother_t_gpsdata_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_imgother_t_parsed_gps_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_imgother_t_parsed_gps_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_imgother_t_desc_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_100 arg2);
+extern swig_type_101 _wrap_libraw_imgother_t_desc_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_imgother_t_artist_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_102 arg2);
+extern swig_type_103 _wrap_libraw_imgother_t_artist_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_imgother_t_analogbalance_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_imgother_t_analogbalance_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_imgother_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_imgother_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_FlashEC_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_FlashEC_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_FlashGN_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_FlashGN_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_CameraTemperature_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_CameraTemperature_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_SensorTemperature_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_SensorTemperature_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_SensorTemperature2_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_SensorTemperature2_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_LensTemperature_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_LensTemperature_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_AmbientTemperature_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_AmbientTemperature_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_BatteryTemperature_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_BatteryTemperature_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_exifAmbientTemperature_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_exifAmbientTemperature_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_exifHumidity_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_exifHumidity_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_exifPressure_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_exifPressure_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_exifWaterDepth_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_exifWaterDepth_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_exifAcceleration_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_exifAcceleration_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_exifCameraElevationAngle_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_exifCameraElevationAngle_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_real_ISO_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_real_ISO_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_exifExposureIndex_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_metadata_common_t_exifExposureIndex_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_ColorSpace_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_metadata_common_t_ColorSpace_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_metadata_common_t_firmware_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_104 arg2);
+extern swig_type_105 _wrap_libraw_metadata_common_t_firmware_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_metadata_common_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_metadata_common_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_greybox_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_output_params_t_greybox_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_cropbox_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_output_params_t_cropbox_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_aber_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_output_params_t_aber_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_gamm_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_output_params_t_gamm_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_user_mul_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_output_params_t_user_mul_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_shot_select_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_shot_select_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_bright_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_output_params_t_bright_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_threshold_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_output_params_t_threshold_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_half_size_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_half_size_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_four_color_rgb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_four_color_rgb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_highlight_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_highlight_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_use_auto_wb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_use_auto_wb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_use_camera_wb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_use_camera_wb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_use_camera_matrix_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_use_camera_matrix_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_output_color_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_output_color_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_output_profile_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_106 arg2);
+extern swig_type_107 _wrap_libraw_output_params_t_output_profile_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_camera_profile_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_108 arg2);
+extern swig_type_109 _wrap_libraw_output_params_t_camera_profile_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_bad_pixels_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_110 arg2);
+extern swig_type_111 _wrap_libraw_output_params_t_bad_pixels_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_dark_frame_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_112 arg2);
+extern swig_type_113 _wrap_libraw_output_params_t_dark_frame_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_output_bps_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_output_bps_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_output_tiff_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_output_tiff_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_user_flip_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_user_flip_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_user_qual_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_user_qual_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_user_black_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_user_black_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_user_cblack_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_output_params_t_user_cblack_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_user_sat_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_user_sat_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_med_passes_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_med_passes_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_auto_bright_thr_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_output_params_t_auto_bright_thr_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_adjust_maximum_thr_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_output_params_t_adjust_maximum_thr_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_no_auto_bright_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_no_auto_bright_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_use_fuji_rotate_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_use_fuji_rotate_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_green_matching_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_green_matching_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_dcb_iterations_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_dcb_iterations_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_dcb_enhance_fl_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_dcb_enhance_fl_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_fbdd_noiserd_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_fbdd_noiserd_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_exp_correc_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_exp_correc_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_exp_shift_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_output_params_t_exp_shift_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_exp_preser_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_output_params_t_exp_preser_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_use_rawspeed_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_use_rawspeed_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_use_dngsdk_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_use_dngsdk_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_no_auto_scale_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_no_auto_scale_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_no_interpolation_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_no_interpolation_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_raw_processing_options_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_raw_processing_options_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_max_raw_memory_mb_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_max_raw_memory_mb_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_sony_arw2_posterization_thr_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_output_params_t_sony_arw2_posterization_thr_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_coolscan_nef_gamma_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_output_params_t_coolscan_nef_gamma_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_p4shot_order_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_114 arg2);
+extern swig_type_115 _wrap_libraw_output_params_t_p4shot_order_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_output_params_t_custom_camera_strings_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_output_params_t_custom_camera_strings_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_output_params_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_output_params_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_raw_alloc_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_rawdata_t_raw_alloc_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_raw_image_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_rawdata_t_raw_image_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_color4_image_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_rawdata_t_color4_image_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_color3_image_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_rawdata_t_color3_image_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_float_image_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_rawdata_t_float_image_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_float3_image_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_rawdata_t_float3_image_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_float4_image_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_rawdata_t_float4_image_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_ph1_cblack_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_rawdata_t_ph1_cblack_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_ph1_rblack_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_rawdata_t_ph1_rblack_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_iparams_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_rawdata_t_iparams_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_sizes_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_rawdata_t_sizes_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_ioparams_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_rawdata_t_ioparams_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_rawdata_t_color_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_rawdata_t_color_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_rawdata_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_rawdata_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_LensID_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_116 arg2);
+extern swig_type_117 _wrap_libraw_makernotes_lens_t_LensID_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_Lens_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_118 arg2);
+extern swig_type_119 _wrap_libraw_makernotes_lens_t_Lens_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_LensFormat_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_makernotes_lens_t_LensFormat_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_LensMount_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_makernotes_lens_t_LensMount_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_CamID_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_120 arg2);
+extern swig_type_121 _wrap_libraw_makernotes_lens_t_CamID_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_CameraFormat_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_makernotes_lens_t_CameraFormat_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_CameraMount_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_makernotes_lens_t_CameraMount_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_body_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_122 arg2);
+extern swig_type_123 _wrap_libraw_makernotes_lens_t_body_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_FocalType_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_makernotes_lens_t_FocalType_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_LensFeatures_pre_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_124 arg2);
+extern swig_type_125 _wrap_libraw_makernotes_lens_t_LensFeatures_pre_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_LensFeatures_suf_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_126 arg2);
+extern swig_type_127 _wrap_libraw_makernotes_lens_t_LensFeatures_suf_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_MinFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_MinFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_MaxFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_MaxFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_MaxAp4MinFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_MaxAp4MinFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_MaxAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_MaxAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_MinAp4MinFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_MinAp4MinFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_MinAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_MinAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_MaxAp_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_MaxAp_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_MinAp_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_MinAp_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_CurFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_CurFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_CurAp_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_CurAp_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_MaxAp4CurFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_MaxAp4CurFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_MinAp4CurFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_MinAp4CurFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_MinFocusDistance_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_MinFocusDistance_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_FocusRangeIndex_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_FocusRangeIndex_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_LensFStops_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_LensFStops_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_TeleconverterID_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_128 arg2);
+extern swig_type_129 _wrap_libraw_makernotes_lens_t_TeleconverterID_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_Teleconverter_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_130 arg2);
+extern swig_type_131 _wrap_libraw_makernotes_lens_t_Teleconverter_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_AdapterID_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_132 arg2);
+extern swig_type_133 _wrap_libraw_makernotes_lens_t_AdapterID_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_Adapter_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_134 arg2);
+extern swig_type_135 _wrap_libraw_makernotes_lens_t_Adapter_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_AttachmentID_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_136 arg2);
+extern swig_type_137 _wrap_libraw_makernotes_lens_t_AttachmentID_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_Attachment_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_138 arg2);
+extern swig_type_139 _wrap_libraw_makernotes_lens_t_Attachment_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_FocalUnits_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_makernotes_lens_t_FocalUnits_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_lens_t_FocalLengthIn35mmFormat_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_makernotes_lens_t_FocalLengthIn35mmFormat_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_makernotes_lens_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_makernotes_lens_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikonlens_t_EffectiveMaxAp_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_nikonlens_t_EffectiveMaxAp_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikonlens_t_LensIDNumber_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikonlens_t_LensIDNumber_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikonlens_t_LensFStops_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikonlens_t_LensFStops_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikonlens_t_MCUVersion_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikonlens_t_MCUVersion_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_nikonlens_t_LensType_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_nikonlens_t_LensType_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_nikonlens_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_nikonlens_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dnglens_t_MinFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_dnglens_t_MinFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dnglens_t_MaxFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_dnglens_t_MaxFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dnglens_t_MaxAp4MinFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_dnglens_t_MaxAp4MinFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_dnglens_t_MaxAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_dnglens_t_MaxAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_dnglens_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_dnglens_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_MinFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_lensinfo_t_MinFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_MaxFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_lensinfo_t_MaxFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_MaxAp4MinFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_lensinfo_t_MaxAp4MinFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_MaxAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_lensinfo_t_MaxAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_EXIF_MaxAp_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern float _wrap_libraw_lensinfo_t_EXIF_MaxAp_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_LensMake_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_140 arg2);
+extern swig_type_141 _wrap_libraw_lensinfo_t_LensMake_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_Lens_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_142 arg2);
+extern swig_type_143 _wrap_libraw_lensinfo_t_Lens_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_LensSerial_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_144 arg2);
+extern swig_type_145 _wrap_libraw_lensinfo_t_LensSerial_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_InternalLensSerial_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_146 arg2);
+extern swig_type_147 _wrap_libraw_lensinfo_t_InternalLensSerial_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_FocalLengthIn35mmFormat_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_lensinfo_t_FocalLengthIn35mmFormat_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_nikon_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_lensinfo_t_nikon_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_dng_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_lensinfo_t_dng_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_lensinfo_t_makernotes_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_lensinfo_t_makernotes_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_lensinfo_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_lensinfo_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_canon_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_canon_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_nikon_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_nikon_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_hasselblad_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_hasselblad_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_fuji_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_fuji_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_olympus_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_olympus_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_sony_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_sony_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_kodak_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_kodak_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_panasonic_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_panasonic_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_pentax_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_pentax_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_phaseone_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_phaseone_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_samsung_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_samsung_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_makernotes_t_common_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_makernotes_t_common_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_makernotes_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_makernotes_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_shootinginfo_t_DriveMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_shootinginfo_t_DriveMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_shootinginfo_t_FocusMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_shootinginfo_t_FocusMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_shootinginfo_t_MeteringMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_shootinginfo_t_MeteringMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_shootinginfo_t_AFPoint_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_shootinginfo_t_AFPoint_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_shootinginfo_t_ExposureMode_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_shootinginfo_t_ExposureMode_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_shootinginfo_t_ExposureProgram_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_shootinginfo_t_ExposureProgram_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_shootinginfo_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_shootinginfo_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_shootinginfo_t_BodySerial_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_148 arg2);
+extern swig_type_149 _wrap_libraw_shootinginfo_t_BodySerial_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_shootinginfo_t_InternalBodySerial_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_150 arg2);
+extern swig_type_151 _wrap_libraw_shootinginfo_t_InternalBodySerial_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_shootinginfo_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_shootinginfo_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_fsize_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_custom_camera_t_fsize_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_rw_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_custom_camera_t_rw_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_rh_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_custom_camera_t_rh_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_lm_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_custom_camera_t_lm_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_tm_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_custom_camera_t_tm_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_rm_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_custom_camera_t_rm_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_bm_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_custom_camera_t_bm_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_lf_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_custom_camera_t_lf_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_cf_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_custom_camera_t_cf_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_max_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_custom_camera_t_max_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_flags_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, char arg2);
+extern char _wrap_libraw_custom_camera_t_flags_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_t_make_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_152 arg2);
+extern swig_type_153 _wrap_libraw_custom_camera_t_t_make_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_t_model_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_154 arg2);
+extern swig_type_155 _wrap_libraw_custom_camera_t_t_model_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_custom_camera_t_offset_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_libraw_custom_camera_t_offset_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_custom_camera_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_custom_camera_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_image_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_libraw_data_t_image_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_sizes_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_data_t_sizes_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_idata_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_data_t_idata_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_lens_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_data_t_lens_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_makernotes_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_data_t_makernotes_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_shootinginfo_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_data_t_shootinginfo_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_params_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_data_t_params_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_progress_flags_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_data_t_progress_flags_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_process_warnings_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_data_t_process_warnings_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_color_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_data_t_color_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_other_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_data_t_other_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_thumbnail_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_data_t_thumbnail_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_rawdata_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_data_t_rawdata_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_data_t_parent_class_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_libraw_data_t_parent_class_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_libraw_data_t_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_libraw_data_t_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_fuji_compressed_params_q_table_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_fuji_compressed_params_q_table_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_fuji_compressed_params_q_point_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_fuji_compressed_params_q_point_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_fuji_compressed_params_max_bits_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_fuji_compressed_params_max_bits_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_fuji_compressed_params_min_value_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_fuji_compressed_params_min_value_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_fuji_compressed_params_raw_bits_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_fuji_compressed_params_raw_bits_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_fuji_compressed_params_total_values_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_fuji_compressed_params_total_values_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_fuji_compressed_params_maxDiff_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_fuji_compressed_params_maxDiff_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_fuji_compressed_params_line_width_set_librawgo_91c7e8cf36b5548d(uintptr_t arg1, short arg2);
+extern short _wrap_fuji_compressed_params_line_width_get_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_new_fuji_compressed_params_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_delete_fuji_compressed_params_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern swig_type_156 _wrap_LIBRAW_USE_STREAMS_DATASTREAM_MAXSIZE_librawgo_91c7e8cf36b5548d(void);
+extern swig_type_157 _wrap_libraw_strerror_librawgo_91c7e8cf36b5548d(swig_intgo arg1);
+extern swig_type_158 _wrap_libraw_strprogress_librawgo_91c7e8cf36b5548d(swig_intgo arg1);
+extern uintptr_t _wrap_libraw_init_librawgo_91c7e8cf36b5548d(swig_intgo arg1);
+extern swig_intgo _wrap_libraw_open_file_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_159 arg2);
+extern swig_intgo _wrap_libraw_open_file_ex_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_160 arg2, swig_type_161 arg3);
+extern swig_intgo _wrap_libraw_open_buffer_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2, swig_type_162 arg3);
+extern swig_intgo _wrap_libraw_unpack_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern swig_intgo _wrap_libraw_unpack_thumb_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_recycle_datastream_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_recycle_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_close_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_subtract_black_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern swig_intgo _wrap_libraw_raw2image_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_free_image_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern swig_type_163 _wrap_libraw_version_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_libraw_versionNumber_librawgo_91c7e8cf36b5548d(void);
+extern swig_voidp _wrap_libraw_cameraList_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_libraw_cameraCount_librawgo_91c7e8cf36b5548d(void);
+extern void _wrap_libraw_set_memerror_handler_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_164 arg2, uintptr_t arg3);
+extern void _wrap_libraw_set_exifparser_handler_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_165 arg2, uintptr_t arg3);
+extern void _wrap_libraw_set_dataerror_handler_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_166 arg2, uintptr_t arg3);
+extern void _wrap_libraw_set_progress_handler_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_167 arg2, uintptr_t arg3);
+extern swig_type_168 _wrap_libraw_unpack_function_name_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern swig_intgo _wrap_libraw_get_decoder_info_librawgo_91c7e8cf36b5548d(uintptr_t arg1, uintptr_t arg2);
+extern swig_intgo _wrap_libraw_COLOR_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern swig_intgo _wrap_libraw_capabilities_librawgo_91c7e8cf36b5548d(void);
+extern swig_intgo _wrap_libraw_adjust_sizes_info_only_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern swig_intgo _wrap_libraw_dcraw_ppm_tiff_writer_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_169 arg2);
+extern swig_intgo _wrap_libraw_dcraw_thumb_writer_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_type_170 arg2);
+extern swig_intgo _wrap_libraw_dcraw_process_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_libraw_dcraw_make_mem_image_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_libraw_dcraw_make_mem_thumb_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_libraw_dcraw_clear_mem_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_set_demosaic_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_libraw_set_output_color_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_libraw_set_user_mul_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2, float arg3);
+extern void _wrap_libraw_set_output_bps_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_libraw_set_gamma_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2, float arg3);
+extern void _wrap_libraw_set_no_auto_bright_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_libraw_set_bright_librawgo_91c7e8cf36b5548d(uintptr_t arg1, float arg2);
+extern void _wrap_libraw_set_highlight_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_libraw_set_fbdd_noiserd_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_libraw_get_raw_height_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern swig_intgo _wrap_libraw_get_raw_width_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern swig_intgo _wrap_libraw_get_iheight_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern swig_intgo _wrap_libraw_get_iwidth_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern float _wrap_libraw_get_cam_mul_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern float _wrap_libraw_get_pre_mul_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern float _wrap_libraw_get_rgb_cam_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern swig_intgo _wrap_libraw_get_color_maximum_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern void _wrap_libraw_set_output_tif_librawgo_91c7e8cf36b5548d(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_libraw_get_iparams_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_libraw_get_lensinfo_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
+extern uintptr_t _wrap_libraw_get_imgother_librawgo_91c7e8cf36b5548d(uintptr_t arg1);
 #undef intgo
 */
 import "C"
@@ -130,19 +2052,13775 @@ func swigCopyString(s string) string {
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_librawgo_09f81801a9d9dec9(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_librawgo_91c7e8cf36b5548d(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
+const LIBRAW_DEFAULT_ADJUST_MAXIMUM_THRESHOLD float64 = 0.75
+const LIBRAW_DEFAULT_AUTO_BRIGHTNESS_THRESHOLD float64 = 0.01
+const LIBRAW_MAX_ALLOC_MB_DEFAULT int64 = 2048
+const LIBRAW_MAX_THUMBNAIL_MB int64 = 512
+const LIBRAW_MAX_METADATA_BLOCKS int = 1024
+const LIBRAW_CBLACK_SIZE int = 4104
+const LIBRAW_IFD_MAXCOUNT int = 10
+const LIBRAW_CRXTRACKS_MAXCOUNT int = 16
+const LIBRAW_AHD_TILE int = 512
+type Enum_SS_LibRaw_open_flags int
+func _swig_getLIBRAW_OPEN_BIGFILE() (_swig_ret Enum_SS_LibRaw_open_flags) {
+	var swig_r Enum_SS_LibRaw_open_flags
+	swig_r = (Enum_SS_LibRaw_open_flags)(C._wrap_LIBRAW_OPEN_BIGFILE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_OPEN_BIGFILE Enum_SS_LibRaw_open_flags = _swig_getLIBRAW_OPEN_BIGFILE()
+func _swig_getLIBRAW_OPEN_FILE() (_swig_ret Enum_SS_LibRaw_open_flags) {
+	var swig_r Enum_SS_LibRaw_open_flags
+	swig_r = (Enum_SS_LibRaw_open_flags)(C._wrap_LIBRAW_OPEN_FILE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_OPEN_FILE Enum_SS_LibRaw_open_flags = _swig_getLIBRAW_OPEN_FILE()
+type Enum_SS_LibRaw_openbayer_patterns int
+func _swig_getLIBRAW_OPENBAYER_RGGB() (_swig_ret Enum_SS_LibRaw_openbayer_patterns) {
+	var swig_r Enum_SS_LibRaw_openbayer_patterns
+	swig_r = (Enum_SS_LibRaw_openbayer_patterns)(C._wrap_LIBRAW_OPENBAYER_RGGB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_OPENBAYER_RGGB Enum_SS_LibRaw_openbayer_patterns = _swig_getLIBRAW_OPENBAYER_RGGB()
+func _swig_getLIBRAW_OPENBAYER_BGGR() (_swig_ret Enum_SS_LibRaw_openbayer_patterns) {
+	var swig_r Enum_SS_LibRaw_openbayer_patterns
+	swig_r = (Enum_SS_LibRaw_openbayer_patterns)(C._wrap_LIBRAW_OPENBAYER_BGGR_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_OPENBAYER_BGGR Enum_SS_LibRaw_openbayer_patterns = _swig_getLIBRAW_OPENBAYER_BGGR()
+func _swig_getLIBRAW_OPENBAYER_GRBG() (_swig_ret Enum_SS_LibRaw_openbayer_patterns) {
+	var swig_r Enum_SS_LibRaw_openbayer_patterns
+	swig_r = (Enum_SS_LibRaw_openbayer_patterns)(C._wrap_LIBRAW_OPENBAYER_GRBG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_OPENBAYER_GRBG Enum_SS_LibRaw_openbayer_patterns = _swig_getLIBRAW_OPENBAYER_GRBG()
+func _swig_getLIBRAW_OPENBAYER_GBRG() (_swig_ret Enum_SS_LibRaw_openbayer_patterns) {
+	var swig_r Enum_SS_LibRaw_openbayer_patterns
+	swig_r = (Enum_SS_LibRaw_openbayer_patterns)(C._wrap_LIBRAW_OPENBAYER_GBRG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_OPENBAYER_GBRG Enum_SS_LibRaw_openbayer_patterns = _swig_getLIBRAW_OPENBAYER_GBRG()
+type Enum_SS_LibRaw_dngfields_marks int
+func _swig_getLIBRAW_DNGFM_FORWARDMATRIX() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_FORWARDMATRIX_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_FORWARDMATRIX Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_FORWARDMATRIX()
+func _swig_getLIBRAW_DNGFM_ILLUMINANT() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_ILLUMINANT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_ILLUMINANT Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_ILLUMINANT()
+func _swig_getLIBRAW_DNGFM_COLORMATRIX() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_COLORMATRIX_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_COLORMATRIX Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_COLORMATRIX()
+func _swig_getLIBRAW_DNGFM_CALIBRATION() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_CALIBRATION_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_CALIBRATION Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_CALIBRATION()
+func _swig_getLIBRAW_DNGFM_ANALOGBALANCE() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_ANALOGBALANCE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_ANALOGBALANCE Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_ANALOGBALANCE()
+func _swig_getLIBRAW_DNGFM_BLACK() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_BLACK_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_BLACK Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_BLACK()
+func _swig_getLIBRAW_DNGFM_WHITE() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_WHITE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_WHITE Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_WHITE()
+func _swig_getLIBRAW_DNGFM_OPCODE2() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_OPCODE2_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_OPCODE2 Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_OPCODE2()
+func _swig_getLIBRAW_DNGFM_LINTABLE() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_LINTABLE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_LINTABLE Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_LINTABLE()
+func _swig_getLIBRAW_DNGFM_CROPORIGIN() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_CROPORIGIN_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_CROPORIGIN Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_CROPORIGIN()
+func _swig_getLIBRAW_DNGFM_CROPSIZE() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_CROPSIZE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_CROPSIZE Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_CROPSIZE()
+func _swig_getLIBRAW_DNGFM_PREVIEWCS() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_PREVIEWCS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_PREVIEWCS Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_PREVIEWCS()
+func _swig_getLIBRAW_DNGFM_ASSHOTNEUTRAL() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_ASSHOTNEUTRAL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_ASSHOTNEUTRAL Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_ASSHOTNEUTRAL()
+func _swig_getLIBRAW_DNGFM_BASELINEEXPOSURE() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_BASELINEEXPOSURE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_BASELINEEXPOSURE Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_BASELINEEXPOSURE()
+func _swig_getLIBRAW_DNGFM_LINEARRESPONSELIMIT() (_swig_ret Enum_SS_LibRaw_dngfields_marks) {
+	var swig_r Enum_SS_LibRaw_dngfields_marks
+	swig_r = (Enum_SS_LibRaw_dngfields_marks)(C._wrap_LIBRAW_DNGFM_LINEARRESPONSELIMIT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNGFM_LINEARRESPONSELIMIT Enum_SS_LibRaw_dngfields_marks = _swig_getLIBRAW_DNGFM_LINEARRESPONSELIMIT()
+type Enum_SS_LibRaw_As_Shot_WB_Applied_codes int
+func _swig_getLIBRAW_ASWB_APPLIED() (_swig_ret Enum_SS_LibRaw_As_Shot_WB_Applied_codes) {
+	var swig_r Enum_SS_LibRaw_As_Shot_WB_Applied_codes
+	swig_r = (Enum_SS_LibRaw_As_Shot_WB_Applied_codes)(C._wrap_LIBRAW_ASWB_APPLIED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_ASWB_APPLIED Enum_SS_LibRaw_As_Shot_WB_Applied_codes = _swig_getLIBRAW_ASWB_APPLIED()
+func _swig_getLIBRAW_ASWB_CANON() (_swig_ret Enum_SS_LibRaw_As_Shot_WB_Applied_codes) {
+	var swig_r Enum_SS_LibRaw_As_Shot_WB_Applied_codes
+	swig_r = (Enum_SS_LibRaw_As_Shot_WB_Applied_codes)(C._wrap_LIBRAW_ASWB_CANON_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_ASWB_CANON Enum_SS_LibRaw_As_Shot_WB_Applied_codes = _swig_getLIBRAW_ASWB_CANON()
+func _swig_getLIBRAW_ASWB_NIKON() (_swig_ret Enum_SS_LibRaw_As_Shot_WB_Applied_codes) {
+	var swig_r Enum_SS_LibRaw_As_Shot_WB_Applied_codes
+	swig_r = (Enum_SS_LibRaw_As_Shot_WB_Applied_codes)(C._wrap_LIBRAW_ASWB_NIKON_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_ASWB_NIKON Enum_SS_LibRaw_As_Shot_WB_Applied_codes = _swig_getLIBRAW_ASWB_NIKON()
+func _swig_getLIBRAW_ASWB_NIKON_SRAW() (_swig_ret Enum_SS_LibRaw_As_Shot_WB_Applied_codes) {
+	var swig_r Enum_SS_LibRaw_As_Shot_WB_Applied_codes
+	swig_r = (Enum_SS_LibRaw_As_Shot_WB_Applied_codes)(C._wrap_LIBRAW_ASWB_NIKON_SRAW_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_ASWB_NIKON_SRAW Enum_SS_LibRaw_As_Shot_WB_Applied_codes = _swig_getLIBRAW_ASWB_NIKON_SRAW()
+func _swig_getLIBRAW_ASWB_PENTAX() (_swig_ret Enum_SS_LibRaw_As_Shot_WB_Applied_codes) {
+	var swig_r Enum_SS_LibRaw_As_Shot_WB_Applied_codes
+	swig_r = (Enum_SS_LibRaw_As_Shot_WB_Applied_codes)(C._wrap_LIBRAW_ASWB_PENTAX_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_ASWB_PENTAX Enum_SS_LibRaw_As_Shot_WB_Applied_codes = _swig_getLIBRAW_ASWB_PENTAX()
+type Enum_SS_LibRaw_ExifTagTypes int
+func _swig_getLIBRAW_EXIFTAG_TYPE_UNKNOWN() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_UNKNOWN_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_UNKNOWN Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_UNKNOWN()
+func _swig_getLIBRAW_EXIFTAG_TYPE_BYTE() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_BYTE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_BYTE Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_BYTE()
+func _swig_getLIBRAW_EXIFTAG_TYPE_ASCII() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_ASCII_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_ASCII Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_ASCII()
+func _swig_getLIBRAW_EXIFTAG_TYPE_SHORT() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_SHORT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_SHORT Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_SHORT()
+func _swig_getLIBRAW_EXIFTAG_TYPE_LONG() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_LONG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_LONG Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_LONG()
+func _swig_getLIBRAW_EXIFTAG_TYPE_RATIONAL() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_RATIONAL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_RATIONAL Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_RATIONAL()
+func _swig_getLIBRAW_EXIFTAG_TYPE_SBYTE() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_SBYTE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_SBYTE Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_SBYTE()
+func _swig_getLIBRAW_EXIFTAG_TYPE_UNDEFINED() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_UNDEFINED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_UNDEFINED Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_UNDEFINED()
+func _swig_getLIBRAW_EXIFTAG_TYPE_SSHORT() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_SSHORT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_SSHORT Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_SSHORT()
+func _swig_getLIBRAW_EXIFTAG_TYPE_SLONG() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_SLONG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_SLONG Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_SLONG()
+func _swig_getLIBRAW_EXIFTAG_TYPE_SRATIONAL() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_SRATIONAL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_SRATIONAL Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_SRATIONAL()
+func _swig_getLIBRAW_EXIFTAG_TYPE_FLOAT() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_FLOAT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_FLOAT Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_FLOAT()
+func _swig_getLIBRAW_EXIFTAG_TYPE_DOUBLE() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_DOUBLE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_DOUBLE Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_DOUBLE()
+func _swig_getLIBRAW_EXIFTAG_TYPE_IFD() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_IFD_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_IFD Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_IFD()
+func _swig_getLIBRAW_EXIFTAG_TYPE_UNICODE() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_UNICODE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_UNICODE Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_UNICODE()
+func _swig_getLIBRAW_EXIFTAG_TYPE_COMPLEX() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_COMPLEX_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_COMPLEX Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_COMPLEX()
+func _swig_getLIBRAW_EXIFTAG_TYPE_LONG8() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_LONG8_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_LONG8 Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_LONG8()
+func _swig_getLIBRAW_EXIFTAG_TYPE_SLONG8() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_SLONG8_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_SLONG8 Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_SLONG8()
+func _swig_getLIBRAW_EXIFTAG_TYPE_IFD8() (_swig_ret Enum_SS_LibRaw_ExifTagTypes) {
+	var swig_r Enum_SS_LibRaw_ExifTagTypes
+	swig_r = (Enum_SS_LibRaw_ExifTagTypes)(C._wrap_LIBRAW_EXIFTAG_TYPE_IFD8_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXIFTAG_TYPE_IFD8 Enum_SS_LibRaw_ExifTagTypes = _swig_getLIBRAW_EXIFTAG_TYPE_IFD8()
+const LIBRAW_LENS_NOT_SET uint64 = 0xffffffffffffffff
+type Enum_SS_LibRaw_whitebalance_code int
+func _swig_getLIBRAW_WBI_Unknown() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Unknown_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Unknown Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Unknown()
+func _swig_getLIBRAW_WBI_Daylight() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Daylight_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Daylight Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Daylight()
+func _swig_getLIBRAW_WBI_Fluorescent() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Fluorescent_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Fluorescent Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Fluorescent()
+func _swig_getLIBRAW_WBI_Tungsten() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Tungsten_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Tungsten Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Tungsten()
+func _swig_getLIBRAW_WBI_Flash() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Flash_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Flash Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Flash()
+func _swig_getLIBRAW_WBI_FineWeather() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_FineWeather_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_FineWeather Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_FineWeather()
+func _swig_getLIBRAW_WBI_Cloudy() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Cloudy_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Cloudy Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Cloudy()
+func _swig_getLIBRAW_WBI_Shade() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Shade_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Shade Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Shade()
+func _swig_getLIBRAW_WBI_FL_D() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_FL_D_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_FL_D Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_FL_D()
+func _swig_getLIBRAW_WBI_FL_N() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_FL_N_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_FL_N Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_FL_N()
+func _swig_getLIBRAW_WBI_FL_W() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_FL_W_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_FL_W Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_FL_W()
+func _swig_getLIBRAW_WBI_FL_WW() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_FL_WW_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_FL_WW Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_FL_WW()
+func _swig_getLIBRAW_WBI_FL_L() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_FL_L_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_FL_L Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_FL_L()
+func _swig_getLIBRAW_WBI_Ill_A() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Ill_A_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Ill_A Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Ill_A()
+func _swig_getLIBRAW_WBI_Ill_B() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Ill_B_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Ill_B Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Ill_B()
+func _swig_getLIBRAW_WBI_Ill_C() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Ill_C_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Ill_C Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Ill_C()
+func _swig_getLIBRAW_WBI_D55() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_D55_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_D55 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_D55()
+func _swig_getLIBRAW_WBI_D65() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_D65_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_D65 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_D65()
+func _swig_getLIBRAW_WBI_D75() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_D75_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_D75 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_D75()
+func _swig_getLIBRAW_WBI_D50() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_D50_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_D50 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_D50()
+func _swig_getLIBRAW_WBI_StudioTungsten() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_StudioTungsten_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_StudioTungsten Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_StudioTungsten()
+func _swig_getLIBRAW_WBI_Sunset() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Sunset_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Sunset Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Sunset()
+func _swig_getLIBRAW_WBI_Underwater() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Underwater_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Underwater Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Underwater()
+func _swig_getLIBRAW_WBI_FluorescentHigh() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_FluorescentHigh_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_FluorescentHigh Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_FluorescentHigh()
+func _swig_getLIBRAW_WBI_HT_Mercury() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_HT_Mercury_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_HT_Mercury Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_HT_Mercury()
+func _swig_getLIBRAW_WBI_AsShot() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_AsShot_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_AsShot Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_AsShot()
+func _swig_getLIBRAW_WBI_Auto() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Auto_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Auto Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Auto()
+func _swig_getLIBRAW_WBI_Custom() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Custom_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Custom Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Custom()
+func _swig_getLIBRAW_WBI_Auto1() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Auto1_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Auto1 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Auto1()
+func _swig_getLIBRAW_WBI_Auto2() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Auto2_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Auto2 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Auto2()
+func _swig_getLIBRAW_WBI_Auto3() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Auto3_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Auto3 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Auto3()
+func _swig_getLIBRAW_WBI_Auto4() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Auto4_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Auto4 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Auto4()
+func _swig_getLIBRAW_WBI_Custom1() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Custom1_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Custom1 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Custom1()
+func _swig_getLIBRAW_WBI_Custom2() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Custom2_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Custom2 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Custom2()
+func _swig_getLIBRAW_WBI_Custom3() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Custom3_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Custom3 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Custom3()
+func _swig_getLIBRAW_WBI_Custom4() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Custom4_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Custom4 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Custom4()
+func _swig_getLIBRAW_WBI_Custom5() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Custom5_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Custom5 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Custom5()
+func _swig_getLIBRAW_WBI_Custom6() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Custom6_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Custom6 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Custom6()
+func _swig_getLIBRAW_WBI_PC_Set1() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_PC_Set1_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_PC_Set1 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_PC_Set1()
+func _swig_getLIBRAW_WBI_PC_Set2() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_PC_Set2_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_PC_Set2 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_PC_Set2()
+func _swig_getLIBRAW_WBI_PC_Set3() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_PC_Set3_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_PC_Set3 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_PC_Set3()
+func _swig_getLIBRAW_WBI_PC_Set4() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_PC_Set4_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_PC_Set4 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_PC_Set4()
+func _swig_getLIBRAW_WBI_PC_Set5() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_PC_Set5_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_PC_Set5 Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_PC_Set5()
+func _swig_getLIBRAW_WBI_Measured() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Measured_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Measured Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Measured()
+func _swig_getLIBRAW_WBI_BW() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_BW_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_BW Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_BW()
+func _swig_getLIBRAW_WBI_Kelvin() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Kelvin_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Kelvin Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Kelvin()
+func _swig_getLIBRAW_WBI_Other() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_Other_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_Other Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_Other()
+func _swig_getLIBRAW_WBI_None() (_swig_ret Enum_SS_LibRaw_whitebalance_code) {
+	var swig_r Enum_SS_LibRaw_whitebalance_code
+	swig_r = (Enum_SS_LibRaw_whitebalance_code)(C._wrap_LIBRAW_WBI_None_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WBI_None Enum_SS_LibRaw_whitebalance_code = _swig_getLIBRAW_WBI_None()
+type Enum_SS_LibRaw_MultiExposure_related int
+func _swig_getLIBRAW_ME_NONE() (_swig_ret Enum_SS_LibRaw_MultiExposure_related) {
+	var swig_r Enum_SS_LibRaw_MultiExposure_related
+	swig_r = (Enum_SS_LibRaw_MultiExposure_related)(C._wrap_LIBRAW_ME_NONE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_ME_NONE Enum_SS_LibRaw_MultiExposure_related = _swig_getLIBRAW_ME_NONE()
+func _swig_getLIBRAW_ME_SIMPLE() (_swig_ret Enum_SS_LibRaw_MultiExposure_related) {
+	var swig_r Enum_SS_LibRaw_MultiExposure_related
+	swig_r = (Enum_SS_LibRaw_MultiExposure_related)(C._wrap_LIBRAW_ME_SIMPLE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_ME_SIMPLE Enum_SS_LibRaw_MultiExposure_related = _swig_getLIBRAW_ME_SIMPLE()
+func _swig_getLIBRAW_ME_OVERLAY() (_swig_ret Enum_SS_LibRaw_MultiExposure_related) {
+	var swig_r Enum_SS_LibRaw_MultiExposure_related
+	swig_r = (Enum_SS_LibRaw_MultiExposure_related)(C._wrap_LIBRAW_ME_OVERLAY_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_ME_OVERLAY Enum_SS_LibRaw_MultiExposure_related = _swig_getLIBRAW_ME_OVERLAY()
+func _swig_getLIBRAW_ME_HDR() (_swig_ret Enum_SS_LibRaw_MultiExposure_related) {
+	var swig_r Enum_SS_LibRaw_MultiExposure_related
+	swig_r = (Enum_SS_LibRaw_MultiExposure_related)(C._wrap_LIBRAW_ME_HDR_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_ME_HDR Enum_SS_LibRaw_MultiExposure_related = _swig_getLIBRAW_ME_HDR()
+type Enum_SS_LibRaw_dng_processing int
+func _swig_getLIBRAW_DNG_NONE() (_swig_ret Enum_SS_LibRaw_dng_processing) {
+	var swig_r Enum_SS_LibRaw_dng_processing
+	swig_r = (Enum_SS_LibRaw_dng_processing)(C._wrap_LIBRAW_DNG_NONE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNG_NONE Enum_SS_LibRaw_dng_processing = _swig_getLIBRAW_DNG_NONE()
+func _swig_getLIBRAW_DNG_FLOAT() (_swig_ret Enum_SS_LibRaw_dng_processing) {
+	var swig_r Enum_SS_LibRaw_dng_processing
+	swig_r = (Enum_SS_LibRaw_dng_processing)(C._wrap_LIBRAW_DNG_FLOAT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNG_FLOAT Enum_SS_LibRaw_dng_processing = _swig_getLIBRAW_DNG_FLOAT()
+func _swig_getLIBRAW_DNG_LINEAR() (_swig_ret Enum_SS_LibRaw_dng_processing) {
+	var swig_r Enum_SS_LibRaw_dng_processing
+	swig_r = (Enum_SS_LibRaw_dng_processing)(C._wrap_LIBRAW_DNG_LINEAR_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNG_LINEAR Enum_SS_LibRaw_dng_processing = _swig_getLIBRAW_DNG_LINEAR()
+func _swig_getLIBRAW_DNG_DEFLATE() (_swig_ret Enum_SS_LibRaw_dng_processing) {
+	var swig_r Enum_SS_LibRaw_dng_processing
+	swig_r = (Enum_SS_LibRaw_dng_processing)(C._wrap_LIBRAW_DNG_DEFLATE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNG_DEFLATE Enum_SS_LibRaw_dng_processing = _swig_getLIBRAW_DNG_DEFLATE()
+func _swig_getLIBRAW_DNG_XTRANS() (_swig_ret Enum_SS_LibRaw_dng_processing) {
+	var swig_r Enum_SS_LibRaw_dng_processing
+	swig_r = (Enum_SS_LibRaw_dng_processing)(C._wrap_LIBRAW_DNG_XTRANS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNG_XTRANS Enum_SS_LibRaw_dng_processing = _swig_getLIBRAW_DNG_XTRANS()
+func _swig_getLIBRAW_DNG_OTHER() (_swig_ret Enum_SS_LibRaw_dng_processing) {
+	var swig_r Enum_SS_LibRaw_dng_processing
+	swig_r = (Enum_SS_LibRaw_dng_processing)(C._wrap_LIBRAW_DNG_OTHER_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNG_OTHER Enum_SS_LibRaw_dng_processing = _swig_getLIBRAW_DNG_OTHER()
+func _swig_getLIBRAW_DNG_8BIT() (_swig_ret Enum_SS_LibRaw_dng_processing) {
+	var swig_r Enum_SS_LibRaw_dng_processing
+	swig_r = (Enum_SS_LibRaw_dng_processing)(C._wrap_LIBRAW_DNG_8BIT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNG_8BIT Enum_SS_LibRaw_dng_processing = _swig_getLIBRAW_DNG_8BIT()
+func _swig_getLIBRAW_DNG_ALL() (_swig_ret Enum_SS_LibRaw_dng_processing) {
+	var swig_r Enum_SS_LibRaw_dng_processing
+	swig_r = (Enum_SS_LibRaw_dng_processing)(C._wrap_LIBRAW_DNG_ALL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNG_ALL Enum_SS_LibRaw_dng_processing = _swig_getLIBRAW_DNG_ALL()
+func _swig_getLIBRAW_DNG_DEFAULT() (_swig_ret Enum_SS_LibRaw_dng_processing) {
+	var swig_r Enum_SS_LibRaw_dng_processing
+	swig_r = (Enum_SS_LibRaw_dng_processing)(C._wrap_LIBRAW_DNG_DEFAULT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DNG_DEFAULT Enum_SS_LibRaw_dng_processing = _swig_getLIBRAW_DNG_DEFAULT()
+type Enum_SS_LibRaw_runtime_capabilities int
+func _swig_getLIBRAW_CAPS_RAWSPEED() (_swig_ret Enum_SS_LibRaw_runtime_capabilities) {
+	var swig_r Enum_SS_LibRaw_runtime_capabilities
+	swig_r = (Enum_SS_LibRaw_runtime_capabilities)(C._wrap_LIBRAW_CAPS_RAWSPEED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAPS_RAWSPEED Enum_SS_LibRaw_runtime_capabilities = _swig_getLIBRAW_CAPS_RAWSPEED()
+func _swig_getLIBRAW_CAPS_DNGSDK() (_swig_ret Enum_SS_LibRaw_runtime_capabilities) {
+	var swig_r Enum_SS_LibRaw_runtime_capabilities
+	swig_r = (Enum_SS_LibRaw_runtime_capabilities)(C._wrap_LIBRAW_CAPS_DNGSDK_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAPS_DNGSDK Enum_SS_LibRaw_runtime_capabilities = _swig_getLIBRAW_CAPS_DNGSDK()
+func _swig_getLIBRAW_CAPS_GPRSDK() (_swig_ret Enum_SS_LibRaw_runtime_capabilities) {
+	var swig_r Enum_SS_LibRaw_runtime_capabilities
+	swig_r = (Enum_SS_LibRaw_runtime_capabilities)(C._wrap_LIBRAW_CAPS_GPRSDK_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAPS_GPRSDK Enum_SS_LibRaw_runtime_capabilities = _swig_getLIBRAW_CAPS_GPRSDK()
+func _swig_getLIBRAW_CAPS_UNICODEPATHS() (_swig_ret Enum_SS_LibRaw_runtime_capabilities) {
+	var swig_r Enum_SS_LibRaw_runtime_capabilities
+	swig_r = (Enum_SS_LibRaw_runtime_capabilities)(C._wrap_LIBRAW_CAPS_UNICODEPATHS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAPS_UNICODEPATHS Enum_SS_LibRaw_runtime_capabilities = _swig_getLIBRAW_CAPS_UNICODEPATHS()
+func _swig_getLIBRAW_CAPS_X3FTOOLS() (_swig_ret Enum_SS_LibRaw_runtime_capabilities) {
+	var swig_r Enum_SS_LibRaw_runtime_capabilities
+	swig_r = (Enum_SS_LibRaw_runtime_capabilities)(C._wrap_LIBRAW_CAPS_X3FTOOLS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAPS_X3FTOOLS Enum_SS_LibRaw_runtime_capabilities = _swig_getLIBRAW_CAPS_X3FTOOLS()
+func _swig_getLIBRAW_CAPS_RPI6BY9() (_swig_ret Enum_SS_LibRaw_runtime_capabilities) {
+	var swig_r Enum_SS_LibRaw_runtime_capabilities
+	swig_r = (Enum_SS_LibRaw_runtime_capabilities)(C._wrap_LIBRAW_CAPS_RPI6BY9_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAPS_RPI6BY9 Enum_SS_LibRaw_runtime_capabilities = _swig_getLIBRAW_CAPS_RPI6BY9()
+type Enum_SS_LibRaw_colorspace int
+func _swig_getLIBRAW_COLORSPACE_NotFound() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_NotFound_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_NotFound Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_NotFound()
+func _swig_getLIBRAW_COLORSPACE_sRGB() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_sRGB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_sRGB Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_sRGB()
+func _swig_getLIBRAW_COLORSPACE_AdobeRGB() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_AdobeRGB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_AdobeRGB Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_AdobeRGB()
+func _swig_getLIBRAW_COLORSPACE_WideGamutRGB() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_WideGamutRGB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_WideGamutRGB Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_WideGamutRGB()
+func _swig_getLIBRAW_COLORSPACE_ProPhotoRGB() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_ProPhotoRGB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_ProPhotoRGB Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_ProPhotoRGB()
+func _swig_getLIBRAW_COLORSPACE_ICC() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_ICC_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_ICC Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_ICC()
+func _swig_getLIBRAW_COLORSPACE_Uncalibrated() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_Uncalibrated_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_Uncalibrated Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_Uncalibrated()
+func _swig_getLIBRAW_COLORSPACE_CameraLinearUniWB() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_CameraLinearUniWB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_CameraLinearUniWB Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_CameraLinearUniWB()
+func _swig_getLIBRAW_COLORSPACE_CameraLinear() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_CameraLinear_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_CameraLinear Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_CameraLinear()
+func _swig_getLIBRAW_COLORSPACE_CameraGammaUniWB() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_CameraGammaUniWB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_CameraGammaUniWB Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_CameraGammaUniWB()
+func _swig_getLIBRAW_COLORSPACE_CameraGamma() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_CameraGamma_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_CameraGamma Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_CameraGamma()
+func _swig_getLIBRAW_COLORSPACE_MonochromeLinear() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_MonochromeLinear_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_MonochromeLinear Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_MonochromeLinear()
+func _swig_getLIBRAW_COLORSPACE_MonochromeGamma() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_MonochromeGamma_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_MonochromeGamma Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_MonochromeGamma()
+func _swig_getLIBRAW_COLORSPACE_Unknown() (_swig_ret Enum_SS_LibRaw_colorspace) {
+	var swig_r Enum_SS_LibRaw_colorspace
+	swig_r = (Enum_SS_LibRaw_colorspace)(C._wrap_LIBRAW_COLORSPACE_Unknown_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_COLORSPACE_Unknown Enum_SS_LibRaw_colorspace = _swig_getLIBRAW_COLORSPACE_Unknown()
+type Enum_SS_LibRaw_cameramaker_index int
+func _swig_getLIBRAW_CAMERAMAKER_Unknown() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Unknown_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Unknown Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Unknown()
+func _swig_getLIBRAW_CAMERAMAKER_Agfa() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Agfa_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Agfa Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Agfa()
+func _swig_getLIBRAW_CAMERAMAKER_Alcatel() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Alcatel_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Alcatel Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Alcatel()
+func _swig_getLIBRAW_CAMERAMAKER_Apple() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Apple_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Apple Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Apple()
+func _swig_getLIBRAW_CAMERAMAKER_Aptina() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Aptina_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Aptina Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Aptina()
+func _swig_getLIBRAW_CAMERAMAKER_AVT() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_AVT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_AVT Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_AVT()
+func _swig_getLIBRAW_CAMERAMAKER_Baumer() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Baumer_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Baumer Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Baumer()
+func _swig_getLIBRAW_CAMERAMAKER_Broadcom() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Broadcom_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Broadcom Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Broadcom()
+func _swig_getLIBRAW_CAMERAMAKER_Canon() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Canon_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Canon Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Canon()
+func _swig_getLIBRAW_CAMERAMAKER_Casio() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Casio_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Casio Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Casio()
+func _swig_getLIBRAW_CAMERAMAKER_CINE() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_CINE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_CINE Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_CINE()
+func _swig_getLIBRAW_CAMERAMAKER_Clauss() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Clauss_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Clauss Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Clauss()
+func _swig_getLIBRAW_CAMERAMAKER_Contax() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Contax_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Contax Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Contax()
+func _swig_getLIBRAW_CAMERAMAKER_Creative() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Creative_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Creative Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Creative()
+func _swig_getLIBRAW_CAMERAMAKER_DJI() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_DJI_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_DJI Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_DJI()
+func _swig_getLIBRAW_CAMERAMAKER_DXO() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_DXO_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_DXO Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_DXO()
+func _swig_getLIBRAW_CAMERAMAKER_Epson() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Epson_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Epson Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Epson()
+func _swig_getLIBRAW_CAMERAMAKER_Foculus() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Foculus_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Foculus Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Foculus()
+func _swig_getLIBRAW_CAMERAMAKER_Fujifilm() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Fujifilm_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Fujifilm Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Fujifilm()
+func _swig_getLIBRAW_CAMERAMAKER_Generic() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Generic_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Generic Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Generic()
+func _swig_getLIBRAW_CAMERAMAKER_Gione() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Gione_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Gione Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Gione()
+func _swig_getLIBRAW_CAMERAMAKER_GITUP() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_GITUP_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_GITUP Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_GITUP()
+func _swig_getLIBRAW_CAMERAMAKER_Google() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Google_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Google Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Google()
+func _swig_getLIBRAW_CAMERAMAKER_GoPro() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_GoPro_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_GoPro Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_GoPro()
+func _swig_getLIBRAW_CAMERAMAKER_Hasselblad() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Hasselblad_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Hasselblad Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Hasselblad()
+func _swig_getLIBRAW_CAMERAMAKER_HTC() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_HTC_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_HTC Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_HTC()
+func _swig_getLIBRAW_CAMERAMAKER_I_Mobile() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_I_Mobile_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_I_Mobile Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_I_Mobile()
+func _swig_getLIBRAW_CAMERAMAKER_Imacon() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Imacon_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Imacon Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Imacon()
+func _swig_getLIBRAW_CAMERAMAKER_JK_Imaging() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_JK_Imaging_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_JK_Imaging Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_JK_Imaging()
+func _swig_getLIBRAW_CAMERAMAKER_Kodak() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Kodak_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Kodak Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Kodak()
+func _swig_getLIBRAW_CAMERAMAKER_Konica() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Konica_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Konica Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Konica()
+func _swig_getLIBRAW_CAMERAMAKER_Leaf() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Leaf_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Leaf Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Leaf()
+func _swig_getLIBRAW_CAMERAMAKER_Leica() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Leica_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Leica Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Leica()
+func _swig_getLIBRAW_CAMERAMAKER_Lenovo() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Lenovo_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Lenovo Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Lenovo()
+func _swig_getLIBRAW_CAMERAMAKER_LG() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_LG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_LG Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_LG()
+func _swig_getLIBRAW_CAMERAMAKER_Logitech() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Logitech_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Logitech Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Logitech()
+func _swig_getLIBRAW_CAMERAMAKER_Mamiya() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Mamiya_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Mamiya Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Mamiya()
+func _swig_getLIBRAW_CAMERAMAKER_Matrix() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Matrix_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Matrix Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Matrix()
+func _swig_getLIBRAW_CAMERAMAKER_Meizu() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Meizu_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Meizu Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Meizu()
+func _swig_getLIBRAW_CAMERAMAKER_Micron() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Micron_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Micron Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Micron()
+func _swig_getLIBRAW_CAMERAMAKER_Minolta() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Minolta_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Minolta Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Minolta()
+func _swig_getLIBRAW_CAMERAMAKER_Motorola() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Motorola_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Motorola Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Motorola()
+func _swig_getLIBRAW_CAMERAMAKER_NGM() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_NGM_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_NGM Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_NGM()
+func _swig_getLIBRAW_CAMERAMAKER_Nikon() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Nikon_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Nikon Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Nikon()
+func _swig_getLIBRAW_CAMERAMAKER_Nokia() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Nokia_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Nokia Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Nokia()
+func _swig_getLIBRAW_CAMERAMAKER_Olympus() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Olympus_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Olympus Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Olympus()
+func _swig_getLIBRAW_CAMERAMAKER_OmniVison() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_OmniVison_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_OmniVison Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_OmniVison()
+func _swig_getLIBRAW_CAMERAMAKER_Panasonic() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Panasonic_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Panasonic Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Panasonic()
+func _swig_getLIBRAW_CAMERAMAKER_Parrot() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Parrot_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Parrot Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Parrot()
+func _swig_getLIBRAW_CAMERAMAKER_Pentax() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Pentax_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Pentax Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Pentax()
+func _swig_getLIBRAW_CAMERAMAKER_PhaseOne() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_PhaseOne_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_PhaseOne Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_PhaseOne()
+func _swig_getLIBRAW_CAMERAMAKER_PhotoControl() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_PhotoControl_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_PhotoControl Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_PhotoControl()
+func _swig_getLIBRAW_CAMERAMAKER_Photron() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Photron_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Photron Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Photron()
+func _swig_getLIBRAW_CAMERAMAKER_Pixelink() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Pixelink_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Pixelink Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Pixelink()
+func _swig_getLIBRAW_CAMERAMAKER_Polaroid() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Polaroid_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Polaroid Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Polaroid()
+func _swig_getLIBRAW_CAMERAMAKER_RED() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_RED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_RED Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_RED()
+func _swig_getLIBRAW_CAMERAMAKER_Ricoh() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Ricoh_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Ricoh Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Ricoh()
+func _swig_getLIBRAW_CAMERAMAKER_Rollei() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Rollei_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Rollei Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Rollei()
+func _swig_getLIBRAW_CAMERAMAKER_RoverShot() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_RoverShot_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_RoverShot Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_RoverShot()
+func _swig_getLIBRAW_CAMERAMAKER_Samsung() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Samsung_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Samsung Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Samsung()
+func _swig_getLIBRAW_CAMERAMAKER_Sigma() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Sigma_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Sigma Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Sigma()
+func _swig_getLIBRAW_CAMERAMAKER_Sinar() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Sinar_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Sinar Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Sinar()
+func _swig_getLIBRAW_CAMERAMAKER_SMaL() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_SMaL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_SMaL Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_SMaL()
+func _swig_getLIBRAW_CAMERAMAKER_Sony() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Sony_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Sony Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Sony()
+func _swig_getLIBRAW_CAMERAMAKER_ST_Micro() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_ST_Micro_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_ST_Micro Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_ST_Micro()
+func _swig_getLIBRAW_CAMERAMAKER_THL() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_THL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_THL Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_THL()
+func _swig_getLIBRAW_CAMERAMAKER_VLUU() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_VLUU_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_VLUU Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_VLUU()
+func _swig_getLIBRAW_CAMERAMAKER_Xiaomi() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Xiaomi_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Xiaomi Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Xiaomi()
+func _swig_getLIBRAW_CAMERAMAKER_XIAOYI() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_XIAOYI_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_XIAOYI Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_XIAOYI()
+func _swig_getLIBRAW_CAMERAMAKER_YI() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_YI_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_YI Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_YI()
+func _swig_getLIBRAW_CAMERAMAKER_Yuneec() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Yuneec_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Yuneec Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Yuneec()
+func _swig_getLIBRAW_CAMERAMAKER_Zeiss() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_Zeiss_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_Zeiss Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_Zeiss()
+func _swig_getLIBRAW_CAMERAMAKER_TheLastOne() (_swig_ret Enum_SS_LibRaw_cameramaker_index) {
+	var swig_r Enum_SS_LibRaw_cameramaker_index
+	swig_r = (Enum_SS_LibRaw_cameramaker_index)(C._wrap_LIBRAW_CAMERAMAKER_TheLastOne_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CAMERAMAKER_TheLastOne Enum_SS_LibRaw_cameramaker_index = _swig_getLIBRAW_CAMERAMAKER_TheLastOne()
+type Enum_SS_LibRaw_camera_mounts int
+func _swig_getLIBRAW_MOUNT_Unknown() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Unknown_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Unknown Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Unknown()
+func _swig_getLIBRAW_MOUNT_Alpa() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Alpa_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Alpa Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Alpa()
+func _swig_getLIBRAW_MOUNT_C() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_C_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_C Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_C()
+func _swig_getLIBRAW_MOUNT_Canon_EF_M() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Canon_EF_M_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Canon_EF_M Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Canon_EF_M()
+func _swig_getLIBRAW_MOUNT_Canon_EF_S() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Canon_EF_S_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Canon_EF_S Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Canon_EF_S()
+func _swig_getLIBRAW_MOUNT_Canon_EF() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Canon_EF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Canon_EF Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Canon_EF()
+func _swig_getLIBRAW_MOUNT_Canon_RF() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Canon_RF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Canon_RF Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Canon_RF()
+func _swig_getLIBRAW_MOUNT_Contax_N() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Contax_N_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Contax_N Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Contax_N()
+func _swig_getLIBRAW_MOUNT_Contax645() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Contax645_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Contax645 Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Contax645()
+func _swig_getLIBRAW_MOUNT_FT() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_FT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_FT Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_FT()
+func _swig_getLIBRAW_MOUNT_mFT() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_mFT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_mFT Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_mFT()
+func _swig_getLIBRAW_MOUNT_Fuji_GF() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Fuji_GF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Fuji_GF Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Fuji_GF()
+func _swig_getLIBRAW_MOUNT_Fuji_GX() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Fuji_GX_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Fuji_GX Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Fuji_GX()
+func _swig_getLIBRAW_MOUNT_Fuji_X() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Fuji_X_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Fuji_X Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Fuji_X()
+func _swig_getLIBRAW_MOUNT_Hasselblad_H() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Hasselblad_H_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Hasselblad_H Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Hasselblad_H()
+func _swig_getLIBRAW_MOUNT_Hasselblad_V() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Hasselblad_V_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Hasselblad_V Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Hasselblad_V()
+func _swig_getLIBRAW_MOUNT_Hasselblad_XCD() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Hasselblad_XCD_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Hasselblad_XCD Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Hasselblad_XCD()
+func _swig_getLIBRAW_MOUNT_Leica_M() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Leica_M_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Leica_M Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Leica_M()
+func _swig_getLIBRAW_MOUNT_Leica_R() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Leica_R_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Leica_R Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Leica_R()
+func _swig_getLIBRAW_MOUNT_Leica_S() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Leica_S_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Leica_S Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Leica_S()
+func _swig_getLIBRAW_MOUNT_Leica_SL() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Leica_SL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Leica_SL Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Leica_SL()
+func _swig_getLIBRAW_MOUNT_Leica_TL() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Leica_TL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Leica_TL Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Leica_TL()
+func _swig_getLIBRAW_MOUNT_LPS_L() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_LPS_L_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_LPS_L Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_LPS_L()
+func _swig_getLIBRAW_MOUNT_Mamiya67() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Mamiya67_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Mamiya67 Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Mamiya67()
+func _swig_getLIBRAW_MOUNT_Mamiya645() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Mamiya645_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Mamiya645 Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Mamiya645()
+func _swig_getLIBRAW_MOUNT_Minolta_A() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Minolta_A_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Minolta_A Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Minolta_A()
+func _swig_getLIBRAW_MOUNT_Nikon_CX() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Nikon_CX_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Nikon_CX Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Nikon_CX()
+func _swig_getLIBRAW_MOUNT_Nikon_F() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Nikon_F_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Nikon_F Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Nikon_F()
+func _swig_getLIBRAW_MOUNT_Nikon_Z() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Nikon_Z_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Nikon_Z Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Nikon_Z()
+func _swig_getLIBRAW_MOUNT_Pentax_645() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Pentax_645_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Pentax_645 Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Pentax_645()
+func _swig_getLIBRAW_MOUNT_Pentax_K() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Pentax_K_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Pentax_K Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Pentax_K()
+func _swig_getLIBRAW_MOUNT_Pentax_Q() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Pentax_Q_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Pentax_Q Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Pentax_Q()
+func _swig_getLIBRAW_MOUNT_RicohModule() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_RicohModule_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_RicohModule Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_RicohModule()
+func _swig_getLIBRAW_MOUNT_Rollei_bayonet() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Rollei_bayonet_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Rollei_bayonet Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Rollei_bayonet()
+func _swig_getLIBRAW_MOUNT_Samsung_NX_M() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Samsung_NX_M_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Samsung_NX_M Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Samsung_NX_M()
+func _swig_getLIBRAW_MOUNT_Samsung_NX() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Samsung_NX_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Samsung_NX Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Samsung_NX()
+func _swig_getLIBRAW_MOUNT_Sigma_X3F() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Sigma_X3F_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Sigma_X3F Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Sigma_X3F()
+func _swig_getLIBRAW_MOUNT_Sony_E() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_Sony_E_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_Sony_E Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_Sony_E()
+func _swig_getLIBRAW_MOUNT_LF() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_LF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_LF Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_LF()
+func _swig_getLIBRAW_MOUNT_DigitalBack() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_DigitalBack_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_DigitalBack Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_DigitalBack()
+func _swig_getLIBRAW_MOUNT_FixedLens() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_FixedLens_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_FixedLens Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_FixedLens()
+func _swig_getLIBRAW_MOUNT_IL_UM() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_IL_UM_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_IL_UM Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_IL_UM()
+func _swig_getLIBRAW_MOUNT_TheLastOne() (_swig_ret Enum_SS_LibRaw_camera_mounts) {
+	var swig_r Enum_SS_LibRaw_camera_mounts
+	swig_r = (Enum_SS_LibRaw_camera_mounts)(C._wrap_LIBRAW_MOUNT_TheLastOne_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MOUNT_TheLastOne Enum_SS_LibRaw_camera_mounts = _swig_getLIBRAW_MOUNT_TheLastOne()
+type Enum_SS_LibRaw_camera_formats int
+func _swig_getLIBRAW_FORMAT_Unknown() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_Unknown_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_Unknown Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_Unknown()
+func _swig_getLIBRAW_FORMAT_APSC() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_APSC_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_APSC Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_APSC()
+func _swig_getLIBRAW_FORMAT_FF() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_FF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_FF Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_FF()
+func _swig_getLIBRAW_FORMAT_MF() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_MF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_MF Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_MF()
+func _swig_getLIBRAW_FORMAT_APSH() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_APSH_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_APSH Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_APSH()
+func _swig_getLIBRAW_FORMAT_1INCH() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_1INCH_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_1INCH Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_1INCH()
+func _swig_getLIBRAW_FORMAT_1div2p3INCH() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_1div2p3INCH_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_1div2p3INCH Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_1div2p3INCH()
+func _swig_getLIBRAW_FORMAT_1div1p7INCH() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_1div1p7INCH_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_1div1p7INCH Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_1div1p7INCH()
+func _swig_getLIBRAW_FORMAT_FT() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_FT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_FT Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_FT()
+func _swig_getLIBRAW_FORMAT_CROP645() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_CROP645_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_CROP645 Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_CROP645()
+func _swig_getLIBRAW_FORMAT_LeicaS() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_LeicaS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_LeicaS Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_LeicaS()
+func _swig_getLIBRAW_FORMAT_645() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_645_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_645 Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_645()
+func _swig_getLIBRAW_FORMAT_66() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_66_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_66 Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_66()
+func _swig_getLIBRAW_FORMAT_69() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_69_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_69 Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_69()
+func _swig_getLIBRAW_FORMAT_LF() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_LF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_LF Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_LF()
+func _swig_getLIBRAW_FORMAT_Leica_DMR() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_Leica_DMR_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_Leica_DMR Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_Leica_DMR()
+func _swig_getLIBRAW_FORMAT_67() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_67_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_67 Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_67()
+func _swig_getLIBRAW_FORMAT_SigmaAPSC() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_SigmaAPSC_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_SigmaAPSC Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_SigmaAPSC()
+func _swig_getLIBRAW_FORMAT_SigmaMerrill() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_SigmaMerrill_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_SigmaMerrill Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_SigmaMerrill()
+func _swig_getLIBRAW_FORMAT_SigmaAPSH() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_SigmaAPSH_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_SigmaAPSH Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_SigmaAPSH()
+func _swig_getLIBRAW_FORMAT_3648() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_3648_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_3648 Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_3648()
+func _swig_getLIBRAW_FORMAT_68() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_68_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_68 Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_68()
+func _swig_getLIBRAW_FORMAT_TheLastOne() (_swig_ret Enum_SS_LibRaw_camera_formats) {
+	var swig_r Enum_SS_LibRaw_camera_formats
+	swig_r = (Enum_SS_LibRaw_camera_formats)(C._wrap_LIBRAW_FORMAT_TheLastOne_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FORMAT_TheLastOne Enum_SS_LibRaw_camera_formats = _swig_getLIBRAW_FORMAT_TheLastOne()
+type Enum_SS_LibRawImageAspects int
+func _swig_getLIBRAW_IMAGE_ASPECT_UNKNOWN() (_swig_ret Enum_SS_LibRawImageAspects) {
+	var swig_r Enum_SS_LibRawImageAspects
+	swig_r = (Enum_SS_LibRawImageAspects)(C._wrap_LIBRAW_IMAGE_ASPECT_UNKNOWN_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_IMAGE_ASPECT_UNKNOWN Enum_SS_LibRawImageAspects = _swig_getLIBRAW_IMAGE_ASPECT_UNKNOWN()
+func _swig_getLIBRAW_IMAGE_ASPECT_3to2() (_swig_ret Enum_SS_LibRawImageAspects) {
+	var swig_r Enum_SS_LibRawImageAspects
+	swig_r = (Enum_SS_LibRawImageAspects)(C._wrap_LIBRAW_IMAGE_ASPECT_3to2_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_IMAGE_ASPECT_3to2 Enum_SS_LibRawImageAspects = _swig_getLIBRAW_IMAGE_ASPECT_3to2()
+func _swig_getLIBRAW_IMAGE_ASPECT_1to1() (_swig_ret Enum_SS_LibRawImageAspects) {
+	var swig_r Enum_SS_LibRawImageAspects
+	swig_r = (Enum_SS_LibRawImageAspects)(C._wrap_LIBRAW_IMAGE_ASPECT_1to1_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_IMAGE_ASPECT_1to1 Enum_SS_LibRawImageAspects = _swig_getLIBRAW_IMAGE_ASPECT_1to1()
+func _swig_getLIBRAW_IMAGE_ASPECT_4to3() (_swig_ret Enum_SS_LibRawImageAspects) {
+	var swig_r Enum_SS_LibRawImageAspects
+	swig_r = (Enum_SS_LibRawImageAspects)(C._wrap_LIBRAW_IMAGE_ASPECT_4to3_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_IMAGE_ASPECT_4to3 Enum_SS_LibRawImageAspects = _swig_getLIBRAW_IMAGE_ASPECT_4to3()
+func _swig_getLIBRAW_IMAGE_ASPECT_16to9() (_swig_ret Enum_SS_LibRawImageAspects) {
+	var swig_r Enum_SS_LibRawImageAspects
+	swig_r = (Enum_SS_LibRawImageAspects)(C._wrap_LIBRAW_IMAGE_ASPECT_16to9_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_IMAGE_ASPECT_16to9 Enum_SS_LibRawImageAspects = _swig_getLIBRAW_IMAGE_ASPECT_16to9()
+func _swig_getLIBRAW_IMAGE_ASPECT_5to4() (_swig_ret Enum_SS_LibRawImageAspects) {
+	var swig_r Enum_SS_LibRawImageAspects
+	swig_r = (Enum_SS_LibRawImageAspects)(C._wrap_LIBRAW_IMAGE_ASPECT_5to4_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_IMAGE_ASPECT_5to4 Enum_SS_LibRawImageAspects = _swig_getLIBRAW_IMAGE_ASPECT_5to4()
+func _swig_getLIBRAW_IMAGE_ASPECT_OTHER() (_swig_ret Enum_SS_LibRawImageAspects) {
+	var swig_r Enum_SS_LibRawImageAspects
+	swig_r = (Enum_SS_LibRawImageAspects)(C._wrap_LIBRAW_IMAGE_ASPECT_OTHER_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_IMAGE_ASPECT_OTHER Enum_SS_LibRawImageAspects = _swig_getLIBRAW_IMAGE_ASPECT_OTHER()
+type Enum_SS_LibRaw_lens_focal_types int
+func _swig_getLIBRAW_FT_UNDEFINED() (_swig_ret Enum_SS_LibRaw_lens_focal_types) {
+	var swig_r Enum_SS_LibRaw_lens_focal_types
+	swig_r = (Enum_SS_LibRaw_lens_focal_types)(C._wrap_LIBRAW_FT_UNDEFINED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FT_UNDEFINED Enum_SS_LibRaw_lens_focal_types = _swig_getLIBRAW_FT_UNDEFINED()
+func _swig_getLIBRAW_FT_PRIME_LENS() (_swig_ret Enum_SS_LibRaw_lens_focal_types) {
+	var swig_r Enum_SS_LibRaw_lens_focal_types
+	swig_r = (Enum_SS_LibRaw_lens_focal_types)(C._wrap_LIBRAW_FT_PRIME_LENS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FT_PRIME_LENS Enum_SS_LibRaw_lens_focal_types = _swig_getLIBRAW_FT_PRIME_LENS()
+func _swig_getLIBRAW_FT_ZOOM_LENS() (_swig_ret Enum_SS_LibRaw_lens_focal_types) {
+	var swig_r Enum_SS_LibRaw_lens_focal_types
+	swig_r = (Enum_SS_LibRaw_lens_focal_types)(C._wrap_LIBRAW_FT_ZOOM_LENS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FT_ZOOM_LENS Enum_SS_LibRaw_lens_focal_types = _swig_getLIBRAW_FT_ZOOM_LENS()
+func _swig_getLIBRAW_FT_ZOOM_LENS_CONSTANT_APERTURE() (_swig_ret Enum_SS_LibRaw_lens_focal_types) {
+	var swig_r Enum_SS_LibRaw_lens_focal_types
+	swig_r = (Enum_SS_LibRaw_lens_focal_types)(C._wrap_LIBRAW_FT_ZOOM_LENS_CONSTANT_APERTURE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FT_ZOOM_LENS_CONSTANT_APERTURE Enum_SS_LibRaw_lens_focal_types = _swig_getLIBRAW_FT_ZOOM_LENS_CONSTANT_APERTURE()
+func _swig_getLIBRAW_FT_ZOOM_LENS_VARIABLE_APERTURE() (_swig_ret Enum_SS_LibRaw_lens_focal_types) {
+	var swig_r Enum_SS_LibRaw_lens_focal_types
+	swig_r = (Enum_SS_LibRaw_lens_focal_types)(C._wrap_LIBRAW_FT_ZOOM_LENS_VARIABLE_APERTURE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FT_ZOOM_LENS_VARIABLE_APERTURE Enum_SS_LibRaw_lens_focal_types = _swig_getLIBRAW_FT_ZOOM_LENS_VARIABLE_APERTURE()
+type Enum_SS_LibRaw_Canon_RecordModes int
+func _swig_getLIBRAW_Canon_RecordMode_UNDEFINED() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_UNDEFINED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_UNDEFINED Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_UNDEFINED()
+func _swig_getLIBRAW_Canon_RecordMode_JPEG() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_JPEG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_JPEG Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_JPEG()
+func _swig_getLIBRAW_Canon_RecordMode_CRW_THM() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_CRW_THM_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_CRW_THM Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_CRW_THM()
+func _swig_getLIBRAW_Canon_RecordMode_AVI_THM() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_AVI_THM_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_AVI_THM Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_AVI_THM()
+func _swig_getLIBRAW_Canon_RecordMode_TIF() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_TIF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_TIF Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_TIF()
+func _swig_getLIBRAW_Canon_RecordMode_TIF_JPEG() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_TIF_JPEG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_TIF_JPEG Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_TIF_JPEG()
+func _swig_getLIBRAW_Canon_RecordMode_CR2() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_CR2_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_CR2 Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_CR2()
+func _swig_getLIBRAW_Canon_RecordMode_CR2_JPEG() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_CR2_JPEG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_CR2_JPEG Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_CR2_JPEG()
+func _swig_getLIBRAW_Canon_RecordMode_UNKNOWN() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_UNKNOWN_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_UNKNOWN Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_UNKNOWN()
+func _swig_getLIBRAW_Canon_RecordMode_MOV() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_MOV_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_MOV Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_MOV()
+func _swig_getLIBRAW_Canon_RecordMode_MP4() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_MP4_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_MP4 Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_MP4()
+func _swig_getLIBRAW_Canon_RecordMode_CRM() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_CRM_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_CRM Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_CRM()
+func _swig_getLIBRAW_Canon_RecordMode_CR3() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_CR3_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_CR3 Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_CR3()
+func _swig_getLIBRAW_Canon_RecordMode_CR3_JPEG() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_CR3_JPEG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_CR3_JPEG Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_CR3_JPEG()
+func _swig_getLIBRAW_Canon_RecordMode_HEIF() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_HEIF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_HEIF Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_HEIF()
+func _swig_getLIBRAW_Canon_RecordMode_CR3_HEIF() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_CR3_HEIF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_CR3_HEIF Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_CR3_HEIF()
+func _swig_getLIBRAW_Canon_RecordMode_TheLastOne() (_swig_ret Enum_SS_LibRaw_Canon_RecordModes) {
+	var swig_r Enum_SS_LibRaw_Canon_RecordModes
+	swig_r = (Enum_SS_LibRaw_Canon_RecordModes)(C._wrap_LIBRAW_Canon_RecordMode_TheLastOne_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Canon_RecordMode_TheLastOne Enum_SS_LibRaw_Canon_RecordModes = _swig_getLIBRAW_Canon_RecordMode_TheLastOne()
+type Enum_SS_LibRaw_sony_cameratypes int
+func _swig_getLIBRAW_SONY_DSC() (_swig_ret Enum_SS_LibRaw_sony_cameratypes) {
+	var swig_r Enum_SS_LibRaw_sony_cameratypes
+	swig_r = (Enum_SS_LibRaw_sony_cameratypes)(C._wrap_LIBRAW_SONY_DSC_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_SONY_DSC Enum_SS_LibRaw_sony_cameratypes = _swig_getLIBRAW_SONY_DSC()
+func _swig_getLIBRAW_SONY_DSLR() (_swig_ret Enum_SS_LibRaw_sony_cameratypes) {
+	var swig_r Enum_SS_LibRaw_sony_cameratypes
+	swig_r = (Enum_SS_LibRaw_sony_cameratypes)(C._wrap_LIBRAW_SONY_DSLR_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_SONY_DSLR Enum_SS_LibRaw_sony_cameratypes = _swig_getLIBRAW_SONY_DSLR()
+func _swig_getLIBRAW_SONY_NEX() (_swig_ret Enum_SS_LibRaw_sony_cameratypes) {
+	var swig_r Enum_SS_LibRaw_sony_cameratypes
+	swig_r = (Enum_SS_LibRaw_sony_cameratypes)(C._wrap_LIBRAW_SONY_NEX_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_SONY_NEX Enum_SS_LibRaw_sony_cameratypes = _swig_getLIBRAW_SONY_NEX()
+func _swig_getLIBRAW_SONY_SLT() (_swig_ret Enum_SS_LibRaw_sony_cameratypes) {
+	var swig_r Enum_SS_LibRaw_sony_cameratypes
+	swig_r = (Enum_SS_LibRaw_sony_cameratypes)(C._wrap_LIBRAW_SONY_SLT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_SONY_SLT Enum_SS_LibRaw_sony_cameratypes = _swig_getLIBRAW_SONY_SLT()
+func _swig_getLIBRAW_SONY_ILCE() (_swig_ret Enum_SS_LibRaw_sony_cameratypes) {
+	var swig_r Enum_SS_LibRaw_sony_cameratypes
+	swig_r = (Enum_SS_LibRaw_sony_cameratypes)(C._wrap_LIBRAW_SONY_ILCE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_SONY_ILCE Enum_SS_LibRaw_sony_cameratypes = _swig_getLIBRAW_SONY_ILCE()
+func _swig_getLIBRAW_SONY_ILCA() (_swig_ret Enum_SS_LibRaw_sony_cameratypes) {
+	var swig_r Enum_SS_LibRaw_sony_cameratypes
+	swig_r = (Enum_SS_LibRaw_sony_cameratypes)(C._wrap_LIBRAW_SONY_ILCA_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_SONY_ILCA Enum_SS_LibRaw_sony_cameratypes = _swig_getLIBRAW_SONY_ILCA()
+type Enum_SS_LibRaw_KodakSensors int
+func _swig_getLIBRAW_Kodak_UnknownSensor() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_UnknownSensor_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_UnknownSensor Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_UnknownSensor()
+func _swig_getLIBRAW_Kodak_M1() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_M1_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_M1 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_M1()
+func _swig_getLIBRAW_Kodak_M15() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_M15_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_M15 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_M15()
+func _swig_getLIBRAW_Kodak_M16() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_M16_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_M16 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_M16()
+func _swig_getLIBRAW_Kodak_M17() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_M17_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_M17 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_M17()
+func _swig_getLIBRAW_Kodak_M2() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_M2_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_M2 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_M2()
+func _swig_getLIBRAW_Kodak_M23() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_M23_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_M23 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_M23()
+func _swig_getLIBRAW_Kodak_M24() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_M24_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_M24 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_M24()
+func _swig_getLIBRAW_Kodak_M3() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_M3_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_M3 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_M3()
+func _swig_getLIBRAW_Kodak_M5() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_M5_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_M5 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_M5()
+func _swig_getLIBRAW_Kodak_M6() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_M6_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_M6 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_M6()
+func _swig_getLIBRAW_Kodak_C14() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_C14_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_C14 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_C14()
+func _swig_getLIBRAW_Kodak_X14() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_X14_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_X14 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_X14()
+func _swig_getLIBRAW_Kodak_M11() (_swig_ret Enum_SS_LibRaw_KodakSensors) {
+	var swig_r Enum_SS_LibRaw_KodakSensors
+	swig_r = (Enum_SS_LibRaw_KodakSensors)(C._wrap_LIBRAW_Kodak_M11_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_Kodak_M11 Enum_SS_LibRaw_KodakSensors = _swig_getLIBRAW_Kodak_M11()
+type Enum_SS_LibRaw_HasselbladFormatCodes int
+func _swig_getLIBRAW_HF_Unknown() (_swig_ret Enum_SS_LibRaw_HasselbladFormatCodes) {
+	var swig_r Enum_SS_LibRaw_HasselbladFormatCodes
+	swig_r = (Enum_SS_LibRaw_HasselbladFormatCodes)(C._wrap_LIBRAW_HF_Unknown_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_HF_Unknown Enum_SS_LibRaw_HasselbladFormatCodes = _swig_getLIBRAW_HF_Unknown()
+func _swig_getLIBRAW_HF_3FR() (_swig_ret Enum_SS_LibRaw_HasselbladFormatCodes) {
+	var swig_r Enum_SS_LibRaw_HasselbladFormatCodes
+	swig_r = (Enum_SS_LibRaw_HasselbladFormatCodes)(C._wrap_LIBRAW_HF_3FR_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_HF_3FR Enum_SS_LibRaw_HasselbladFormatCodes = _swig_getLIBRAW_HF_3FR()
+func _swig_getLIBRAW_HF_FFF() (_swig_ret Enum_SS_LibRaw_HasselbladFormatCodes) {
+	var swig_r Enum_SS_LibRaw_HasselbladFormatCodes
+	swig_r = (Enum_SS_LibRaw_HasselbladFormatCodes)(C._wrap_LIBRAW_HF_FFF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_HF_FFF Enum_SS_LibRaw_HasselbladFormatCodes = _swig_getLIBRAW_HF_FFF()
+func _swig_getLIBRAW_HF_Imacon() (_swig_ret Enum_SS_LibRaw_HasselbladFormatCodes) {
+	var swig_r Enum_SS_LibRaw_HasselbladFormatCodes
+	swig_r = (Enum_SS_LibRaw_HasselbladFormatCodes)(C._wrap_LIBRAW_HF_Imacon_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_HF_Imacon Enum_SS_LibRaw_HasselbladFormatCodes = _swig_getLIBRAW_HF_Imacon()
+func _swig_getLIBRAW_HF_HasselbladDNG() (_swig_ret Enum_SS_LibRaw_HasselbladFormatCodes) {
+	var swig_r Enum_SS_LibRaw_HasselbladFormatCodes
+	swig_r = (Enum_SS_LibRaw_HasselbladFormatCodes)(C._wrap_LIBRAW_HF_HasselbladDNG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_HF_HasselbladDNG Enum_SS_LibRaw_HasselbladFormatCodes = _swig_getLIBRAW_HF_HasselbladDNG()
+func _swig_getLIBRAW_HF_AdobeDNG() (_swig_ret Enum_SS_LibRaw_HasselbladFormatCodes) {
+	var swig_r Enum_SS_LibRaw_HasselbladFormatCodes
+	swig_r = (Enum_SS_LibRaw_HasselbladFormatCodes)(C._wrap_LIBRAW_HF_AdobeDNG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_HF_AdobeDNG Enum_SS_LibRaw_HasselbladFormatCodes = _swig_getLIBRAW_HF_AdobeDNG()
+func _swig_getLIBRAW_HF_AdobeDNG_fromPhocusDNG() (_swig_ret Enum_SS_LibRaw_HasselbladFormatCodes) {
+	var swig_r Enum_SS_LibRaw_HasselbladFormatCodes
+	swig_r = (Enum_SS_LibRaw_HasselbladFormatCodes)(C._wrap_LIBRAW_HF_AdobeDNG_fromPhocusDNG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_HF_AdobeDNG_fromPhocusDNG Enum_SS_LibRaw_HasselbladFormatCodes = _swig_getLIBRAW_HF_AdobeDNG_fromPhocusDNG()
+type Enum_SS_LibRaw_processing_options int
+func _swig_getLIBRAW_PROCESSING_SONYARW2_NONE() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_SONYARW2_NONE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_SONYARW2_NONE Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_SONYARW2_NONE()
+func _swig_getLIBRAW_PROCESSING_SONYARW2_BASEONLY() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_SONYARW2_BASEONLY_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_SONYARW2_BASEONLY Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_SONYARW2_BASEONLY()
+func _swig_getLIBRAW_PROCESSING_SONYARW2_DELTAONLY() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_SONYARW2_DELTAONLY_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_SONYARW2_DELTAONLY Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_SONYARW2_DELTAONLY()
+func _swig_getLIBRAW_PROCESSING_SONYARW2_DELTAZEROBASE() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_SONYARW2_DELTAZEROBASE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_SONYARW2_DELTAZEROBASE Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_SONYARW2_DELTAZEROBASE()
+func _swig_getLIBRAW_PROCESSING_SONYARW2_DELTATOVALUE() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_SONYARW2_DELTATOVALUE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_SONYARW2_DELTATOVALUE Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_SONYARW2_DELTATOVALUE()
+func _swig_getLIBRAW_PROCESSING_SONYARW2_ALLFLAGS() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_SONYARW2_ALLFLAGS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_SONYARW2_ALLFLAGS Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_SONYARW2_ALLFLAGS()
+func _swig_getLIBRAW_PROCESSING_DP2Q_INTERPOLATERG() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_DP2Q_INTERPOLATERG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_DP2Q_INTERPOLATERG Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_DP2Q_INTERPOLATERG()
+func _swig_getLIBRAW_PROCESSING_DP2Q_INTERPOLATEAF() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_DP2Q_INTERPOLATEAF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_DP2Q_INTERPOLATEAF Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_DP2Q_INTERPOLATEAF()
+func _swig_getLIBRAW_PROCESSING_PENTAX_PS_ALLFRAMES() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_PENTAX_PS_ALLFRAMES_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_PENTAX_PS_ALLFRAMES Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_PENTAX_PS_ALLFRAMES()
+func _swig_getLIBRAW_PROCESSING_CONVERTFLOAT_TO_INT() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_CONVERTFLOAT_TO_INT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_CONVERTFLOAT_TO_INT Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_CONVERTFLOAT_TO_INT()
+func _swig_getLIBRAW_PROCESSING_SRAW_NO_RGB() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_SRAW_NO_RGB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_SRAW_NO_RGB Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_SRAW_NO_RGB()
+func _swig_getLIBRAW_PROCESSING_SRAW_NO_INTERPOLATE() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_SRAW_NO_INTERPOLATE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_SRAW_NO_INTERPOLATE Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_SRAW_NO_INTERPOLATE()
+func _swig_getLIBRAW_PROCESSING_ARQ_SKIP_CHANNEL_SWAP() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_ARQ_SKIP_CHANNEL_SWAP_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_ARQ_SKIP_CHANNEL_SWAP Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_ARQ_SKIP_CHANNEL_SWAP()
+func _swig_getLIBRAW_PROCESSING_NO_ROTATE_FOR_KODAK_THUMBNAILS() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_NO_ROTATE_FOR_KODAK_THUMBNAILS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_NO_ROTATE_FOR_KODAK_THUMBNAILS Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_NO_ROTATE_FOR_KODAK_THUMBNAILS()
+func _swig_getLIBRAW_PROCESSING_USE_DNG_DEFAULT_CROP() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_USE_DNG_DEFAULT_CROP_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_USE_DNG_DEFAULT_CROP Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_USE_DNG_DEFAULT_CROP()
+func _swig_getLIBRAW_PROCESSING_USE_PPM16_THUMBS() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_USE_PPM16_THUMBS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_USE_PPM16_THUMBS Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_USE_PPM16_THUMBS()
+func _swig_getLIBRAW_PROCESSING_SKIP_MAKERNOTES() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_SKIP_MAKERNOTES_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_SKIP_MAKERNOTES Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_SKIP_MAKERNOTES()
+func _swig_getLIBRAW_PROCESSING_DONT_CHECK_DNG_ILLUMINANT() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_DONT_CHECK_DNG_ILLUMINANT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_DONT_CHECK_DNG_ILLUMINANT Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_DONT_CHECK_DNG_ILLUMINANT()
+func _swig_getLIBRAW_PROCESSING_DNGSDK_ZEROCOPY() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_DNGSDK_ZEROCOPY_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_DNGSDK_ZEROCOPY Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_DNGSDK_ZEROCOPY()
+func _swig_getLIBRAW_PROCESSING_ZEROFILTERS_FOR_MONOCHROMETIFFS() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_ZEROFILTERS_FOR_MONOCHROMETIFFS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_ZEROFILTERS_FOR_MONOCHROMETIFFS Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_ZEROFILTERS_FOR_MONOCHROMETIFFS()
+func _swig_getLIBRAW_PROCESSING_DNG_ADD_ENHANCED() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_DNG_ADD_ENHANCED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_DNG_ADD_ENHANCED Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_DNG_ADD_ENHANCED()
+func _swig_getLIBRAW_PROCESSING_DNG_ADD_PREVIEWS() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_DNG_ADD_PREVIEWS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_DNG_ADD_PREVIEWS Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_DNG_ADD_PREVIEWS()
+func _swig_getLIBRAW_PROCESSING_DNG_PREFER_LARGEST_IMAGE() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_DNG_PREFER_LARGEST_IMAGE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_DNG_PREFER_LARGEST_IMAGE Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_DNG_PREFER_LARGEST_IMAGE()
+func _swig_getLIBRAW_PROCESSING_DNG_STAGE2() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_DNG_STAGE2_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_DNG_STAGE2 Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_DNG_STAGE2()
+func _swig_getLIBRAW_PROCESSING_DNG_STAGE3() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_DNG_STAGE3_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_DNG_STAGE3 Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_DNG_STAGE3()
+func _swig_getLIBRAW_PROCESSING_DNG_ALLOWSIZECHANGE() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_DNG_ALLOWSIZECHANGE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_DNG_ALLOWSIZECHANGE Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_DNG_ALLOWSIZECHANGE()
+func _swig_getLIBRAW_PROCESSING_DNG_DISABLEWBADJUST() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_DNG_DISABLEWBADJUST_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_DNG_DISABLEWBADJUST Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_DNG_DISABLEWBADJUST()
+func _swig_getLIBRAW_PROCESSING_PROVIDE_NONSTANDARD_WB() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_PROVIDE_NONSTANDARD_WB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_PROVIDE_NONSTANDARD_WB Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_PROVIDE_NONSTANDARD_WB()
+func _swig_getLIBRAW_PROCESSING_CAMERAWB_FALLBACK_TO_DAYLIGHT() (_swig_ret Enum_SS_LibRaw_processing_options) {
+	var swig_r Enum_SS_LibRaw_processing_options
+	swig_r = (Enum_SS_LibRaw_processing_options)(C._wrap_LIBRAW_PROCESSING_CAMERAWB_FALLBACK_TO_DAYLIGHT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROCESSING_CAMERAWB_FALLBACK_TO_DAYLIGHT Enum_SS_LibRaw_processing_options = _swig_getLIBRAW_PROCESSING_CAMERAWB_FALLBACK_TO_DAYLIGHT()
+type Enum_SS_LibRaw_decoder_flags int
+func _swig_getLIBRAW_DECODER_HASCURVE() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_HASCURVE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_HASCURVE Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_HASCURVE()
+func _swig_getLIBRAW_DECODER_SONYARW2() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_SONYARW2_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_SONYARW2 Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_SONYARW2()
+func _swig_getLIBRAW_DECODER_TRYRAWSPEED() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_TRYRAWSPEED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_TRYRAWSPEED Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_TRYRAWSPEED()
+func _swig_getLIBRAW_DECODER_OWNALLOC() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_OWNALLOC_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_OWNALLOC Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_OWNALLOC()
+func _swig_getLIBRAW_DECODER_FIXEDMAXC() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_FIXEDMAXC_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_FIXEDMAXC Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_FIXEDMAXC()
+func _swig_getLIBRAW_DECODER_ADOBECOPYPIXEL() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_ADOBECOPYPIXEL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_ADOBECOPYPIXEL Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_ADOBECOPYPIXEL()
+func _swig_getLIBRAW_DECODER_LEGACY_WITH_MARGINS() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_LEGACY_WITH_MARGINS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_LEGACY_WITH_MARGINS Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_LEGACY_WITH_MARGINS()
+func _swig_getLIBRAW_DECODER_3CHANNEL() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_3CHANNEL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_3CHANNEL Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_3CHANNEL()
+func _swig_getLIBRAW_DECODER_SINAR4SHOT() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_SINAR4SHOT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_SINAR4SHOT Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_SINAR4SHOT()
+func _swig_getLIBRAW_DECODER_FLATDATA() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_FLATDATA_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_FLATDATA Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_FLATDATA()
+func _swig_getLIBRAW_DECODER_FLAT_BG2_SWAPPED() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_FLAT_BG2_SWAPPED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_FLAT_BG2_SWAPPED Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_FLAT_BG2_SWAPPED()
+func _swig_getLIBRAW_DECODER_NOTSET() (_swig_ret Enum_SS_LibRaw_decoder_flags) {
+	var swig_r Enum_SS_LibRaw_decoder_flags
+	swig_r = (Enum_SS_LibRaw_decoder_flags)(C._wrap_LIBRAW_DECODER_NOTSET_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DECODER_NOTSET Enum_SS_LibRaw_decoder_flags = _swig_getLIBRAW_DECODER_NOTSET()
+const LIBRAW_XTRANS int = 9
+type Enum_SS_LibRaw_constructor_flags int
+func _swig_getLIBRAW_OPTIONS_NONE() (_swig_ret Enum_SS_LibRaw_constructor_flags) {
+	var swig_r Enum_SS_LibRaw_constructor_flags
+	swig_r = (Enum_SS_LibRaw_constructor_flags)(C._wrap_LIBRAW_OPTIONS_NONE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_OPTIONS_NONE Enum_SS_LibRaw_constructor_flags = _swig_getLIBRAW_OPTIONS_NONE()
+func _swig_getLIBRAW_OPIONS_NO_MEMERR_CALLBACK() (_swig_ret Enum_SS_LibRaw_constructor_flags) {
+	var swig_r Enum_SS_LibRaw_constructor_flags
+	swig_r = (Enum_SS_LibRaw_constructor_flags)(C._wrap_LIBRAW_OPIONS_NO_MEMERR_CALLBACK_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_OPIONS_NO_MEMERR_CALLBACK Enum_SS_LibRaw_constructor_flags = _swig_getLIBRAW_OPIONS_NO_MEMERR_CALLBACK()
+func _swig_getLIBRAW_OPIONS_NO_DATAERR_CALLBACK() (_swig_ret Enum_SS_LibRaw_constructor_flags) {
+	var swig_r Enum_SS_LibRaw_constructor_flags
+	swig_r = (Enum_SS_LibRaw_constructor_flags)(C._wrap_LIBRAW_OPIONS_NO_DATAERR_CALLBACK_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_OPIONS_NO_DATAERR_CALLBACK Enum_SS_LibRaw_constructor_flags = _swig_getLIBRAW_OPIONS_NO_DATAERR_CALLBACK()
+type Enum_SS_LibRaw_warnings int
+func _swig_getLIBRAW_WARN_NONE() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_NONE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_NONE Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_NONE()
+func _swig_getLIBRAW_WARN_BAD_CAMERA_WB() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_BAD_CAMERA_WB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_BAD_CAMERA_WB Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_BAD_CAMERA_WB()
+func _swig_getLIBRAW_WARN_NO_METADATA() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_NO_METADATA_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_NO_METADATA Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_NO_METADATA()
+func _swig_getLIBRAW_WARN_NO_JPEGLIB() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_NO_JPEGLIB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_NO_JPEGLIB Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_NO_JPEGLIB()
+func _swig_getLIBRAW_WARN_NO_EMBEDDED_PROFILE() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_NO_EMBEDDED_PROFILE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_NO_EMBEDDED_PROFILE Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_NO_EMBEDDED_PROFILE()
+func _swig_getLIBRAW_WARN_NO_INPUT_PROFILE() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_NO_INPUT_PROFILE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_NO_INPUT_PROFILE Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_NO_INPUT_PROFILE()
+func _swig_getLIBRAW_WARN_BAD_OUTPUT_PROFILE() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_BAD_OUTPUT_PROFILE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_BAD_OUTPUT_PROFILE Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_BAD_OUTPUT_PROFILE()
+func _swig_getLIBRAW_WARN_NO_BADPIXELMAP() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_NO_BADPIXELMAP_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_NO_BADPIXELMAP Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_NO_BADPIXELMAP()
+func _swig_getLIBRAW_WARN_BAD_DARKFRAME_FILE() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_BAD_DARKFRAME_FILE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_BAD_DARKFRAME_FILE Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_BAD_DARKFRAME_FILE()
+func _swig_getLIBRAW_WARN_BAD_DARKFRAME_DIM() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_BAD_DARKFRAME_DIM_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_BAD_DARKFRAME_DIM Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_BAD_DARKFRAME_DIM()
+func _swig_getLIBRAW_WARN_NO_JASPER() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_NO_JASPER_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_NO_JASPER Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_NO_JASPER()
+func _swig_getLIBRAW_WARN_RAWSPEED_PROBLEM() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_RAWSPEED_PROBLEM_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_RAWSPEED_PROBLEM Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_RAWSPEED_PROBLEM()
+func _swig_getLIBRAW_WARN_RAWSPEED_UNSUPPORTED() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_RAWSPEED_UNSUPPORTED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_RAWSPEED_UNSUPPORTED Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_RAWSPEED_UNSUPPORTED()
+func _swig_getLIBRAW_WARN_RAWSPEED_PROCESSED() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_RAWSPEED_PROCESSED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_RAWSPEED_PROCESSED Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_RAWSPEED_PROCESSED()
+func _swig_getLIBRAW_WARN_FALLBACK_TO_AHD() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_FALLBACK_TO_AHD_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_FALLBACK_TO_AHD Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_FALLBACK_TO_AHD()
+func _swig_getLIBRAW_WARN_PARSEFUJI_PROCESSED() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_PARSEFUJI_PROCESSED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_PARSEFUJI_PROCESSED Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_PARSEFUJI_PROCESSED()
+func _swig_getLIBRAW_WARN_DNGSDK_PROCESSED() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_DNGSDK_PROCESSED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_DNGSDK_PROCESSED Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_DNGSDK_PROCESSED()
+func _swig_getLIBRAW_WARN_DNG_IMAGES_REORDERED() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_DNG_IMAGES_REORDERED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_DNG_IMAGES_REORDERED Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_DNG_IMAGES_REORDERED()
+func _swig_getLIBRAW_WARN_DNG_STAGE2_APPLIED() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_DNG_STAGE2_APPLIED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_DNG_STAGE2_APPLIED Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_DNG_STAGE2_APPLIED()
+func _swig_getLIBRAW_WARN_DNG_STAGE3_APPLIED() (_swig_ret Enum_SS_LibRaw_warnings) {
+	var swig_r Enum_SS_LibRaw_warnings
+	swig_r = (Enum_SS_LibRaw_warnings)(C._wrap_LIBRAW_WARN_DNG_STAGE3_APPLIED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_WARN_DNG_STAGE3_APPLIED Enum_SS_LibRaw_warnings = _swig_getLIBRAW_WARN_DNG_STAGE3_APPLIED()
+type Enum_SS_LibRaw_exceptions int
+func _swig_getLIBRAW_EXCEPTION_NONE() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_NONE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_NONE Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_NONE()
+func _swig_getLIBRAW_EXCEPTION_ALLOC() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_ALLOC_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_ALLOC Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_ALLOC()
+func _swig_getLIBRAW_EXCEPTION_DECODE_RAW() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_DECODE_RAW_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_DECODE_RAW Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_DECODE_RAW()
+func _swig_getLIBRAW_EXCEPTION_DECODE_JPEG() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_DECODE_JPEG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_DECODE_JPEG Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_DECODE_JPEG()
+func _swig_getLIBRAW_EXCEPTION_IO_EOF() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_IO_EOF_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_IO_EOF Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_IO_EOF()
+func _swig_getLIBRAW_EXCEPTION_IO_CORRUPT() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_IO_CORRUPT_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_IO_CORRUPT Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_IO_CORRUPT()
+func _swig_getLIBRAW_EXCEPTION_CANCELLED_BY_CALLBACK() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_CANCELLED_BY_CALLBACK_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_CANCELLED_BY_CALLBACK Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_CANCELLED_BY_CALLBACK()
+func _swig_getLIBRAW_EXCEPTION_BAD_CROP() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_BAD_CROP_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_BAD_CROP Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_BAD_CROP()
+func _swig_getLIBRAW_EXCEPTION_IO_BADFILE() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_IO_BADFILE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_IO_BADFILE Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_IO_BADFILE()
+func _swig_getLIBRAW_EXCEPTION_DECODE_JPEG2000() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_DECODE_JPEG2000_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_DECODE_JPEG2000 Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_DECODE_JPEG2000()
+func _swig_getLIBRAW_EXCEPTION_TOOBIG() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_TOOBIG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_TOOBIG Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_TOOBIG()
+func _swig_getLIBRAW_EXCEPTION_MEMPOOL() (_swig_ret Enum_SS_LibRaw_exceptions) {
+	var swig_r Enum_SS_LibRaw_exceptions
+	swig_r = (Enum_SS_LibRaw_exceptions)(C._wrap_LIBRAW_EXCEPTION_MEMPOOL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_EXCEPTION_MEMPOOL Enum_SS_LibRaw_exceptions = _swig_getLIBRAW_EXCEPTION_MEMPOOL()
+type Enum_SS_LibRaw_progress int
+func _swig_getLIBRAW_PROGRESS_START() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_START_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_START Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_START()
+func _swig_getLIBRAW_PROGRESS_OPEN() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_OPEN_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_OPEN Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_OPEN()
+func _swig_getLIBRAW_PROGRESS_IDENTIFY() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_IDENTIFY_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_IDENTIFY Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_IDENTIFY()
+func _swig_getLIBRAW_PROGRESS_SIZE_ADJUST() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_SIZE_ADJUST_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_SIZE_ADJUST Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_SIZE_ADJUST()
+func _swig_getLIBRAW_PROGRESS_LOAD_RAW() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_LOAD_RAW_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_LOAD_RAW Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_LOAD_RAW()
+func _swig_getLIBRAW_PROGRESS_RAW2_IMAGE() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_RAW2_IMAGE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_RAW2_IMAGE Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_RAW2_IMAGE()
+func _swig_getLIBRAW_PROGRESS_REMOVE_ZEROES() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_REMOVE_ZEROES_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_REMOVE_ZEROES Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_REMOVE_ZEROES()
+func _swig_getLIBRAW_PROGRESS_BAD_PIXELS() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_BAD_PIXELS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_BAD_PIXELS Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_BAD_PIXELS()
+func _swig_getLIBRAW_PROGRESS_DARK_FRAME() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_DARK_FRAME_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_DARK_FRAME Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_DARK_FRAME()
+func _swig_getLIBRAW_PROGRESS_FOVEON_INTERPOLATE() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_FOVEON_INTERPOLATE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_FOVEON_INTERPOLATE Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_FOVEON_INTERPOLATE()
+func _swig_getLIBRAW_PROGRESS_SCALE_COLORS() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_SCALE_COLORS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_SCALE_COLORS Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_SCALE_COLORS()
+func _swig_getLIBRAW_PROGRESS_PRE_INTERPOLATE() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_PRE_INTERPOLATE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_PRE_INTERPOLATE Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_PRE_INTERPOLATE()
+func _swig_getLIBRAW_PROGRESS_INTERPOLATE() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_INTERPOLATE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_INTERPOLATE Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_INTERPOLATE()
+func _swig_getLIBRAW_PROGRESS_MIX_GREEN() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_MIX_GREEN_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_MIX_GREEN Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_MIX_GREEN()
+func _swig_getLIBRAW_PROGRESS_MEDIAN_FILTER() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_MEDIAN_FILTER_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_MEDIAN_FILTER Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_MEDIAN_FILTER()
+func _swig_getLIBRAW_PROGRESS_HIGHLIGHTS() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_HIGHLIGHTS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_HIGHLIGHTS Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_HIGHLIGHTS()
+func _swig_getLIBRAW_PROGRESS_FUJI_ROTATE() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_FUJI_ROTATE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_FUJI_ROTATE Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_FUJI_ROTATE()
+func _swig_getLIBRAW_PROGRESS_FLIP() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_FLIP_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_FLIP Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_FLIP()
+func _swig_getLIBRAW_PROGRESS_APPLY_PROFILE() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_APPLY_PROFILE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_APPLY_PROFILE Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_APPLY_PROFILE()
+func _swig_getLIBRAW_PROGRESS_CONVERT_RGB() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_CONVERT_RGB_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_CONVERT_RGB Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_CONVERT_RGB()
+func _swig_getLIBRAW_PROGRESS_STRETCH() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_STRETCH_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_STRETCH Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_STRETCH()
+func _swig_getLIBRAW_PROGRESS_STAGE20() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_STAGE20_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_STAGE20 Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_STAGE20()
+func _swig_getLIBRAW_PROGRESS_STAGE21() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_STAGE21_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_STAGE21 Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_STAGE21()
+func _swig_getLIBRAW_PROGRESS_STAGE22() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_STAGE22_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_STAGE22 Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_STAGE22()
+func _swig_getLIBRAW_PROGRESS_STAGE23() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_STAGE23_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_STAGE23 Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_STAGE23()
+func _swig_getLIBRAW_PROGRESS_STAGE24() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_STAGE24_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_STAGE24 Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_STAGE24()
+func _swig_getLIBRAW_PROGRESS_STAGE25() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_STAGE25_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_STAGE25 Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_STAGE25()
+func _swig_getLIBRAW_PROGRESS_STAGE26() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_STAGE26_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_STAGE26 Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_STAGE26()
+func _swig_getLIBRAW_PROGRESS_STAGE27() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_STAGE27_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_STAGE27 Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_STAGE27()
+func _swig_getLIBRAW_PROGRESS_THUMB_LOAD() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_THUMB_LOAD_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_THUMB_LOAD Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_THUMB_LOAD()
+func _swig_getLIBRAW_PROGRESS_TRESERVED1() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_TRESERVED1_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_TRESERVED1 Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_TRESERVED1()
+func _swig_getLIBRAW_PROGRESS_TRESERVED2() (_swig_ret Enum_SS_LibRaw_progress) {
+	var swig_r Enum_SS_LibRaw_progress
+	swig_r = (Enum_SS_LibRaw_progress)(C._wrap_LIBRAW_PROGRESS_TRESERVED2_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_PROGRESS_TRESERVED2 Enum_SS_LibRaw_progress = _swig_getLIBRAW_PROGRESS_TRESERVED2()
+const LIBRAW_PROGRESS_THUMB_MASK int = 0x0fffffff
+type Enum_SS_LibRaw_errors int
+func _swig_getLIBRAW_SUCCESS() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_SUCCESS_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_SUCCESS Enum_SS_LibRaw_errors = _swig_getLIBRAW_SUCCESS()
+func _swig_getLIBRAW_UNSPECIFIED_ERROR() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_UNSPECIFIED_ERROR_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_UNSPECIFIED_ERROR Enum_SS_LibRaw_errors = _swig_getLIBRAW_UNSPECIFIED_ERROR()
+func _swig_getLIBRAW_FILE_UNSUPPORTED() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_FILE_UNSUPPORTED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_FILE_UNSUPPORTED Enum_SS_LibRaw_errors = _swig_getLIBRAW_FILE_UNSUPPORTED()
+func _swig_getLIBRAW_REQUEST_FOR_NONEXISTENT_IMAGE() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_REQUEST_FOR_NONEXISTENT_IMAGE_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_REQUEST_FOR_NONEXISTENT_IMAGE Enum_SS_LibRaw_errors = _swig_getLIBRAW_REQUEST_FOR_NONEXISTENT_IMAGE()
+func _swig_getLIBRAW_OUT_OF_ORDER_CALL() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_OUT_OF_ORDER_CALL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_OUT_OF_ORDER_CALL Enum_SS_LibRaw_errors = _swig_getLIBRAW_OUT_OF_ORDER_CALL()
+func _swig_getLIBRAW_NO_THUMBNAIL() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_NO_THUMBNAIL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_NO_THUMBNAIL Enum_SS_LibRaw_errors = _swig_getLIBRAW_NO_THUMBNAIL()
+func _swig_getLIBRAW_UNSUPPORTED_THUMBNAIL() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_UNSUPPORTED_THUMBNAIL_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_UNSUPPORTED_THUMBNAIL Enum_SS_LibRaw_errors = _swig_getLIBRAW_UNSUPPORTED_THUMBNAIL()
+func _swig_getLIBRAW_INPUT_CLOSED() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_INPUT_CLOSED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_INPUT_CLOSED Enum_SS_LibRaw_errors = _swig_getLIBRAW_INPUT_CLOSED()
+func _swig_getLIBRAW_NOT_IMPLEMENTED() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_NOT_IMPLEMENTED_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_NOT_IMPLEMENTED Enum_SS_LibRaw_errors = _swig_getLIBRAW_NOT_IMPLEMENTED()
+func _swig_getLIBRAW_UNSUFFICIENT_MEMORY() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_UNSUFFICIENT_MEMORY_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_UNSUFFICIENT_MEMORY Enum_SS_LibRaw_errors = _swig_getLIBRAW_UNSUFFICIENT_MEMORY()
+func _swig_getLIBRAW_DATA_ERROR() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_DATA_ERROR_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_DATA_ERROR Enum_SS_LibRaw_errors = _swig_getLIBRAW_DATA_ERROR()
+func _swig_getLIBRAW_IO_ERROR() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_IO_ERROR_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_IO_ERROR Enum_SS_LibRaw_errors = _swig_getLIBRAW_IO_ERROR()
+func _swig_getLIBRAW_CANCELLED_BY_CALLBACK() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_CANCELLED_BY_CALLBACK_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_CANCELLED_BY_CALLBACK Enum_SS_LibRaw_errors = _swig_getLIBRAW_CANCELLED_BY_CALLBACK()
+func _swig_getLIBRAW_BAD_CROP() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_BAD_CROP_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_BAD_CROP Enum_SS_LibRaw_errors = _swig_getLIBRAW_BAD_CROP()
+func _swig_getLIBRAW_TOO_BIG() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_TOO_BIG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_TOO_BIG Enum_SS_LibRaw_errors = _swig_getLIBRAW_TOO_BIG()
+func _swig_getLIBRAW_MEMPOOL_OVERFLOW() (_swig_ret Enum_SS_LibRaw_errors) {
+	var swig_r Enum_SS_LibRaw_errors
+	swig_r = (Enum_SS_LibRaw_errors)(C._wrap_LIBRAW_MEMPOOL_OVERFLOW_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_MEMPOOL_OVERFLOW Enum_SS_LibRaw_errors = _swig_getLIBRAW_MEMPOOL_OVERFLOW()
+type Enum_SS_LibRaw_thumbnail_formats int
+func _swig_getLIBRAW_THUMBNAIL_UNKNOWN() (_swig_ret Enum_SS_LibRaw_thumbnail_formats) {
+	var swig_r Enum_SS_LibRaw_thumbnail_formats
+	swig_r = (Enum_SS_LibRaw_thumbnail_formats)(C._wrap_LIBRAW_THUMBNAIL_UNKNOWN_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_THUMBNAIL_UNKNOWN Enum_SS_LibRaw_thumbnail_formats = _swig_getLIBRAW_THUMBNAIL_UNKNOWN()
+func _swig_getLIBRAW_THUMBNAIL_JPEG() (_swig_ret Enum_SS_LibRaw_thumbnail_formats) {
+	var swig_r Enum_SS_LibRaw_thumbnail_formats
+	swig_r = (Enum_SS_LibRaw_thumbnail_formats)(C._wrap_LIBRAW_THUMBNAIL_JPEG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_THUMBNAIL_JPEG Enum_SS_LibRaw_thumbnail_formats = _swig_getLIBRAW_THUMBNAIL_JPEG()
+func _swig_getLIBRAW_THUMBNAIL_BITMAP() (_swig_ret Enum_SS_LibRaw_thumbnail_formats) {
+	var swig_r Enum_SS_LibRaw_thumbnail_formats
+	swig_r = (Enum_SS_LibRaw_thumbnail_formats)(C._wrap_LIBRAW_THUMBNAIL_BITMAP_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_THUMBNAIL_BITMAP Enum_SS_LibRaw_thumbnail_formats = _swig_getLIBRAW_THUMBNAIL_BITMAP()
+func _swig_getLIBRAW_THUMBNAIL_BITMAP16() (_swig_ret Enum_SS_LibRaw_thumbnail_formats) {
+	var swig_r Enum_SS_LibRaw_thumbnail_formats
+	swig_r = (Enum_SS_LibRaw_thumbnail_formats)(C._wrap_LIBRAW_THUMBNAIL_BITMAP16_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_THUMBNAIL_BITMAP16 Enum_SS_LibRaw_thumbnail_formats = _swig_getLIBRAW_THUMBNAIL_BITMAP16()
+func _swig_getLIBRAW_THUMBNAIL_LAYER() (_swig_ret Enum_SS_LibRaw_thumbnail_formats) {
+	var swig_r Enum_SS_LibRaw_thumbnail_formats
+	swig_r = (Enum_SS_LibRaw_thumbnail_formats)(C._wrap_LIBRAW_THUMBNAIL_LAYER_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_THUMBNAIL_LAYER Enum_SS_LibRaw_thumbnail_formats = _swig_getLIBRAW_THUMBNAIL_LAYER()
+func _swig_getLIBRAW_THUMBNAIL_ROLLEI() (_swig_ret Enum_SS_LibRaw_thumbnail_formats) {
+	var swig_r Enum_SS_LibRaw_thumbnail_formats
+	swig_r = (Enum_SS_LibRaw_thumbnail_formats)(C._wrap_LIBRAW_THUMBNAIL_ROLLEI_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_THUMBNAIL_ROLLEI Enum_SS_LibRaw_thumbnail_formats = _swig_getLIBRAW_THUMBNAIL_ROLLEI()
+type Enum_SS_LibRaw_image_formats int
+func _swig_getLIBRAW_IMAGE_JPEG() (_swig_ret Enum_SS_LibRaw_image_formats) {
+	var swig_r Enum_SS_LibRaw_image_formats
+	swig_r = (Enum_SS_LibRaw_image_formats)(C._wrap_LIBRAW_IMAGE_JPEG_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_IMAGE_JPEG Enum_SS_LibRaw_image_formats = _swig_getLIBRAW_IMAGE_JPEG()
+func _swig_getLIBRAW_IMAGE_BITMAP() (_swig_ret Enum_SS_LibRaw_image_formats) {
+	var swig_r Enum_SS_LibRaw_image_formats
+	swig_r = (Enum_SS_LibRaw_image_formats)(C._wrap_LIBRAW_IMAGE_BITMAP_librawgo_91c7e8cf36b5548d())
+	return swig_r
+}
+
+var LIBRAW_IMAGE_BITMAP Enum_SS_LibRaw_image_formats = _swig_getLIBRAW_IMAGE_BITMAP()
+type SwigcptrLibraw_decoder_info_t uintptr
+
+func (p SwigcptrLibraw_decoder_info_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_decoder_info_t) SwigIsLibraw_decoder_info_t() {
+}
+
+func (arg1 SwigcptrLibraw_decoder_info_t) SetDecoder_name(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_decoder_info_t_decoder_name_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_1)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_decoder_info_t) GetDecoder_name() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_decoder_info_t_decoder_name_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_decoder_info_t) SetDecoder_flags(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_decoder_info_t_decoder_flags_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_decoder_info_t) GetDecoder_flags() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_decoder_info_t_decoder_flags_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_decoder_info_t() (_swig_ret Libraw_decoder_info_t) {
+	var swig_r Libraw_decoder_info_t
+	swig_r = (Libraw_decoder_info_t)(SwigcptrLibraw_decoder_info_t(C._wrap_new_libraw_decoder_info_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_decoder_info_t(arg1 Libraw_decoder_info_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_decoder_info_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_decoder_info_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_decoder_info_t()
+	SetDecoder_name(arg2 string)
+	GetDecoder_name() (_swig_ret string)
+	SetDecoder_flags(arg2 uint)
+	GetDecoder_flags() (_swig_ret uint)
+}
+
+type SwigcptrLibraw_internal_output_params_t uintptr
+
+func (p SwigcptrLibraw_internal_output_params_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_internal_output_params_t) SwigIsLibraw_internal_output_params_t() {
+}
+
+func (arg1 SwigcptrLibraw_internal_output_params_t) SetMix_green(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_internal_output_params_t_mix_green_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_internal_output_params_t) GetMix_green() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_internal_output_params_t_mix_green_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_internal_output_params_t) SetRaw_color(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_internal_output_params_t_raw_color_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_internal_output_params_t) GetRaw_color() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_internal_output_params_t_raw_color_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_internal_output_params_t) SetZero_is_bad(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_internal_output_params_t_zero_is_bad_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_internal_output_params_t) GetZero_is_bad() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_internal_output_params_t_zero_is_bad_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_internal_output_params_t) SetShrink(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_internal_output_params_t_shrink_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_internal_output_params_t) GetShrink() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_internal_output_params_t_shrink_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_internal_output_params_t) SetFuji_width(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_internal_output_params_t_fuji_width_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_internal_output_params_t) GetFuji_width() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_internal_output_params_t_fuji_width_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_internal_output_params_t() (_swig_ret Libraw_internal_output_params_t) {
+	var swig_r Libraw_internal_output_params_t
+	swig_r = (Libraw_internal_output_params_t)(SwigcptrLibraw_internal_output_params_t(C._wrap_new_libraw_internal_output_params_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_internal_output_params_t(arg1 Libraw_internal_output_params_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_internal_output_params_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_internal_output_params_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_internal_output_params_t()
+	SetMix_green(arg2 uint)
+	GetMix_green() (_swig_ret uint)
+	SetRaw_color(arg2 uint)
+	GetRaw_color() (_swig_ret uint)
+	SetZero_is_bad(arg2 uint)
+	GetZero_is_bad() (_swig_ret uint)
+	SetShrink(arg2 uint16)
+	GetShrink() (_swig_ret uint16)
+	SetFuji_width(arg2 uint16)
+	GetFuji_width() (_swig_ret uint16)
+}
+
+func Default_memory_callback(arg1 uintptr, arg2 string, arg3 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_default_memory_callback_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_3)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_4)(unsafe.Pointer(&_swig_i_2)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+	if Swig_escape_always_false {
+		Swig_escape_val = arg3
+	}
+}
+
+func Default_data_callback(arg1 uintptr, arg2 string, arg3 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_default_data_callback_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_5)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+type SwigcptrLibraw_callbacks_t uintptr
+
+func (p SwigcptrLibraw_callbacks_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_callbacks_t) SwigIsLibraw_callbacks_t() {
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetMem_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_mem_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_6(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetMem_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_mem_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetMemcb_data(arg2 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_memcb_data_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetMemcb_data() (_swig_ret uintptr) {
+	var swig_r uintptr
+	_swig_i_0 := arg1
+	swig_r = (uintptr)(C._wrap_libraw_callbacks_t_memcb_data_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetData_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_data_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_8(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetData_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_data_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetDatacb_data(arg2 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_datacb_data_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetDatacb_data() (_swig_ret uintptr) {
+	var swig_r uintptr
+	_swig_i_0 := arg1
+	swig_r = (uintptr)(C._wrap_libraw_callbacks_t_datacb_data_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetProgress_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_progress_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_10(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetProgress_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_progress_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetProgresscb_data(arg2 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_progresscb_data_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetProgresscb_data() (_swig_ret uintptr) {
+	var swig_r uintptr
+	_swig_i_0 := arg1
+	swig_r = (uintptr)(C._wrap_libraw_callbacks_t_progresscb_data_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetExif_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_exif_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_12(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetExif_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_exif_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetExifparser_data(arg2 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_exifparser_data_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetExifparser_data() (_swig_ret uintptr) {
+	var swig_r uintptr
+	_swig_i_0 := arg1
+	swig_r = (uintptr)(C._wrap_libraw_callbacks_t_exifparser_data_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetPre_identify_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_pre_identify_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_14(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetPre_identify_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_pre_identify_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetPost_identify_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_post_identify_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_16(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetPost_identify_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_post_identify_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetPre_subtractblack_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_pre_subtractblack_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_18(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetPre_subtractblack_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_pre_subtractblack_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetPre_scalecolors_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_pre_scalecolors_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_20(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetPre_scalecolors_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_pre_scalecolors_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetPre_preinterpolate_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_pre_preinterpolate_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_22(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetPre_preinterpolate_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_pre_preinterpolate_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetPre_interpolate_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_pre_interpolate_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_24(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetPre_interpolate_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_pre_interpolate_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetInterpolate_bayer_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_interpolate_bayer_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_26(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetInterpolate_bayer_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_interpolate_bayer_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetInterpolate_xtrans_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_interpolate_xtrans_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_28(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetInterpolate_xtrans_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_interpolate_xtrans_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetPost_interpolate_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_post_interpolate_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_30(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetPost_interpolate_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_post_interpolate_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetPre_converttorgb_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_pre_converttorgb_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_32(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetPre_converttorgb_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_pre_converttorgb_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) SetPost_converttorgb_cb(arg2 _swig_fnptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_callbacks_t_post_converttorgb_cb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_34(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_callbacks_t) GetPost_converttorgb_cb() (_swig_ret _swig_fnptr) {
+	var swig_r _swig_fnptr
+	_swig_i_0 := arg1
+	swig_r = (_swig_fnptr)(C._wrap_libraw_callbacks_t_post_converttorgb_cb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_callbacks_t() (_swig_ret Libraw_callbacks_t) {
+	var swig_r Libraw_callbacks_t
+	swig_r = (Libraw_callbacks_t)(SwigcptrLibraw_callbacks_t(C._wrap_new_libraw_callbacks_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_callbacks_t(arg1 Libraw_callbacks_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_callbacks_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_callbacks_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_callbacks_t()
+	SetMem_cb(arg2 _swig_fnptr)
+	GetMem_cb() (_swig_ret _swig_fnptr)
+	SetMemcb_data(arg2 uintptr)
+	GetMemcb_data() (_swig_ret uintptr)
+	SetData_cb(arg2 _swig_fnptr)
+	GetData_cb() (_swig_ret _swig_fnptr)
+	SetDatacb_data(arg2 uintptr)
+	GetDatacb_data() (_swig_ret uintptr)
+	SetProgress_cb(arg2 _swig_fnptr)
+	GetProgress_cb() (_swig_ret _swig_fnptr)
+	SetProgresscb_data(arg2 uintptr)
+	GetProgresscb_data() (_swig_ret uintptr)
+	SetExif_cb(arg2 _swig_fnptr)
+	GetExif_cb() (_swig_ret _swig_fnptr)
+	SetExifparser_data(arg2 uintptr)
+	GetExifparser_data() (_swig_ret uintptr)
+	SetPre_identify_cb(arg2 _swig_fnptr)
+	GetPre_identify_cb() (_swig_ret _swig_fnptr)
+	SetPost_identify_cb(arg2 _swig_fnptr)
+	GetPost_identify_cb() (_swig_ret _swig_fnptr)
+	SetPre_subtractblack_cb(arg2 _swig_fnptr)
+	GetPre_subtractblack_cb() (_swig_ret _swig_fnptr)
+	SetPre_scalecolors_cb(arg2 _swig_fnptr)
+	GetPre_scalecolors_cb() (_swig_ret _swig_fnptr)
+	SetPre_preinterpolate_cb(arg2 _swig_fnptr)
+	GetPre_preinterpolate_cb() (_swig_ret _swig_fnptr)
+	SetPre_interpolate_cb(arg2 _swig_fnptr)
+	GetPre_interpolate_cb() (_swig_ret _swig_fnptr)
+	SetInterpolate_bayer_cb(arg2 _swig_fnptr)
+	GetInterpolate_bayer_cb() (_swig_ret _swig_fnptr)
+	SetInterpolate_xtrans_cb(arg2 _swig_fnptr)
+	GetInterpolate_xtrans_cb() (_swig_ret _swig_fnptr)
+	SetPost_interpolate_cb(arg2 _swig_fnptr)
+	GetPost_interpolate_cb() (_swig_ret _swig_fnptr)
+	SetPre_converttorgb_cb(arg2 _swig_fnptr)
+	GetPre_converttorgb_cb() (_swig_ret _swig_fnptr)
+	SetPost_converttorgb_cb(arg2 _swig_fnptr)
+	GetPost_converttorgb_cb() (_swig_ret _swig_fnptr)
+}
+
+type SwigcptrLibraw_processed_image_t uintptr
+
+func (p SwigcptrLibraw_processed_image_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_processed_image_t) SwigIsLibraw_processed_image_t() {
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) SetXtype(arg2 Enum_SS_LibRaw_image_formats) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_processed_image_t_Xtype_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) GetXtype() (_swig_ret Enum_SS_LibRaw_image_formats) {
+	var swig_r Enum_SS_LibRaw_image_formats
+	_swig_i_0 := arg1
+	swig_r = (Enum_SS_LibRaw_image_formats)(C._wrap_libraw_processed_image_t_Xtype_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) SetHeight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_processed_image_t_height_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) GetHeight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_processed_image_t_height_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) SetWidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_processed_image_t_width_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) GetWidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_processed_image_t_width_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) SetColors(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_processed_image_t_colors_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) GetColors() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_processed_image_t_colors_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) SetBits(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_processed_image_t_bits_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) GetBits() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_processed_image_t_bits_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) SetData_size(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_processed_image_t_data_size_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) GetData_size() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_processed_image_t_data_size_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) SetData(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_processed_image_t_data_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_processed_image_t) GetData() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_libraw_processed_image_t_data_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_processed_image_t() (_swig_ret Libraw_processed_image_t) {
+	var swig_r Libraw_processed_image_t
+	swig_r = (Libraw_processed_image_t)(SwigcptrLibraw_processed_image_t(C._wrap_new_libraw_processed_image_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_processed_image_t(arg1 Libraw_processed_image_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_processed_image_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_processed_image_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_processed_image_t()
+	SetXtype(arg2 Enum_SS_LibRaw_image_formats)
+	GetXtype() (_swig_ret Enum_SS_LibRaw_image_formats)
+	SetHeight(arg2 uint16)
+	GetHeight() (_swig_ret uint16)
+	SetWidth(arg2 uint16)
+	GetWidth() (_swig_ret uint16)
+	SetColors(arg2 uint16)
+	GetColors() (_swig_ret uint16)
+	SetBits(arg2 uint16)
+	GetBits() (_swig_ret uint16)
+	SetData_size(arg2 uint)
+	GetData_size() (_swig_ret uint)
+	SetData(arg2 *byte)
+	GetData() (_swig_ret *byte)
+}
+
+type SwigcptrLibraw_iparams_t uintptr
+
+func (p SwigcptrLibraw_iparams_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_iparams_t) SwigIsLibraw_iparams_t() {
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetGuard(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_guard_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_36)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetGuard() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_iparams_t_guard_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetMake(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_make_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_38)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetMake() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_iparams_t_make_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetModel(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_model_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_40)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetModel() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_iparams_t_model_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetSoftware(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_software_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_42)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetSoftware() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_iparams_t_software_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetNormalized_make(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_normalized_make_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_44)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetNormalized_make() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_iparams_t_normalized_make_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetNormalized_model(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_normalized_model_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_46)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetNormalized_model() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_iparams_t_normalized_model_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetMaker_index(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_maker_index_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetMaker_index() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_iparams_t_maker_index_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetRaw_count(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_raw_count_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetRaw_count() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_iparams_t_raw_count_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetDng_version(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_dng_version_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetDng_version() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_iparams_t_dng_version_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetIs_foveon(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_is_foveon_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetIs_foveon() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_iparams_t_is_foveon_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetColors(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_colors_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetColors() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_iparams_t_colors_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetFilters(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_filters_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetFilters() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_iparams_t_filters_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetXtrans(arg2 *string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_xtrans_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetXtrans() (_swig_ret *string) {
+	var swig_r *string
+	_swig_i_0 := arg1
+	swig_r = (*string)(C._wrap_libraw_iparams_t_xtrans_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetXtrans_abs(arg2 *string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_xtrans_abs_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetXtrans_abs() (_swig_ret *string) {
+	var swig_r *string
+	_swig_i_0 := arg1
+	swig_r = (*string)(C._wrap_libraw_iparams_t_xtrans_abs_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetCdesc(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_cdesc_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_48)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetCdesc() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_iparams_t_cdesc_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetXmplen(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_xmplen_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetXmplen() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_iparams_t_xmplen_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) SetXmpdata(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_iparams_t_xmpdata_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_50)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_iparams_t) GetXmpdata() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_iparams_t_xmpdata_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func NewLibraw_iparams_t() (_swig_ret Libraw_iparams_t) {
+	var swig_r Libraw_iparams_t
+	swig_r = (Libraw_iparams_t)(SwigcptrLibraw_iparams_t(C._wrap_new_libraw_iparams_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_iparams_t(arg1 Libraw_iparams_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_iparams_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_iparams_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_iparams_t()
+	SetGuard(arg2 string)
+	GetGuard() (_swig_ret string)
+	SetMake(arg2 string)
+	GetMake() (_swig_ret string)
+	SetModel(arg2 string)
+	GetModel() (_swig_ret string)
+	SetSoftware(arg2 string)
+	GetSoftware() (_swig_ret string)
+	SetNormalized_make(arg2 string)
+	GetNormalized_make() (_swig_ret string)
+	SetNormalized_model(arg2 string)
+	GetNormalized_model() (_swig_ret string)
+	SetMaker_index(arg2 uint)
+	GetMaker_index() (_swig_ret uint)
+	SetRaw_count(arg2 uint)
+	GetRaw_count() (_swig_ret uint)
+	SetDng_version(arg2 uint)
+	GetDng_version() (_swig_ret uint)
+	SetIs_foveon(arg2 uint)
+	GetIs_foveon() (_swig_ret uint)
+	SetColors(arg2 int)
+	GetColors() (_swig_ret int)
+	SetFilters(arg2 uint)
+	GetFilters() (_swig_ret uint)
+	SetXtrans(arg2 *string)
+	GetXtrans() (_swig_ret *string)
+	SetXtrans_abs(arg2 *string)
+	GetXtrans_abs() (_swig_ret *string)
+	SetCdesc(arg2 string)
+	GetCdesc() (_swig_ret string)
+	SetXmplen(arg2 uint)
+	GetXmplen() (_swig_ret uint)
+	SetXmpdata(arg2 string)
+	GetXmpdata() (_swig_ret string)
+}
+
+type SwigcptrLibraw_raw_inset_crop_t uintptr
+
+func (p SwigcptrLibraw_raw_inset_crop_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_raw_inset_crop_t) SwigIsLibraw_raw_inset_crop_t() {
+}
+
+func (arg1 SwigcptrLibraw_raw_inset_crop_t) SetCleft(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_raw_inset_crop_t_cleft_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_raw_inset_crop_t) GetCleft() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_raw_inset_crop_t_cleft_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_raw_inset_crop_t) SetCtop(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_raw_inset_crop_t_ctop_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_raw_inset_crop_t) GetCtop() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_raw_inset_crop_t_ctop_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_raw_inset_crop_t) SetCwidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_raw_inset_crop_t_cwidth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_raw_inset_crop_t) GetCwidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_raw_inset_crop_t_cwidth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_raw_inset_crop_t) SetCheight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_raw_inset_crop_t_cheight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_raw_inset_crop_t) GetCheight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_raw_inset_crop_t_cheight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_raw_inset_crop_t) SetAspect(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_raw_inset_crop_t_aspect_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_raw_inset_crop_t) GetAspect() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_raw_inset_crop_t_aspect_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_raw_inset_crop_t() (_swig_ret Libraw_raw_inset_crop_t) {
+	var swig_r Libraw_raw_inset_crop_t
+	swig_r = (Libraw_raw_inset_crop_t)(SwigcptrLibraw_raw_inset_crop_t(C._wrap_new_libraw_raw_inset_crop_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_raw_inset_crop_t(arg1 Libraw_raw_inset_crop_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_raw_inset_crop_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_raw_inset_crop_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_raw_inset_crop_t()
+	SetCleft(arg2 uint16)
+	GetCleft() (_swig_ret uint16)
+	SetCtop(arg2 uint16)
+	GetCtop() (_swig_ret uint16)
+	SetCwidth(arg2 uint16)
+	GetCwidth() (_swig_ret uint16)
+	SetCheight(arg2 uint16)
+	GetCheight() (_swig_ret uint16)
+	SetAspect(arg2 uint16)
+	GetAspect() (_swig_ret uint16)
+}
+
+type SwigcptrLibraw_image_sizes_t uintptr
+
+func (p SwigcptrLibraw_image_sizes_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_image_sizes_t) SwigIsLibraw_image_sizes_t() {
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetRaw_height(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_raw_height_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetRaw_height() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_image_sizes_t_raw_height_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetRaw_width(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_raw_width_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetRaw_width() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_image_sizes_t_raw_width_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetHeight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_height_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetHeight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_image_sizes_t_height_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetWidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_width_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetWidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_image_sizes_t_width_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetTop_margin(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_top_margin_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetTop_margin() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_image_sizes_t_top_margin_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetLeft_margin(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_left_margin_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetLeft_margin() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_image_sizes_t_left_margin_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetIheight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_iheight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetIheight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_image_sizes_t_iheight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetIwidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_iwidth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetIwidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_image_sizes_t_iwidth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetRaw_pitch(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_raw_pitch_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetRaw_pitch() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_image_sizes_t_raw_pitch_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetPixel_aspect(arg2 float64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_pixel_aspect_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetPixel_aspect() (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_libraw_image_sizes_t_pixel_aspect_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetFlip(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_flip_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetFlip() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_image_sizes_t_flip_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetMask(arg2 **int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_image_sizes_t_mask_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetMask() (_swig_ret **int) {
+	var swig_r **int
+	_swig_i_0 := arg1
+	swig_r = (**int)(C._wrap_libraw_image_sizes_t_mask_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) SetRaw_inset_crop(arg2 Libraw_raw_inset_crop_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_image_sizes_t_raw_inset_crop_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_image_sizes_t) GetRaw_inset_crop() (_swig_ret Libraw_raw_inset_crop_t) {
+	var swig_r Libraw_raw_inset_crop_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_raw_inset_crop_t)(SwigcptrLibraw_raw_inset_crop_t(C._wrap_libraw_image_sizes_t_raw_inset_crop_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewLibraw_image_sizes_t() (_swig_ret Libraw_image_sizes_t) {
+	var swig_r Libraw_image_sizes_t
+	swig_r = (Libraw_image_sizes_t)(SwigcptrLibraw_image_sizes_t(C._wrap_new_libraw_image_sizes_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_image_sizes_t(arg1 Libraw_image_sizes_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_image_sizes_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_image_sizes_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_image_sizes_t()
+	SetRaw_height(arg2 uint16)
+	GetRaw_height() (_swig_ret uint16)
+	SetRaw_width(arg2 uint16)
+	GetRaw_width() (_swig_ret uint16)
+	SetHeight(arg2 uint16)
+	GetHeight() (_swig_ret uint16)
+	SetWidth(arg2 uint16)
+	GetWidth() (_swig_ret uint16)
+	SetTop_margin(arg2 uint16)
+	GetTop_margin() (_swig_ret uint16)
+	SetLeft_margin(arg2 uint16)
+	GetLeft_margin() (_swig_ret uint16)
+	SetIheight(arg2 uint16)
+	GetIheight() (_swig_ret uint16)
+	SetIwidth(arg2 uint16)
+	GetIwidth() (_swig_ret uint16)
+	SetRaw_pitch(arg2 uint)
+	GetRaw_pitch() (_swig_ret uint)
+	SetPixel_aspect(arg2 float64)
+	GetPixel_aspect() (_swig_ret float64)
+	SetFlip(arg2 int)
+	GetFlip() (_swig_ret int)
+	SetMask(arg2 **int)
+	GetMask() (_swig_ret **int)
+	SetRaw_inset_crop(arg2 Libraw_raw_inset_crop_t)
+	GetRaw_inset_crop() (_swig_ret Libraw_raw_inset_crop_t)
+}
+
+type SwigcptrPh1_t uintptr
+
+func (p SwigcptrPh1_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrPh1_t) SwigIsPh1_t() {
+}
+
+func (arg1 SwigcptrPh1_t) SetFormat(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ph1_t_format_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrPh1_t) GetFormat() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ph1_t_format_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPh1_t) SetKey_off(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ph1_t_key_off_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrPh1_t) GetKey_off() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ph1_t_key_off_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPh1_t) SetTag_21a(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ph1_t_tag_21a_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrPh1_t) GetTag_21a() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ph1_t_tag_21a_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPh1_t) SetT_black(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ph1_t_t_black_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrPh1_t) GetT_black() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ph1_t_t_black_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPh1_t) SetSplit_col(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ph1_t_split_col_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrPh1_t) GetSplit_col() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ph1_t_split_col_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPh1_t) SetBlack_col(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ph1_t_black_col_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrPh1_t) GetBlack_col() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ph1_t_black_col_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPh1_t) SetSplit_row(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ph1_t_split_row_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrPh1_t) GetSplit_row() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ph1_t_split_row_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPh1_t) SetBlack_row(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ph1_t_black_row_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrPh1_t) GetBlack_row() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_ph1_t_black_row_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPh1_t) SetTag_210(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ph1_t_tag_210_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrPh1_t) GetTag_210() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_ph1_t_tag_210_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewPh1_t() (_swig_ret Ph1_t) {
+	var swig_r Ph1_t
+	swig_r = (Ph1_t)(SwigcptrPh1_t(C._wrap_new_ph1_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeletePh1_t(arg1 Ph1_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_ph1_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Ph1_t interface {
+	Swigcptr() uintptr
+	SwigIsPh1_t()
+	SetFormat(arg2 int)
+	GetFormat() (_swig_ret int)
+	SetKey_off(arg2 int)
+	GetKey_off() (_swig_ret int)
+	SetTag_21a(arg2 int)
+	GetTag_21a() (_swig_ret int)
+	SetT_black(arg2 int)
+	GetT_black() (_swig_ret int)
+	SetSplit_col(arg2 int)
+	GetSplit_col() (_swig_ret int)
+	SetBlack_col(arg2 int)
+	GetBlack_col() (_swig_ret int)
+	SetSplit_row(arg2 int)
+	GetSplit_row() (_swig_ret int)
+	SetBlack_row(arg2 int)
+	GetBlack_row() (_swig_ret int)
+	SetTag_210(arg2 float32)
+	GetTag_210() (_swig_ret float32)
+}
+
+type SwigcptrLibraw_dng_color_t uintptr
+
+func (p SwigcptrLibraw_dng_color_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_dng_color_t) SwigIsLibraw_dng_color_t() {
+}
+
+func (arg1 SwigcptrLibraw_dng_color_t) SetParsedfields(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_color_t_parsedfields_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_color_t) GetParsedfields() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_dng_color_t_parsedfields_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_color_t) SetIlluminant(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_color_t_illuminant_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_color_t) GetIlluminant() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_dng_color_t_illuminant_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_color_t) SetCalibration(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_color_t_calibration_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_color_t) GetCalibration() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_dng_color_t_calibration_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_color_t) SetColormatrix(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_color_t_colormatrix_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_color_t) GetColormatrix() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_dng_color_t_colormatrix_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_color_t) SetForwardmatrix(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_color_t_forwardmatrix_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_color_t) GetForwardmatrix() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_dng_color_t_forwardmatrix_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_dng_color_t() (_swig_ret Libraw_dng_color_t) {
+	var swig_r Libraw_dng_color_t
+	swig_r = (Libraw_dng_color_t)(SwigcptrLibraw_dng_color_t(C._wrap_new_libraw_dng_color_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_dng_color_t(arg1 Libraw_dng_color_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_dng_color_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_dng_color_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_dng_color_t()
+	SetParsedfields(arg2 uint)
+	GetParsedfields() (_swig_ret uint)
+	SetIlluminant(arg2 uint16)
+	GetIlluminant() (_swig_ret uint16)
+	SetCalibration(arg2 **float32)
+	GetCalibration() (_swig_ret **float32)
+	SetColormatrix(arg2 **float32)
+	GetColormatrix() (_swig_ret **float32)
+	SetForwardmatrix(arg2 **float32)
+	GetForwardmatrix() (_swig_ret **float32)
+}
+
+type SwigcptrLibraw_dng_levels_t uintptr
+
+func (p SwigcptrLibraw_dng_levels_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_dng_levels_t) SwigIsLibraw_dng_levels_t() {
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetParsedfields(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_parsedfields_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetParsedfields() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_dng_levels_t_parsedfields_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetDng_cblack(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_dng_cblack_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetDng_cblack() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_dng_levels_t_dng_cblack_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetDng_black(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_dng_black_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetDng_black() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_dng_levels_t_dng_black_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetDng_fcblack(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_dng_fcblack_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetDng_fcblack() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_dng_levels_t_dng_fcblack_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetDng_fblack(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_dng_fblack_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetDng_fblack() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_dng_levels_t_dng_fblack_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetDng_whitelevel(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_dng_whitelevel_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetDng_whitelevel() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_dng_levels_t_dng_whitelevel_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetDefault_crop(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_default_crop_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetDefault_crop() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_dng_levels_t_default_crop_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetPreview_colorspace(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_preview_colorspace_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetPreview_colorspace() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_dng_levels_t_preview_colorspace_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetAnalogbalance(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_analogbalance_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetAnalogbalance() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_dng_levels_t_analogbalance_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetAsshotneutral(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_asshotneutral_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetAsshotneutral() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_dng_levels_t_asshotneutral_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetBaseline_exposure(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_baseline_exposure_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetBaseline_exposure() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_dng_levels_t_baseline_exposure_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) SetLinearResponseLimit(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dng_levels_t_LinearResponseLimit_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dng_levels_t) GetLinearResponseLimit() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_dng_levels_t_LinearResponseLimit_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_dng_levels_t() (_swig_ret Libraw_dng_levels_t) {
+	var swig_r Libraw_dng_levels_t
+	swig_r = (Libraw_dng_levels_t)(SwigcptrLibraw_dng_levels_t(C._wrap_new_libraw_dng_levels_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_dng_levels_t(arg1 Libraw_dng_levels_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_dng_levels_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_dng_levels_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_dng_levels_t()
+	SetParsedfields(arg2 uint)
+	GetParsedfields() (_swig_ret uint)
+	SetDng_cblack(arg2 *uint)
+	GetDng_cblack() (_swig_ret *uint)
+	SetDng_black(arg2 uint)
+	GetDng_black() (_swig_ret uint)
+	SetDng_fcblack(arg2 *float32)
+	GetDng_fcblack() (_swig_ret *float32)
+	SetDng_fblack(arg2 float32)
+	GetDng_fblack() (_swig_ret float32)
+	SetDng_whitelevel(arg2 *uint)
+	GetDng_whitelevel() (_swig_ret *uint)
+	SetDefault_crop(arg2 *uint)
+	GetDefault_crop() (_swig_ret *uint)
+	SetPreview_colorspace(arg2 uint)
+	GetPreview_colorspace() (_swig_ret uint)
+	SetAnalogbalance(arg2 *float32)
+	GetAnalogbalance() (_swig_ret *float32)
+	SetAsshotneutral(arg2 *float32)
+	GetAsshotneutral() (_swig_ret *float32)
+	SetBaseline_exposure(arg2 float32)
+	GetBaseline_exposure() (_swig_ret float32)
+	SetLinearResponseLimit(arg2 float32)
+	GetLinearResponseLimit() (_swig_ret float32)
+}
+
+type SwigcptrLibraw_P1_color_t uintptr
+
+func (p SwigcptrLibraw_P1_color_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_P1_color_t) SwigIsLibraw_P1_color_t() {
+}
+
+func (arg1 SwigcptrLibraw_P1_color_t) SetRomm_cam(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_P1_color_t_romm_cam_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_P1_color_t) GetRomm_cam() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_P1_color_t_romm_cam_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_P1_color_t() (_swig_ret Libraw_P1_color_t) {
+	var swig_r Libraw_P1_color_t
+	swig_r = (Libraw_P1_color_t)(SwigcptrLibraw_P1_color_t(C._wrap_new_libraw_P1_color_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_P1_color_t(arg1 Libraw_P1_color_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_P1_color_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_P1_color_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_P1_color_t()
+	SetRomm_cam(arg2 *float32)
+	GetRomm_cam() (_swig_ret *float32)
+}
+
+type SwigcptrLibraw_canon_makernotes_t uintptr
+
+func (p SwigcptrLibraw_canon_makernotes_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_canon_makernotes_t) SwigIsLibraw_canon_makernotes_t() {
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetColorDataVer(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_ColorDataVer_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetColorDataVer() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_canon_makernotes_t_ColorDataVer_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetColorDataSubVer(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_ColorDataSubVer_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetColorDataSubVer() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_canon_makernotes_t_ColorDataSubVer_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetSpecularWhiteLevel(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_SpecularWhiteLevel_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetSpecularWhiteLevel() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_canon_makernotes_t_SpecularWhiteLevel_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetNormalWhiteLevel(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_NormalWhiteLevel_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetNormalWhiteLevel() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_canon_makernotes_t_NormalWhiteLevel_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetChannelBlackLevel(arg2 *int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_ChannelBlackLevel_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetChannelBlackLevel() (_swig_ret *int) {
+	var swig_r *int
+	_swig_i_0 := arg1
+	swig_r = (*int)(C._wrap_libraw_canon_makernotes_t_ChannelBlackLevel_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAverageBlackLevel(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AverageBlackLevel_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAverageBlackLevel() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_canon_makernotes_t_AverageBlackLevel_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetMultishot(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_multishot_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetMultishot() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_canon_makernotes_t_multishot_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetMeteringMode(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_MeteringMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetMeteringMode() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_MeteringMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetSpotMeteringMode(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_SpotMeteringMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetSpotMeteringMode() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_SpotMeteringMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetFlashMeteringMode(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_FlashMeteringMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetFlashMeteringMode() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_canon_makernotes_t_FlashMeteringMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetFlashExposureLock(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_FlashExposureLock_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetFlashExposureLock() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_FlashExposureLock_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetExposureMode(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_ExposureMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetExposureMode() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_ExposureMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAESetting(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AESetting_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAESetting() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_AESetting_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetHighlightTonePriority(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_HighlightTonePriority_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetHighlightTonePriority() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_canon_makernotes_t_HighlightTonePriority_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetImageStabilization(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetImageStabilization() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetFocusMode(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetFocusMode() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFPoint(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFPoint_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFPoint() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_AFPoint_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetFocusContinuous(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_FocusContinuous_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetFocusContinuous() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_FocusContinuous_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFPointsInFocus30D(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFPointsInFocus30D_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFPointsInFocus30D() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_AFPointsInFocus30D_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFPointsInFocus1D(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFPointsInFocus1D_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFPointsInFocus1D() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_libraw_canon_makernotes_t_AFPointsInFocus1D_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFPointsInFocus5D(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFPointsInFocus5D_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFPointsInFocus5D() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_canon_makernotes_t_AFPointsInFocus5D_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFAreaMode(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFAreaMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFAreaMode() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_canon_makernotes_t_AFAreaMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetNumAFPoints(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_NumAFPoints_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetNumAFPoints() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_canon_makernotes_t_NumAFPoints_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetValidAFPoints(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_ValidAFPoints_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetValidAFPoints() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_canon_makernotes_t_ValidAFPoints_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFImageWidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFImageWidth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFImageWidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_canon_makernotes_t_AFImageWidth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFImageHeight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFImageHeight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFImageHeight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_canon_makernotes_t_AFImageHeight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFAreaWidths(arg2 *int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFAreaWidths_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFAreaWidths() (_swig_ret *int16) {
+	var swig_r *int16
+	_swig_i_0 := arg1
+	swig_r = (*int16)(C._wrap_libraw_canon_makernotes_t_AFAreaWidths_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFAreaHeights(arg2 *int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFAreaHeights_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFAreaHeights() (_swig_ret *int16) {
+	var swig_r *int16
+	_swig_i_0 := arg1
+	swig_r = (*int16)(C._wrap_libraw_canon_makernotes_t_AFAreaHeights_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFAreaXPositions(arg2 *int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFAreaXPositions_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFAreaXPositions() (_swig_ret *int16) {
+	var swig_r *int16
+	_swig_i_0 := arg1
+	swig_r = (*int16)(C._wrap_libraw_canon_makernotes_t_AFAreaXPositions_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFAreaYPositions(arg2 *int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFAreaYPositions_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFAreaYPositions() (_swig_ret *int16) {
+	var swig_r *int16
+	_swig_i_0 := arg1
+	swig_r = (*int16)(C._wrap_libraw_canon_makernotes_t_AFAreaYPositions_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFPointsInFocus(arg2 *int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFPointsInFocus_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFPointsInFocus() (_swig_ret *int16) {
+	var swig_r *int16
+	_swig_i_0 := arg1
+	swig_r = (*int16)(C._wrap_libraw_canon_makernotes_t_AFPointsInFocus_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFPointsSelected(arg2 *int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFPointsSelected_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFPointsSelected() (_swig_ret *int16) {
+	var swig_r *int16
+	_swig_i_0 := arg1
+	swig_r = (*int16)(C._wrap_libraw_canon_makernotes_t_AFPointsSelected_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetPrimaryAFPoint(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_PrimaryAFPoint_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetPrimaryAFPoint() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_canon_makernotes_t_PrimaryAFPoint_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetFlashMode(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_FlashMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetFlashMode() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_FlashMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetFlashActivity(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_FlashActivity_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetFlashActivity() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_FlashActivity_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetFlashBits(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_FlashBits_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetFlashBits() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_FlashBits_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetManualFlashOutput(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_ManualFlashOutput_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetManualFlashOutput() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_ManualFlashOutput_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetFlashOutput(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_FlashOutput_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetFlashOutput() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_FlashOutput_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetFlashGuideNumber(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_FlashGuideNumber_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetFlashGuideNumber() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_FlashGuideNumber_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetContinuousDrive(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_ContinuousDrive_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetContinuousDrive() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_ContinuousDrive_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetSensorWidth(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_SensorWidth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetSensorWidth() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_SensorWidth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetSensorHeight(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_SensorHeight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetSensorHeight() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_SensorHeight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetSensorLeftBorder(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_SensorLeftBorder_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetSensorLeftBorder() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_SensorLeftBorder_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetSensorTopBorder(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_SensorTopBorder_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetSensorTopBorder() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_SensorTopBorder_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetSensorRightBorder(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_SensorRightBorder_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetSensorRightBorder() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_SensorRightBorder_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetSensorBottomBorder(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_SensorBottomBorder_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetSensorBottomBorder() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_SensorBottomBorder_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetBlackMaskLeftBorder(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_BlackMaskLeftBorder_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetBlackMaskLeftBorder() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_BlackMaskLeftBorder_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetBlackMaskTopBorder(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_BlackMaskTopBorder_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetBlackMaskTopBorder() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_BlackMaskTopBorder_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetBlackMaskRightBorder(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_BlackMaskRightBorder_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetBlackMaskRightBorder() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_BlackMaskRightBorder_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetBlackMaskBottomBorder(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_BlackMaskBottomBorder_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetBlackMaskBottomBorder() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_BlackMaskBottomBorder_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFMicroAdjMode(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFMicroAdjMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFMicroAdjMode() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_canon_makernotes_t_AFMicroAdjMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetAFMicroAdjValue(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_AFMicroAdjValue_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetAFMicroAdjValue() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_canon_makernotes_t_AFMicroAdjValue_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetMakernotesFlip(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_MakernotesFlip_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetMakernotesFlip() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_MakernotesFlip_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetRecordMode(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_RecordMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetRecordMode() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_RecordMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetSRAWQuality(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_SRAWQuality_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetSRAWQuality() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_SRAWQuality_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetWbi(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_wbi_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetWbi() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_canon_makernotes_t_wbi_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetFirmware(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_firmware_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetFirmware() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_canon_makernotes_t_firmware_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) SetRF_lensID(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_canon_makernotes_t_RF_lensID_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_canon_makernotes_t) GetRF_lensID() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_canon_makernotes_t_RF_lensID_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_canon_makernotes_t() (_swig_ret Libraw_canon_makernotes_t) {
+	var swig_r Libraw_canon_makernotes_t
+	swig_r = (Libraw_canon_makernotes_t)(SwigcptrLibraw_canon_makernotes_t(C._wrap_new_libraw_canon_makernotes_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_canon_makernotes_t(arg1 Libraw_canon_makernotes_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_canon_makernotes_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_canon_makernotes_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_canon_makernotes_t()
+	SetColorDataVer(arg2 int)
+	GetColorDataVer() (_swig_ret int)
+	SetColorDataSubVer(arg2 int)
+	GetColorDataSubVer() (_swig_ret int)
+	SetSpecularWhiteLevel(arg2 int)
+	GetSpecularWhiteLevel() (_swig_ret int)
+	SetNormalWhiteLevel(arg2 int)
+	GetNormalWhiteLevel() (_swig_ret int)
+	SetChannelBlackLevel(arg2 *int)
+	GetChannelBlackLevel() (_swig_ret *int)
+	SetAverageBlackLevel(arg2 int)
+	GetAverageBlackLevel() (_swig_ret int)
+	SetMultishot(arg2 *uint)
+	GetMultishot() (_swig_ret *uint)
+	SetMeteringMode(arg2 int16)
+	GetMeteringMode() (_swig_ret int16)
+	SetSpotMeteringMode(arg2 int16)
+	GetSpotMeteringMode() (_swig_ret int16)
+	SetFlashMeteringMode(arg2 byte)
+	GetFlashMeteringMode() (_swig_ret byte)
+	SetFlashExposureLock(arg2 int16)
+	GetFlashExposureLock() (_swig_ret int16)
+	SetExposureMode(arg2 int16)
+	GetExposureMode() (_swig_ret int16)
+	SetAESetting(arg2 int16)
+	GetAESetting() (_swig_ret int16)
+	SetHighlightTonePriority(arg2 byte)
+	GetHighlightTonePriority() (_swig_ret byte)
+	SetImageStabilization(arg2 int16)
+	GetImageStabilization() (_swig_ret int16)
+	SetFocusMode(arg2 int16)
+	GetFocusMode() (_swig_ret int16)
+	SetAFPoint(arg2 int16)
+	GetAFPoint() (_swig_ret int16)
+	SetFocusContinuous(arg2 int16)
+	GetFocusContinuous() (_swig_ret int16)
+	SetAFPointsInFocus30D(arg2 int16)
+	GetAFPointsInFocus30D() (_swig_ret int16)
+	SetAFPointsInFocus1D(arg2 *byte)
+	GetAFPointsInFocus1D() (_swig_ret *byte)
+	SetAFPointsInFocus5D(arg2 uint16)
+	GetAFPointsInFocus5D() (_swig_ret uint16)
+	SetAFAreaMode(arg2 uint16)
+	GetAFAreaMode() (_swig_ret uint16)
+	SetNumAFPoints(arg2 uint16)
+	GetNumAFPoints() (_swig_ret uint16)
+	SetValidAFPoints(arg2 uint16)
+	GetValidAFPoints() (_swig_ret uint16)
+	SetAFImageWidth(arg2 uint16)
+	GetAFImageWidth() (_swig_ret uint16)
+	SetAFImageHeight(arg2 uint16)
+	GetAFImageHeight() (_swig_ret uint16)
+	SetAFAreaWidths(arg2 *int16)
+	GetAFAreaWidths() (_swig_ret *int16)
+	SetAFAreaHeights(arg2 *int16)
+	GetAFAreaHeights() (_swig_ret *int16)
+	SetAFAreaXPositions(arg2 *int16)
+	GetAFAreaXPositions() (_swig_ret *int16)
+	SetAFAreaYPositions(arg2 *int16)
+	GetAFAreaYPositions() (_swig_ret *int16)
+	SetAFPointsInFocus(arg2 *int16)
+	GetAFPointsInFocus() (_swig_ret *int16)
+	SetAFPointsSelected(arg2 *int16)
+	GetAFPointsSelected() (_swig_ret *int16)
+	SetPrimaryAFPoint(arg2 uint16)
+	GetPrimaryAFPoint() (_swig_ret uint16)
+	SetFlashMode(arg2 int16)
+	GetFlashMode() (_swig_ret int16)
+	SetFlashActivity(arg2 int16)
+	GetFlashActivity() (_swig_ret int16)
+	SetFlashBits(arg2 int16)
+	GetFlashBits() (_swig_ret int16)
+	SetManualFlashOutput(arg2 int16)
+	GetManualFlashOutput() (_swig_ret int16)
+	SetFlashOutput(arg2 int16)
+	GetFlashOutput() (_swig_ret int16)
+	SetFlashGuideNumber(arg2 int16)
+	GetFlashGuideNumber() (_swig_ret int16)
+	SetContinuousDrive(arg2 int16)
+	GetContinuousDrive() (_swig_ret int16)
+	SetSensorWidth(arg2 int16)
+	GetSensorWidth() (_swig_ret int16)
+	SetSensorHeight(arg2 int16)
+	GetSensorHeight() (_swig_ret int16)
+	SetSensorLeftBorder(arg2 int16)
+	GetSensorLeftBorder() (_swig_ret int16)
+	SetSensorTopBorder(arg2 int16)
+	GetSensorTopBorder() (_swig_ret int16)
+	SetSensorRightBorder(arg2 int16)
+	GetSensorRightBorder() (_swig_ret int16)
+	SetSensorBottomBorder(arg2 int16)
+	GetSensorBottomBorder() (_swig_ret int16)
+	SetBlackMaskLeftBorder(arg2 int16)
+	GetBlackMaskLeftBorder() (_swig_ret int16)
+	SetBlackMaskTopBorder(arg2 int16)
+	GetBlackMaskTopBorder() (_swig_ret int16)
+	SetBlackMaskRightBorder(arg2 int16)
+	GetBlackMaskRightBorder() (_swig_ret int16)
+	SetBlackMaskBottomBorder(arg2 int16)
+	GetBlackMaskBottomBorder() (_swig_ret int16)
+	SetAFMicroAdjMode(arg2 int)
+	GetAFMicroAdjMode() (_swig_ret int)
+	SetAFMicroAdjValue(arg2 float32)
+	GetAFMicroAdjValue() (_swig_ret float32)
+	SetMakernotesFlip(arg2 int16)
+	GetMakernotesFlip() (_swig_ret int16)
+	SetRecordMode(arg2 int16)
+	GetRecordMode() (_swig_ret int16)
+	SetSRAWQuality(arg2 int16)
+	GetSRAWQuality() (_swig_ret int16)
+	SetWbi(arg2 uint)
+	GetWbi() (_swig_ret uint)
+	SetFirmware(arg2 float32)
+	GetFirmware() (_swig_ret float32)
+	SetRF_lensID(arg2 int16)
+	GetRF_lensID() (_swig_ret int16)
+}
+
+type SwigcptrLibraw_hasselblad_makernotes_t uintptr
+
+func (p SwigcptrLibraw_hasselblad_makernotes_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_hasselblad_makernotes_t) SwigIsLibraw_hasselblad_makernotes_t() {
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetBaseISO(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_BaseISO_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetBaseISO() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_hasselblad_makernotes_t_BaseISO_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetGain(arg2 float64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_Gain_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetGain() (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_libraw_hasselblad_makernotes_t_Gain_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetSensor(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_Sensor_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_52)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetSensor() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_hasselblad_makernotes_t_Sensor_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetSensorUnit(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_SensorUnit_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_54)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetSensorUnit() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_hasselblad_makernotes_t_SensorUnit_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetHostBody(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_HostBody_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_56)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetHostBody() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_hasselblad_makernotes_t_HostBody_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetSensorCode(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_SensorCode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetSensorCode() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_hasselblad_makernotes_t_SensorCode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetSensorSubCode(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_SensorSubCode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetSensorSubCode() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_hasselblad_makernotes_t_SensorSubCode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetCoatingCode(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_CoatingCode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetCoatingCode() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_hasselblad_makernotes_t_CoatingCode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetUncropped(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_uncropped_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetUncropped() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_hasselblad_makernotes_t_uncropped_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetCaptureSequenceInitiator(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_CaptureSequenceInitiator_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_58)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetCaptureSequenceInitiator() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_hasselblad_makernotes_t_CaptureSequenceInitiator_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetSensorUnitConnector(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_SensorUnitConnector_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_60)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetSensorUnitConnector() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_hasselblad_makernotes_t_SensorUnitConnector_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetFormat(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_format_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetFormat() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_hasselblad_makernotes_t_format_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetNIFD_CM(arg2 *int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_nIFD_CM_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetNIFD_CM() (_swig_ret *int) {
+	var swig_r *int
+	_swig_i_0 := arg1
+	swig_r = (*int)(C._wrap_libraw_hasselblad_makernotes_t_nIFD_CM_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetRecommendedCrop(arg2 *int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_RecommendedCrop_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetRecommendedCrop() (_swig_ret *int) {
+	var swig_r *int
+	_swig_i_0 := arg1
+	swig_r = (*int)(C._wrap_libraw_hasselblad_makernotes_t_RecommendedCrop_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) SetMnColorMatrix(arg2 **float64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_hasselblad_makernotes_t_mnColorMatrix_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_hasselblad_makernotes_t) GetMnColorMatrix() (_swig_ret **float64) {
+	var swig_r **float64
+	_swig_i_0 := arg1
+	swig_r = (**float64)(C._wrap_libraw_hasselblad_makernotes_t_mnColorMatrix_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_hasselblad_makernotes_t() (_swig_ret Libraw_hasselblad_makernotes_t) {
+	var swig_r Libraw_hasselblad_makernotes_t
+	swig_r = (Libraw_hasselblad_makernotes_t)(SwigcptrLibraw_hasselblad_makernotes_t(C._wrap_new_libraw_hasselblad_makernotes_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_hasselblad_makernotes_t(arg1 Libraw_hasselblad_makernotes_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_hasselblad_makernotes_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_hasselblad_makernotes_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_hasselblad_makernotes_t()
+	SetBaseISO(arg2 int)
+	GetBaseISO() (_swig_ret int)
+	SetGain(arg2 float64)
+	GetGain() (_swig_ret float64)
+	SetSensor(arg2 string)
+	GetSensor() (_swig_ret string)
+	SetSensorUnit(arg2 string)
+	GetSensorUnit() (_swig_ret string)
+	SetHostBody(arg2 string)
+	GetHostBody() (_swig_ret string)
+	SetSensorCode(arg2 int)
+	GetSensorCode() (_swig_ret int)
+	SetSensorSubCode(arg2 int)
+	GetSensorSubCode() (_swig_ret int)
+	SetCoatingCode(arg2 int)
+	GetCoatingCode() (_swig_ret int)
+	SetUncropped(arg2 int)
+	GetUncropped() (_swig_ret int)
+	SetCaptureSequenceInitiator(arg2 string)
+	GetCaptureSequenceInitiator() (_swig_ret string)
+	SetSensorUnitConnector(arg2 string)
+	GetSensorUnitConnector() (_swig_ret string)
+	SetFormat(arg2 int)
+	GetFormat() (_swig_ret int)
+	SetNIFD_CM(arg2 *int)
+	GetNIFD_CM() (_swig_ret *int)
+	SetRecommendedCrop(arg2 *int)
+	GetRecommendedCrop() (_swig_ret *int)
+	SetMnColorMatrix(arg2 **float64)
+	GetMnColorMatrix() (_swig_ret **float64)
+}
+
+type SwigcptrLibraw_fuji_info_t uintptr
+
+func (p SwigcptrLibraw_fuji_info_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_fuji_info_t) SwigIsLibraw_fuji_info_t() {
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetExpoMidPointShift(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_ExpoMidPointShift_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetExpoMidPointShift() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_fuji_info_t_ExpoMidPointShift_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetDynamicRange(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_DynamicRange_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetDynamicRange() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_DynamicRange_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetFilmMode(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_FilmMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetFilmMode() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_FilmMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetDynamicRangeSetting(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_DynamicRangeSetting_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetDynamicRangeSetting() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_DynamicRangeSetting_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetDevelopmentDynamicRange(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_DevelopmentDynamicRange_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetDevelopmentDynamicRange() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_DevelopmentDynamicRange_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetAutoDynamicRange(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_AutoDynamicRange_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetAutoDynamicRange() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_AutoDynamicRange_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetDRangePriority(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_DRangePriority_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetDRangePriority() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_DRangePriority_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetDRangePriorityAuto(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_DRangePriorityAuto_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetDRangePriorityAuto() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_DRangePriorityAuto_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetDRangePriorityFixed(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_DRangePriorityFixed_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetDRangePriorityFixed() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_DRangePriorityFixed_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetBrightnessCompensation(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_BrightnessCompensation_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetBrightnessCompensation() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_fuji_info_t_BrightnessCompensation_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetFocusMode(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_FocusMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetFocusMode() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_FocusMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetAFMode(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_AFMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetAFMode() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_AFMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetFocusPixel(arg2 *uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_FocusPixel_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetFocusPixel() (_swig_ret *uint16) {
+	var swig_r *uint16
+	_swig_i_0 := arg1
+	swig_r = (*uint16)(C._wrap_libraw_fuji_info_t_FocusPixel_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetImageStabilization(arg2 *uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetImageStabilization() (_swig_ret *uint16) {
+	var swig_r *uint16
+	_swig_i_0 := arg1
+	swig_r = (*uint16)(C._wrap_libraw_fuji_info_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetFlashMode(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_FlashMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetFlashMode() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_FlashMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetWB_Preset(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_WB_Preset_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetWB_Preset() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_WB_Preset_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetShutterType(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_ShutterType_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetShutterType() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_ShutterType_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetExrMode(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_ExrMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetExrMode() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_ExrMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetMacro(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_Macro_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetMacro() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_Macro_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetRating(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_Rating_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetRating() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_fuji_info_t_Rating_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetCropMode(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_CropMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetCropMode() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_CropMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetFrameRate(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_FrameRate_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetFrameRate() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_FrameRate_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetFrameWidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_FrameWidth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetFrameWidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_FrameWidth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetFrameHeight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_FrameHeight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetFrameHeight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_FrameHeight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetSerialSignature(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_SerialSignature_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_62)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetSerialSignature() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_fuji_info_t_SerialSignature_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetRAFVersion(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_RAFVersion_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_64)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetRAFVersion() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_fuji_info_t_RAFVersion_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetRAFDataVersion(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_RAFDataVersion_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetRAFDataVersion() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_fuji_info_t_RAFDataVersion_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetIsTSNERDTS(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_isTSNERDTS_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetIsTSNERDTS() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_fuji_info_t_isTSNERDTS_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) SetDriveMode(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_fuji_info_t_DriveMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_fuji_info_t) GetDriveMode() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_fuji_info_t_DriveMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_fuji_info_t() (_swig_ret Libraw_fuji_info_t) {
+	var swig_r Libraw_fuji_info_t
+	swig_r = (Libraw_fuji_info_t)(SwigcptrLibraw_fuji_info_t(C._wrap_new_libraw_fuji_info_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_fuji_info_t(arg1 Libraw_fuji_info_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_fuji_info_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_fuji_info_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_fuji_info_t()
+	SetExpoMidPointShift(arg2 float32)
+	GetExpoMidPointShift() (_swig_ret float32)
+	SetDynamicRange(arg2 uint16)
+	GetDynamicRange() (_swig_ret uint16)
+	SetFilmMode(arg2 uint16)
+	GetFilmMode() (_swig_ret uint16)
+	SetDynamicRangeSetting(arg2 uint16)
+	GetDynamicRangeSetting() (_swig_ret uint16)
+	SetDevelopmentDynamicRange(arg2 uint16)
+	GetDevelopmentDynamicRange() (_swig_ret uint16)
+	SetAutoDynamicRange(arg2 uint16)
+	GetAutoDynamicRange() (_swig_ret uint16)
+	SetDRangePriority(arg2 uint16)
+	GetDRangePriority() (_swig_ret uint16)
+	SetDRangePriorityAuto(arg2 uint16)
+	GetDRangePriorityAuto() (_swig_ret uint16)
+	SetDRangePriorityFixed(arg2 uint16)
+	GetDRangePriorityFixed() (_swig_ret uint16)
+	SetBrightnessCompensation(arg2 float32)
+	GetBrightnessCompensation() (_swig_ret float32)
+	SetFocusMode(arg2 uint16)
+	GetFocusMode() (_swig_ret uint16)
+	SetAFMode(arg2 uint16)
+	GetAFMode() (_swig_ret uint16)
+	SetFocusPixel(arg2 *uint16)
+	GetFocusPixel() (_swig_ret *uint16)
+	SetImageStabilization(arg2 *uint16)
+	GetImageStabilization() (_swig_ret *uint16)
+	SetFlashMode(arg2 uint16)
+	GetFlashMode() (_swig_ret uint16)
+	SetWB_Preset(arg2 uint16)
+	GetWB_Preset() (_swig_ret uint16)
+	SetShutterType(arg2 uint16)
+	GetShutterType() (_swig_ret uint16)
+	SetExrMode(arg2 uint16)
+	GetExrMode() (_swig_ret uint16)
+	SetMacro(arg2 uint16)
+	GetMacro() (_swig_ret uint16)
+	SetRating(arg2 uint)
+	GetRating() (_swig_ret uint)
+	SetCropMode(arg2 uint16)
+	GetCropMode() (_swig_ret uint16)
+	SetFrameRate(arg2 uint16)
+	GetFrameRate() (_swig_ret uint16)
+	SetFrameWidth(arg2 uint16)
+	GetFrameWidth() (_swig_ret uint16)
+	SetFrameHeight(arg2 uint16)
+	GetFrameHeight() (_swig_ret uint16)
+	SetSerialSignature(arg2 string)
+	GetSerialSignature() (_swig_ret string)
+	SetRAFVersion(arg2 string)
+	GetRAFVersion() (_swig_ret string)
+	SetRAFDataVersion(arg2 uint16)
+	GetRAFDataVersion() (_swig_ret uint16)
+	SetIsTSNERDTS(arg2 int)
+	GetIsTSNERDTS() (_swig_ret int)
+	SetDriveMode(arg2 int16)
+	GetDriveMode() (_swig_ret int16)
+}
+
+type SwigcptrLibraw_sensor_highspeed_crop_t uintptr
+
+func (p SwigcptrLibraw_sensor_highspeed_crop_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_sensor_highspeed_crop_t) SwigIsLibraw_sensor_highspeed_crop_t() {
+}
+
+func (arg1 SwigcptrLibraw_sensor_highspeed_crop_t) SetCleft(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sensor_highspeed_crop_t_cleft_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sensor_highspeed_crop_t) GetCleft() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sensor_highspeed_crop_t_cleft_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sensor_highspeed_crop_t) SetCtop(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sensor_highspeed_crop_t_ctop_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sensor_highspeed_crop_t) GetCtop() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sensor_highspeed_crop_t_ctop_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sensor_highspeed_crop_t) SetCwidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sensor_highspeed_crop_t_cwidth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sensor_highspeed_crop_t) GetCwidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sensor_highspeed_crop_t_cwidth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sensor_highspeed_crop_t) SetCheight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sensor_highspeed_crop_t_cheight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sensor_highspeed_crop_t) GetCheight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sensor_highspeed_crop_t_cheight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_sensor_highspeed_crop_t() (_swig_ret Libraw_sensor_highspeed_crop_t) {
+	var swig_r Libraw_sensor_highspeed_crop_t
+	swig_r = (Libraw_sensor_highspeed_crop_t)(SwigcptrLibraw_sensor_highspeed_crop_t(C._wrap_new_libraw_sensor_highspeed_crop_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_sensor_highspeed_crop_t(arg1 Libraw_sensor_highspeed_crop_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_sensor_highspeed_crop_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_sensor_highspeed_crop_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_sensor_highspeed_crop_t()
+	SetCleft(arg2 uint16)
+	GetCleft() (_swig_ret uint16)
+	SetCtop(arg2 uint16)
+	GetCtop() (_swig_ret uint16)
+	SetCwidth(arg2 uint16)
+	GetCwidth() (_swig_ret uint16)
+	SetCheight(arg2 uint16)
+	GetCheight() (_swig_ret uint16)
+}
+
+type SwigcptrLibraw_nikon_makernotes_t uintptr
+
+func (p SwigcptrLibraw_nikon_makernotes_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_nikon_makernotes_t) SwigIsLibraw_nikon_makernotes_t() {
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetExposureBracketValue(arg2 float64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ExposureBracketValue_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetExposureBracketValue() (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_libraw_nikon_makernotes_t_ExposureBracketValue_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetActiveDLighting(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ActiveDLighting_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetActiveDLighting() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_ActiveDLighting_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetShootingMode(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ShootingMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetShootingMode() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_ShootingMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetImageStabilization(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetImageStabilization() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_libraw_nikon_makernotes_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetVibrationReduction(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_VibrationReduction_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetVibrationReduction() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_VibrationReduction_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetVRMode(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_VRMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetVRMode() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_VRMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFocusMode(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_66)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFocusMode() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_nikon_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFPoint(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFPoint_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFPoint() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_AFPoint_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFPointsInFocus(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFPointsInFocus_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFPointsInFocus() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_AFPointsInFocus_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetContrastDetectAF(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ContrastDetectAF_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetContrastDetectAF() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_ContrastDetectAF_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFAreaMode(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFAreaMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFAreaMode() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_AFAreaMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetPhaseDetectAF(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_PhaseDetectAF_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetPhaseDetectAF() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_PhaseDetectAF_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetPrimaryAFPoint(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_PrimaryAFPoint_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetPrimaryAFPoint() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_PrimaryAFPoint_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFPointsUsed(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFPointsUsed_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFPointsUsed() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_libraw_nikon_makernotes_t_AFPointsUsed_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFImageWidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFImageWidth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFImageWidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_AFImageWidth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFImageHeight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFImageHeight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFImageHeight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_AFImageHeight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFAreaXPposition(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFAreaXPposition_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFAreaXPposition() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_AFAreaXPposition_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFAreaYPosition(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFAreaYPosition_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFAreaYPosition() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_AFAreaYPosition_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFAreaWidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFAreaWidth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFAreaWidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_AFAreaWidth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFAreaHeight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFAreaHeight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFAreaHeight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_AFAreaHeight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetContrastDetectAFInFocus(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ContrastDetectAFInFocus_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetContrastDetectAFInFocus() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_ContrastDetectAFInFocus_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashSetting(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashSetting_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_68)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashSetting() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_nikon_makernotes_t_FlashSetting_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashType(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashType_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_70)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashType() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_nikon_makernotes_t_FlashType_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashExposureCompensation(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashExposureCompensation_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashExposureCompensation() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_libraw_nikon_makernotes_t_FlashExposureCompensation_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetExternalFlashExposureComp(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ExternalFlashExposureComp_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetExternalFlashExposureComp() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_libraw_nikon_makernotes_t_ExternalFlashExposureComp_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashExposureBracketValue(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashExposureBracketValue_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashExposureBracketValue() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_libraw_nikon_makernotes_t_FlashExposureBracketValue_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashMode(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashMode() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_FlashMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashExposureCompensation2(arg2 int8) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashExposureCompensation2_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashExposureCompensation2() (_swig_ret int8) {
+	var swig_r int8
+	_swig_i_0 := arg1
+	swig_r = (int8)(C._wrap_libraw_nikon_makernotes_t_FlashExposureCompensation2_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashExposureCompensation3(arg2 int8) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashExposureCompensation3_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashExposureCompensation3() (_swig_ret int8) {
+	var swig_r int8
+	_swig_i_0 := arg1
+	swig_r = (int8)(C._wrap_libraw_nikon_makernotes_t_FlashExposureCompensation3_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashExposureCompensation4(arg2 int8) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashExposureCompensation4_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashExposureCompensation4() (_swig_ret int8) {
+	var swig_r int8
+	_swig_i_0 := arg1
+	swig_r = (int8)(C._wrap_libraw_nikon_makernotes_t_FlashExposureCompensation4_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashSource(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashSource_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashSource() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_FlashSource_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashFirmware(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashFirmware_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashFirmware() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_libraw_nikon_makernotes_t_FlashFirmware_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetExternalFlashFlags(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ExternalFlashFlags_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetExternalFlashFlags() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_ExternalFlashFlags_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashControlCommanderMode(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashControlCommanderMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashControlCommanderMode() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_FlashControlCommanderMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashOutputAndCompensation(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashOutputAndCompensation_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashOutputAndCompensation() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_FlashOutputAndCompensation_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashFocalLength(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashFocalLength_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashFocalLength() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_FlashFocalLength_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashGNDistance(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashGNDistance_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashGNDistance() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_FlashGNDistance_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashGroupControlMode(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashGroupControlMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashGroupControlMode() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_libraw_nikon_makernotes_t_FlashGroupControlMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashGroupOutputAndCompensation(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashGroupOutputAndCompensation_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashGroupOutputAndCompensation() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_libraw_nikon_makernotes_t_FlashGroupOutputAndCompensation_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashColorFilter(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashColorFilter_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashColorFilter() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_FlashColorFilter_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetNEFCompression(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_NEFCompression_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetNEFCompression() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_NEFCompression_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetExposureMode(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ExposureMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetExposureMode() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_nikon_makernotes_t_ExposureMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetExposureProgram(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ExposureProgram_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetExposureProgram() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_nikon_makernotes_t_ExposureProgram_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetNMEshots(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_nMEshots_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetNMEshots() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_nikon_makernotes_t_nMEshots_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetMEgainOn(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_MEgainOn_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetMEgainOn() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_nikon_makernotes_t_MEgainOn_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetME_WB(arg2 *float64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ME_WB_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetME_WB() (_swig_ret *float64) {
+	var swig_r *float64
+	_swig_i_0 := arg1
+	swig_r = (*float64)(C._wrap_libraw_nikon_makernotes_t_ME_WB_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFFineTune(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFFineTune_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFFineTune() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_AFFineTune_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFFineTuneIndex(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_AFFineTuneIndex_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFFineTuneIndex() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_AFFineTuneIndex_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetAFFineTuneAdj(arg2 Int8_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_nikon_makernotes_t_AFFineTuneAdj_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetAFFineTuneAdj() (_swig_ret Int8_t) {
+	var swig_r Int8_t
+	_swig_i_0 := arg1
+	swig_r = (Int8_t)(SwigcptrInt8_t(C._wrap_libraw_nikon_makernotes_t_AFFineTuneAdj_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetLensDataVersion(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_LensDataVersion_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetLensDataVersion() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_nikon_makernotes_t_LensDataVersion_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetFlashInfoVersion(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_FlashInfoVersion_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetFlashInfoVersion() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_nikon_makernotes_t_FlashInfoVersion_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetColorBalanceVersion(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_ColorBalanceVersion_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetColorBalanceVersion() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_nikon_makernotes_t_ColorBalanceVersion_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetKey(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_key_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetKey() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikon_makernotes_t_key_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetNEFBitDepth(arg2 *uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_NEFBitDepth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetNEFBitDepth() (_swig_ret *uint16) {
+	var swig_r *uint16
+	_swig_i_0 := arg1
+	swig_r = (*uint16)(C._wrap_libraw_nikon_makernotes_t_NEFBitDepth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetHighSpeedCropFormat(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_HighSpeedCropFormat_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetHighSpeedCropFormat() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_HighSpeedCropFormat_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetSensorHighSpeedCrop(arg2 Libraw_sensor_highspeed_crop_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_nikon_makernotes_t_SensorHighSpeedCrop_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetSensorHighSpeedCrop() (_swig_ret Libraw_sensor_highspeed_crop_t) {
+	var swig_r Libraw_sensor_highspeed_crop_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_sensor_highspeed_crop_t)(SwigcptrLibraw_sensor_highspeed_crop_t(C._wrap_libraw_nikon_makernotes_t_SensorHighSpeedCrop_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetSensorWidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_SensorWidth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetSensorWidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_SensorWidth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) SetSensorHeight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikon_makernotes_t_SensorHeight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikon_makernotes_t) GetSensorHeight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_nikon_makernotes_t_SensorHeight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_nikon_makernotes_t() (_swig_ret Libraw_nikon_makernotes_t) {
+	var swig_r Libraw_nikon_makernotes_t
+	swig_r = (Libraw_nikon_makernotes_t)(SwigcptrLibraw_nikon_makernotes_t(C._wrap_new_libraw_nikon_makernotes_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_nikon_makernotes_t(arg1 Libraw_nikon_makernotes_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_nikon_makernotes_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_nikon_makernotes_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_nikon_makernotes_t()
+	SetExposureBracketValue(arg2 float64)
+	GetExposureBracketValue() (_swig_ret float64)
+	SetActiveDLighting(arg2 uint16)
+	GetActiveDLighting() (_swig_ret uint16)
+	SetShootingMode(arg2 uint16)
+	GetShootingMode() (_swig_ret uint16)
+	SetImageStabilization(arg2 *byte)
+	GetImageStabilization() (_swig_ret *byte)
+	SetVibrationReduction(arg2 byte)
+	GetVibrationReduction() (_swig_ret byte)
+	SetVRMode(arg2 byte)
+	GetVRMode() (_swig_ret byte)
+	SetFocusMode(arg2 string)
+	GetFocusMode() (_swig_ret string)
+	SetAFPoint(arg2 byte)
+	GetAFPoint() (_swig_ret byte)
+	SetAFPointsInFocus(arg2 uint16)
+	GetAFPointsInFocus() (_swig_ret uint16)
+	SetContrastDetectAF(arg2 byte)
+	GetContrastDetectAF() (_swig_ret byte)
+	SetAFAreaMode(arg2 byte)
+	GetAFAreaMode() (_swig_ret byte)
+	SetPhaseDetectAF(arg2 byte)
+	GetPhaseDetectAF() (_swig_ret byte)
+	SetPrimaryAFPoint(arg2 byte)
+	GetPrimaryAFPoint() (_swig_ret byte)
+	SetAFPointsUsed(arg2 *byte)
+	GetAFPointsUsed() (_swig_ret *byte)
+	SetAFImageWidth(arg2 uint16)
+	GetAFImageWidth() (_swig_ret uint16)
+	SetAFImageHeight(arg2 uint16)
+	GetAFImageHeight() (_swig_ret uint16)
+	SetAFAreaXPposition(arg2 uint16)
+	GetAFAreaXPposition() (_swig_ret uint16)
+	SetAFAreaYPosition(arg2 uint16)
+	GetAFAreaYPosition() (_swig_ret uint16)
+	SetAFAreaWidth(arg2 uint16)
+	GetAFAreaWidth() (_swig_ret uint16)
+	SetAFAreaHeight(arg2 uint16)
+	GetAFAreaHeight() (_swig_ret uint16)
+	SetContrastDetectAFInFocus(arg2 byte)
+	GetContrastDetectAFInFocus() (_swig_ret byte)
+	SetFlashSetting(arg2 string)
+	GetFlashSetting() (_swig_ret string)
+	SetFlashType(arg2 string)
+	GetFlashType() (_swig_ret string)
+	SetFlashExposureCompensation(arg2 *byte)
+	GetFlashExposureCompensation() (_swig_ret *byte)
+	SetExternalFlashExposureComp(arg2 *byte)
+	GetExternalFlashExposureComp() (_swig_ret *byte)
+	SetFlashExposureBracketValue(arg2 *byte)
+	GetFlashExposureBracketValue() (_swig_ret *byte)
+	SetFlashMode(arg2 byte)
+	GetFlashMode() (_swig_ret byte)
+	SetFlashExposureCompensation2(arg2 int8)
+	GetFlashExposureCompensation2() (_swig_ret int8)
+	SetFlashExposureCompensation3(arg2 int8)
+	GetFlashExposureCompensation3() (_swig_ret int8)
+	SetFlashExposureCompensation4(arg2 int8)
+	GetFlashExposureCompensation4() (_swig_ret int8)
+	SetFlashSource(arg2 byte)
+	GetFlashSource() (_swig_ret byte)
+	SetFlashFirmware(arg2 *byte)
+	GetFlashFirmware() (_swig_ret *byte)
+	SetExternalFlashFlags(arg2 byte)
+	GetExternalFlashFlags() (_swig_ret byte)
+	SetFlashControlCommanderMode(arg2 byte)
+	GetFlashControlCommanderMode() (_swig_ret byte)
+	SetFlashOutputAndCompensation(arg2 byte)
+	GetFlashOutputAndCompensation() (_swig_ret byte)
+	SetFlashFocalLength(arg2 byte)
+	GetFlashFocalLength() (_swig_ret byte)
+	SetFlashGNDistance(arg2 byte)
+	GetFlashGNDistance() (_swig_ret byte)
+	SetFlashGroupControlMode(arg2 *byte)
+	GetFlashGroupControlMode() (_swig_ret *byte)
+	SetFlashGroupOutputAndCompensation(arg2 *byte)
+	GetFlashGroupOutputAndCompensation() (_swig_ret *byte)
+	SetFlashColorFilter(arg2 byte)
+	GetFlashColorFilter() (_swig_ret byte)
+	SetNEFCompression(arg2 uint16)
+	GetNEFCompression() (_swig_ret uint16)
+	SetExposureMode(arg2 int)
+	GetExposureMode() (_swig_ret int)
+	SetExposureProgram(arg2 int)
+	GetExposureProgram() (_swig_ret int)
+	SetNMEshots(arg2 int)
+	GetNMEshots() (_swig_ret int)
+	SetMEgainOn(arg2 int)
+	GetMEgainOn() (_swig_ret int)
+	SetME_WB(arg2 *float64)
+	GetME_WB() (_swig_ret *float64)
+	SetAFFineTune(arg2 byte)
+	GetAFFineTune() (_swig_ret byte)
+	SetAFFineTuneIndex(arg2 byte)
+	GetAFFineTuneIndex() (_swig_ret byte)
+	SetAFFineTuneAdj(arg2 Int8_t)
+	GetAFFineTuneAdj() (_swig_ret Int8_t)
+	SetLensDataVersion(arg2 uint)
+	GetLensDataVersion() (_swig_ret uint)
+	SetFlashInfoVersion(arg2 uint)
+	GetFlashInfoVersion() (_swig_ret uint)
+	SetColorBalanceVersion(arg2 uint)
+	GetColorBalanceVersion() (_swig_ret uint)
+	SetKey(arg2 byte)
+	GetKey() (_swig_ret byte)
+	SetNEFBitDepth(arg2 *uint16)
+	GetNEFBitDepth() (_swig_ret *uint16)
+	SetHighSpeedCropFormat(arg2 uint16)
+	GetHighSpeedCropFormat() (_swig_ret uint16)
+	SetSensorHighSpeedCrop(arg2 Libraw_sensor_highspeed_crop_t)
+	GetSensorHighSpeedCrop() (_swig_ret Libraw_sensor_highspeed_crop_t)
+	SetSensorWidth(arg2 uint16)
+	GetSensorWidth() (_swig_ret uint16)
+	SetSensorHeight(arg2 uint16)
+	GetSensorHeight() (_swig_ret uint16)
+}
+
+type SwigcptrLibraw_olympus_makernotes_t uintptr
+
+func (p SwigcptrLibraw_olympus_makernotes_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_olympus_makernotes_t) SwigIsLibraw_olympus_makernotes_t() {
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetSensorCalibration(arg2 *int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_SensorCalibration_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetSensorCalibration() (_swig_ret *int) {
+	var swig_r *int
+	_swig_i_0 := arg1
+	swig_r = (*int)(C._wrap_libraw_olympus_makernotes_t_SensorCalibration_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetFocusMode(arg2 *uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetFocusMode() (_swig_ret *uint16) {
+	var swig_r *uint16
+	_swig_i_0 := arg1
+	swig_r = (*uint16)(C._wrap_libraw_olympus_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetAutoFocus(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_AutoFocus_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetAutoFocus() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_olympus_makernotes_t_AutoFocus_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetAFPoint(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_AFPoint_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetAFPoint() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_olympus_makernotes_t_AFPoint_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetAFAreas(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_AFAreas_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetAFAreas() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_olympus_makernotes_t_AFAreas_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetAFPointSelected(arg2 *float64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_AFPointSelected_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetAFPointSelected() (_swig_ret *float64) {
+	var swig_r *float64
+	_swig_i_0 := arg1
+	swig_r = (*float64)(C._wrap_libraw_olympus_makernotes_t_AFPointSelected_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetAFResult(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_AFResult_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetAFResult() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_olympus_makernotes_t_AFResult_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetDriveMode(arg2 *uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_DriveMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetDriveMode() (_swig_ret *uint16) {
+	var swig_r *uint16
+	_swig_i_0 := arg1
+	swig_r = (*uint16)(C._wrap_libraw_olympus_makernotes_t_DriveMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetColorSpace(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_ColorSpace_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetColorSpace() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_olympus_makernotes_t_ColorSpace_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetAFFineTune(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_AFFineTune_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetAFFineTune() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_olympus_makernotes_t_AFFineTune_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetAFFineTuneAdj(arg2 *int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_AFFineTuneAdj_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetAFFineTuneAdj() (_swig_ret *int16) {
+	var swig_r *int16
+	_swig_i_0 := arg1
+	swig_r = (*int16)(C._wrap_libraw_olympus_makernotes_t_AFFineTuneAdj_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) SetCameraType2(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_olympus_makernotes_t_CameraType2_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_72)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_olympus_makernotes_t) GetCameraType2() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_olympus_makernotes_t_CameraType2_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func NewLibraw_olympus_makernotes_t() (_swig_ret Libraw_olympus_makernotes_t) {
+	var swig_r Libraw_olympus_makernotes_t
+	swig_r = (Libraw_olympus_makernotes_t)(SwigcptrLibraw_olympus_makernotes_t(C._wrap_new_libraw_olympus_makernotes_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_olympus_makernotes_t(arg1 Libraw_olympus_makernotes_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_olympus_makernotes_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_olympus_makernotes_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_olympus_makernotes_t()
+	SetSensorCalibration(arg2 *int)
+	GetSensorCalibration() (_swig_ret *int)
+	SetFocusMode(arg2 *uint16)
+	GetFocusMode() (_swig_ret *uint16)
+	SetAutoFocus(arg2 uint16)
+	GetAutoFocus() (_swig_ret uint16)
+	SetAFPoint(arg2 uint16)
+	GetAFPoint() (_swig_ret uint16)
+	SetAFAreas(arg2 *uint)
+	GetAFAreas() (_swig_ret *uint)
+	SetAFPointSelected(arg2 *float64)
+	GetAFPointSelected() (_swig_ret *float64)
+	SetAFResult(arg2 uint16)
+	GetAFResult() (_swig_ret uint16)
+	SetDriveMode(arg2 *uint16)
+	GetDriveMode() (_swig_ret *uint16)
+	SetColorSpace(arg2 uint16)
+	GetColorSpace() (_swig_ret uint16)
+	SetAFFineTune(arg2 byte)
+	GetAFFineTune() (_swig_ret byte)
+	SetAFFineTuneAdj(arg2 *int16)
+	GetAFFineTuneAdj() (_swig_ret *int16)
+	SetCameraType2(arg2 string)
+	GetCameraType2() (_swig_ret string)
+}
+
+type SwigcptrLibraw_panasonic_makernotes_t uintptr
+
+func (p SwigcptrLibraw_panasonic_makernotes_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_panasonic_makernotes_t) SwigIsLibraw_panasonic_makernotes_t() {
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) SetCompression(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_panasonic_makernotes_t_Compression_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) GetCompression() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_panasonic_makernotes_t_Compression_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) SetBlackLevelDim(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_panasonic_makernotes_t_BlackLevelDim_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) GetBlackLevelDim() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_panasonic_makernotes_t_BlackLevelDim_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) SetBlackLevel(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_panasonic_makernotes_t_BlackLevel_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) GetBlackLevel() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_panasonic_makernotes_t_BlackLevel_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) SetMultishot(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_panasonic_makernotes_t_Multishot_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) GetMultishot() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_panasonic_makernotes_t_Multishot_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) SetGamma(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_panasonic_makernotes_t_gamma_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) GetGamma() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_panasonic_makernotes_t_gamma_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) SetHighISOMultiplier(arg2 *int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_panasonic_makernotes_t_HighISOMultiplier_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_panasonic_makernotes_t) GetHighISOMultiplier() (_swig_ret *int) {
+	var swig_r *int
+	_swig_i_0 := arg1
+	swig_r = (*int)(C._wrap_libraw_panasonic_makernotes_t_HighISOMultiplier_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_panasonic_makernotes_t() (_swig_ret Libraw_panasonic_makernotes_t) {
+	var swig_r Libraw_panasonic_makernotes_t
+	swig_r = (Libraw_panasonic_makernotes_t)(SwigcptrLibraw_panasonic_makernotes_t(C._wrap_new_libraw_panasonic_makernotes_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_panasonic_makernotes_t(arg1 Libraw_panasonic_makernotes_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_panasonic_makernotes_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_panasonic_makernotes_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_panasonic_makernotes_t()
+	SetCompression(arg2 uint16)
+	GetCompression() (_swig_ret uint16)
+	SetBlackLevelDim(arg2 uint16)
+	GetBlackLevelDim() (_swig_ret uint16)
+	SetBlackLevel(arg2 *float32)
+	GetBlackLevel() (_swig_ret *float32)
+	SetMultishot(arg2 uint)
+	GetMultishot() (_swig_ret uint)
+	SetGamma(arg2 float32)
+	GetGamma() (_swig_ret float32)
+	SetHighISOMultiplier(arg2 *int)
+	GetHighISOMultiplier() (_swig_ret *int)
+}
+
+type SwigcptrLibraw_pentax_makernotes_t uintptr
+
+func (p SwigcptrLibraw_pentax_makernotes_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_pentax_makernotes_t) SwigIsLibraw_pentax_makernotes_t() {
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) SetFocusMode(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_pentax_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) GetFocusMode() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_pentax_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) SetAFPointSelected(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_pentax_makernotes_t_AFPointSelected_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) GetAFPointSelected() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_pentax_makernotes_t_AFPointSelected_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) SetAFPointsInFocus(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_pentax_makernotes_t_AFPointsInFocus_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) GetAFPointsInFocus() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_pentax_makernotes_t_AFPointsInFocus_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) SetFocusPosition(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_pentax_makernotes_t_FocusPosition_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) GetFocusPosition() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_pentax_makernotes_t_FocusPosition_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) SetDriveMode(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_pentax_makernotes_t_DriveMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) GetDriveMode() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_libraw_pentax_makernotes_t_DriveMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) SetAFAdjustment(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_pentax_makernotes_t_AFAdjustment_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) GetAFAdjustment() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_pentax_makernotes_t_AFAdjustment_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) SetMultiExposure(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_pentax_makernotes_t_MultiExposure_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) GetMultiExposure() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_pentax_makernotes_t_MultiExposure_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) SetQuality(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_pentax_makernotes_t_Quality_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_pentax_makernotes_t) GetQuality() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_pentax_makernotes_t_Quality_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_pentax_makernotes_t() (_swig_ret Libraw_pentax_makernotes_t) {
+	var swig_r Libraw_pentax_makernotes_t
+	swig_r = (Libraw_pentax_makernotes_t)(SwigcptrLibraw_pentax_makernotes_t(C._wrap_new_libraw_pentax_makernotes_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_pentax_makernotes_t(arg1 Libraw_pentax_makernotes_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_pentax_makernotes_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_pentax_makernotes_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_pentax_makernotes_t()
+	SetFocusMode(arg2 uint16)
+	GetFocusMode() (_swig_ret uint16)
+	SetAFPointSelected(arg2 uint16)
+	GetAFPointSelected() (_swig_ret uint16)
+	SetAFPointsInFocus(arg2 uint)
+	GetAFPointsInFocus() (_swig_ret uint)
+	SetFocusPosition(arg2 uint16)
+	GetFocusPosition() (_swig_ret uint16)
+	SetDriveMode(arg2 *byte)
+	GetDriveMode() (_swig_ret *byte)
+	SetAFAdjustment(arg2 int16)
+	GetAFAdjustment() (_swig_ret int16)
+	SetMultiExposure(arg2 byte)
+	GetMultiExposure() (_swig_ret byte)
+	SetQuality(arg2 uint16)
+	GetQuality() (_swig_ret uint16)
+}
+
+type SwigcptrLibraw_samsung_makernotes_t uintptr
+
+func (p SwigcptrLibraw_samsung_makernotes_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_samsung_makernotes_t) SwigIsLibraw_samsung_makernotes_t() {
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) SetImageSizeFull(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_samsung_makernotes_t_ImageSizeFull_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) GetImageSizeFull() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_samsung_makernotes_t_ImageSizeFull_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) SetImageSizeCrop(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_samsung_makernotes_t_ImageSizeCrop_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) GetImageSizeCrop() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_samsung_makernotes_t_ImageSizeCrop_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) SetColorSpace(arg2 *int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_samsung_makernotes_t_ColorSpace_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) GetColorSpace() (_swig_ret *int) {
+	var swig_r *int
+	_swig_i_0 := arg1
+	swig_r = (*int)(C._wrap_libraw_samsung_makernotes_t_ColorSpace_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) SetKey(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_samsung_makernotes_t_key_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) GetKey() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_samsung_makernotes_t_key_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) SetDigitalGain(arg2 float64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_samsung_makernotes_t_DigitalGain_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) GetDigitalGain() (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_libraw_samsung_makernotes_t_DigitalGain_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) SetDeviceType(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_samsung_makernotes_t_DeviceType_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) GetDeviceType() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_samsung_makernotes_t_DeviceType_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) SetLensFirmware(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_samsung_makernotes_t_LensFirmware_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_74)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_samsung_makernotes_t) GetLensFirmware() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_samsung_makernotes_t_LensFirmware_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func NewLibraw_samsung_makernotes_t() (_swig_ret Libraw_samsung_makernotes_t) {
+	var swig_r Libraw_samsung_makernotes_t
+	swig_r = (Libraw_samsung_makernotes_t)(SwigcptrLibraw_samsung_makernotes_t(C._wrap_new_libraw_samsung_makernotes_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_samsung_makernotes_t(arg1 Libraw_samsung_makernotes_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_samsung_makernotes_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_samsung_makernotes_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_samsung_makernotes_t()
+	SetImageSizeFull(arg2 *uint)
+	GetImageSizeFull() (_swig_ret *uint)
+	SetImageSizeCrop(arg2 *uint)
+	GetImageSizeCrop() (_swig_ret *uint)
+	SetColorSpace(arg2 *int)
+	GetColorSpace() (_swig_ret *int)
+	SetKey(arg2 *uint)
+	GetKey() (_swig_ret *uint)
+	SetDigitalGain(arg2 float64)
+	GetDigitalGain() (_swig_ret float64)
+	SetDeviceType(arg2 int)
+	GetDeviceType() (_swig_ret int)
+	SetLensFirmware(arg2 string)
+	GetLensFirmware() (_swig_ret string)
+}
+
+type SwigcptrLibraw_kodak_makernotes_t uintptr
+
+func (p SwigcptrLibraw_kodak_makernotes_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_kodak_makernotes_t) SwigIsLibraw_kodak_makernotes_t() {
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetBlackLevelTop(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_BlackLevelTop_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetBlackLevelTop() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_kodak_makernotes_t_BlackLevelTop_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetBlackLevelBottom(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_BlackLevelBottom_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetBlackLevelBottom() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_kodak_makernotes_t_BlackLevelBottom_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetOffset_left(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_offset_left_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetOffset_left() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_kodak_makernotes_t_offset_left_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetOffset_top(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_offset_top_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetOffset_top() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_kodak_makernotes_t_offset_top_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetClipBlack(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_clipBlack_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetClipBlack() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_kodak_makernotes_t_clipBlack_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetClipWhite(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_clipWhite_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetClipWhite() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_kodak_makernotes_t_clipWhite_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetRomm_camDaylight(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_romm_camDaylight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetRomm_camDaylight() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_kodak_makernotes_t_romm_camDaylight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetRomm_camTungsten(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_romm_camTungsten_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetRomm_camTungsten() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_kodak_makernotes_t_romm_camTungsten_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetRomm_camFluorescent(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_romm_camFluorescent_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetRomm_camFluorescent() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_kodak_makernotes_t_romm_camFluorescent_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetRomm_camFlash(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_romm_camFlash_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetRomm_camFlash() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_kodak_makernotes_t_romm_camFlash_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetRomm_camCustom(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_romm_camCustom_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetRomm_camCustom() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_kodak_makernotes_t_romm_camCustom_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetRomm_camAuto(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_romm_camAuto_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetRomm_camAuto() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_kodak_makernotes_t_romm_camAuto_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetVal018percent(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_val018percent_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetVal018percent() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_kodak_makernotes_t_val018percent_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetVal100percent(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_val100percent_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetVal100percent() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_kodak_makernotes_t_val100percent_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetVal170percent(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_val170percent_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetVal170percent() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_kodak_makernotes_t_val170percent_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetMakerNoteKodak8a(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_MakerNoteKodak8a_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetMakerNoteKodak8a() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_kodak_makernotes_t_MakerNoteKodak8a_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetISOCalibrationGain(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_ISOCalibrationGain_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetISOCalibrationGain() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_kodak_makernotes_t_ISOCalibrationGain_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) SetAnalogISO(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_kodak_makernotes_t_AnalogISO_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_kodak_makernotes_t) GetAnalogISO() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_kodak_makernotes_t_AnalogISO_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_kodak_makernotes_t() (_swig_ret Libraw_kodak_makernotes_t) {
+	var swig_r Libraw_kodak_makernotes_t
+	swig_r = (Libraw_kodak_makernotes_t)(SwigcptrLibraw_kodak_makernotes_t(C._wrap_new_libraw_kodak_makernotes_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_kodak_makernotes_t(arg1 Libraw_kodak_makernotes_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_kodak_makernotes_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_kodak_makernotes_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_kodak_makernotes_t()
+	SetBlackLevelTop(arg2 uint16)
+	GetBlackLevelTop() (_swig_ret uint16)
+	SetBlackLevelBottom(arg2 uint16)
+	GetBlackLevelBottom() (_swig_ret uint16)
+	SetOffset_left(arg2 int16)
+	GetOffset_left() (_swig_ret int16)
+	SetOffset_top(arg2 int16)
+	GetOffset_top() (_swig_ret int16)
+	SetClipBlack(arg2 uint16)
+	GetClipBlack() (_swig_ret uint16)
+	SetClipWhite(arg2 uint16)
+	GetClipWhite() (_swig_ret uint16)
+	SetRomm_camDaylight(arg2 **float32)
+	GetRomm_camDaylight() (_swig_ret **float32)
+	SetRomm_camTungsten(arg2 **float32)
+	GetRomm_camTungsten() (_swig_ret **float32)
+	SetRomm_camFluorescent(arg2 **float32)
+	GetRomm_camFluorescent() (_swig_ret **float32)
+	SetRomm_camFlash(arg2 **float32)
+	GetRomm_camFlash() (_swig_ret **float32)
+	SetRomm_camCustom(arg2 **float32)
+	GetRomm_camCustom() (_swig_ret **float32)
+	SetRomm_camAuto(arg2 **float32)
+	GetRomm_camAuto() (_swig_ret **float32)
+	SetVal018percent(arg2 uint16)
+	GetVal018percent() (_swig_ret uint16)
+	SetVal100percent(arg2 uint16)
+	GetVal100percent() (_swig_ret uint16)
+	SetVal170percent(arg2 uint16)
+	GetVal170percent() (_swig_ret uint16)
+	SetMakerNoteKodak8a(arg2 int16)
+	GetMakerNoteKodak8a() (_swig_ret int16)
+	SetISOCalibrationGain(arg2 float32)
+	GetISOCalibrationGain() (_swig_ret float32)
+	SetAnalogISO(arg2 float32)
+	GetAnalogISO() (_swig_ret float32)
+}
+
+type SwigcptrLibraw_p1_makernotes_t uintptr
+
+func (p SwigcptrLibraw_p1_makernotes_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_p1_makernotes_t) SwigIsLibraw_p1_makernotes_t() {
+}
+
+func (arg1 SwigcptrLibraw_p1_makernotes_t) SetSoftware(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_p1_makernotes_t_Software_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_76)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_p1_makernotes_t) GetSoftware() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_p1_makernotes_t_Software_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_p1_makernotes_t) SetSystemType(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_p1_makernotes_t_SystemType_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_78)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_p1_makernotes_t) GetSystemType() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_p1_makernotes_t_SystemType_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_p1_makernotes_t) SetFirmwareString(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_p1_makernotes_t_FirmwareString_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_80)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_p1_makernotes_t) GetFirmwareString() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_p1_makernotes_t_FirmwareString_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_p1_makernotes_t) SetSystemModel(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_p1_makernotes_t_SystemModel_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_82)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_p1_makernotes_t) GetSystemModel() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_p1_makernotes_t_SystemModel_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func NewLibraw_p1_makernotes_t() (_swig_ret Libraw_p1_makernotes_t) {
+	var swig_r Libraw_p1_makernotes_t
+	swig_r = (Libraw_p1_makernotes_t)(SwigcptrLibraw_p1_makernotes_t(C._wrap_new_libraw_p1_makernotes_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_p1_makernotes_t(arg1 Libraw_p1_makernotes_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_p1_makernotes_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_p1_makernotes_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_p1_makernotes_t()
+	SetSoftware(arg2 string)
+	GetSoftware() (_swig_ret string)
+	SetSystemType(arg2 string)
+	GetSystemType() (_swig_ret string)
+	SetFirmwareString(arg2 string)
+	GetFirmwareString() (_swig_ret string)
+	SetSystemModel(arg2 string)
+	GetSystemModel() (_swig_ret string)
+}
+
+type SwigcptrLibraw_sony_info_t uintptr
+
+func (p SwigcptrLibraw_sony_info_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_sony_info_t) SwigIsLibraw_sony_info_t() {
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetCameraType(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_CameraType_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetCameraType() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_CameraType_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetSony0x9400_version(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_Sony0x9400_version_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetSony0x9400_version() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_sony_info_t_Sony0x9400_version_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetSony0x9400_ReleaseMode2(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_Sony0x9400_ReleaseMode2_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetSony0x9400_ReleaseMode2() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_sony_info_t_Sony0x9400_ReleaseMode2_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetSony0x9400_SequenceImageNumber(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_Sony0x9400_SequenceImageNumber_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetSony0x9400_SequenceImageNumber() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_sony_info_t_Sony0x9400_SequenceImageNumber_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetSony0x9400_SequenceLength1(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_Sony0x9400_SequenceLength1_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetSony0x9400_SequenceLength1() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_sony_info_t_Sony0x9400_SequenceLength1_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetSony0x9400_SequenceFileNumber(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_Sony0x9400_SequenceFileNumber_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetSony0x9400_SequenceFileNumber() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_sony_info_t_Sony0x9400_SequenceFileNumber_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetSony0x9400_SequenceLength2(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_Sony0x9400_SequenceLength2_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetSony0x9400_SequenceLength2() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_sony_info_t_Sony0x9400_SequenceLength2_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetAFAreaModeSetting(arg2 Uint8_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_sony_info_t_AFAreaModeSetting_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetAFAreaModeSetting() (_swig_ret Uint8_t) {
+	var swig_r Uint8_t
+	_swig_i_0 := arg1
+	swig_r = (Uint8_t)(SwigcptrUint8_t(C._wrap_libraw_sony_info_t_AFAreaModeSetting_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetFlexibleSpotPosition(arg2 *uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_FlexibleSpotPosition_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetFlexibleSpotPosition() (_swig_ret *uint16) {
+	var swig_r *uint16
+	_swig_i_0 := arg1
+	swig_r = (*uint16)(C._wrap_libraw_sony_info_t_FlexibleSpotPosition_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetAFPointSelected(arg2 Uint8_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_sony_info_t_AFPointSelected_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetAFPointSelected() (_swig_ret Uint8_t) {
+	var swig_r Uint8_t
+	_swig_i_0 := arg1
+	swig_r = (Uint8_t)(SwigcptrUint8_t(C._wrap_libraw_sony_info_t_AFPointSelected_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetAFPointsUsed(arg2 Uint8_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_sony_info_t_AFPointsUsed_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetAFPointsUsed() (_swig_ret Uint8_t) {
+	var swig_r Uint8_t
+	_swig_i_0 := arg1
+	swig_r = (Uint8_t)(SwigcptrUint8_t(C._wrap_libraw_sony_info_t_AFPointsUsed_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetAFTracking(arg2 Uint8_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_sony_info_t_AFTracking_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetAFTracking() (_swig_ret Uint8_t) {
+	var swig_r Uint8_t
+	_swig_i_0 := arg1
+	swig_r = (Uint8_t)(SwigcptrUint8_t(C._wrap_libraw_sony_info_t_AFTracking_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetAFType(arg2 Uint8_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_sony_info_t_AFType_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetAFType() (_swig_ret Uint8_t) {
+	var swig_r Uint8_t
+	_swig_i_0 := arg1
+	swig_r = (Uint8_t)(SwigcptrUint8_t(C._wrap_libraw_sony_info_t_AFType_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetFocusLocation(arg2 *uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_FocusLocation_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetFocusLocation() (_swig_ret *uint16) {
+	var swig_r *uint16
+	_swig_i_0 := arg1
+	swig_r = (*uint16)(C._wrap_libraw_sony_info_t_FocusLocation_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetAFMicroAdjValue(arg2 Int8_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_sony_info_t_AFMicroAdjValue_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetAFMicroAdjValue() (_swig_ret Int8_t) {
+	var swig_r Int8_t
+	_swig_i_0 := arg1
+	swig_r = (Int8_t)(SwigcptrInt8_t(C._wrap_libraw_sony_info_t_AFMicroAdjValue_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetAFMicroAdjOn(arg2 Int8_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_sony_info_t_AFMicroAdjOn_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetAFMicroAdjOn() (_swig_ret Int8_t) {
+	var swig_r Int8_t
+	_swig_i_0 := arg1
+	swig_r = (Int8_t)(SwigcptrInt8_t(C._wrap_libraw_sony_info_t_AFMicroAdjOn_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetAFMicroAdjRegisteredLenses(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_AFMicroAdjRegisteredLenses_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetAFMicroAdjRegisteredLenses() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_sony_info_t_AFMicroAdjRegisteredLenses_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetVariableLowPassFilter(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_VariableLowPassFilter_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetVariableLowPassFilter() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_VariableLowPassFilter_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetLongExposureNoiseReduction(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_LongExposureNoiseReduction_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetLongExposureNoiseReduction() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_sony_info_t_LongExposureNoiseReduction_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetHighISONoiseReduction(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_HighISONoiseReduction_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetHighISONoiseReduction() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_HighISONoiseReduction_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetHDR(arg2 *uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_HDR_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetHDR() (_swig_ret *uint16) {
+	var swig_r *uint16
+	_swig_i_0 := arg1
+	swig_r = (*uint16)(C._wrap_libraw_sony_info_t_HDR_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetGroup2010(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_group2010_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetGroup2010() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_group2010_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetReal_iso_offset(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_real_iso_offset_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetReal_iso_offset() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_real_iso_offset_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetMeteringMode_offset(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_MeteringMode_offset_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetMeteringMode_offset() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_MeteringMode_offset_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetExposureProgram_offset(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_ExposureProgram_offset_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetExposureProgram_offset() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_ExposureProgram_offset_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetReleaseMode2_offset(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_ReleaseMode2_offset_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetReleaseMode2_offset() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_ReleaseMode2_offset_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetMinoltaCamID(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_MinoltaCamID_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetMinoltaCamID() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_sony_info_t_MinoltaCamID_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetFirmware(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_firmware_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetFirmware() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_sony_info_t_firmware_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetImageCount3_offset(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_ImageCount3_offset_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetImageCount3_offset() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_ImageCount3_offset_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetImageCount3(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_ImageCount3_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetImageCount3() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_sony_info_t_ImageCount3_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetElectronicFrontCurtainShutter(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_ElectronicFrontCurtainShutter_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetElectronicFrontCurtainShutter() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_sony_info_t_ElectronicFrontCurtainShutter_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetMeteringMode2(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_MeteringMode2_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetMeteringMode2() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_MeteringMode2_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetSonyDateTime(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_SonyDateTime_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_84)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetSonyDateTime() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_sony_info_t_SonyDateTime_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetShotNumberSincePowerUp(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_ShotNumberSincePowerUp_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetShotNumberSincePowerUp() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_sony_info_t_ShotNumberSincePowerUp_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetPixelShiftGroupPrefix(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_PixelShiftGroupPrefix_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetPixelShiftGroupPrefix() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_PixelShiftGroupPrefix_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetPixelShiftGroupID(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_PixelShiftGroupID_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetPixelShiftGroupID() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_sony_info_t_PixelShiftGroupID_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetNShotsInPixelShiftGroup(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_nShotsInPixelShiftGroup_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetNShotsInPixelShiftGroup() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_sony_info_t_nShotsInPixelShiftGroup_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetNumInPixelShiftGroup(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_numInPixelShiftGroup_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetNumInPixelShiftGroup() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_sony_info_t_numInPixelShiftGroup_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetPrd_ImageHeight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_prd_ImageHeight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetPrd_ImageHeight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_prd_ImageHeight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetPrd_ImageWidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_prd_ImageWidth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetPrd_ImageWidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_prd_ImageWidth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetPrd_RawBitDepth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_prd_RawBitDepth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetPrd_RawBitDepth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_prd_RawBitDepth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetPrd_StorageMethod(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_prd_StorageMethod_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetPrd_StorageMethod() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_prd_StorageMethod_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetPrd_BayerPattern(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_prd_BayerPattern_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetPrd_BayerPattern() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_prd_BayerPattern_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetSonyRawFileType(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_SonyRawFileType_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetSonyRawFileType() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_SonyRawFileType_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetRAWFileType(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_RAWFileType_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetRAWFileType() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_RAWFileType_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetQuality(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_Quality_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetQuality() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_sony_info_t_Quality_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) SetFileFormat(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_sony_info_t_FileFormat_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_sony_info_t) GetFileFormat() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_sony_info_t_FileFormat_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_sony_info_t() (_swig_ret Libraw_sony_info_t) {
+	var swig_r Libraw_sony_info_t
+	swig_r = (Libraw_sony_info_t)(SwigcptrLibraw_sony_info_t(C._wrap_new_libraw_sony_info_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_sony_info_t(arg1 Libraw_sony_info_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_sony_info_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_sony_info_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_sony_info_t()
+	SetCameraType(arg2 uint16)
+	GetCameraType() (_swig_ret uint16)
+	SetSony0x9400_version(arg2 byte)
+	GetSony0x9400_version() (_swig_ret byte)
+	SetSony0x9400_ReleaseMode2(arg2 byte)
+	GetSony0x9400_ReleaseMode2() (_swig_ret byte)
+	SetSony0x9400_SequenceImageNumber(arg2 uint)
+	GetSony0x9400_SequenceImageNumber() (_swig_ret uint)
+	SetSony0x9400_SequenceLength1(arg2 byte)
+	GetSony0x9400_SequenceLength1() (_swig_ret byte)
+	SetSony0x9400_SequenceFileNumber(arg2 uint)
+	GetSony0x9400_SequenceFileNumber() (_swig_ret uint)
+	SetSony0x9400_SequenceLength2(arg2 byte)
+	GetSony0x9400_SequenceLength2() (_swig_ret byte)
+	SetAFAreaModeSetting(arg2 Uint8_t)
+	GetAFAreaModeSetting() (_swig_ret Uint8_t)
+	SetFlexibleSpotPosition(arg2 *uint16)
+	GetFlexibleSpotPosition() (_swig_ret *uint16)
+	SetAFPointSelected(arg2 Uint8_t)
+	GetAFPointSelected() (_swig_ret Uint8_t)
+	SetAFPointsUsed(arg2 Uint8_t)
+	GetAFPointsUsed() (_swig_ret Uint8_t)
+	SetAFTracking(arg2 Uint8_t)
+	GetAFTracking() (_swig_ret Uint8_t)
+	SetAFType(arg2 Uint8_t)
+	GetAFType() (_swig_ret Uint8_t)
+	SetFocusLocation(arg2 *uint16)
+	GetFocusLocation() (_swig_ret *uint16)
+	SetAFMicroAdjValue(arg2 Int8_t)
+	GetAFMicroAdjValue() (_swig_ret Int8_t)
+	SetAFMicroAdjOn(arg2 Int8_t)
+	GetAFMicroAdjOn() (_swig_ret Int8_t)
+	SetAFMicroAdjRegisteredLenses(arg2 byte)
+	GetAFMicroAdjRegisteredLenses() (_swig_ret byte)
+	SetVariableLowPassFilter(arg2 uint16)
+	GetVariableLowPassFilter() (_swig_ret uint16)
+	SetLongExposureNoiseReduction(arg2 uint)
+	GetLongExposureNoiseReduction() (_swig_ret uint)
+	SetHighISONoiseReduction(arg2 uint16)
+	GetHighISONoiseReduction() (_swig_ret uint16)
+	SetHDR(arg2 *uint16)
+	GetHDR() (_swig_ret *uint16)
+	SetGroup2010(arg2 uint16)
+	GetGroup2010() (_swig_ret uint16)
+	SetReal_iso_offset(arg2 uint16)
+	GetReal_iso_offset() (_swig_ret uint16)
+	SetMeteringMode_offset(arg2 uint16)
+	GetMeteringMode_offset() (_swig_ret uint16)
+	SetExposureProgram_offset(arg2 uint16)
+	GetExposureProgram_offset() (_swig_ret uint16)
+	SetReleaseMode2_offset(arg2 uint16)
+	GetReleaseMode2_offset() (_swig_ret uint16)
+	SetMinoltaCamID(arg2 uint)
+	GetMinoltaCamID() (_swig_ret uint)
+	SetFirmware(arg2 float32)
+	GetFirmware() (_swig_ret float32)
+	SetImageCount3_offset(arg2 uint16)
+	GetImageCount3_offset() (_swig_ret uint16)
+	SetImageCount3(arg2 uint)
+	GetImageCount3() (_swig_ret uint)
+	SetElectronicFrontCurtainShutter(arg2 uint)
+	GetElectronicFrontCurtainShutter() (_swig_ret uint)
+	SetMeteringMode2(arg2 uint16)
+	GetMeteringMode2() (_swig_ret uint16)
+	SetSonyDateTime(arg2 string)
+	GetSonyDateTime() (_swig_ret string)
+	SetShotNumberSincePowerUp(arg2 uint)
+	GetShotNumberSincePowerUp() (_swig_ret uint)
+	SetPixelShiftGroupPrefix(arg2 uint16)
+	GetPixelShiftGroupPrefix() (_swig_ret uint16)
+	SetPixelShiftGroupID(arg2 uint)
+	GetPixelShiftGroupID() (_swig_ret uint)
+	SetNShotsInPixelShiftGroup(arg2 byte)
+	GetNShotsInPixelShiftGroup() (_swig_ret byte)
+	SetNumInPixelShiftGroup(arg2 byte)
+	GetNumInPixelShiftGroup() (_swig_ret byte)
+	SetPrd_ImageHeight(arg2 uint16)
+	GetPrd_ImageHeight() (_swig_ret uint16)
+	SetPrd_ImageWidth(arg2 uint16)
+	GetPrd_ImageWidth() (_swig_ret uint16)
+	SetPrd_RawBitDepth(arg2 uint16)
+	GetPrd_RawBitDepth() (_swig_ret uint16)
+	SetPrd_StorageMethod(arg2 uint16)
+	GetPrd_StorageMethod() (_swig_ret uint16)
+	SetPrd_BayerPattern(arg2 uint16)
+	GetPrd_BayerPattern() (_swig_ret uint16)
+	SetSonyRawFileType(arg2 uint16)
+	GetSonyRawFileType() (_swig_ret uint16)
+	SetRAWFileType(arg2 uint16)
+	GetRAWFileType() (_swig_ret uint16)
+	SetQuality(arg2 uint)
+	GetQuality() (_swig_ret uint)
+	SetFileFormat(arg2 uint16)
+	GetFileFormat() (_swig_ret uint16)
+}
+
+type SwigcptrLibraw_colordata_t uintptr
+
+func (p SwigcptrLibraw_colordata_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_colordata_t) SwigIsLibraw_colordata_t() {
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetCurve(arg2 *uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_curve_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetCurve() (_swig_ret *uint16) {
+	var swig_r *uint16
+	_swig_i_0 := arg1
+	swig_r = (*uint16)(C._wrap_libraw_colordata_t_curve_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetCblack(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_cblack_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetCblack() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_colordata_t_cblack_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetBlack(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_black_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetBlack() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_colordata_t_black_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetData_maximum(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_data_maximum_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetData_maximum() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_colordata_t_data_maximum_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetMaximum(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_maximum_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetMaximum() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_colordata_t_maximum_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetLinear_max(arg2 *int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_linear_max_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetLinear_max() (_swig_ret *int64) {
+	var swig_r *int64
+	_swig_i_0 := arg1
+	swig_r = (*int64)(C._wrap_libraw_colordata_t_linear_max_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetFmaximum(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_fmaximum_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetFmaximum() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_colordata_t_fmaximum_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetFnorm(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_fnorm_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetFnorm() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_colordata_t_fnorm_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetWhite(arg2 **uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_white_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetWhite() (_swig_ret **uint16) {
+	var swig_r **uint16
+	_swig_i_0 := arg1
+	swig_r = (**uint16)(C._wrap_libraw_colordata_t_white_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetCam_mul(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_cam_mul_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetCam_mul() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_colordata_t_cam_mul_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetPre_mul(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_pre_mul_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetPre_mul() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_colordata_t_pre_mul_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetCmatrix(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_cmatrix_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetCmatrix() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_colordata_t_cmatrix_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetCcm(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_ccm_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetCcm() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_colordata_t_ccm_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetRgb_cam(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_rgb_cam_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetRgb_cam() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_colordata_t_rgb_cam_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetCam_xyz(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_cam_xyz_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetCam_xyz() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_colordata_t_cam_xyz_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetPhase_one_data(arg2 Ph1_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_colordata_t_phase_one_data_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetPhase_one_data() (_swig_ret Ph1_t) {
+	var swig_r Ph1_t
+	_swig_i_0 := arg1
+	swig_r = (Ph1_t)(SwigcptrPh1_t(C._wrap_libraw_colordata_t_phase_one_data_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetFlash_used(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_flash_used_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetFlash_used() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_colordata_t_flash_used_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetCanon_ev(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_canon_ev_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetCanon_ev() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_colordata_t_canon_ev_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetModel2(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_model2_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_86)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetModel2() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_colordata_t_model2_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetUniqueCameraModel(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_UniqueCameraModel_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_88)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetUniqueCameraModel() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_colordata_t_UniqueCameraModel_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetLocalizedCameraModel(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_LocalizedCameraModel_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_90)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetLocalizedCameraModel() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_colordata_t_LocalizedCameraModel_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetImageUniqueID(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_ImageUniqueID_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_92)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetImageUniqueID() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_colordata_t_ImageUniqueID_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetRawDataUniqueID(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_RawDataUniqueID_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_94)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetRawDataUniqueID() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_colordata_t_RawDataUniqueID_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetOriginalRawFileName(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_OriginalRawFileName_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_96)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetOriginalRawFileName() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_colordata_t_OriginalRawFileName_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetProfile(arg2 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_profile_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetProfile() (_swig_ret uintptr) {
+	var swig_r uintptr
+	_swig_i_0 := arg1
+	swig_r = (uintptr)(C._wrap_libraw_colordata_t_profile_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetProfile_length(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_profile_length_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetProfile_length() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_colordata_t_profile_length_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetBlack_stat(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_black_stat_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetBlack_stat() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_colordata_t_black_stat_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetDng_color(arg2 Libraw_dng_color_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_colordata_t_dng_color_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetDng_color() (_swig_ret Libraw_dng_color_t) {
+	var swig_r Libraw_dng_color_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_dng_color_t)(SwigcptrLibraw_dng_color_t(C._wrap_libraw_colordata_t_dng_color_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetDng_levels(arg2 Libraw_dng_levels_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_colordata_t_dng_levels_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetDng_levels() (_swig_ret Libraw_dng_levels_t) {
+	var swig_r Libraw_dng_levels_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_dng_levels_t)(SwigcptrLibraw_dng_levels_t(C._wrap_libraw_colordata_t_dng_levels_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetWB_Coeffs(arg2 **int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_WB_Coeffs_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetWB_Coeffs() (_swig_ret **int) {
+	var swig_r **int
+	_swig_i_0 := arg1
+	swig_r = (**int)(C._wrap_libraw_colordata_t_WB_Coeffs_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetWBCT_Coeffs(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_WBCT_Coeffs_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetWBCT_Coeffs() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_colordata_t_WBCT_Coeffs_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetAs_shot_wb_applied(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_as_shot_wb_applied_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetAs_shot_wb_applied() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_colordata_t_as_shot_wb_applied_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetP1_color(arg2 Libraw_P1_color_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_colordata_t_P1_color_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetP1_color() (_swig_ret Libraw_P1_color_t) {
+	var swig_r Libraw_P1_color_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_P1_color_t)(SwigcptrLibraw_P1_color_t(C._wrap_libraw_colordata_t_P1_color_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetRaw_bps(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_raw_bps_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetRaw_bps() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_colordata_t_raw_bps_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) SetExifColorSpace(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_colordata_t_ExifColorSpace_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_colordata_t) GetExifColorSpace() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_colordata_t_ExifColorSpace_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_colordata_t() (_swig_ret Libraw_colordata_t) {
+	var swig_r Libraw_colordata_t
+	swig_r = (Libraw_colordata_t)(SwigcptrLibraw_colordata_t(C._wrap_new_libraw_colordata_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_colordata_t(arg1 Libraw_colordata_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_colordata_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_colordata_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_colordata_t()
+	SetCurve(arg2 *uint16)
+	GetCurve() (_swig_ret *uint16)
+	SetCblack(arg2 *uint)
+	GetCblack() (_swig_ret *uint)
+	SetBlack(arg2 uint)
+	GetBlack() (_swig_ret uint)
+	SetData_maximum(arg2 uint)
+	GetData_maximum() (_swig_ret uint)
+	SetMaximum(arg2 uint)
+	GetMaximum() (_swig_ret uint)
+	SetLinear_max(arg2 *int64)
+	GetLinear_max() (_swig_ret *int64)
+	SetFmaximum(arg2 float32)
+	GetFmaximum() (_swig_ret float32)
+	SetFnorm(arg2 float32)
+	GetFnorm() (_swig_ret float32)
+	SetWhite(arg2 **uint16)
+	GetWhite() (_swig_ret **uint16)
+	SetCam_mul(arg2 *float32)
+	GetCam_mul() (_swig_ret *float32)
+	SetPre_mul(arg2 *float32)
+	GetPre_mul() (_swig_ret *float32)
+	SetCmatrix(arg2 **float32)
+	GetCmatrix() (_swig_ret **float32)
+	SetCcm(arg2 **float32)
+	GetCcm() (_swig_ret **float32)
+	SetRgb_cam(arg2 **float32)
+	GetRgb_cam() (_swig_ret **float32)
+	SetCam_xyz(arg2 **float32)
+	GetCam_xyz() (_swig_ret **float32)
+	SetPhase_one_data(arg2 Ph1_t)
+	GetPhase_one_data() (_swig_ret Ph1_t)
+	SetFlash_used(arg2 float32)
+	GetFlash_used() (_swig_ret float32)
+	SetCanon_ev(arg2 float32)
+	GetCanon_ev() (_swig_ret float32)
+	SetModel2(arg2 string)
+	GetModel2() (_swig_ret string)
+	SetUniqueCameraModel(arg2 string)
+	GetUniqueCameraModel() (_swig_ret string)
+	SetLocalizedCameraModel(arg2 string)
+	GetLocalizedCameraModel() (_swig_ret string)
+	SetImageUniqueID(arg2 string)
+	GetImageUniqueID() (_swig_ret string)
+	SetRawDataUniqueID(arg2 string)
+	GetRawDataUniqueID() (_swig_ret string)
+	SetOriginalRawFileName(arg2 string)
+	GetOriginalRawFileName() (_swig_ret string)
+	SetProfile(arg2 uintptr)
+	GetProfile() (_swig_ret uintptr)
+	SetProfile_length(arg2 uint)
+	GetProfile_length() (_swig_ret uint)
+	SetBlack_stat(arg2 *uint)
+	GetBlack_stat() (_swig_ret *uint)
+	SetDng_color(arg2 Libraw_dng_color_t)
+	GetDng_color() (_swig_ret Libraw_dng_color_t)
+	SetDng_levels(arg2 Libraw_dng_levels_t)
+	GetDng_levels() (_swig_ret Libraw_dng_levels_t)
+	SetWB_Coeffs(arg2 **int)
+	GetWB_Coeffs() (_swig_ret **int)
+	SetWBCT_Coeffs(arg2 **float32)
+	GetWBCT_Coeffs() (_swig_ret **float32)
+	SetAs_shot_wb_applied(arg2 int)
+	GetAs_shot_wb_applied() (_swig_ret int)
+	SetP1_color(arg2 Libraw_P1_color_t)
+	GetP1_color() (_swig_ret Libraw_P1_color_t)
+	SetRaw_bps(arg2 uint)
+	GetRaw_bps() (_swig_ret uint)
+	SetExifColorSpace(arg2 int)
+	GetExifColorSpace() (_swig_ret int)
+}
+
+type SwigcptrLibraw_thumbnail_t uintptr
+
+func (p SwigcptrLibraw_thumbnail_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_thumbnail_t) SwigIsLibraw_thumbnail_t() {
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) SetTformat(arg2 Enum_SS_LibRaw_thumbnail_formats) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_thumbnail_t_tformat_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) GetTformat() (_swig_ret Enum_SS_LibRaw_thumbnail_formats) {
+	var swig_r Enum_SS_LibRaw_thumbnail_formats
+	_swig_i_0 := arg1
+	swig_r = (Enum_SS_LibRaw_thumbnail_formats)(C._wrap_libraw_thumbnail_t_tformat_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) SetTwidth(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_thumbnail_t_twidth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) GetTwidth() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_thumbnail_t_twidth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) SetTheight(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_thumbnail_t_theight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) GetTheight() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_thumbnail_t_theight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) SetTlength(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_thumbnail_t_tlength_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) GetTlength() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_thumbnail_t_tlength_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) SetTcolors(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_thumbnail_t_tcolors_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) GetTcolors() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_thumbnail_t_tcolors_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) SetThumb(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_thumbnail_t_thumb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_98)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_thumbnail_t) GetThumb() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_thumbnail_t_thumb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func NewLibraw_thumbnail_t() (_swig_ret Libraw_thumbnail_t) {
+	var swig_r Libraw_thumbnail_t
+	swig_r = (Libraw_thumbnail_t)(SwigcptrLibraw_thumbnail_t(C._wrap_new_libraw_thumbnail_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_thumbnail_t(arg1 Libraw_thumbnail_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_thumbnail_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_thumbnail_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_thumbnail_t()
+	SetTformat(arg2 Enum_SS_LibRaw_thumbnail_formats)
+	GetTformat() (_swig_ret Enum_SS_LibRaw_thumbnail_formats)
+	SetTwidth(arg2 uint16)
+	GetTwidth() (_swig_ret uint16)
+	SetTheight(arg2 uint16)
+	GetTheight() (_swig_ret uint16)
+	SetTlength(arg2 uint)
+	GetTlength() (_swig_ret uint)
+	SetTcolors(arg2 int)
+	GetTcolors() (_swig_ret int)
+	SetThumb(arg2 string)
+	GetThumb() (_swig_ret string)
+}
+
+type SwigcptrLibraw_gps_info_t uintptr
+
+func (p SwigcptrLibraw_gps_info_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_gps_info_t) SwigIsLibraw_gps_info_t() {
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) SetLatitude(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_gps_info_t_latitude_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) GetLatitude() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_gps_info_t_latitude_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) SetLongitude(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_gps_info_t_longitude_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) GetLongitude() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_gps_info_t_longitude_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) SetGpstimestamp(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_gps_info_t_gpstimestamp_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) GetGpstimestamp() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_gps_info_t_gpstimestamp_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) SetAltitude(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_gps_info_t_altitude_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) GetAltitude() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_gps_info_t_altitude_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) SetAltref(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_gps_info_t_altref_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) GetAltref() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_gps_info_t_altref_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) SetLatref(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_gps_info_t_latref_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) GetLatref() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_gps_info_t_latref_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) SetLongref(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_gps_info_t_longref_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) GetLongref() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_gps_info_t_longref_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) SetGpsstatus(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_gps_info_t_gpsstatus_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) GetGpsstatus() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_gps_info_t_gpsstatus_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) SetGpsparsed(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_gps_info_t_gpsparsed_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_gps_info_t) GetGpsparsed() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_gps_info_t_gpsparsed_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_gps_info_t() (_swig_ret Libraw_gps_info_t) {
+	var swig_r Libraw_gps_info_t
+	swig_r = (Libraw_gps_info_t)(SwigcptrLibraw_gps_info_t(C._wrap_new_libraw_gps_info_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_gps_info_t(arg1 Libraw_gps_info_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_gps_info_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_gps_info_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_gps_info_t()
+	SetLatitude(arg2 *float32)
+	GetLatitude() (_swig_ret *float32)
+	SetLongitude(arg2 *float32)
+	GetLongitude() (_swig_ret *float32)
+	SetGpstimestamp(arg2 *float32)
+	GetGpstimestamp() (_swig_ret *float32)
+	SetAltitude(arg2 float32)
+	GetAltitude() (_swig_ret float32)
+	SetAltref(arg2 byte)
+	GetAltref() (_swig_ret byte)
+	SetLatref(arg2 byte)
+	GetLatref() (_swig_ret byte)
+	SetLongref(arg2 byte)
+	GetLongref() (_swig_ret byte)
+	SetGpsstatus(arg2 byte)
+	GetGpsstatus() (_swig_ret byte)
+	SetGpsparsed(arg2 byte)
+	GetGpsparsed() (_swig_ret byte)
+}
+
+type SwigcptrLibraw_imgother_t uintptr
+
+func (p SwigcptrLibraw_imgother_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_imgother_t) SwigIsLibraw_imgother_t() {
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) SetIso_speed(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_imgother_t_iso_speed_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) GetIso_speed() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_imgother_t_iso_speed_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) SetShutter(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_imgother_t_shutter_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) GetShutter() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_imgother_t_shutter_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) SetAperture(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_imgother_t_aperture_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) GetAperture() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_imgother_t_aperture_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) SetFocal_len(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_imgother_t_focal_len_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) GetFocal_len() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_imgother_t_focal_len_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) SetTimestamp(arg2 Time_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_imgother_t_timestamp_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) GetTimestamp() (_swig_ret Time_t) {
+	var swig_r Time_t
+	_swig_i_0 := arg1
+	swig_r = (Time_t)(SwigcptrTime_t(C._wrap_libraw_imgother_t_timestamp_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) SetShot_order(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_imgother_t_shot_order_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) GetShot_order() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_imgother_t_shot_order_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) SetGpsdata(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_imgother_t_gpsdata_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) GetGpsdata() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_imgother_t_gpsdata_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) SetParsed_gps(arg2 Libraw_gps_info_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_imgother_t_parsed_gps_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) GetParsed_gps() (_swig_ret Libraw_gps_info_t) {
+	var swig_r Libraw_gps_info_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_gps_info_t)(SwigcptrLibraw_gps_info_t(C._wrap_libraw_imgother_t_parsed_gps_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) SetDesc(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_imgother_t_desc_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_100)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) GetDesc() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_imgother_t_desc_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) SetArtist(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_imgother_t_artist_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_102)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) GetArtist() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_imgother_t_artist_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) SetAnalogbalance(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_imgother_t_analogbalance_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_imgother_t) GetAnalogbalance() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_imgother_t_analogbalance_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_imgother_t() (_swig_ret Libraw_imgother_t) {
+	var swig_r Libraw_imgother_t
+	swig_r = (Libraw_imgother_t)(SwigcptrLibraw_imgother_t(C._wrap_new_libraw_imgother_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_imgother_t(arg1 Libraw_imgother_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_imgother_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_imgother_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_imgother_t()
+	SetIso_speed(arg2 float32)
+	GetIso_speed() (_swig_ret float32)
+	SetShutter(arg2 float32)
+	GetShutter() (_swig_ret float32)
+	SetAperture(arg2 float32)
+	GetAperture() (_swig_ret float32)
+	SetFocal_len(arg2 float32)
+	GetFocal_len() (_swig_ret float32)
+	SetTimestamp(arg2 Time_t)
+	GetTimestamp() (_swig_ret Time_t)
+	SetShot_order(arg2 uint)
+	GetShot_order() (_swig_ret uint)
+	SetGpsdata(arg2 *uint)
+	GetGpsdata() (_swig_ret *uint)
+	SetParsed_gps(arg2 Libraw_gps_info_t)
+	GetParsed_gps() (_swig_ret Libraw_gps_info_t)
+	SetDesc(arg2 string)
+	GetDesc() (_swig_ret string)
+	SetArtist(arg2 string)
+	GetArtist() (_swig_ret string)
+	SetAnalogbalance(arg2 *float32)
+	GetAnalogbalance() (_swig_ret *float32)
+}
+
+type SwigcptrLibraw_metadata_common_t uintptr
+
+func (p SwigcptrLibraw_metadata_common_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_metadata_common_t) SwigIsLibraw_metadata_common_t() {
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetFlashEC(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_FlashEC_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetFlashEC() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_FlashEC_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetFlashGN(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_FlashGN_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetFlashGN() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_FlashGN_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetCameraTemperature(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_CameraTemperature_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetCameraTemperature() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_CameraTemperature_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetSensorTemperature(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_SensorTemperature_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetSensorTemperature() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_SensorTemperature_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetSensorTemperature2(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_SensorTemperature2_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetSensorTemperature2() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_SensorTemperature2_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetLensTemperature(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_LensTemperature_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetLensTemperature() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_LensTemperature_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetAmbientTemperature(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_AmbientTemperature_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetAmbientTemperature() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_AmbientTemperature_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetBatteryTemperature(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_BatteryTemperature_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetBatteryTemperature() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_BatteryTemperature_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetExifAmbientTemperature(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_exifAmbientTemperature_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetExifAmbientTemperature() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_exifAmbientTemperature_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetExifHumidity(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_exifHumidity_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetExifHumidity() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_exifHumidity_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetExifPressure(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_exifPressure_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetExifPressure() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_exifPressure_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetExifWaterDepth(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_exifWaterDepth_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetExifWaterDepth() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_exifWaterDepth_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetExifAcceleration(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_exifAcceleration_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetExifAcceleration() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_exifAcceleration_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetExifCameraElevationAngle(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_exifCameraElevationAngle_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetExifCameraElevationAngle() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_exifCameraElevationAngle_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetReal_ISO(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_real_ISO_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetReal_ISO() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_real_ISO_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetExifExposureIndex(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_exifExposureIndex_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetExifExposureIndex() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_metadata_common_t_exifExposureIndex_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetColorSpace(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_ColorSpace_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetColorSpace() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_metadata_common_t_ColorSpace_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) SetFirmware(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_metadata_common_t_firmware_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_104)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_metadata_common_t) GetFirmware() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_metadata_common_t_firmware_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func NewLibraw_metadata_common_t() (_swig_ret Libraw_metadata_common_t) {
+	var swig_r Libraw_metadata_common_t
+	swig_r = (Libraw_metadata_common_t)(SwigcptrLibraw_metadata_common_t(C._wrap_new_libraw_metadata_common_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_metadata_common_t(arg1 Libraw_metadata_common_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_metadata_common_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_metadata_common_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_metadata_common_t()
+	SetFlashEC(arg2 float32)
+	GetFlashEC() (_swig_ret float32)
+	SetFlashGN(arg2 float32)
+	GetFlashGN() (_swig_ret float32)
+	SetCameraTemperature(arg2 float32)
+	GetCameraTemperature() (_swig_ret float32)
+	SetSensorTemperature(arg2 float32)
+	GetSensorTemperature() (_swig_ret float32)
+	SetSensorTemperature2(arg2 float32)
+	GetSensorTemperature2() (_swig_ret float32)
+	SetLensTemperature(arg2 float32)
+	GetLensTemperature() (_swig_ret float32)
+	SetAmbientTemperature(arg2 float32)
+	GetAmbientTemperature() (_swig_ret float32)
+	SetBatteryTemperature(arg2 float32)
+	GetBatteryTemperature() (_swig_ret float32)
+	SetExifAmbientTemperature(arg2 float32)
+	GetExifAmbientTemperature() (_swig_ret float32)
+	SetExifHumidity(arg2 float32)
+	GetExifHumidity() (_swig_ret float32)
+	SetExifPressure(arg2 float32)
+	GetExifPressure() (_swig_ret float32)
+	SetExifWaterDepth(arg2 float32)
+	GetExifWaterDepth() (_swig_ret float32)
+	SetExifAcceleration(arg2 float32)
+	GetExifAcceleration() (_swig_ret float32)
+	SetExifCameraElevationAngle(arg2 float32)
+	GetExifCameraElevationAngle() (_swig_ret float32)
+	SetReal_ISO(arg2 float32)
+	GetReal_ISO() (_swig_ret float32)
+	SetExifExposureIndex(arg2 float32)
+	GetExifExposureIndex() (_swig_ret float32)
+	SetColorSpace(arg2 uint16)
+	GetColorSpace() (_swig_ret uint16)
+	SetFirmware(arg2 string)
+	GetFirmware() (_swig_ret string)
+}
+
+type SwigcptrLibraw_output_params_t uintptr
+
+func (p SwigcptrLibraw_output_params_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_output_params_t) SwigIsLibraw_output_params_t() {
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetGreybox(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_greybox_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetGreybox() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_output_params_t_greybox_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetCropbox(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_cropbox_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetCropbox() (_swig_ret *uint) {
+	var swig_r *uint
+	_swig_i_0 := arg1
+	swig_r = (*uint)(C._wrap_libraw_output_params_t_cropbox_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetAber(arg2 *float64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_aber_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetAber() (_swig_ret *float64) {
+	var swig_r *float64
+	_swig_i_0 := arg1
+	swig_r = (*float64)(C._wrap_libraw_output_params_t_aber_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetGamm(arg2 *float64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_gamm_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetGamm() (_swig_ret *float64) {
+	var swig_r *float64
+	_swig_i_0 := arg1
+	swig_r = (*float64)(C._wrap_libraw_output_params_t_gamm_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUser_mul(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_user_mul_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUser_mul() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_output_params_t_user_mul_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetShot_select(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_shot_select_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetShot_select() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_output_params_t_shot_select_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetBright(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_bright_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetBright() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_output_params_t_bright_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetThreshold(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_threshold_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetThreshold() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_output_params_t_threshold_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetHalf_size(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_half_size_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetHalf_size() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_half_size_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetFour_color_rgb(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_four_color_rgb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetFour_color_rgb() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_four_color_rgb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetHighlight(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_highlight_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetHighlight() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_highlight_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUse_auto_wb(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_use_auto_wb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUse_auto_wb() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_use_auto_wb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUse_camera_wb(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_use_camera_wb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUse_camera_wb() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_use_camera_wb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUse_camera_matrix(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_use_camera_matrix_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUse_camera_matrix() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_use_camera_matrix_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetOutput_color(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_output_color_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetOutput_color() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_output_color_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetOutput_profile(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_output_profile_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_106)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetOutput_profile() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_output_params_t_output_profile_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetCamera_profile(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_camera_profile_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_108)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetCamera_profile() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_output_params_t_camera_profile_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetBad_pixels(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_bad_pixels_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_110)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetBad_pixels() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_output_params_t_bad_pixels_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetDark_frame(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_dark_frame_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_112)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetDark_frame() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_output_params_t_dark_frame_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetOutput_bps(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_output_bps_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetOutput_bps() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_output_bps_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetOutput_tiff(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_output_tiff_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetOutput_tiff() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_output_tiff_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUser_flip(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_user_flip_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUser_flip() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_user_flip_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUser_qual(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_user_qual_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUser_qual() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_user_qual_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUser_black(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_user_black_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUser_black() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_user_black_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUser_cblack(arg2 *int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_user_cblack_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUser_cblack() (_swig_ret *int) {
+	var swig_r *int
+	_swig_i_0 := arg1
+	swig_r = (*int)(C._wrap_libraw_output_params_t_user_cblack_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUser_sat(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_user_sat_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUser_sat() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_user_sat_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetMed_passes(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_med_passes_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetMed_passes() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_med_passes_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetAuto_bright_thr(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_auto_bright_thr_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetAuto_bright_thr() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_output_params_t_auto_bright_thr_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetAdjust_maximum_thr(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_adjust_maximum_thr_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetAdjust_maximum_thr() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_output_params_t_adjust_maximum_thr_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetNo_auto_bright(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_no_auto_bright_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetNo_auto_bright() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_no_auto_bright_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUse_fuji_rotate(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_use_fuji_rotate_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUse_fuji_rotate() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_use_fuji_rotate_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetGreen_matching(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_green_matching_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetGreen_matching() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_green_matching_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetDcb_iterations(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_dcb_iterations_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetDcb_iterations() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_dcb_iterations_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetDcb_enhance_fl(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_dcb_enhance_fl_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetDcb_enhance_fl() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_dcb_enhance_fl_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetFbdd_noiserd(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_fbdd_noiserd_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetFbdd_noiserd() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_fbdd_noiserd_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetExp_correc(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_exp_correc_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetExp_correc() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_exp_correc_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetExp_shift(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_exp_shift_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetExp_shift() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_output_params_t_exp_shift_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetExp_preser(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_exp_preser_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetExp_preser() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_output_params_t_exp_preser_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUse_rawspeed(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_use_rawspeed_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUse_rawspeed() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_use_rawspeed_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetUse_dngsdk(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_use_dngsdk_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetUse_dngsdk() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_use_dngsdk_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetNo_auto_scale(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_no_auto_scale_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetNo_auto_scale() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_no_auto_scale_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetNo_interpolation(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_no_interpolation_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetNo_interpolation() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_no_interpolation_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetRaw_processing_options(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_raw_processing_options_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetRaw_processing_options() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_output_params_t_raw_processing_options_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetMax_raw_memory_mb(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_max_raw_memory_mb_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetMax_raw_memory_mb() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_output_params_t_max_raw_memory_mb_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetSony_arw2_posterization_thr(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_sony_arw2_posterization_thr_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetSony_arw2_posterization_thr() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_libraw_output_params_t_sony_arw2_posterization_thr_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetCoolscan_nef_gamma(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_coolscan_nef_gamma_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetCoolscan_nef_gamma() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_output_params_t_coolscan_nef_gamma_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetP4shot_order(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_p4shot_order_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_114)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetP4shot_order() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_output_params_t_p4shot_order_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) SetCustom_camera_strings(arg2 *string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_output_params_t_custom_camera_strings_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_output_params_t) GetCustom_camera_strings() (_swig_ret *string) {
+	var swig_r *string
+	_swig_i_0 := arg1
+	swig_r = (*string)(C._wrap_libraw_output_params_t_custom_camera_strings_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_output_params_t() (_swig_ret Libraw_output_params_t) {
+	var swig_r Libraw_output_params_t
+	swig_r = (Libraw_output_params_t)(SwigcptrLibraw_output_params_t(C._wrap_new_libraw_output_params_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_output_params_t(arg1 Libraw_output_params_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_output_params_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_output_params_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_output_params_t()
+	SetGreybox(arg2 *uint)
+	GetGreybox() (_swig_ret *uint)
+	SetCropbox(arg2 *uint)
+	GetCropbox() (_swig_ret *uint)
+	SetAber(arg2 *float64)
+	GetAber() (_swig_ret *float64)
+	SetGamm(arg2 *float64)
+	GetGamm() (_swig_ret *float64)
+	SetUser_mul(arg2 *float32)
+	GetUser_mul() (_swig_ret *float32)
+	SetShot_select(arg2 uint)
+	GetShot_select() (_swig_ret uint)
+	SetBright(arg2 float32)
+	GetBright() (_swig_ret float32)
+	SetThreshold(arg2 float32)
+	GetThreshold() (_swig_ret float32)
+	SetHalf_size(arg2 int)
+	GetHalf_size() (_swig_ret int)
+	SetFour_color_rgb(arg2 int)
+	GetFour_color_rgb() (_swig_ret int)
+	SetHighlight(arg2 int)
+	GetHighlight() (_swig_ret int)
+	SetUse_auto_wb(arg2 int)
+	GetUse_auto_wb() (_swig_ret int)
+	SetUse_camera_wb(arg2 int)
+	GetUse_camera_wb() (_swig_ret int)
+	SetUse_camera_matrix(arg2 int)
+	GetUse_camera_matrix() (_swig_ret int)
+	SetOutput_color(arg2 int)
+	GetOutput_color() (_swig_ret int)
+	SetOutput_profile(arg2 string)
+	GetOutput_profile() (_swig_ret string)
+	SetCamera_profile(arg2 string)
+	GetCamera_profile() (_swig_ret string)
+	SetBad_pixels(arg2 string)
+	GetBad_pixels() (_swig_ret string)
+	SetDark_frame(arg2 string)
+	GetDark_frame() (_swig_ret string)
+	SetOutput_bps(arg2 int)
+	GetOutput_bps() (_swig_ret int)
+	SetOutput_tiff(arg2 int)
+	GetOutput_tiff() (_swig_ret int)
+	SetUser_flip(arg2 int)
+	GetUser_flip() (_swig_ret int)
+	SetUser_qual(arg2 int)
+	GetUser_qual() (_swig_ret int)
+	SetUser_black(arg2 int)
+	GetUser_black() (_swig_ret int)
+	SetUser_cblack(arg2 *int)
+	GetUser_cblack() (_swig_ret *int)
+	SetUser_sat(arg2 int)
+	GetUser_sat() (_swig_ret int)
+	SetMed_passes(arg2 int)
+	GetMed_passes() (_swig_ret int)
+	SetAuto_bright_thr(arg2 float32)
+	GetAuto_bright_thr() (_swig_ret float32)
+	SetAdjust_maximum_thr(arg2 float32)
+	GetAdjust_maximum_thr() (_swig_ret float32)
+	SetNo_auto_bright(arg2 int)
+	GetNo_auto_bright() (_swig_ret int)
+	SetUse_fuji_rotate(arg2 int)
+	GetUse_fuji_rotate() (_swig_ret int)
+	SetGreen_matching(arg2 int)
+	GetGreen_matching() (_swig_ret int)
+	SetDcb_iterations(arg2 int)
+	GetDcb_iterations() (_swig_ret int)
+	SetDcb_enhance_fl(arg2 int)
+	GetDcb_enhance_fl() (_swig_ret int)
+	SetFbdd_noiserd(arg2 int)
+	GetFbdd_noiserd() (_swig_ret int)
+	SetExp_correc(arg2 int)
+	GetExp_correc() (_swig_ret int)
+	SetExp_shift(arg2 float32)
+	GetExp_shift() (_swig_ret float32)
+	SetExp_preser(arg2 float32)
+	GetExp_preser() (_swig_ret float32)
+	SetUse_rawspeed(arg2 int)
+	GetUse_rawspeed() (_swig_ret int)
+	SetUse_dngsdk(arg2 int)
+	GetUse_dngsdk() (_swig_ret int)
+	SetNo_auto_scale(arg2 int)
+	GetNo_auto_scale() (_swig_ret int)
+	SetNo_interpolation(arg2 int)
+	GetNo_interpolation() (_swig_ret int)
+	SetRaw_processing_options(arg2 uint)
+	GetRaw_processing_options() (_swig_ret uint)
+	SetMax_raw_memory_mb(arg2 uint)
+	GetMax_raw_memory_mb() (_swig_ret uint)
+	SetSony_arw2_posterization_thr(arg2 int)
+	GetSony_arw2_posterization_thr() (_swig_ret int)
+	SetCoolscan_nef_gamma(arg2 float32)
+	GetCoolscan_nef_gamma() (_swig_ret float32)
+	SetP4shot_order(arg2 string)
+	GetP4shot_order() (_swig_ret string)
+	SetCustom_camera_strings(arg2 *string)
+	GetCustom_camera_strings() (_swig_ret *string)
+}
+
+type SwigcptrLibraw_rawdata_t uintptr
+
+func (p SwigcptrLibraw_rawdata_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_rawdata_t) SwigIsLibraw_rawdata_t() {
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetRaw_alloc(arg2 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_rawdata_t_raw_alloc_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetRaw_alloc() (_swig_ret uintptr) {
+	var swig_r uintptr
+	_swig_i_0 := arg1
+	swig_r = (uintptr)(C._wrap_libraw_rawdata_t_raw_alloc_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetRaw_image(arg2 *uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_rawdata_t_raw_image_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetRaw_image() (_swig_ret *uint16) {
+	var swig_r *uint16
+	_swig_i_0 := arg1
+	swig_r = (*uint16)(C._wrap_libraw_rawdata_t_raw_image_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetColor4_image(arg2 **uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_rawdata_t_color4_image_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetColor4_image() (_swig_ret **uint16) {
+	var swig_r **uint16
+	_swig_i_0 := arg1
+	swig_r = (**uint16)(C._wrap_libraw_rawdata_t_color4_image_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetColor3_image(arg2 **uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_rawdata_t_color3_image_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetColor3_image() (_swig_ret **uint16) {
+	var swig_r **uint16
+	_swig_i_0 := arg1
+	swig_r = (**uint16)(C._wrap_libraw_rawdata_t_color3_image_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetFloat_image(arg2 *float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_rawdata_t_float_image_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetFloat_image() (_swig_ret *float32) {
+	var swig_r *float32
+	_swig_i_0 := arg1
+	swig_r = (*float32)(C._wrap_libraw_rawdata_t_float_image_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetFloat3_image(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_rawdata_t_float3_image_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetFloat3_image() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_rawdata_t_float3_image_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetFloat4_image(arg2 **float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_rawdata_t_float4_image_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetFloat4_image() (_swig_ret **float32) {
+	var swig_r **float32
+	_swig_i_0 := arg1
+	swig_r = (**float32)(C._wrap_libraw_rawdata_t_float4_image_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetPh1_cblack(arg2 **int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_rawdata_t_ph1_cblack_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetPh1_cblack() (_swig_ret **int16) {
+	var swig_r **int16
+	_swig_i_0 := arg1
+	swig_r = (**int16)(C._wrap_libraw_rawdata_t_ph1_cblack_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetPh1_rblack(arg2 **int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_rawdata_t_ph1_rblack_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetPh1_rblack() (_swig_ret **int16) {
+	var swig_r **int16
+	_swig_i_0 := arg1
+	swig_r = (**int16)(C._wrap_libraw_rawdata_t_ph1_rblack_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetIparams(arg2 Libraw_iparams_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_rawdata_t_iparams_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetIparams() (_swig_ret Libraw_iparams_t) {
+	var swig_r Libraw_iparams_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_iparams_t)(SwigcptrLibraw_iparams_t(C._wrap_libraw_rawdata_t_iparams_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetSizes(arg2 Libraw_image_sizes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_rawdata_t_sizes_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetSizes() (_swig_ret Libraw_image_sizes_t) {
+	var swig_r Libraw_image_sizes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_image_sizes_t)(SwigcptrLibraw_image_sizes_t(C._wrap_libraw_rawdata_t_sizes_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetIoparams(arg2 Libraw_internal_output_params_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_rawdata_t_ioparams_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetIoparams() (_swig_ret Libraw_internal_output_params_t) {
+	var swig_r Libraw_internal_output_params_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_internal_output_params_t)(SwigcptrLibraw_internal_output_params_t(C._wrap_libraw_rawdata_t_ioparams_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) SetColor(arg2 Libraw_colordata_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_rawdata_t_color_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_rawdata_t) GetColor() (_swig_ret Libraw_colordata_t) {
+	var swig_r Libraw_colordata_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_colordata_t)(SwigcptrLibraw_colordata_t(C._wrap_libraw_rawdata_t_color_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewLibraw_rawdata_t() (_swig_ret Libraw_rawdata_t) {
+	var swig_r Libraw_rawdata_t
+	swig_r = (Libraw_rawdata_t)(SwigcptrLibraw_rawdata_t(C._wrap_new_libraw_rawdata_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_rawdata_t(arg1 Libraw_rawdata_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_rawdata_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_rawdata_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_rawdata_t()
+	SetRaw_alloc(arg2 uintptr)
+	GetRaw_alloc() (_swig_ret uintptr)
+	SetRaw_image(arg2 *uint16)
+	GetRaw_image() (_swig_ret *uint16)
+	SetColor4_image(arg2 **uint16)
+	GetColor4_image() (_swig_ret **uint16)
+	SetColor3_image(arg2 **uint16)
+	GetColor3_image() (_swig_ret **uint16)
+	SetFloat_image(arg2 *float32)
+	GetFloat_image() (_swig_ret *float32)
+	SetFloat3_image(arg2 **float32)
+	GetFloat3_image() (_swig_ret **float32)
+	SetFloat4_image(arg2 **float32)
+	GetFloat4_image() (_swig_ret **float32)
+	SetPh1_cblack(arg2 **int16)
+	GetPh1_cblack() (_swig_ret **int16)
+	SetPh1_rblack(arg2 **int16)
+	GetPh1_rblack() (_swig_ret **int16)
+	SetIparams(arg2 Libraw_iparams_t)
+	GetIparams() (_swig_ret Libraw_iparams_t)
+	SetSizes(arg2 Libraw_image_sizes_t)
+	GetSizes() (_swig_ret Libraw_image_sizes_t)
+	SetIoparams(arg2 Libraw_internal_output_params_t)
+	GetIoparams() (_swig_ret Libraw_internal_output_params_t)
+	SetColor(arg2 Libraw_colordata_t)
+	GetColor() (_swig_ret Libraw_colordata_t)
+}
+
+type SwigcptrLibraw_makernotes_lens_t uintptr
+
+func (p SwigcptrLibraw_makernotes_lens_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_makernotes_lens_t) SwigIsLibraw_makernotes_lens_t() {
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetLensID(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_LensID_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_116(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetLensID() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_libraw_makernotes_lens_t_LensID_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetLens(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_Lens_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_118)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetLens() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_makernotes_lens_t_Lens_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetLensFormat(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_LensFormat_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetLensFormat() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_makernotes_lens_t_LensFormat_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetLensMount(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_LensMount_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetLensMount() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_makernotes_lens_t_LensMount_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetCamID(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_CamID_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_120(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetCamID() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_libraw_makernotes_lens_t_CamID_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetCameraFormat(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_CameraFormat_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetCameraFormat() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_makernotes_lens_t_CameraFormat_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetCameraMount(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_CameraMount_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetCameraMount() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_makernotes_lens_t_CameraMount_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetBody(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_body_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_122)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetBody() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_makernotes_lens_t_body_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetFocalType(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_FocalType_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetFocalType() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_makernotes_lens_t_FocalType_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetLensFeatures_pre(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_LensFeatures_pre_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_124)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetLensFeatures_pre() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_makernotes_lens_t_LensFeatures_pre_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetLensFeatures_suf(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_LensFeatures_suf_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_126)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetLensFeatures_suf() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_makernotes_lens_t_LensFeatures_suf_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetMinFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_MinFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetMinFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_MinFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetMaxFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_MaxFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetMaxFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_MaxFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetMaxAp4MinFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_MaxAp4MinFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetMaxAp4MinFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_MaxAp4MinFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetMaxAp4MaxFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_MaxAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetMaxAp4MaxFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_MaxAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetMinAp4MinFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_MinAp4MinFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetMinAp4MinFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_MinAp4MinFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetMinAp4MaxFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_MinAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetMinAp4MaxFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_MinAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetMaxAp(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_MaxAp_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetMaxAp() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_MaxAp_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetMinAp(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_MinAp_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetMinAp() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_MinAp_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetCurFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_CurFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetCurFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_CurFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetCurAp(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_CurAp_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetCurAp() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_CurAp_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetMaxAp4CurFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_MaxAp4CurFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetMaxAp4CurFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_MaxAp4CurFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetMinAp4CurFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_MinAp4CurFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetMinAp4CurFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_MinAp4CurFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetMinFocusDistance(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_MinFocusDistance_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetMinFocusDistance() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_MinFocusDistance_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetFocusRangeIndex(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_FocusRangeIndex_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetFocusRangeIndex() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_FocusRangeIndex_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetLensFStops(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_LensFStops_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetLensFStops() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_LensFStops_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetTeleconverterID(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_TeleconverterID_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_128(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetTeleconverterID() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_libraw_makernotes_lens_t_TeleconverterID_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetTeleconverter(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_Teleconverter_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_130)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetTeleconverter() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_makernotes_lens_t_Teleconverter_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetAdapterID(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_AdapterID_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_132(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetAdapterID() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_libraw_makernotes_lens_t_AdapterID_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetAdapter(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_Adapter_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_134)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetAdapter() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_makernotes_lens_t_Adapter_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetAttachmentID(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_AttachmentID_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_136(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetAttachmentID() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_libraw_makernotes_lens_t_AttachmentID_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetAttachment(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_Attachment_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_138)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetAttachment() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_makernotes_lens_t_Attachment_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetFocalUnits(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_FocalUnits_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetFocalUnits() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_makernotes_lens_t_FocalUnits_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) SetFocalLengthIn35mmFormat(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_makernotes_lens_t_FocalLengthIn35mmFormat_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_lens_t) GetFocalLengthIn35mmFormat() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_makernotes_lens_t_FocalLengthIn35mmFormat_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_makernotes_lens_t() (_swig_ret Libraw_makernotes_lens_t) {
+	var swig_r Libraw_makernotes_lens_t
+	swig_r = (Libraw_makernotes_lens_t)(SwigcptrLibraw_makernotes_lens_t(C._wrap_new_libraw_makernotes_lens_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_makernotes_lens_t(arg1 Libraw_makernotes_lens_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_makernotes_lens_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_makernotes_lens_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_makernotes_lens_t()
+	SetLensID(arg2 uint64)
+	GetLensID() (_swig_ret uint64)
+	SetLens(arg2 string)
+	GetLens() (_swig_ret string)
+	SetLensFormat(arg2 uint16)
+	GetLensFormat() (_swig_ret uint16)
+	SetLensMount(arg2 uint16)
+	GetLensMount() (_swig_ret uint16)
+	SetCamID(arg2 uint64)
+	GetCamID() (_swig_ret uint64)
+	SetCameraFormat(arg2 uint16)
+	GetCameraFormat() (_swig_ret uint16)
+	SetCameraMount(arg2 uint16)
+	GetCameraMount() (_swig_ret uint16)
+	SetBody(arg2 string)
+	GetBody() (_swig_ret string)
+	SetFocalType(arg2 int16)
+	GetFocalType() (_swig_ret int16)
+	SetLensFeatures_pre(arg2 string)
+	GetLensFeatures_pre() (_swig_ret string)
+	SetLensFeatures_suf(arg2 string)
+	GetLensFeatures_suf() (_swig_ret string)
+	SetMinFocal(arg2 float32)
+	GetMinFocal() (_swig_ret float32)
+	SetMaxFocal(arg2 float32)
+	GetMaxFocal() (_swig_ret float32)
+	SetMaxAp4MinFocal(arg2 float32)
+	GetMaxAp4MinFocal() (_swig_ret float32)
+	SetMaxAp4MaxFocal(arg2 float32)
+	GetMaxAp4MaxFocal() (_swig_ret float32)
+	SetMinAp4MinFocal(arg2 float32)
+	GetMinAp4MinFocal() (_swig_ret float32)
+	SetMinAp4MaxFocal(arg2 float32)
+	GetMinAp4MaxFocal() (_swig_ret float32)
+	SetMaxAp(arg2 float32)
+	GetMaxAp() (_swig_ret float32)
+	SetMinAp(arg2 float32)
+	GetMinAp() (_swig_ret float32)
+	SetCurFocal(arg2 float32)
+	GetCurFocal() (_swig_ret float32)
+	SetCurAp(arg2 float32)
+	GetCurAp() (_swig_ret float32)
+	SetMaxAp4CurFocal(arg2 float32)
+	GetMaxAp4CurFocal() (_swig_ret float32)
+	SetMinAp4CurFocal(arg2 float32)
+	GetMinAp4CurFocal() (_swig_ret float32)
+	SetMinFocusDistance(arg2 float32)
+	GetMinFocusDistance() (_swig_ret float32)
+	SetFocusRangeIndex(arg2 float32)
+	GetFocusRangeIndex() (_swig_ret float32)
+	SetLensFStops(arg2 float32)
+	GetLensFStops() (_swig_ret float32)
+	SetTeleconverterID(arg2 uint64)
+	GetTeleconverterID() (_swig_ret uint64)
+	SetTeleconverter(arg2 string)
+	GetTeleconverter() (_swig_ret string)
+	SetAdapterID(arg2 uint64)
+	GetAdapterID() (_swig_ret uint64)
+	SetAdapter(arg2 string)
+	GetAdapter() (_swig_ret string)
+	SetAttachmentID(arg2 uint64)
+	GetAttachmentID() (_swig_ret uint64)
+	SetAttachment(arg2 string)
+	GetAttachment() (_swig_ret string)
+	SetFocalUnits(arg2 uint16)
+	GetFocalUnits() (_swig_ret uint16)
+	SetFocalLengthIn35mmFormat(arg2 float32)
+	GetFocalLengthIn35mmFormat() (_swig_ret float32)
+}
+
+type SwigcptrLibraw_nikonlens_t uintptr
+
+func (p SwigcptrLibraw_nikonlens_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_nikonlens_t) SwigIsLibraw_nikonlens_t() {
+}
+
+func (arg1 SwigcptrLibraw_nikonlens_t) SetEffectiveMaxAp(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikonlens_t_EffectiveMaxAp_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikonlens_t) GetEffectiveMaxAp() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_nikonlens_t_EffectiveMaxAp_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikonlens_t) SetLensIDNumber(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikonlens_t_LensIDNumber_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikonlens_t) GetLensIDNumber() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikonlens_t_LensIDNumber_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikonlens_t) SetLensFStops(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikonlens_t_LensFStops_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikonlens_t) GetLensFStops() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikonlens_t_LensFStops_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikonlens_t) SetMCUVersion(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikonlens_t_MCUVersion_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikonlens_t) GetMCUVersion() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikonlens_t_MCUVersion_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_nikonlens_t) SetLensType(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_nikonlens_t_LensType_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_nikonlens_t) GetLensType() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_nikonlens_t_LensType_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_nikonlens_t() (_swig_ret Libraw_nikonlens_t) {
+	var swig_r Libraw_nikonlens_t
+	swig_r = (Libraw_nikonlens_t)(SwigcptrLibraw_nikonlens_t(C._wrap_new_libraw_nikonlens_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_nikonlens_t(arg1 Libraw_nikonlens_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_nikonlens_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_nikonlens_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_nikonlens_t()
+	SetEffectiveMaxAp(arg2 float32)
+	GetEffectiveMaxAp() (_swig_ret float32)
+	SetLensIDNumber(arg2 byte)
+	GetLensIDNumber() (_swig_ret byte)
+	SetLensFStops(arg2 byte)
+	GetLensFStops() (_swig_ret byte)
+	SetMCUVersion(arg2 byte)
+	GetMCUVersion() (_swig_ret byte)
+	SetLensType(arg2 byte)
+	GetLensType() (_swig_ret byte)
+}
+
+type SwigcptrLibraw_dnglens_t uintptr
+
+func (p SwigcptrLibraw_dnglens_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_dnglens_t) SwigIsLibraw_dnglens_t() {
+}
+
+func (arg1 SwigcptrLibraw_dnglens_t) SetMinFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dnglens_t_MinFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dnglens_t) GetMinFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_dnglens_t_MinFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dnglens_t) SetMaxFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dnglens_t_MaxFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dnglens_t) GetMaxFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_dnglens_t_MaxFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dnglens_t) SetMaxAp4MinFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dnglens_t_MaxAp4MinFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dnglens_t) GetMaxAp4MinFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_dnglens_t_MaxAp4MinFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_dnglens_t) SetMaxAp4MaxFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_dnglens_t_MaxAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_dnglens_t) GetMaxAp4MaxFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_dnglens_t_MaxAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_dnglens_t() (_swig_ret Libraw_dnglens_t) {
+	var swig_r Libraw_dnglens_t
+	swig_r = (Libraw_dnglens_t)(SwigcptrLibraw_dnglens_t(C._wrap_new_libraw_dnglens_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_dnglens_t(arg1 Libraw_dnglens_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_dnglens_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_dnglens_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_dnglens_t()
+	SetMinFocal(arg2 float32)
+	GetMinFocal() (_swig_ret float32)
+	SetMaxFocal(arg2 float32)
+	GetMaxFocal() (_swig_ret float32)
+	SetMaxAp4MinFocal(arg2 float32)
+	GetMaxAp4MinFocal() (_swig_ret float32)
+	SetMaxAp4MaxFocal(arg2 float32)
+	GetMaxAp4MaxFocal() (_swig_ret float32)
+}
+
+type SwigcptrLibraw_lensinfo_t uintptr
+
+func (p SwigcptrLibraw_lensinfo_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_lensinfo_t) SwigIsLibraw_lensinfo_t() {
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetMinFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_lensinfo_t_MinFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetMinFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_lensinfo_t_MinFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetMaxFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_lensinfo_t_MaxFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetMaxFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_lensinfo_t_MaxFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetMaxAp4MinFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_lensinfo_t_MaxAp4MinFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetMaxAp4MinFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_lensinfo_t_MaxAp4MinFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetMaxAp4MaxFocal(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_lensinfo_t_MaxAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetMaxAp4MaxFocal() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_lensinfo_t_MaxAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetEXIF_MaxAp(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_lensinfo_t_EXIF_MaxAp_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetEXIF_MaxAp() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_libraw_lensinfo_t_EXIF_MaxAp_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetLensMake(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_lensinfo_t_LensMake_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_140)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetLensMake() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_lensinfo_t_LensMake_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetLens(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_lensinfo_t_Lens_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_142)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetLens() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_lensinfo_t_Lens_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetLensSerial(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_lensinfo_t_LensSerial_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_144)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetLensSerial() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_lensinfo_t_LensSerial_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetInternalLensSerial(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_lensinfo_t_InternalLensSerial_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_146)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetInternalLensSerial() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_lensinfo_t_InternalLensSerial_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetFocalLengthIn35mmFormat(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_lensinfo_t_FocalLengthIn35mmFormat_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetFocalLengthIn35mmFormat() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_lensinfo_t_FocalLengthIn35mmFormat_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetNikon(arg2 Libraw_nikonlens_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_lensinfo_t_nikon_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetNikon() (_swig_ret Libraw_nikonlens_t) {
+	var swig_r Libraw_nikonlens_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_nikonlens_t)(SwigcptrLibraw_nikonlens_t(C._wrap_libraw_lensinfo_t_nikon_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetDng(arg2 Libraw_dnglens_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_lensinfo_t_dng_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetDng() (_swig_ret Libraw_dnglens_t) {
+	var swig_r Libraw_dnglens_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_dnglens_t)(SwigcptrLibraw_dnglens_t(C._wrap_libraw_lensinfo_t_dng_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) SetMakernotes(arg2 Libraw_makernotes_lens_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_lensinfo_t_makernotes_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_lensinfo_t) GetMakernotes() (_swig_ret Libraw_makernotes_lens_t) {
+	var swig_r Libraw_makernotes_lens_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_makernotes_lens_t)(SwigcptrLibraw_makernotes_lens_t(C._wrap_libraw_lensinfo_t_makernotes_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewLibraw_lensinfo_t() (_swig_ret Libraw_lensinfo_t) {
+	var swig_r Libraw_lensinfo_t
+	swig_r = (Libraw_lensinfo_t)(SwigcptrLibraw_lensinfo_t(C._wrap_new_libraw_lensinfo_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_lensinfo_t(arg1 Libraw_lensinfo_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_lensinfo_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_lensinfo_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_lensinfo_t()
+	SetMinFocal(arg2 float32)
+	GetMinFocal() (_swig_ret float32)
+	SetMaxFocal(arg2 float32)
+	GetMaxFocal() (_swig_ret float32)
+	SetMaxAp4MinFocal(arg2 float32)
+	GetMaxAp4MinFocal() (_swig_ret float32)
+	SetMaxAp4MaxFocal(arg2 float32)
+	GetMaxAp4MaxFocal() (_swig_ret float32)
+	SetEXIF_MaxAp(arg2 float32)
+	GetEXIF_MaxAp() (_swig_ret float32)
+	SetLensMake(arg2 string)
+	GetLensMake() (_swig_ret string)
+	SetLens(arg2 string)
+	GetLens() (_swig_ret string)
+	SetLensSerial(arg2 string)
+	GetLensSerial() (_swig_ret string)
+	SetInternalLensSerial(arg2 string)
+	GetInternalLensSerial() (_swig_ret string)
+	SetFocalLengthIn35mmFormat(arg2 uint16)
+	GetFocalLengthIn35mmFormat() (_swig_ret uint16)
+	SetNikon(arg2 Libraw_nikonlens_t)
+	GetNikon() (_swig_ret Libraw_nikonlens_t)
+	SetDng(arg2 Libraw_dnglens_t)
+	GetDng() (_swig_ret Libraw_dnglens_t)
+	SetMakernotes(arg2 Libraw_makernotes_lens_t)
+	GetMakernotes() (_swig_ret Libraw_makernotes_lens_t)
+}
+
+type SwigcptrLibraw_makernotes_t uintptr
+
+func (p SwigcptrLibraw_makernotes_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_makernotes_t) SwigIsLibraw_makernotes_t() {
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetCanon(arg2 Libraw_canon_makernotes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_canon_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetCanon() (_swig_ret Libraw_canon_makernotes_t) {
+	var swig_r Libraw_canon_makernotes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_canon_makernotes_t)(SwigcptrLibraw_canon_makernotes_t(C._wrap_libraw_makernotes_t_canon_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetNikon(arg2 Libraw_nikon_makernotes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_nikon_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetNikon() (_swig_ret Libraw_nikon_makernotes_t) {
+	var swig_r Libraw_nikon_makernotes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_nikon_makernotes_t)(SwigcptrLibraw_nikon_makernotes_t(C._wrap_libraw_makernotes_t_nikon_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetHasselblad(arg2 Libraw_hasselblad_makernotes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_hasselblad_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetHasselblad() (_swig_ret Libraw_hasselblad_makernotes_t) {
+	var swig_r Libraw_hasselblad_makernotes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_hasselblad_makernotes_t)(SwigcptrLibraw_hasselblad_makernotes_t(C._wrap_libraw_makernotes_t_hasselblad_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetFuji(arg2 Libraw_fuji_info_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_fuji_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetFuji() (_swig_ret Libraw_fuji_info_t) {
+	var swig_r Libraw_fuji_info_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_fuji_info_t)(SwigcptrLibraw_fuji_info_t(C._wrap_libraw_makernotes_t_fuji_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetOlympus(arg2 Libraw_olympus_makernotes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_olympus_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetOlympus() (_swig_ret Libraw_olympus_makernotes_t) {
+	var swig_r Libraw_olympus_makernotes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_olympus_makernotes_t)(SwigcptrLibraw_olympus_makernotes_t(C._wrap_libraw_makernotes_t_olympus_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetSony(arg2 Libraw_sony_info_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_sony_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetSony() (_swig_ret Libraw_sony_info_t) {
+	var swig_r Libraw_sony_info_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_sony_info_t)(SwigcptrLibraw_sony_info_t(C._wrap_libraw_makernotes_t_sony_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetKodak(arg2 Libraw_kodak_makernotes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_kodak_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetKodak() (_swig_ret Libraw_kodak_makernotes_t) {
+	var swig_r Libraw_kodak_makernotes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_kodak_makernotes_t)(SwigcptrLibraw_kodak_makernotes_t(C._wrap_libraw_makernotes_t_kodak_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetPanasonic(arg2 Libraw_panasonic_makernotes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_panasonic_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetPanasonic() (_swig_ret Libraw_panasonic_makernotes_t) {
+	var swig_r Libraw_panasonic_makernotes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_panasonic_makernotes_t)(SwigcptrLibraw_panasonic_makernotes_t(C._wrap_libraw_makernotes_t_panasonic_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetPentax(arg2 Libraw_pentax_makernotes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_pentax_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetPentax() (_swig_ret Libraw_pentax_makernotes_t) {
+	var swig_r Libraw_pentax_makernotes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_pentax_makernotes_t)(SwigcptrLibraw_pentax_makernotes_t(C._wrap_libraw_makernotes_t_pentax_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetPhaseone(arg2 Libraw_p1_makernotes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_phaseone_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetPhaseone() (_swig_ret Libraw_p1_makernotes_t) {
+	var swig_r Libraw_p1_makernotes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_p1_makernotes_t)(SwigcptrLibraw_p1_makernotes_t(C._wrap_libraw_makernotes_t_phaseone_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetSamsung(arg2 Libraw_samsung_makernotes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_samsung_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetSamsung() (_swig_ret Libraw_samsung_makernotes_t) {
+	var swig_r Libraw_samsung_makernotes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_samsung_makernotes_t)(SwigcptrLibraw_samsung_makernotes_t(C._wrap_libraw_makernotes_t_samsung_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) SetCommon(arg2 Libraw_metadata_common_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_makernotes_t_common_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_makernotes_t) GetCommon() (_swig_ret Libraw_metadata_common_t) {
+	var swig_r Libraw_metadata_common_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_metadata_common_t)(SwigcptrLibraw_metadata_common_t(C._wrap_libraw_makernotes_t_common_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewLibraw_makernotes_t() (_swig_ret Libraw_makernotes_t) {
+	var swig_r Libraw_makernotes_t
+	swig_r = (Libraw_makernotes_t)(SwigcptrLibraw_makernotes_t(C._wrap_new_libraw_makernotes_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_makernotes_t(arg1 Libraw_makernotes_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_makernotes_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_makernotes_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_makernotes_t()
+	SetCanon(arg2 Libraw_canon_makernotes_t)
+	GetCanon() (_swig_ret Libraw_canon_makernotes_t)
+	SetNikon(arg2 Libraw_nikon_makernotes_t)
+	GetNikon() (_swig_ret Libraw_nikon_makernotes_t)
+	SetHasselblad(arg2 Libraw_hasselblad_makernotes_t)
+	GetHasselblad() (_swig_ret Libraw_hasselblad_makernotes_t)
+	SetFuji(arg2 Libraw_fuji_info_t)
+	GetFuji() (_swig_ret Libraw_fuji_info_t)
+	SetOlympus(arg2 Libraw_olympus_makernotes_t)
+	GetOlympus() (_swig_ret Libraw_olympus_makernotes_t)
+	SetSony(arg2 Libraw_sony_info_t)
+	GetSony() (_swig_ret Libraw_sony_info_t)
+	SetKodak(arg2 Libraw_kodak_makernotes_t)
+	GetKodak() (_swig_ret Libraw_kodak_makernotes_t)
+	SetPanasonic(arg2 Libraw_panasonic_makernotes_t)
+	GetPanasonic() (_swig_ret Libraw_panasonic_makernotes_t)
+	SetPentax(arg2 Libraw_pentax_makernotes_t)
+	GetPentax() (_swig_ret Libraw_pentax_makernotes_t)
+	SetPhaseone(arg2 Libraw_p1_makernotes_t)
+	GetPhaseone() (_swig_ret Libraw_p1_makernotes_t)
+	SetSamsung(arg2 Libraw_samsung_makernotes_t)
+	GetSamsung() (_swig_ret Libraw_samsung_makernotes_t)
+	SetCommon(arg2 Libraw_metadata_common_t)
+	GetCommon() (_swig_ret Libraw_metadata_common_t)
+}
+
+type SwigcptrLibraw_shootinginfo_t uintptr
+
+func (p SwigcptrLibraw_shootinginfo_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_shootinginfo_t) SwigIsLibraw_shootinginfo_t() {
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) SetDriveMode(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_shootinginfo_t_DriveMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) GetDriveMode() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_shootinginfo_t_DriveMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) SetFocusMode(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_shootinginfo_t_FocusMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) GetFocusMode() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_shootinginfo_t_FocusMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) SetMeteringMode(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_shootinginfo_t_MeteringMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) GetMeteringMode() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_shootinginfo_t_MeteringMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) SetAFPoint(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_shootinginfo_t_AFPoint_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) GetAFPoint() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_shootinginfo_t_AFPoint_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) SetExposureMode(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_shootinginfo_t_ExposureMode_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) GetExposureMode() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_shootinginfo_t_ExposureMode_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) SetExposureProgram(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_shootinginfo_t_ExposureProgram_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) GetExposureProgram() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_shootinginfo_t_ExposureProgram_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) SetImageStabilization(arg2 int16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_shootinginfo_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) GetImageStabilization() (_swig_ret int16) {
+	var swig_r int16
+	_swig_i_0 := arg1
+	swig_r = (int16)(C._wrap_libraw_shootinginfo_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) SetBodySerial(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_shootinginfo_t_BodySerial_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_148)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) GetBodySerial() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_shootinginfo_t_BodySerial_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) SetInternalBodySerial(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_shootinginfo_t_InternalBodySerial_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_150)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_shootinginfo_t) GetInternalBodySerial() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_shootinginfo_t_InternalBodySerial_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func NewLibraw_shootinginfo_t() (_swig_ret Libraw_shootinginfo_t) {
+	var swig_r Libraw_shootinginfo_t
+	swig_r = (Libraw_shootinginfo_t)(SwigcptrLibraw_shootinginfo_t(C._wrap_new_libraw_shootinginfo_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_shootinginfo_t(arg1 Libraw_shootinginfo_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_shootinginfo_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_shootinginfo_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_shootinginfo_t()
+	SetDriveMode(arg2 int16)
+	GetDriveMode() (_swig_ret int16)
+	SetFocusMode(arg2 int16)
+	GetFocusMode() (_swig_ret int16)
+	SetMeteringMode(arg2 int16)
+	GetMeteringMode() (_swig_ret int16)
+	SetAFPoint(arg2 int16)
+	GetAFPoint() (_swig_ret int16)
+	SetExposureMode(arg2 int16)
+	GetExposureMode() (_swig_ret int16)
+	SetExposureProgram(arg2 int16)
+	GetExposureProgram() (_swig_ret int16)
+	SetImageStabilization(arg2 int16)
+	GetImageStabilization() (_swig_ret int16)
+	SetBodySerial(arg2 string)
+	GetBodySerial() (_swig_ret string)
+	SetInternalBodySerial(arg2 string)
+	GetInternalBodySerial() (_swig_ret string)
+}
+
+type SwigcptrLibraw_custom_camera_t uintptr
+
+func (p SwigcptrLibraw_custom_camera_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_custom_camera_t) SwigIsLibraw_custom_camera_t() {
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetFsize(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_fsize_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetFsize() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_custom_camera_t_fsize_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetRw(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_rw_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetRw() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_custom_camera_t_rw_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetRh(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_rh_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetRh() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_custom_camera_t_rh_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetLm(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_lm_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetLm() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_custom_camera_t_lm_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetTm(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_tm_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetTm() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_custom_camera_t_tm_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetRm(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_rm_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetRm() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_custom_camera_t_rm_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetBm(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_bm_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetBm() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_custom_camera_t_bm_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetLf(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_lf_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetLf() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_custom_camera_t_lf_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetCf(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_cf_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetCf() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_custom_camera_t_cf_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetMax(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_max_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetMax() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_custom_camera_t_max_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetFlags(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_flags_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetFlags() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_libraw_custom_camera_t_flags_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetT_make(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_t_make_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_152)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetT_make() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_custom_camera_t_t_make_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetT_model(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_t_model_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_154)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetT_model() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_libraw_custom_camera_t_t_model_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) SetOffset(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_custom_camera_t_offset_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_custom_camera_t) GetOffset() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_libraw_custom_camera_t_offset_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_custom_camera_t() (_swig_ret Libraw_custom_camera_t) {
+	var swig_r Libraw_custom_camera_t
+	swig_r = (Libraw_custom_camera_t)(SwigcptrLibraw_custom_camera_t(C._wrap_new_libraw_custom_camera_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_custom_camera_t(arg1 Libraw_custom_camera_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_custom_camera_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_custom_camera_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_custom_camera_t()
+	SetFsize(arg2 uint)
+	GetFsize() (_swig_ret uint)
+	SetRw(arg2 uint16)
+	GetRw() (_swig_ret uint16)
+	SetRh(arg2 uint16)
+	GetRh() (_swig_ret uint16)
+	SetLm(arg2 byte)
+	GetLm() (_swig_ret byte)
+	SetTm(arg2 byte)
+	GetTm() (_swig_ret byte)
+	SetRm(arg2 byte)
+	GetRm() (_swig_ret byte)
+	SetBm(arg2 byte)
+	GetBm() (_swig_ret byte)
+	SetLf(arg2 uint16)
+	GetLf() (_swig_ret uint16)
+	SetCf(arg2 byte)
+	GetCf() (_swig_ret byte)
+	SetMax(arg2 byte)
+	GetMax() (_swig_ret byte)
+	SetFlags(arg2 byte)
+	GetFlags() (_swig_ret byte)
+	SetT_make(arg2 string)
+	GetT_make() (_swig_ret string)
+	SetT_model(arg2 string)
+	GetT_model() (_swig_ret string)
+	SetOffset(arg2 uint16)
+	GetOffset() (_swig_ret uint16)
+}
+
+type SwigcptrLibraw_data_t uintptr
+
+func (p SwigcptrLibraw_data_t) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrLibraw_data_t) SwigIsLibraw_data_t() {
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetImage(arg2 **uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_data_t_image_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetImage() (_swig_ret **uint16) {
+	var swig_r **uint16
+	_swig_i_0 := arg1
+	swig_r = (**uint16)(C._wrap_libraw_data_t_image_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetSizes(arg2 Libraw_image_sizes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_data_t_sizes_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetSizes() (_swig_ret Libraw_image_sizes_t) {
+	var swig_r Libraw_image_sizes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_image_sizes_t)(SwigcptrLibraw_image_sizes_t(C._wrap_libraw_data_t_sizes_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetIdata(arg2 Libraw_iparams_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_data_t_idata_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetIdata() (_swig_ret Libraw_iparams_t) {
+	var swig_r Libraw_iparams_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_iparams_t)(SwigcptrLibraw_iparams_t(C._wrap_libraw_data_t_idata_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetLens(arg2 Libraw_lensinfo_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_data_t_lens_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetLens() (_swig_ret Libraw_lensinfo_t) {
+	var swig_r Libraw_lensinfo_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_lensinfo_t)(SwigcptrLibraw_lensinfo_t(C._wrap_libraw_data_t_lens_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetMakernotes(arg2 Libraw_makernotes_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_data_t_makernotes_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetMakernotes() (_swig_ret Libraw_makernotes_t) {
+	var swig_r Libraw_makernotes_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_makernotes_t)(SwigcptrLibraw_makernotes_t(C._wrap_libraw_data_t_makernotes_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetShootinginfo(arg2 Libraw_shootinginfo_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_data_t_shootinginfo_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetShootinginfo() (_swig_ret Libraw_shootinginfo_t) {
+	var swig_r Libraw_shootinginfo_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_shootinginfo_t)(SwigcptrLibraw_shootinginfo_t(C._wrap_libraw_data_t_shootinginfo_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetParams(arg2 Libraw_output_params_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_data_t_params_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetParams() (_swig_ret Libraw_output_params_t) {
+	var swig_r Libraw_output_params_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_output_params_t)(SwigcptrLibraw_output_params_t(C._wrap_libraw_data_t_params_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetProgress_flags(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_data_t_progress_flags_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetProgress_flags() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_data_t_progress_flags_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetProcess_warnings(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_data_t_process_warnings_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetProcess_warnings() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_libraw_data_t_process_warnings_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetColor(arg2 Libraw_colordata_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_data_t_color_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetColor() (_swig_ret Libraw_colordata_t) {
+	var swig_r Libraw_colordata_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_colordata_t)(SwigcptrLibraw_colordata_t(C._wrap_libraw_data_t_color_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetOther(arg2 Libraw_imgother_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_data_t_other_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetOther() (_swig_ret Libraw_imgother_t) {
+	var swig_r Libraw_imgother_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_imgother_t)(SwigcptrLibraw_imgother_t(C._wrap_libraw_data_t_other_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetThumbnail(arg2 Libraw_thumbnail_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_data_t_thumbnail_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetThumbnail() (_swig_ret Libraw_thumbnail_t) {
+	var swig_r Libraw_thumbnail_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_thumbnail_t)(SwigcptrLibraw_thumbnail_t(C._wrap_libraw_data_t_thumbnail_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetRawdata(arg2 Libraw_rawdata_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_libraw_data_t_rawdata_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetRawdata() (_swig_ret Libraw_rawdata_t) {
+	var swig_r Libraw_rawdata_t
+	_swig_i_0 := arg1
+	swig_r = (Libraw_rawdata_t)(SwigcptrLibraw_rawdata_t(C._wrap_libraw_data_t_rawdata_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrLibraw_data_t) SetParent_class(arg2 uintptr) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_libraw_data_t_parent_class_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrLibraw_data_t) GetParent_class() (_swig_ret uintptr) {
+	var swig_r uintptr
+	_swig_i_0 := arg1
+	swig_r = (uintptr)(C._wrap_libraw_data_t_parent_class_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewLibraw_data_t() (_swig_ret Libraw_data_t) {
+	var swig_r Libraw_data_t
+	swig_r = (Libraw_data_t)(SwigcptrLibraw_data_t(C._wrap_new_libraw_data_t_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteLibraw_data_t(arg1 Libraw_data_t) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_libraw_data_t_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Libraw_data_t interface {
+	Swigcptr() uintptr
+	SwigIsLibraw_data_t()
+	SetImage(arg2 **uint16)
+	GetImage() (_swig_ret **uint16)
+	SetSizes(arg2 Libraw_image_sizes_t)
+	GetSizes() (_swig_ret Libraw_image_sizes_t)
+	SetIdata(arg2 Libraw_iparams_t)
+	GetIdata() (_swig_ret Libraw_iparams_t)
+	SetLens(arg2 Libraw_lensinfo_t)
+	GetLens() (_swig_ret Libraw_lensinfo_t)
+	SetMakernotes(arg2 Libraw_makernotes_t)
+	GetMakernotes() (_swig_ret Libraw_makernotes_t)
+	SetShootinginfo(arg2 Libraw_shootinginfo_t)
+	GetShootinginfo() (_swig_ret Libraw_shootinginfo_t)
+	SetParams(arg2 Libraw_output_params_t)
+	GetParams() (_swig_ret Libraw_output_params_t)
+	SetProgress_flags(arg2 uint)
+	GetProgress_flags() (_swig_ret uint)
+	SetProcess_warnings(arg2 uint)
+	GetProcess_warnings() (_swig_ret uint)
+	SetColor(arg2 Libraw_colordata_t)
+	GetColor() (_swig_ret Libraw_colordata_t)
+	SetOther(arg2 Libraw_imgother_t)
+	GetOther() (_swig_ret Libraw_imgother_t)
+	SetThumbnail(arg2 Libraw_thumbnail_t)
+	GetThumbnail() (_swig_ret Libraw_thumbnail_t)
+	SetRawdata(arg2 Libraw_rawdata_t)
+	GetRawdata() (_swig_ret Libraw_rawdata_t)
+	SetParent_class(arg2 uintptr)
+	GetParent_class() (_swig_ret uintptr)
+}
+
+type SwigcptrFuji_compressed_params uintptr
+
+func (p SwigcptrFuji_compressed_params) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrFuji_compressed_params) SwigIsFuji_compressed_params() {
+}
+
+func (arg1 SwigcptrFuji_compressed_params) SetQ_table(arg2 Int8_t) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_fuji_compressed_params_q_table_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrFuji_compressed_params) GetQ_table() (_swig_ret Int8_t) {
+	var swig_r Int8_t
+	_swig_i_0 := arg1
+	swig_r = (Int8_t)(SwigcptrInt8_t(C._wrap_fuji_compressed_params_q_table_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrFuji_compressed_params) SetQ_point(arg2 *int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_fuji_compressed_params_q_point_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrFuji_compressed_params) GetQ_point() (_swig_ret *int) {
+	var swig_r *int
+	_swig_i_0 := arg1
+	swig_r = (*int)(C._wrap_fuji_compressed_params_q_point_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrFuji_compressed_params) SetMax_bits(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_fuji_compressed_params_max_bits_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrFuji_compressed_params) GetMax_bits() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_fuji_compressed_params_max_bits_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrFuji_compressed_params) SetMin_value(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_fuji_compressed_params_min_value_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrFuji_compressed_params) GetMin_value() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_fuji_compressed_params_min_value_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrFuji_compressed_params) SetRaw_bits(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_fuji_compressed_params_raw_bits_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrFuji_compressed_params) GetRaw_bits() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_fuji_compressed_params_raw_bits_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrFuji_compressed_params) SetTotal_values(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_fuji_compressed_params_total_values_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrFuji_compressed_params) GetTotal_values() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_fuji_compressed_params_total_values_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrFuji_compressed_params) SetMaxDiff(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_fuji_compressed_params_maxDiff_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrFuji_compressed_params) GetMaxDiff() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_fuji_compressed_params_maxDiff_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrFuji_compressed_params) SetLine_width(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_fuji_compressed_params_line_width_set_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrFuji_compressed_params) GetLine_width() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_fuji_compressed_params_line_width_get_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewFuji_compressed_params() (_swig_ret Fuji_compressed_params) {
+	var swig_r Fuji_compressed_params
+	swig_r = (Fuji_compressed_params)(SwigcptrFuji_compressed_params(C._wrap_new_fuji_compressed_params_librawgo_91c7e8cf36b5548d()))
+	return swig_r
+}
+
+func DeleteFuji_compressed_params(arg1 Fuji_compressed_params) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_fuji_compressed_params_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
+}
+
+type Fuji_compressed_params interface {
+	Swigcptr() uintptr
+	SwigIsFuji_compressed_params()
+	SetQ_table(arg2 Int8_t)
+	GetQ_table() (_swig_ret Int8_t)
+	SetQ_point(arg2 *int)
+	GetQ_point() (_swig_ret *int)
+	SetMax_bits(arg2 int)
+	GetMax_bits() (_swig_ret int)
+	SetMin_value(arg2 int)
+	GetMin_value() (_swig_ret int)
+	SetRaw_bits(arg2 int)
+	GetRaw_bits() (_swig_ret int)
+	SetTotal_values(arg2 int)
+	GetTotal_values() (_swig_ret int)
+	SetMaxDiff(arg2 int)
+	GetMaxDiff() (_swig_ret int)
+	SetLine_width(arg2 uint16)
+	GetLine_width() (_swig_ret uint16)
+}
+
+const LibRawBigEndian int = 0
 func _swig_getLIBRAW_USE_STREAMS_DATASTREAM_MAXSIZE() (_swig_ret int64) {
 	var swig_r int64
-	swig_r = (int64)(C._wrap_LIBRAW_USE_STREAMS_DATASTREAM_MAXSIZE_librawgo_09f81801a9d9dec9())
+	swig_r = (int64)(C._wrap_LIBRAW_USE_STREAMS_DATASTREAM_MAXSIZE_librawgo_91c7e8cf36b5548d())
 	return swig_r
 }
 
@@ -150,17 +15828,17 @@ var LIBRAW_USE_STREAMS_DATASTREAM_MAXSIZE int64 = _swig_getLIBRAW_USE_STREAMS_DA
 func Libraw_strerror(arg1 int) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_libraw_strerror_librawgo_09f81801a9d9dec9(C.swig_intgo(_swig_i_0))
+	swig_r_p := C._wrap_libraw_strerror_librawgo_91c7e8cf36b5548d(C.swig_intgo(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
-func Libraw_strprogress(arg1 LibRaw_progress) (_swig_ret string) {
+func Libraw_strprogress(arg1 Enum_SS_LibRaw_progress) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_libraw_strprogress_librawgo_09f81801a9d9dec9(C.swig_intgo(_swig_i_0))
+	swig_r_p := C._wrap_libraw_strprogress_librawgo_91c7e8cf36b5548d(C.swig_intgo(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -170,7 +15848,7 @@ func Libraw_strprogress(arg1 LibRaw_progress) (_swig_ret string) {
 func Libraw_init(arg1 uint) (_swig_ret Libraw_data_t) {
 	var swig_r Libraw_data_t
 	_swig_i_0 := arg1
-	swig_r = (Libraw_data_t)(SwigcptrLibraw_data_t(C._wrap_libraw_init_librawgo_09f81801a9d9dec9(C.swig_intgo(_swig_i_0))))
+	swig_r = (Libraw_data_t)(SwigcptrLibraw_data_t(C._wrap_libraw_init_librawgo_91c7e8cf36b5548d(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
@@ -178,19 +15856,19 @@ func Libraw_open_file(arg1 Libraw_data_t, arg2 string) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_libraw_open_file_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), *(*C.swig_type_4)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (int)(C._wrap_libraw_open_file_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_159)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
 	return swig_r
 }
 
-func Libraw_open_file_ex(arg1 Libraw_data_t, arg2 string, arg3 INT64) (_swig_ret int) {
+func Libraw_open_file_ex(arg1 Libraw_data_t, arg2 string, arg3 int64) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_open_file_ex_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), *(*C.swig_type_5)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2)))
+	_swig_i_2 := arg3
+	swig_r = (int)(C._wrap_libraw_open_file_ex_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_160)(unsafe.Pointer(&_swig_i_1)), C.swig_type_161(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -202,59 +15880,59 @@ func Libraw_open_buffer(arg1 Libraw_data_t, arg2 uintptr, arg3 int64) (_swig_ret
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (int)(C._wrap_libraw_open_buffer_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_6(_swig_i_2)))
+	swig_r = (int)(C._wrap_libraw_open_buffer_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_162(_swig_i_2)))
 	return swig_r
 }
 
 func Libraw_unpack(arg1 Libraw_data_t) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_unpack_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_libraw_unpack_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func Libraw_unpack_thumb(arg1 Libraw_data_t) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_unpack_thumb_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_libraw_unpack_thumb_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func Libraw_recycle_datastream(arg1 Libraw_data_t) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_libraw_recycle_datastream_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0))
+	C._wrap_libraw_recycle_datastream_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
 }
 
 func Libraw_recycle(arg1 Libraw_data_t) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_libraw_recycle_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0))
+	C._wrap_libraw_recycle_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
 }
 
 func Libraw_close(arg1 Libraw_data_t) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_libraw_close_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0))
+	C._wrap_libraw_close_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
 }
 
 func Libraw_subtract_black(arg1 Libraw_data_t) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_libraw_subtract_black_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0))
+	C._wrap_libraw_subtract_black_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
 }
 
 func Libraw_raw2image(arg1 Libraw_data_t) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_raw2image_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_libraw_raw2image_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func Libraw_free_image(arg1 Libraw_data_t) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_libraw_free_image_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0))
+	C._wrap_libraw_free_image_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
 }
 
 func Libraw_version() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_libraw_version_librawgo_09f81801a9d9dec9()
+	swig_r_p := C._wrap_libraw_version_librawgo_91c7e8cf36b5548d()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -263,54 +15941,54 @@ func Libraw_version() (_swig_ret string) {
 
 func Libraw_versionNumber() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_libraw_versionNumber_librawgo_09f81801a9d9dec9())
+	swig_r = (int)(C._wrap_libraw_versionNumber_librawgo_91c7e8cf36b5548d())
 	return swig_r
 }
 
 func Libraw_cameraList() (_swig_ret *string) {
 	var swig_r *string
-	swig_r = (*string)(C._wrap_libraw_cameraList_librawgo_09f81801a9d9dec9())
+	swig_r = (*string)(C._wrap_libraw_cameraList_librawgo_91c7e8cf36b5548d())
 	return swig_r
 }
 
 func Libraw_cameraCount() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_libraw_cameraCount_librawgo_09f81801a9d9dec9())
+	swig_r = (int)(C._wrap_libraw_cameraCount_librawgo_91c7e8cf36b5548d())
 	return swig_r
 }
 
-func Libraw_set_memerror_handler(arg1 Libraw_data_t, arg2 Memory_callback, arg3 uintptr) {
+func Libraw_set_memerror_handler(arg1 Libraw_data_t, arg2 _swig_fnptr, arg3 uintptr) {
 	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
+	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_libraw_set_memerror_handler_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_libraw_set_memerror_handler_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_164(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
-func Libraw_set_exifparser_handler(arg1 Libraw_data_t, arg2 Exif_parser_callback, arg3 uintptr) {
+func Libraw_set_exifparser_handler(arg1 Libraw_data_t, arg2 _swig_fnptr, arg3 uintptr) {
 	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
+	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_libraw_set_exifparser_handler_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_libraw_set_exifparser_handler_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_165(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
-func Libraw_set_dataerror_handler(arg1 Libraw_data_t, arg2 Data_callback, arg3 uintptr) {
+func Libraw_set_dataerror_handler(arg1 Libraw_data_t, arg2 _swig_fnptr, arg3 uintptr) {
 	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
+	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_libraw_set_dataerror_handler_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_libraw_set_dataerror_handler_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_166(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
-func Libraw_set_progress_handler(arg1 Libraw_data_t, arg2 Progress_callback, arg3 uintptr) {
+func Libraw_set_progress_handler(arg1 Libraw_data_t, arg2 _swig_fnptr, arg3 uintptr) {
 	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
+	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_libraw_set_progress_handler_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_libraw_set_progress_handler_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_type_167(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func Libraw_unpack_function_name(arg1 Libraw_data_t) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r_p := C._wrap_libraw_unpack_function_name_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_libraw_unpack_function_name_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -321,7 +15999,7 @@ func Libraw_get_decoder_info(arg1 Libraw_data_t, arg2 Libraw_decoder_info_t) (_s
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_get_decoder_info_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int)(C._wrap_libraw_get_decoder_info_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -330,20 +16008,20 @@ func Libraw_COLOR(arg1 Libraw_data_t, arg2 int, arg3 int) (_swig_ret int) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (int)(C._wrap_libraw_COLOR_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (int)(C._wrap_libraw_COLOR_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	return swig_r
 }
 
 func Libraw_capabilities() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_libraw_capabilities_librawgo_09f81801a9d9dec9())
+	swig_r = (uint)(C._wrap_libraw_capabilities_librawgo_91c7e8cf36b5548d())
 	return swig_r
 }
 
 func Libraw_adjust_sizes_info_only(arg1 Libraw_data_t) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_adjust_sizes_info_only_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_libraw_adjust_sizes_info_only_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -351,7 +16029,7 @@ func Libraw_dcraw_ppm_tiff_writer(arg1 Libraw_data_t, arg2 string) (_swig_ret in
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_libraw_dcraw_ppm_tiff_writer_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), *(*C.swig_type_9)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (int)(C._wrap_libraw_dcraw_ppm_tiff_writer_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_169)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -362,7 +16040,7 @@ func Libraw_dcraw_thumb_writer(arg1 Libraw_data_t, arg2 string) (_swig_ret int) 
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_libraw_dcraw_thumb_writer_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), *(*C.swig_type_10)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (int)(C._wrap_libraw_dcraw_thumb_writer_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), *(*C.swig_type_170)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -372,7 +16050,7 @@ func Libraw_dcraw_thumb_writer(arg1 Libraw_data_t, arg2 string) (_swig_ret int) 
 func Libraw_dcraw_process(arg1 Libraw_data_t) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_dcraw_process_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_libraw_dcraw_process_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -380,7 +16058,7 @@ func Libraw_dcraw_make_mem_image(arg1 Libraw_data_t, arg2 *int) (_swig_ret Libra
 	var swig_r Libraw_processed_image_t
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Libraw_processed_image_t)(SwigcptrLibraw_processed_image_t(C._wrap_libraw_dcraw_make_mem_image_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (Libraw_processed_image_t)(SwigcptrLibraw_processed_image_t(C._wrap_libraw_dcraw_make_mem_image_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -388,96 +16066,96 @@ func Libraw_dcraw_make_mem_thumb(arg1 Libraw_data_t, arg2 *int) (_swig_ret Libra
 	var swig_r Libraw_processed_image_t
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Libraw_processed_image_t)(SwigcptrLibraw_processed_image_t(C._wrap_libraw_dcraw_make_mem_thumb_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (Libraw_processed_image_t)(SwigcptrLibraw_processed_image_t(C._wrap_libraw_dcraw_make_mem_thumb_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
 func Libraw_dcraw_clear_mem(arg1 Libraw_processed_image_t) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_libraw_dcraw_clear_mem_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0))
+	C._wrap_libraw_dcraw_clear_mem_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))
 }
 
 func Libraw_set_demosaic(arg1 Libraw_data_t, arg2 int) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	C._wrap_libraw_set_demosaic_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_libraw_set_demosaic_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func Libraw_set_output_color(arg1 Libraw_data_t, arg2 int) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	C._wrap_libraw_set_output_color_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_libraw_set_output_color_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func Libraw_set_user_mul(arg1 Libraw_data_t, arg2 int, arg3 float32) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_libraw_set_user_mul_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
+	C._wrap_libraw_set_user_mul_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
 }
 
 func Libraw_set_output_bps(arg1 Libraw_data_t, arg2 int) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	C._wrap_libraw_set_output_bps_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_libraw_set_output_bps_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func Libraw_set_gamma(arg1 Libraw_data_t, arg2 int, arg3 float32) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_libraw_set_gamma_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
+	C._wrap_libraw_set_gamma_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
 }
 
 func Libraw_set_no_auto_bright(arg1 Libraw_data_t, arg2 int) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	C._wrap_libraw_set_no_auto_bright_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_libraw_set_no_auto_bright_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func Libraw_set_bright(arg1 Libraw_data_t, arg2 float32) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	C._wrap_libraw_set_bright_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_libraw_set_bright_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func Libraw_set_highlight(arg1 Libraw_data_t, arg2 int) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	C._wrap_libraw_set_highlight_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_libraw_set_highlight_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func Libraw_set_fbdd_noiserd(arg1 Libraw_data_t, arg2 int) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	C._wrap_libraw_set_fbdd_noiserd_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_libraw_set_fbdd_noiserd_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func Libraw_get_raw_height(arg1 Libraw_data_t) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_get_raw_height_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_libraw_get_raw_height_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func Libraw_get_raw_width(arg1 Libraw_data_t) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_get_raw_width_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_libraw_get_raw_width_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func Libraw_get_iheight(arg1 Libraw_data_t) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_get_iheight_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_libraw_get_iheight_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func Libraw_get_iwidth(arg1 Libraw_data_t) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_get_iwidth_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_libraw_get_iwidth_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -485,7 +16163,7 @@ func Libraw_get_cam_mul(arg1 Libraw_data_t, arg2 int) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_libraw_get_cam_mul_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float32)(C._wrap_libraw_get_cam_mul_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -493,7 +16171,7 @@ func Libraw_get_pre_mul(arg1 Libraw_data_t, arg2 int) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_libraw_get_pre_mul_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float32)(C._wrap_libraw_get_pre_mul_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -502,132 +16180,66 @@ func Libraw_get_rgb_cam(arg1 Libraw_data_t, arg2 int, arg3 int) (_swig_ret float
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (float32)(C._wrap_libraw_get_rgb_cam_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (float32)(C._wrap_libraw_get_rgb_cam_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	return swig_r
 }
 
 func Libraw_get_color_maximum(arg1 Libraw_data_t) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int)(C._wrap_libraw_get_color_maximum_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_libraw_get_color_maximum_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func Libraw_set_output_tif(arg1 Libraw_data_t, arg2 int) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	C._wrap_libraw_set_output_tif_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_libraw_set_output_tif_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func Libraw_get_iparams(arg1 Libraw_data_t) (_swig_ret Libraw_iparams_t) {
 	var swig_r Libraw_iparams_t
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Libraw_iparams_t)(SwigcptrLibraw_iparams_t(C._wrap_libraw_get_iparams_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0))))
+	swig_r = (Libraw_iparams_t)(SwigcptrLibraw_iparams_t(C._wrap_libraw_get_iparams_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func Libraw_get_lensinfo(arg1 Libraw_data_t) (_swig_ret Libraw_lensinfo_t) {
 	var swig_r Libraw_lensinfo_t
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Libraw_lensinfo_t)(SwigcptrLibraw_lensinfo_t(C._wrap_libraw_get_lensinfo_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0))))
+	swig_r = (Libraw_lensinfo_t)(SwigcptrLibraw_lensinfo_t(C._wrap_libraw_get_lensinfo_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func Libraw_get_imgother(arg1 Libraw_data_t) (_swig_ret Libraw_imgother_t) {
 	var swig_r Libraw_imgother_t
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Libraw_imgother_t)(SwigcptrLibraw_imgother_t(C._wrap_libraw_get_imgother_librawgo_09f81801a9d9dec9(C.uintptr_t(_swig_i_0))))
+	swig_r = (Libraw_imgother_t)(SwigcptrLibraw_imgother_t(C._wrap_libraw_get_imgother_librawgo_91c7e8cf36b5548d(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 
-type LibRaw_progress int
-
-type SwigcptrLibraw_imgother_t uintptr
-type Libraw_imgother_t interface {
+type SwigcptrTime_t uintptr
+type Time_t interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrLibraw_imgother_t) Swigcptr() uintptr {
+func (p SwigcptrTime_t) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrINT64 uintptr
-type INT64 interface {
+type SwigcptrUint8_t uintptr
+type Uint8_t interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrINT64) Swigcptr() uintptr {
+func (p SwigcptrUint8_t) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrLibraw_decoder_info_t uintptr
-type Libraw_decoder_info_t interface {
+type SwigcptrInt8_t uintptr
+type Int8_t interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrLibraw_decoder_info_t) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrLibraw_processed_image_t uintptr
-type Libraw_processed_image_t interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrLibraw_processed_image_t) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrLibraw_lensinfo_t uintptr
-type Libraw_lensinfo_t interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrLibraw_lensinfo_t) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrLibraw_data_t uintptr
-type Libraw_data_t interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrLibraw_data_t) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrMemory_callback uintptr
-type Memory_callback interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrMemory_callback) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrExif_parser_callback uintptr
-type Exif_parser_callback interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrExif_parser_callback) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrData_callback uintptr
-type Data_callback interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrData_callback) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrProgress_callback uintptr
-type Progress_callback interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrProgress_callback) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrLibraw_iparams_t uintptr
-type Libraw_iparams_t interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrLibraw_iparams_t) Swigcptr() uintptr {
+func (p SwigcptrInt8_t) Swigcptr() uintptr {
 	return uintptr(p)
 }
 

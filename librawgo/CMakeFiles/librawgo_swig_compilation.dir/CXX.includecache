@@ -9,6 +9,10 @@
 /home/rich/code/LibRawGo/src/librawgo.i
 libraw/libraw.h
 -
+libraw_const.h
+/home/rich/code/LibRawGo/src/libraw_const.h
+libraw_types.h
+/home/rich/code/LibRawGo/src/libraw_types.h
 libraw.h
 /home/rich/code/LibRawGo/src/libraw.h
 

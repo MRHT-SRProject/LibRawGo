@@ -232,7 +232,7 @@ static void* Swig_malloc(int c) {
 extern "C" {
 #endif
 
-void _wrap_Swig_free_librawgo_09f81801a9d9dec9(void *_swig_go_0) {
+void _wrap_Swig_free_librawgo_91c7e8cf36b5548d(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -242,7 +242,7 @@ void _wrap_Swig_free_librawgo_09f81801a9d9dec9(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_librawgo_09f81801a9d9dec9(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_librawgo_91c7e8cf36b5548d(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -255,7 +255,22893 @@ void *_wrap_Swig_malloc_librawgo_09f81801a9d9dec9(intgo _swig_go_0) {
 }
 
 
-long long _wrap_LIBRAW_USE_STREAMS_DATASTREAM_MAXSIZE_librawgo_09f81801a9d9dec9() {
+intgo _wrap_LIBRAW_OPEN_BIGFILE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_open_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_OPEN_BIGFILE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_OPEN_FILE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_open_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_OPEN_FILE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_OPENBAYER_RGGB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_openbayer_patterns result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_OPENBAYER_RGGB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_OPENBAYER_BGGR_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_openbayer_patterns result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_OPENBAYER_BGGR;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_OPENBAYER_GRBG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_openbayer_patterns result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_OPENBAYER_GRBG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_OPENBAYER_GBRG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_openbayer_patterns result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_OPENBAYER_GBRG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_FORWARDMATRIX_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_FORWARDMATRIX;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_ILLUMINANT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_ILLUMINANT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_COLORMATRIX_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_COLORMATRIX;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_CALIBRATION_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_CALIBRATION;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_ANALOGBALANCE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_ANALOGBALANCE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_BLACK_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_BLACK;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_WHITE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_WHITE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_OPCODE2_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_OPCODE2;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_LINTABLE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_LINTABLE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_CROPORIGIN_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_CROPORIGIN;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_CROPSIZE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_CROPSIZE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_PREVIEWCS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_PREVIEWCS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_ASSHOTNEUTRAL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_ASSHOTNEUTRAL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_BASELINEEXPOSURE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_BASELINEEXPOSURE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNGFM_LINEARRESPONSELIMIT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dngfields_marks result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNGFM_LINEARRESPONSELIMIT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_ASWB_APPLIED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_As_Shot_WB_Applied_codes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_ASWB_APPLIED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_ASWB_CANON_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_As_Shot_WB_Applied_codes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_ASWB_CANON;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_ASWB_NIKON_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_As_Shot_WB_Applied_codes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_ASWB_NIKON;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_ASWB_NIKON_SRAW_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_As_Shot_WB_Applied_codes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_ASWB_NIKON_SRAW;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_ASWB_PENTAX_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_As_Shot_WB_Applied_codes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_ASWB_PENTAX;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_UNKNOWN_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_UNKNOWN;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_BYTE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_BYTE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_ASCII_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_ASCII;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_SHORT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_SHORT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_LONG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_LONG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_RATIONAL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_RATIONAL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_SBYTE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_SBYTE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_UNDEFINED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_UNDEFINED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_SSHORT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_SSHORT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_SLONG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_SLONG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_SRATIONAL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_SRATIONAL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_FLOAT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_FLOAT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_DOUBLE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_DOUBLE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_IFD_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_IFD;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_UNICODE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_UNICODE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_COMPLEX_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_COMPLEX;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_LONG8_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_LONG8;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_SLONG8_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_SLONG8;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXIFTAG_TYPE_IFD8_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_ExifTagTypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXIFTAG_TYPE_IFD8;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Unknown_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Unknown;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Daylight_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Daylight;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Fluorescent_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Fluorescent;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Tungsten_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Tungsten;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Flash_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Flash;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_FineWeather_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_FineWeather;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Cloudy_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Cloudy;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Shade_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Shade;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_FL_D_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_FL_D;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_FL_N_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_FL_N;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_FL_W_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_FL_W;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_FL_WW_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_FL_WW;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_FL_L_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_FL_L;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Ill_A_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Ill_A;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Ill_B_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Ill_B;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Ill_C_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Ill_C;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_D55_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_D55;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_D65_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_D65;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_D75_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_D75;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_D50_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_D50;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_StudioTungsten_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_StudioTungsten;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Sunset_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Sunset;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Underwater_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Underwater;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_FluorescentHigh_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_FluorescentHigh;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_HT_Mercury_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_HT_Mercury;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_AsShot_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_AsShot;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Auto_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Auto;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Custom_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Custom;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Auto1_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Auto1;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Auto2_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Auto2;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Auto3_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Auto3;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Auto4_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Auto4;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Custom1_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Custom1;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Custom2_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Custom2;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Custom3_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Custom3;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Custom4_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Custom4;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Custom5_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Custom5;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Custom6_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Custom6;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_PC_Set1_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_PC_Set1;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_PC_Set2_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_PC_Set2;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_PC_Set3_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_PC_Set3;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_PC_Set4_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_PC_Set4;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_PC_Set5_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_PC_Set5;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Measured_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Measured;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_BW_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_BW;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Kelvin_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Kelvin;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_Other_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_Other;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WBI_None_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_whitebalance_code result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WBI_None;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_ME_NONE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_MultiExposure_related result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_ME_NONE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_ME_SIMPLE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_MultiExposure_related result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_ME_SIMPLE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_ME_OVERLAY_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_MultiExposure_related result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_ME_OVERLAY;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_ME_HDR_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_MultiExposure_related result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_ME_HDR;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNG_NONE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dng_processing result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNG_NONE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNG_FLOAT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dng_processing result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNG_FLOAT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNG_LINEAR_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dng_processing result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNG_LINEAR;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNG_DEFLATE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dng_processing result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNG_DEFLATE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNG_XTRANS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dng_processing result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNG_XTRANS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNG_OTHER_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dng_processing result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNG_OTHER;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNG_8BIT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dng_processing result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNG_8BIT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNG_ALL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dng_processing result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNG_ALL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DNG_DEFAULT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_dng_processing result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DNG_DEFAULT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAPS_RAWSPEED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_runtime_capabilities result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAPS_RAWSPEED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAPS_DNGSDK_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_runtime_capabilities result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAPS_DNGSDK;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAPS_GPRSDK_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_runtime_capabilities result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAPS_GPRSDK;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAPS_UNICODEPATHS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_runtime_capabilities result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAPS_UNICODEPATHS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAPS_X3FTOOLS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_runtime_capabilities result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAPS_X3FTOOLS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAPS_RPI6BY9_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_runtime_capabilities result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAPS_RPI6BY9;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_NotFound_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_NotFound;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_sRGB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_sRGB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_AdobeRGB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_AdobeRGB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_WideGamutRGB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_WideGamutRGB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_ProPhotoRGB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_ProPhotoRGB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_ICC_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_ICC;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_Uncalibrated_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_Uncalibrated;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_CameraLinearUniWB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_CameraLinearUniWB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_CameraLinear_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_CameraLinear;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_CameraGammaUniWB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_CameraGammaUniWB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_CameraGamma_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_CameraGamma;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_MonochromeLinear_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_MonochromeLinear;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_MonochromeGamma_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_MonochromeGamma;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_COLORSPACE_Unknown_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_colorspace result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_COLORSPACE_Unknown;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Unknown_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Unknown;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Agfa_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Agfa;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Alcatel_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Alcatel;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Apple_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Apple;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Aptina_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Aptina;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_AVT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_AVT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Baumer_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Baumer;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Broadcom_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Broadcom;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Canon_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Canon;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Casio_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Casio;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_CINE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_CINE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Clauss_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Clauss;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Contax_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Contax;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Creative_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Creative;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_DJI_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_DJI;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_DXO_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_DXO;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Epson_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Epson;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Foculus_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Foculus;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Fujifilm_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Fujifilm;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Generic_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Generic;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Gione_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Gione;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_GITUP_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_GITUP;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Google_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Google;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_GoPro_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_GoPro;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Hasselblad_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Hasselblad;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_HTC_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_HTC;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_I_Mobile_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_I_Mobile;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Imacon_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Imacon;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_JK_Imaging_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_JK_Imaging;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Kodak_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Kodak;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Konica_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Konica;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Leaf_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Leaf;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Leica_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Leica;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Lenovo_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Lenovo;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_LG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_LG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Logitech_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Logitech;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Mamiya_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Mamiya;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Matrix_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Matrix;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Meizu_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Meizu;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Micron_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Micron;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Minolta_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Minolta;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Motorola_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Motorola;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_NGM_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_NGM;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Nikon_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Nikon;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Nokia_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Nokia;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Olympus_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Olympus;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_OmniVison_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_OmniVison;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Panasonic_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Panasonic;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Parrot_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Parrot;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Pentax_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Pentax;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_PhaseOne_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_PhaseOne;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_PhotoControl_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_PhotoControl;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Photron_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Photron;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Pixelink_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Pixelink;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Polaroid_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Polaroid;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_RED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_RED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Ricoh_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Ricoh;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Rollei_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Rollei;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_RoverShot_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_RoverShot;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Samsung_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Samsung;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Sigma_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Sigma;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Sinar_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Sinar;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_SMaL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_SMaL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Sony_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Sony;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_ST_Micro_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_ST_Micro;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_THL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_THL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_VLUU_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_VLUU;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Xiaomi_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Xiaomi;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_XIAOYI_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_XIAOYI;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_YI_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_YI;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Yuneec_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Yuneec;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_Zeiss_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_Zeiss;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CAMERAMAKER_TheLastOne_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_cameramaker_index result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CAMERAMAKER_TheLastOne;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Unknown_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Unknown;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Alpa_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Alpa;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_C_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_C;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Canon_EF_M_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Canon_EF_M;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Canon_EF_S_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Canon_EF_S;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Canon_EF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Canon_EF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Canon_RF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Canon_RF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Contax_N_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Contax_N;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Contax645_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Contax645;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_FT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_FT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_mFT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_mFT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Fuji_GF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Fuji_GF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Fuji_GX_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Fuji_GX;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Fuji_X_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Fuji_X;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Hasselblad_H_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Hasselblad_H;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Hasselblad_V_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Hasselblad_V;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Hasselblad_XCD_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Hasselblad_XCD;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Leica_M_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Leica_M;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Leica_R_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Leica_R;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Leica_S_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Leica_S;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Leica_SL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Leica_SL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Leica_TL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Leica_TL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_LPS_L_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_LPS_L;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Mamiya67_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Mamiya67;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Mamiya645_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Mamiya645;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Minolta_A_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Minolta_A;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Nikon_CX_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Nikon_CX;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Nikon_F_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Nikon_F;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Nikon_Z_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Nikon_Z;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Pentax_645_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Pentax_645;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Pentax_K_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Pentax_K;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Pentax_Q_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Pentax_Q;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_RicohModule_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_RicohModule;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Rollei_bayonet_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Rollei_bayonet;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Samsung_NX_M_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Samsung_NX_M;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Samsung_NX_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Samsung_NX;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Sigma_X3F_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Sigma_X3F;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_Sony_E_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_Sony_E;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_LF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_LF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_DigitalBack_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_DigitalBack;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_FixedLens_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_FixedLens;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_IL_UM_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_IL_UM;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MOUNT_TheLastOne_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_mounts result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MOUNT_TheLastOne;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_Unknown_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_Unknown;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_APSC_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_APSC;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_FF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_FF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_MF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_MF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_APSH_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_APSH;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_1INCH_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_1INCH;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_1div2p3INCH_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_1div2p3INCH;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_1div1p7INCH_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_1div1p7INCH;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_FT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_FT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_CROP645_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_CROP645;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_LeicaS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_LeicaS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_645_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_645;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_66_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_66;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_69_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_69;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_LF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_LF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_Leica_DMR_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_Leica_DMR;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_67_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_67;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_SigmaAPSC_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_SigmaAPSC;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_SigmaMerrill_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_SigmaMerrill;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_SigmaAPSH_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_SigmaAPSH;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_3648_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_3648;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_68_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_68;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FORMAT_TheLastOne_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_camera_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FORMAT_TheLastOne;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_IMAGE_ASPECT_UNKNOWN_librawgo_91c7e8cf36b5548d() {
+  enum LibRawImageAspects result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_IMAGE_ASPECT_UNKNOWN;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_IMAGE_ASPECT_3to2_librawgo_91c7e8cf36b5548d() {
+  enum LibRawImageAspects result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_IMAGE_ASPECT_3to2;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_IMAGE_ASPECT_1to1_librawgo_91c7e8cf36b5548d() {
+  enum LibRawImageAspects result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_IMAGE_ASPECT_1to1;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_IMAGE_ASPECT_4to3_librawgo_91c7e8cf36b5548d() {
+  enum LibRawImageAspects result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_IMAGE_ASPECT_4to3;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_IMAGE_ASPECT_16to9_librawgo_91c7e8cf36b5548d() {
+  enum LibRawImageAspects result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_IMAGE_ASPECT_16to9;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_IMAGE_ASPECT_5to4_librawgo_91c7e8cf36b5548d() {
+  enum LibRawImageAspects result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_IMAGE_ASPECT_5to4;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_IMAGE_ASPECT_OTHER_librawgo_91c7e8cf36b5548d() {
+  enum LibRawImageAspects result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_IMAGE_ASPECT_OTHER;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FT_UNDEFINED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_lens_focal_types result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FT_UNDEFINED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FT_PRIME_LENS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_lens_focal_types result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FT_PRIME_LENS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FT_ZOOM_LENS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_lens_focal_types result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FT_ZOOM_LENS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FT_ZOOM_LENS_CONSTANT_APERTURE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_lens_focal_types result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FT_ZOOM_LENS_CONSTANT_APERTURE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FT_ZOOM_LENS_VARIABLE_APERTURE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_lens_focal_types result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FT_ZOOM_LENS_VARIABLE_APERTURE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_UNDEFINED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_UNDEFINED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_JPEG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_JPEG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_CRW_THM_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_CRW_THM;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_AVI_THM_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_AVI_THM;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_TIF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_TIF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_TIF_JPEG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_TIF_JPEG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_CR2_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_CR2;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_CR2_JPEG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_CR2_JPEG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_UNKNOWN_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_UNKNOWN;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_MOV_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_MOV;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_MP4_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_MP4;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_CRM_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_CRM;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_CR3_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_CR3;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_CR3_JPEG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_CR3_JPEG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_HEIF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_HEIF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_CR3_HEIF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_CR3_HEIF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Canon_RecordMode_TheLastOne_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_Canon_RecordModes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Canon_RecordMode_TheLastOne;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_SONY_DSC_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_sony_cameratypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_SONY_DSC;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_SONY_DSLR_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_sony_cameratypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_SONY_DSLR;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_SONY_NEX_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_sony_cameratypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_SONY_NEX;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_SONY_SLT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_sony_cameratypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_SONY_SLT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_SONY_ILCE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_sony_cameratypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_SONY_ILCE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_SONY_ILCA_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_sony_cameratypes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_SONY_ILCA;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_UnknownSensor_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_UnknownSensor;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_M1_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_M1;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_M15_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_M15;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_M16_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_M16;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_M17_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_M17;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_M2_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_M2;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_M23_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_M23;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_M24_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_M24;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_M3_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_M3;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_M5_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_M5;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_M6_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_M6;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_C14_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_C14;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_X14_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_X14;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_Kodak_M11_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_KodakSensors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_Kodak_M11;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_HF_Unknown_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_HasselbladFormatCodes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_HF_Unknown;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_HF_3FR_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_HasselbladFormatCodes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_HF_3FR;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_HF_FFF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_HasselbladFormatCodes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_HF_FFF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_HF_Imacon_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_HasselbladFormatCodes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_HF_Imacon;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_HF_HasselbladDNG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_HasselbladFormatCodes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_HF_HasselbladDNG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_HF_AdobeDNG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_HasselbladFormatCodes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_HF_AdobeDNG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_HF_AdobeDNG_fromPhocusDNG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_HasselbladFormatCodes result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_HF_AdobeDNG_fromPhocusDNG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_SONYARW2_NONE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_SONYARW2_NONE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_SONYARW2_BASEONLY_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_SONYARW2_BASEONLY;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_SONYARW2_DELTAONLY_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_SONYARW2_DELTAONLY;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_SONYARW2_DELTAZEROBASE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_SONYARW2_DELTAZEROBASE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_SONYARW2_DELTATOVALUE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_SONYARW2_DELTATOVALUE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_SONYARW2_ALLFLAGS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_SONYARW2_ALLFLAGS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_DP2Q_INTERPOLATERG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_DP2Q_INTERPOLATERG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_DP2Q_INTERPOLATEAF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_DP2Q_INTERPOLATEAF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_PENTAX_PS_ALLFRAMES_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_PENTAX_PS_ALLFRAMES;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_CONVERTFLOAT_TO_INT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_CONVERTFLOAT_TO_INT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_SRAW_NO_RGB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_SRAW_NO_RGB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_SRAW_NO_INTERPOLATE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_SRAW_NO_INTERPOLATE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_ARQ_SKIP_CHANNEL_SWAP_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_ARQ_SKIP_CHANNEL_SWAP;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_NO_ROTATE_FOR_KODAK_THUMBNAILS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_NO_ROTATE_FOR_KODAK_THUMBNAILS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_USE_DNG_DEFAULT_CROP_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_USE_DNG_DEFAULT_CROP;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_USE_PPM16_THUMBS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_USE_PPM16_THUMBS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_SKIP_MAKERNOTES_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_SKIP_MAKERNOTES;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_DONT_CHECK_DNG_ILLUMINANT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_DONT_CHECK_DNG_ILLUMINANT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_DNGSDK_ZEROCOPY_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_DNGSDK_ZEROCOPY;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_ZEROFILTERS_FOR_MONOCHROMETIFFS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_ZEROFILTERS_FOR_MONOCHROMETIFFS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_DNG_ADD_ENHANCED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_DNG_ADD_ENHANCED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_DNG_ADD_PREVIEWS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_DNG_ADD_PREVIEWS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_DNG_PREFER_LARGEST_IMAGE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_DNG_PREFER_LARGEST_IMAGE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_DNG_STAGE2_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_DNG_STAGE2;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_DNG_STAGE3_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_DNG_STAGE3;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_DNG_ALLOWSIZECHANGE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_DNG_ALLOWSIZECHANGE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_DNG_DISABLEWBADJUST_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_DNG_DISABLEWBADJUST;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_PROVIDE_NONSTANDARD_WB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_PROVIDE_NONSTANDARD_WB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROCESSING_CAMERAWB_FALLBACK_TO_DAYLIGHT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_processing_options result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROCESSING_CAMERAWB_FALLBACK_TO_DAYLIGHT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_HASCURVE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_HASCURVE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_SONYARW2_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_SONYARW2;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_TRYRAWSPEED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_TRYRAWSPEED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_OWNALLOC_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_OWNALLOC;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_FIXEDMAXC_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_FIXEDMAXC;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_ADOBECOPYPIXEL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_ADOBECOPYPIXEL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_LEGACY_WITH_MARGINS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_LEGACY_WITH_MARGINS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_3CHANNEL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_3CHANNEL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_SINAR4SHOT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_SINAR4SHOT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_FLATDATA_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_FLATDATA;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_FLAT_BG2_SWAPPED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_FLAT_BG2_SWAPPED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DECODER_NOTSET_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_decoder_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DECODER_NOTSET;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_OPTIONS_NONE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_constructor_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_OPTIONS_NONE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_OPIONS_NO_MEMERR_CALLBACK_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_constructor_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_OPIONS_NO_MEMERR_CALLBACK;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_OPIONS_NO_DATAERR_CALLBACK_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_constructor_flags result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_OPIONS_NO_DATAERR_CALLBACK;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_NONE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_NONE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_BAD_CAMERA_WB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_BAD_CAMERA_WB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_NO_METADATA_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_NO_METADATA;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_NO_JPEGLIB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_NO_JPEGLIB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_NO_EMBEDDED_PROFILE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_NO_EMBEDDED_PROFILE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_NO_INPUT_PROFILE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_NO_INPUT_PROFILE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_BAD_OUTPUT_PROFILE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_BAD_OUTPUT_PROFILE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_NO_BADPIXELMAP_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_NO_BADPIXELMAP;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_BAD_DARKFRAME_FILE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_BAD_DARKFRAME_FILE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_BAD_DARKFRAME_DIM_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_BAD_DARKFRAME_DIM;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_NO_JASPER_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_NO_JASPER;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_RAWSPEED_PROBLEM_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_RAWSPEED_PROBLEM;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_RAWSPEED_UNSUPPORTED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_RAWSPEED_UNSUPPORTED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_RAWSPEED_PROCESSED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_RAWSPEED_PROCESSED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_FALLBACK_TO_AHD_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_FALLBACK_TO_AHD;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_PARSEFUJI_PROCESSED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_PARSEFUJI_PROCESSED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_DNGSDK_PROCESSED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_DNGSDK_PROCESSED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_DNG_IMAGES_REORDERED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_DNG_IMAGES_REORDERED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_DNG_STAGE2_APPLIED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_DNG_STAGE2_APPLIED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_WARN_DNG_STAGE3_APPLIED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_warnings result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_WARN_DNG_STAGE3_APPLIED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_NONE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_NONE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_ALLOC_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_ALLOC;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_DECODE_RAW_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_DECODE_RAW;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_DECODE_JPEG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_DECODE_JPEG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_IO_EOF_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_IO_EOF;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_IO_CORRUPT_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_IO_CORRUPT;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_CANCELLED_BY_CALLBACK_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_CANCELLED_BY_CALLBACK;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_BAD_CROP_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_BAD_CROP;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_IO_BADFILE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_IO_BADFILE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_DECODE_JPEG2000_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_DECODE_JPEG2000;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_TOOBIG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_TOOBIG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_EXCEPTION_MEMPOOL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_exceptions result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_EXCEPTION_MEMPOOL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_START_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_START;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_OPEN_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_OPEN;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_IDENTIFY_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_IDENTIFY;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_SIZE_ADJUST_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_SIZE_ADJUST;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_LOAD_RAW_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_LOAD_RAW;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_RAW2_IMAGE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_RAW2_IMAGE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_REMOVE_ZEROES_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_REMOVE_ZEROES;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_BAD_PIXELS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_BAD_PIXELS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_DARK_FRAME_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_DARK_FRAME;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_FOVEON_INTERPOLATE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_FOVEON_INTERPOLATE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_SCALE_COLORS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_SCALE_COLORS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_PRE_INTERPOLATE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_PRE_INTERPOLATE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_INTERPOLATE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_INTERPOLATE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_MIX_GREEN_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_MIX_GREEN;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_MEDIAN_FILTER_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_MEDIAN_FILTER;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_HIGHLIGHTS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_HIGHLIGHTS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_FUJI_ROTATE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_FUJI_ROTATE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_FLIP_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_FLIP;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_APPLY_PROFILE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_APPLY_PROFILE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_CONVERT_RGB_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_CONVERT_RGB;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_STRETCH_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_STRETCH;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_STAGE20_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_STAGE20;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_STAGE21_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_STAGE21;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_STAGE22_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_STAGE22;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_STAGE23_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_STAGE23;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_STAGE24_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_STAGE24;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_STAGE25_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_STAGE25;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_STAGE26_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_STAGE26;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_STAGE27_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_STAGE27;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_THUMB_LOAD_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_THUMB_LOAD;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_TRESERVED1_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_TRESERVED1;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_PROGRESS_TRESERVED2_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_progress result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_PROGRESS_TRESERVED2;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_SUCCESS_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_SUCCESS;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_UNSPECIFIED_ERROR_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_UNSPECIFIED_ERROR;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_FILE_UNSUPPORTED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_FILE_UNSUPPORTED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_REQUEST_FOR_NONEXISTENT_IMAGE_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_REQUEST_FOR_NONEXISTENT_IMAGE;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_OUT_OF_ORDER_CALL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_OUT_OF_ORDER_CALL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_NO_THUMBNAIL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_NO_THUMBNAIL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_UNSUPPORTED_THUMBNAIL_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_UNSUPPORTED_THUMBNAIL;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_INPUT_CLOSED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_INPUT_CLOSED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_NOT_IMPLEMENTED_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_NOT_IMPLEMENTED;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_UNSUFFICIENT_MEMORY_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_UNSUFFICIENT_MEMORY;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_DATA_ERROR_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_DATA_ERROR;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_IO_ERROR_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_IO_ERROR;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_CANCELLED_BY_CALLBACK_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_CANCELLED_BY_CALLBACK;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_BAD_CROP_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_BAD_CROP;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_TOO_BIG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_TOO_BIG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_MEMPOOL_OVERFLOW_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_errors result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_MEMPOOL_OVERFLOW;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_THUMBNAIL_UNKNOWN_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_thumbnail_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_THUMBNAIL_UNKNOWN;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_THUMBNAIL_JPEG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_thumbnail_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_THUMBNAIL_JPEG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_THUMBNAIL_BITMAP_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_thumbnail_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_THUMBNAIL_BITMAP;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_THUMBNAIL_BITMAP16_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_thumbnail_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_THUMBNAIL_BITMAP16;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_THUMBNAIL_LAYER_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_thumbnail_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_THUMBNAIL_LAYER;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_THUMBNAIL_ROLLEI_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_thumbnail_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_THUMBNAIL_ROLLEI;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_IMAGE_JPEG_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_image_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_IMAGE_JPEG;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_LIBRAW_IMAGE_BITMAP_librawgo_91c7e8cf36b5548d() {
+  enum LibRaw_image_formats result;
+  intgo _swig_go_result;
+  
+  
+  result = LIBRAW_IMAGE_BITMAP;
+  
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_decoder_info_t_decoder_name_set_librawgo_91c7e8cf36b5548d(libraw_decoder_info_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_decoder_info_t *arg1 = (libraw_decoder_info_t *) 0 ;
+  char *arg2 = (char *) 0 ;
+  
+  arg1 = *(libraw_decoder_info_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if (arg2) {
+      arg1->decoder_name = (char const *) malloc(strlen((const char *)arg2)+1);
+      strcpy((char *)arg1->decoder_name, (const char *)arg2);
+    } else {
+      arg1->decoder_name = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_decoder_info_t_decoder_name_get_librawgo_91c7e8cf36b5548d(libraw_decoder_info_t *_swig_go_0) {
+  libraw_decoder_info_t *arg1 = (libraw_decoder_info_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_decoder_info_t **)&_swig_go_0; 
+  
+  result = (char *) ((arg1)->decoder_name);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_decoder_info_t_decoder_flags_set_librawgo_91c7e8cf36b5548d(libraw_decoder_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_decoder_info_t *arg1 = (libraw_decoder_info_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_decoder_info_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->decoder_flags = arg2;
+  
+}
+
+
+intgo _wrap_libraw_decoder_info_t_decoder_flags_get_librawgo_91c7e8cf36b5548d(libraw_decoder_info_t *_swig_go_0) {
+  libraw_decoder_info_t *arg1 = (libraw_decoder_info_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_decoder_info_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->decoder_flags);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_decoder_info_t *_wrap_new_libraw_decoder_info_t_librawgo_91c7e8cf36b5548d() {
+  libraw_decoder_info_t *result = 0 ;
+  libraw_decoder_info_t *_swig_go_result;
+  
+  
+  result = (libraw_decoder_info_t *)calloc(1, sizeof(libraw_decoder_info_t));
+  *(libraw_decoder_info_t **)&_swig_go_result = (libraw_decoder_info_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_decoder_info_t_librawgo_91c7e8cf36b5548d(libraw_decoder_info_t *_swig_go_0) {
+  libraw_decoder_info_t *arg1 = (libraw_decoder_info_t *) 0 ;
+  
+  arg1 = *(libraw_decoder_info_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_internal_output_params_t_mix_green_set_librawgo_91c7e8cf36b5548d(libraw_internal_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_internal_output_params_t *arg1 = (libraw_internal_output_params_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_internal_output_params_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->mix_green = arg2;
+  
+}
+
+
+intgo _wrap_libraw_internal_output_params_t_mix_green_get_librawgo_91c7e8cf36b5548d(libraw_internal_output_params_t *_swig_go_0) {
+  libraw_internal_output_params_t *arg1 = (libraw_internal_output_params_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_internal_output_params_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->mix_green);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_internal_output_params_t_raw_color_set_librawgo_91c7e8cf36b5548d(libraw_internal_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_internal_output_params_t *arg1 = (libraw_internal_output_params_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_internal_output_params_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->raw_color = arg2;
+  
+}
+
+
+intgo _wrap_libraw_internal_output_params_t_raw_color_get_librawgo_91c7e8cf36b5548d(libraw_internal_output_params_t *_swig_go_0) {
+  libraw_internal_output_params_t *arg1 = (libraw_internal_output_params_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_internal_output_params_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->raw_color);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_internal_output_params_t_zero_is_bad_set_librawgo_91c7e8cf36b5548d(libraw_internal_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_internal_output_params_t *arg1 = (libraw_internal_output_params_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_internal_output_params_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->zero_is_bad = arg2;
+  
+}
+
+
+intgo _wrap_libraw_internal_output_params_t_zero_is_bad_get_librawgo_91c7e8cf36b5548d(libraw_internal_output_params_t *_swig_go_0) {
+  libraw_internal_output_params_t *arg1 = (libraw_internal_output_params_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_internal_output_params_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->zero_is_bad);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_internal_output_params_t_shrink_set_librawgo_91c7e8cf36b5548d(libraw_internal_output_params_t *_swig_go_0, short _swig_go_1) {
+  libraw_internal_output_params_t *arg1 = (libraw_internal_output_params_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_internal_output_params_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->shrink = arg2;
+  
+}
+
+
+short _wrap_libraw_internal_output_params_t_shrink_get_librawgo_91c7e8cf36b5548d(libraw_internal_output_params_t *_swig_go_0) {
+  libraw_internal_output_params_t *arg1 = (libraw_internal_output_params_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_internal_output_params_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->shrink);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_internal_output_params_t_fuji_width_set_librawgo_91c7e8cf36b5548d(libraw_internal_output_params_t *_swig_go_0, short _swig_go_1) {
+  libraw_internal_output_params_t *arg1 = (libraw_internal_output_params_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_internal_output_params_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->fuji_width = arg2;
+  
+}
+
+
+short _wrap_libraw_internal_output_params_t_fuji_width_get_librawgo_91c7e8cf36b5548d(libraw_internal_output_params_t *_swig_go_0) {
+  libraw_internal_output_params_t *arg1 = (libraw_internal_output_params_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_internal_output_params_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->fuji_width);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_internal_output_params_t *_wrap_new_libraw_internal_output_params_t_librawgo_91c7e8cf36b5548d() {
+  libraw_internal_output_params_t *result = 0 ;
+  libraw_internal_output_params_t *_swig_go_result;
+  
+  
+  result = (libraw_internal_output_params_t *)calloc(1, sizeof(libraw_internal_output_params_t));
+  *(libraw_internal_output_params_t **)&_swig_go_result = (libraw_internal_output_params_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_internal_output_params_t_librawgo_91c7e8cf36b5548d(libraw_internal_output_params_t *_swig_go_0) {
+  libraw_internal_output_params_t *arg1 = (libraw_internal_output_params_t *) 0 ;
+  
+  arg1 = *(libraw_internal_output_params_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_default_memory_callback_librawgo_91c7e8cf36b5548d(void *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+  void *arg1 = (void *) 0 ;
+  char *arg2 = (char *) 0 ;
+  char *arg3 = (char *) 0 ;
+  
+  arg1 = *(void **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  arg3 = (char *)malloc(_swig_go_2.n + 1);
+  memcpy(arg3, _swig_go_2.p, _swig_go_2.n);
+  arg3[_swig_go_2.n] = '\0';
+  
+  
+  default_memory_callback(arg1,(char const *)arg2,(char const *)arg3);
+  
+  free(arg2); 
+  free(arg3); 
+}
+
+
+void _wrap_default_data_callback_librawgo_91c7e8cf36b5548d(void *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+  void *arg1 = (void *) 0 ;
+  char *arg2 = (char *) 0 ;
+  int arg3 ;
+  
+  arg1 = *(void **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  arg3 = (int)_swig_go_2; 
+  
+  default_data_callback(arg1,(char const *)arg2,arg3);
+  
+  free(arg2); 
+}
+
+
+void _wrap_libraw_callbacks_t_mem_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  memory_callback arg2 = (memory_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(memory_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->mem_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_mem_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  memory_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (memory_callback) ((arg1)->mem_cb);
+  *(memory_callback *)&_swig_go_result = (memory_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_memcb_data_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void *_swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  void *arg2 = (void *) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(void **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->memcb_data = arg2;
+  
+}
+
+
+void *_wrap_libraw_callbacks_t_memcb_data_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  void *result = 0 ;
+  void *_swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (void *) ((arg1)->memcb_data);
+  *(void **)&_swig_go_result = (void *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_data_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  data_callback arg2 = (data_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(data_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->data_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_data_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  data_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (data_callback) ((arg1)->data_cb);
+  *(data_callback *)&_swig_go_result = (data_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_datacb_data_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void *_swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  void *arg2 = (void *) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(void **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->datacb_data = arg2;
+  
+}
+
+
+void *_wrap_libraw_callbacks_t_datacb_data_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  void *result = 0 ;
+  void *_swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (void *) ((arg1)->datacb_data);
+  *(void **)&_swig_go_result = (void *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_progress_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  progress_callback arg2 = (progress_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(progress_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->progress_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_progress_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  progress_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (progress_callback) ((arg1)->progress_cb);
+  *(progress_callback *)&_swig_go_result = (progress_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_progresscb_data_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void *_swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  void *arg2 = (void *) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(void **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->progresscb_data = arg2;
+  
+}
+
+
+void *_wrap_libraw_callbacks_t_progresscb_data_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  void *result = 0 ;
+  void *_swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (void *) ((arg1)->progresscb_data);
+  *(void **)&_swig_go_result = (void *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_exif_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  exif_parser_callback arg2 = (exif_parser_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(exif_parser_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->exif_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_exif_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  exif_parser_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (exif_parser_callback) ((arg1)->exif_cb);
+  *(exif_parser_callback *)&_swig_go_result = (exif_parser_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_exifparser_data_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void *_swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  void *arg2 = (void *) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(void **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->exifparser_data = arg2;
+  
+}
+
+
+void *_wrap_libraw_callbacks_t_exifparser_data_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  void *result = 0 ;
+  void *_swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (void *) ((arg1)->exifparser_data);
+  *(void **)&_swig_go_result = (void *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_pre_identify_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  pre_identify_callback arg2 = (pre_identify_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(pre_identify_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->pre_identify_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_pre_identify_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  pre_identify_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (pre_identify_callback) ((arg1)->pre_identify_cb);
+  *(pre_identify_callback *)&_swig_go_result = (pre_identify_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_post_identify_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  post_identify_callback arg2 = (post_identify_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(post_identify_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->post_identify_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_post_identify_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  post_identify_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (post_identify_callback) ((arg1)->post_identify_cb);
+  *(post_identify_callback *)&_swig_go_result = (post_identify_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_pre_subtractblack_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback arg2 = (process_step_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(process_step_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->pre_subtractblack_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_pre_subtractblack_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (process_step_callback) ((arg1)->pre_subtractblack_cb);
+  *(process_step_callback *)&_swig_go_result = (process_step_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_pre_scalecolors_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback arg2 = (process_step_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(process_step_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->pre_scalecolors_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_pre_scalecolors_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (process_step_callback) ((arg1)->pre_scalecolors_cb);
+  *(process_step_callback *)&_swig_go_result = (process_step_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_pre_preinterpolate_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback arg2 = (process_step_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(process_step_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->pre_preinterpolate_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_pre_preinterpolate_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (process_step_callback) ((arg1)->pre_preinterpolate_cb);
+  *(process_step_callback *)&_swig_go_result = (process_step_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_pre_interpolate_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback arg2 = (process_step_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(process_step_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->pre_interpolate_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_pre_interpolate_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (process_step_callback) ((arg1)->pre_interpolate_cb);
+  *(process_step_callback *)&_swig_go_result = (process_step_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_interpolate_bayer_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback arg2 = (process_step_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(process_step_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->interpolate_bayer_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_interpolate_bayer_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (process_step_callback) ((arg1)->interpolate_bayer_cb);
+  *(process_step_callback *)&_swig_go_result = (process_step_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_interpolate_xtrans_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback arg2 = (process_step_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(process_step_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->interpolate_xtrans_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_interpolate_xtrans_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (process_step_callback) ((arg1)->interpolate_xtrans_cb);
+  *(process_step_callback *)&_swig_go_result = (process_step_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_post_interpolate_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback arg2 = (process_step_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(process_step_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->post_interpolate_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_post_interpolate_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (process_step_callback) ((arg1)->post_interpolate_cb);
+  *(process_step_callback *)&_swig_go_result = (process_step_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_pre_converttorgb_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback arg2 = (process_step_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(process_step_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->pre_converttorgb_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_pre_converttorgb_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (process_step_callback) ((arg1)->pre_converttorgb_cb);
+  *(process_step_callback *)&_swig_go_result = (process_step_callback)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_callbacks_t_post_converttorgb_cb_set_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0, void* _swig_go_1) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback arg2 = (process_step_callback) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  arg2 = *(process_step_callback *)&_swig_go_1; 
+  
+  if (arg1) (arg1)->post_converttorgb_cb = arg2;
+  
+}
+
+
+void* _wrap_libraw_callbacks_t_post_converttorgb_cb_get_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  process_step_callback result;
+  void* _swig_go_result;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  result = (process_step_callback) ((arg1)->post_converttorgb_cb);
+  *(process_step_callback *)&_swig_go_result = (process_step_callback)result; 
+  return _swig_go_result;
+}
+
+
+libraw_callbacks_t *_wrap_new_libraw_callbacks_t_librawgo_91c7e8cf36b5548d() {
+  libraw_callbacks_t *result = 0 ;
+  libraw_callbacks_t *_swig_go_result;
+  
+  
+  result = (libraw_callbacks_t *)calloc(1, sizeof(libraw_callbacks_t));
+  *(libraw_callbacks_t **)&_swig_go_result = (libraw_callbacks_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_callbacks_t_librawgo_91c7e8cf36b5548d(libraw_callbacks_t *_swig_go_0) {
+  libraw_callbacks_t *arg1 = (libraw_callbacks_t *) 0 ;
+  
+  arg1 = *(libraw_callbacks_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_processed_image_t_Xtype_set_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  enum LibRaw_image_formats arg2 ;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  arg2 = (enum LibRaw_image_formats)_swig_go_1; 
+  
+  if (arg1) (arg1)->type = arg2;
+  
+}
+
+
+intgo _wrap_libraw_processed_image_t_Xtype_get_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  enum LibRaw_image_formats result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  
+  result = (enum LibRaw_image_formats) ((arg1)->type);
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_processed_image_t_height_set_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0, short _swig_go_1) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->height = arg2;
+  
+}
+
+
+short _wrap_libraw_processed_image_t_height_get_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->height);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_processed_image_t_width_set_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0, short _swig_go_1) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->width = arg2;
+  
+}
+
+
+short _wrap_libraw_processed_image_t_width_get_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->width);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_processed_image_t_colors_set_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0, short _swig_go_1) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->colors = arg2;
+  
+}
+
+
+short _wrap_libraw_processed_image_t_colors_get_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->colors);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_processed_image_t_bits_set_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0, short _swig_go_1) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->bits = arg2;
+  
+}
+
+
+short _wrap_libraw_processed_image_t_bits_get_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->bits);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_processed_image_t_data_size_set_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->data_size = arg2;
+  
+}
+
+
+intgo _wrap_libraw_processed_image_t_data_size_get_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->data_size);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_processed_image_t_data_set_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0, char *_swig_go_1) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  unsigned char *arg2 ;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  arg2 = *(unsigned char **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned char *b = (unsigned char *) arg1->data;
+    for (ii = 0; ii < (size_t)1; ii++) b[ii] = *((unsigned char *) arg2 + ii);
+  }
+  
+}
+
+
+char *_wrap_libraw_processed_image_t_data_get_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  unsigned char *result = 0 ;
+  char *_swig_go_result;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  
+  result = (unsigned char *)(unsigned char *) ((arg1)->data);
+  *(unsigned char **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_processed_image_t *_wrap_new_libraw_processed_image_t_librawgo_91c7e8cf36b5548d() {
+  libraw_processed_image_t *result = 0 ;
+  libraw_processed_image_t *_swig_go_result;
+  
+  
+  result = (libraw_processed_image_t *)calloc(1, sizeof(libraw_processed_image_t));
+  *(libraw_processed_image_t **)&_swig_go_result = (libraw_processed_image_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_processed_image_t_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0) {
+  libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
+  
+  arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_iparams_t_guard_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->guard, (const char *)arg2, 4-1);
+      arg1->guard[4-1] = 0;
+    } else {
+      arg1->guard[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_iparams_t_guard_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->guard);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_make_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->make, (const char *)arg2, 64-1);
+      arg1->make[64-1] = 0;
+    } else {
+      arg1->make[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_iparams_t_make_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->make);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_model_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->model, (const char *)arg2, 64-1);
+      arg1->model[64-1] = 0;
+    } else {
+      arg1->model[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_iparams_t_model_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->model);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_software_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->software, (const char *)arg2, 64-1);
+      arg1->software[64-1] = 0;
+    } else {
+      arg1->software[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_iparams_t_software_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->software);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_normalized_make_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->normalized_make, (const char *)arg2, 64-1);
+      arg1->normalized_make[64-1] = 0;
+    } else {
+      arg1->normalized_make[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_iparams_t_normalized_make_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->normalized_make);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_normalized_model_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->normalized_model, (const char *)arg2, 64-1);
+      arg1->normalized_model[64-1] = 0;
+    } else {
+      arg1->normalized_model[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_iparams_t_normalized_model_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->normalized_model);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_maker_index_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->maker_index = arg2;
+  
+}
+
+
+intgo _wrap_libraw_iparams_t_maker_index_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->maker_index);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_raw_count_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->raw_count = arg2;
+  
+}
+
+
+intgo _wrap_libraw_iparams_t_raw_count_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->raw_count);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_dng_version_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->dng_version = arg2;
+  
+}
+
+
+intgo _wrap_libraw_iparams_t_dng_version_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->dng_version);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_is_foveon_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->is_foveon = arg2;
+  
+}
+
+
+intgo _wrap_libraw_iparams_t_is_foveon_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->is_foveon);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_colors_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->colors = arg2;
+  
+}
+
+
+intgo _wrap_libraw_iparams_t_colors_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->colors);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_filters_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->filters = arg2;
+  
+}
+
+
+intgo _wrap_libraw_iparams_t_filters_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->filters);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_xtrans_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, _gostring_* _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char (*arg2)[6] ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  arg2 = *(char (**)[6])&_swig_go_1; 
+  
+  {
+    char (*inp)[6] = (char (*)[6])(arg2);
+    char (*dest)[6] = (char (*)[6])(arg1->xtrans);
+    size_t ii = 0;
+    for (; ii < 6; ++ii) {
+      char *ip = inp[ii];
+      char *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 6; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+_gostring_* _wrap_libraw_iparams_t_xtrans_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char (*result)[6] = 0 ;
+  _gostring_* _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (char (*)[6])(char (*)[6]) ((arg1)->xtrans);
+  *(char (**)[6])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_xtrans_abs_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, _gostring_* _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char (*arg2)[6] ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  arg2 = *(char (**)[6])&_swig_go_1; 
+  
+  {
+    char (*inp)[6] = (char (*)[6])(arg2);
+    char (*dest)[6] = (char (*)[6])(arg1->xtrans_abs);
+    size_t ii = 0;
+    for (; ii < 6; ++ii) {
+      char *ip = inp[ii];
+      char *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 6; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+_gostring_* _wrap_libraw_iparams_t_xtrans_abs_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char (*result)[6] = 0 ;
+  _gostring_* _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (char (*)[6])(char (*)[6]) ((arg1)->xtrans_abs);
+  *(char (**)[6])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_cdesc_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->cdesc, (const char *)arg2, 5-1);
+      arg1->cdesc[5-1] = 0;
+    } else {
+      arg1->cdesc[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_iparams_t_cdesc_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->cdesc);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_xmplen_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->xmplen = arg2;
+  
+}
+
+
+intgo _wrap_libraw_iparams_t_xmplen_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->xmplen);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_iparams_t_xmpdata_set_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *arg2 = (char *) 0 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    free(arg1->xmpdata);
+    if (arg2) {
+      arg1->xmpdata = (char *) malloc(strlen((const char *)arg2)+1);
+      strcpy((char *)arg1->xmpdata, (const char *)arg2);
+    } else {
+      arg1->xmpdata = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_iparams_t_xmpdata_get_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  result = (char *) ((arg1)->xmpdata);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+libraw_iparams_t *_wrap_new_libraw_iparams_t_librawgo_91c7e8cf36b5548d() {
+  libraw_iparams_t *result = 0 ;
+  libraw_iparams_t *_swig_go_result;
+  
+  
+  result = (libraw_iparams_t *)calloc(1, sizeof(libraw_iparams_t));
+  *(libraw_iparams_t **)&_swig_go_result = (libraw_iparams_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_iparams_t_librawgo_91c7e8cf36b5548d(libraw_iparams_t *_swig_go_0) {
+  libraw_iparams_t *arg1 = (libraw_iparams_t *) 0 ;
+  
+  arg1 = *(libraw_iparams_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_raw_inset_crop_t_cleft_set_librawgo_91c7e8cf36b5548d(libraw_raw_inset_crop_t *_swig_go_0, short _swig_go_1) {
+  libraw_raw_inset_crop_t *arg1 = (libraw_raw_inset_crop_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_raw_inset_crop_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->cleft = arg2;
+  
+}
+
+
+short _wrap_libraw_raw_inset_crop_t_cleft_get_librawgo_91c7e8cf36b5548d(libraw_raw_inset_crop_t *_swig_go_0) {
+  libraw_raw_inset_crop_t *arg1 = (libraw_raw_inset_crop_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_raw_inset_crop_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->cleft);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_raw_inset_crop_t_ctop_set_librawgo_91c7e8cf36b5548d(libraw_raw_inset_crop_t *_swig_go_0, short _swig_go_1) {
+  libraw_raw_inset_crop_t *arg1 = (libraw_raw_inset_crop_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_raw_inset_crop_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ctop = arg2;
+  
+}
+
+
+short _wrap_libraw_raw_inset_crop_t_ctop_get_librawgo_91c7e8cf36b5548d(libraw_raw_inset_crop_t *_swig_go_0) {
+  libraw_raw_inset_crop_t *arg1 = (libraw_raw_inset_crop_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_raw_inset_crop_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ctop);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_raw_inset_crop_t_cwidth_set_librawgo_91c7e8cf36b5548d(libraw_raw_inset_crop_t *_swig_go_0, short _swig_go_1) {
+  libraw_raw_inset_crop_t *arg1 = (libraw_raw_inset_crop_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_raw_inset_crop_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->cwidth = arg2;
+  
+}
+
+
+short _wrap_libraw_raw_inset_crop_t_cwidth_get_librawgo_91c7e8cf36b5548d(libraw_raw_inset_crop_t *_swig_go_0) {
+  libraw_raw_inset_crop_t *arg1 = (libraw_raw_inset_crop_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_raw_inset_crop_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->cwidth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_raw_inset_crop_t_cheight_set_librawgo_91c7e8cf36b5548d(libraw_raw_inset_crop_t *_swig_go_0, short _swig_go_1) {
+  libraw_raw_inset_crop_t *arg1 = (libraw_raw_inset_crop_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_raw_inset_crop_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->cheight = arg2;
+  
+}
+
+
+short _wrap_libraw_raw_inset_crop_t_cheight_get_librawgo_91c7e8cf36b5548d(libraw_raw_inset_crop_t *_swig_go_0) {
+  libraw_raw_inset_crop_t *arg1 = (libraw_raw_inset_crop_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_raw_inset_crop_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->cheight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_raw_inset_crop_t_aspect_set_librawgo_91c7e8cf36b5548d(libraw_raw_inset_crop_t *_swig_go_0, short _swig_go_1) {
+  libraw_raw_inset_crop_t *arg1 = (libraw_raw_inset_crop_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_raw_inset_crop_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->aspect = arg2;
+  
+}
+
+
+short _wrap_libraw_raw_inset_crop_t_aspect_get_librawgo_91c7e8cf36b5548d(libraw_raw_inset_crop_t *_swig_go_0) {
+  libraw_raw_inset_crop_t *arg1 = (libraw_raw_inset_crop_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_raw_inset_crop_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->aspect);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_raw_inset_crop_t *_wrap_new_libraw_raw_inset_crop_t_librawgo_91c7e8cf36b5548d() {
+  libraw_raw_inset_crop_t *result = 0 ;
+  libraw_raw_inset_crop_t *_swig_go_result;
+  
+  
+  result = (libraw_raw_inset_crop_t *)calloc(1, sizeof(libraw_raw_inset_crop_t));
+  *(libraw_raw_inset_crop_t **)&_swig_go_result = (libraw_raw_inset_crop_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_raw_inset_crop_t_librawgo_91c7e8cf36b5548d(libraw_raw_inset_crop_t *_swig_go_0) {
+  libraw_raw_inset_crop_t *arg1 = (libraw_raw_inset_crop_t *) 0 ;
+  
+  arg1 = *(libraw_raw_inset_crop_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_image_sizes_t_raw_height_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, short _swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->raw_height = arg2;
+  
+}
+
+
+short _wrap_libraw_image_sizes_t_raw_height_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->raw_height);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_raw_width_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, short _swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->raw_width = arg2;
+  
+}
+
+
+short _wrap_libraw_image_sizes_t_raw_width_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->raw_width);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_height_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, short _swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->height = arg2;
+  
+}
+
+
+short _wrap_libraw_image_sizes_t_height_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->height);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_width_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, short _swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->width = arg2;
+  
+}
+
+
+short _wrap_libraw_image_sizes_t_width_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->width);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_top_margin_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, short _swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->top_margin = arg2;
+  
+}
+
+
+short _wrap_libraw_image_sizes_t_top_margin_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->top_margin);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_left_margin_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, short _swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->left_margin = arg2;
+  
+}
+
+
+short _wrap_libraw_image_sizes_t_left_margin_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->left_margin);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_iheight_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, short _swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->iheight = arg2;
+  
+}
+
+
+short _wrap_libraw_image_sizes_t_iheight_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->iheight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_iwidth_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, short _swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->iwidth = arg2;
+  
+}
+
+
+short _wrap_libraw_image_sizes_t_iwidth_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->iwidth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_raw_pitch_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->raw_pitch = arg2;
+  
+}
+
+
+intgo _wrap_libraw_image_sizes_t_raw_pitch_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->raw_pitch);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_pixel_aspect_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, double _swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  double arg2 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = (double)_swig_go_1; 
+  
+  if (arg1) (arg1)->pixel_aspect = arg2;
+  
+}
+
+
+double _wrap_libraw_image_sizes_t_pixel_aspect_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  double result;
+  double _swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (double) ((arg1)->pixel_aspect);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_flip_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->flip = arg2;
+  
+}
+
+
+intgo _wrap_libraw_image_sizes_t_flip_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->flip);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_mask_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, intgo **_swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  int (*arg2)[4] ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = *(int (**)[4])&_swig_go_1; 
+  
+  {
+    int (*inp)[4] = (int (*)[4])(arg2);
+    int (*dest)[4] = (int (*)[4])(arg1->mask);
+    size_t ii = 0;
+    for (; ii < 8; ++ii) {
+      int *ip = inp[ii];
+      int *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 4; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+intgo **_wrap_libraw_image_sizes_t_mask_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  int (*result)[4] = 0 ;
+  intgo **_swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (int (*)[4])(int (*)[4]) ((arg1)->mask);
+  *(int (**)[4])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_image_sizes_t_raw_inset_crop_set_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0, libraw_raw_inset_crop_t *_swig_go_1) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  libraw_raw_inset_crop_t *arg2 = (libraw_raw_inset_crop_t *) 0 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  arg2 = *(libraw_raw_inset_crop_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->raw_inset_crop = *arg2;
+  
+}
+
+
+libraw_raw_inset_crop_t *_wrap_libraw_image_sizes_t_raw_inset_crop_get_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  libraw_raw_inset_crop_t *result = 0 ;
+  libraw_raw_inset_crop_t *_swig_go_result;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  result = (libraw_raw_inset_crop_t *)& ((arg1)->raw_inset_crop);
+  *(libraw_raw_inset_crop_t **)&_swig_go_result = (libraw_raw_inset_crop_t *)result; 
+  return _swig_go_result;
+}
+
+
+libraw_image_sizes_t *_wrap_new_libraw_image_sizes_t_librawgo_91c7e8cf36b5548d() {
+  libraw_image_sizes_t *result = 0 ;
+  libraw_image_sizes_t *_swig_go_result;
+  
+  
+  result = (libraw_image_sizes_t *)calloc(1, sizeof(libraw_image_sizes_t));
+  *(libraw_image_sizes_t **)&_swig_go_result = (libraw_image_sizes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_image_sizes_t_librawgo_91c7e8cf36b5548d(libraw_image_sizes_t *_swig_go_0) {
+  libraw_image_sizes_t *arg1 = (libraw_image_sizes_t *) 0 ;
+  
+  arg1 = *(libraw_image_sizes_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_ph1_t_format_set_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0, intgo _swig_go_1) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->format = arg2;
+  
+}
+
+
+intgo _wrap_ph1_t_format_get_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->format);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ph1_t_key_off_set_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0, intgo _swig_go_1) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->key_off = arg2;
+  
+}
+
+
+intgo _wrap_ph1_t_key_off_get_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->key_off);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ph1_t_tag_21a_set_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0, intgo _swig_go_1) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->tag_21a = arg2;
+  
+}
+
+
+intgo _wrap_ph1_t_tag_21a_get_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->tag_21a);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ph1_t_t_black_set_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0, intgo _swig_go_1) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->t_black = arg2;
+  
+}
+
+
+intgo _wrap_ph1_t_t_black_get_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->t_black);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ph1_t_split_col_set_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0, intgo _swig_go_1) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->split_col = arg2;
+  
+}
+
+
+intgo _wrap_ph1_t_split_col_get_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->split_col);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ph1_t_black_col_set_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0, intgo _swig_go_1) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->black_col = arg2;
+  
+}
+
+
+intgo _wrap_ph1_t_black_col_get_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->black_col);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ph1_t_split_row_set_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0, intgo _swig_go_1) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->split_row = arg2;
+  
+}
+
+
+intgo _wrap_ph1_t_split_row_get_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->split_row);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ph1_t_black_row_set_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0, intgo _swig_go_1) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->black_row = arg2;
+  
+}
+
+
+intgo _wrap_ph1_t_black_row_get_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->black_row);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ph1_t_tag_210_set_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0, float _swig_go_1) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->tag_210 = arg2;
+  
+}
+
+
+float _wrap_ph1_t_tag_210_get_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->tag_210);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+struct ph1_t *_wrap_new_ph1_t_librawgo_91c7e8cf36b5548d() {
+  struct ph1_t *result = 0 ;
+  struct ph1_t *_swig_go_result;
+  
+  
+  result = (struct ph1_t *)calloc(1, sizeof(struct ph1_t));
+  *(struct ph1_t **)&_swig_go_result = (struct ph1_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_ph1_t_librawgo_91c7e8cf36b5548d(struct ph1_t *_swig_go_0) {
+  struct ph1_t *arg1 = (struct ph1_t *) 0 ;
+  
+  arg1 = *(struct ph1_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_dng_color_t_parsedfields_set_librawgo_91c7e8cf36b5548d(libraw_dng_color_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_dng_color_t *arg1 = (libraw_dng_color_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_dng_color_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->parsedfields = arg2;
+  
+}
+
+
+intgo _wrap_libraw_dng_color_t_parsedfields_get_librawgo_91c7e8cf36b5548d(libraw_dng_color_t *_swig_go_0) {
+  libraw_dng_color_t *arg1 = (libraw_dng_color_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_dng_color_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->parsedfields);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_color_t_illuminant_set_librawgo_91c7e8cf36b5548d(libraw_dng_color_t *_swig_go_0, short _swig_go_1) {
+  libraw_dng_color_t *arg1 = (libraw_dng_color_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_dng_color_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->illuminant = arg2;
+  
+}
+
+
+short _wrap_libraw_dng_color_t_illuminant_get_librawgo_91c7e8cf36b5548d(libraw_dng_color_t *_swig_go_0) {
+  libraw_dng_color_t *arg1 = (libraw_dng_color_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_dng_color_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->illuminant);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_color_t_calibration_set_librawgo_91c7e8cf36b5548d(libraw_dng_color_t *_swig_go_0, float **_swig_go_1) {
+  libraw_dng_color_t *arg1 = (libraw_dng_color_t *) 0 ;
+  float (*arg2)[4] ;
+  
+  arg1 = *(libraw_dng_color_t **)&_swig_go_0; 
+  arg2 = *(float (**)[4])&_swig_go_1; 
+  
+  {
+    float (*inp)[4] = (float (*)[4])(arg2);
+    float (*dest)[4] = (float (*)[4])(arg1->calibration);
+    size_t ii = 0;
+    for (; ii < 4; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 4; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_dng_color_t_calibration_get_librawgo_91c7e8cf36b5548d(libraw_dng_color_t *_swig_go_0) {
+  libraw_dng_color_t *arg1 = (libraw_dng_color_t *) 0 ;
+  float (*result)[4] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_dng_color_t **)&_swig_go_0; 
+  
+  result = (float (*)[4])(float (*)[4]) ((arg1)->calibration);
+  *(float (**)[4])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_color_t_colormatrix_set_librawgo_91c7e8cf36b5548d(libraw_dng_color_t *_swig_go_0, float **_swig_go_1) {
+  libraw_dng_color_t *arg1 = (libraw_dng_color_t *) 0 ;
+  float (*arg2)[3] ;
+  
+  arg1 = *(libraw_dng_color_t **)&_swig_go_0; 
+  arg2 = *(float (**)[3])&_swig_go_1; 
+  
+  {
+    float (*inp)[3] = (float (*)[3])(arg2);
+    float (*dest)[3] = (float (*)[3])(arg1->colormatrix);
+    size_t ii = 0;
+    for (; ii < 4; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 3; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_dng_color_t_colormatrix_get_librawgo_91c7e8cf36b5548d(libraw_dng_color_t *_swig_go_0) {
+  libraw_dng_color_t *arg1 = (libraw_dng_color_t *) 0 ;
+  float (*result)[3] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_dng_color_t **)&_swig_go_0; 
+  
+  result = (float (*)[3])(float (*)[3]) ((arg1)->colormatrix);
+  *(float (**)[3])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_color_t_forwardmatrix_set_librawgo_91c7e8cf36b5548d(libraw_dng_color_t *_swig_go_0, float **_swig_go_1) {
+  libraw_dng_color_t *arg1 = (libraw_dng_color_t *) 0 ;
+  float (*arg2)[4] ;
+  
+  arg1 = *(libraw_dng_color_t **)&_swig_go_0; 
+  arg2 = *(float (**)[4])&_swig_go_1; 
+  
+  {
+    float (*inp)[4] = (float (*)[4])(arg2);
+    float (*dest)[4] = (float (*)[4])(arg1->forwardmatrix);
+    size_t ii = 0;
+    for (; ii < 3; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 4; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_dng_color_t_forwardmatrix_get_librawgo_91c7e8cf36b5548d(libraw_dng_color_t *_swig_go_0) {
+  libraw_dng_color_t *arg1 = (libraw_dng_color_t *) 0 ;
+  float (*result)[4] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_dng_color_t **)&_swig_go_0; 
+  
+  result = (float (*)[4])(float (*)[4]) ((arg1)->forwardmatrix);
+  *(float (**)[4])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_dng_color_t *_wrap_new_libraw_dng_color_t_librawgo_91c7e8cf36b5548d() {
+  libraw_dng_color_t *result = 0 ;
+  libraw_dng_color_t *_swig_go_result;
+  
+  
+  result = (libraw_dng_color_t *)calloc(1, sizeof(libraw_dng_color_t));
+  *(libraw_dng_color_t **)&_swig_go_result = (libraw_dng_color_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_dng_color_t_librawgo_91c7e8cf36b5548d(libraw_dng_color_t *_swig_go_0) {
+  libraw_dng_color_t *arg1 = (libraw_dng_color_t *) 0 ;
+  
+  arg1 = *(libraw_dng_color_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_dng_levels_t_parsedfields_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->parsedfields = arg2;
+  
+}
+
+
+intgo _wrap_libraw_dng_levels_t_parsedfields_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->parsedfields);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_levels_t_dng_cblack_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->dng_cblack;
+    for (ii = 0; ii < (size_t)4104; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_dng_levels_t_dng_cblack_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->dng_cblack);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_levels_t_dng_black_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->dng_black = arg2;
+  
+}
+
+
+intgo _wrap_libraw_dng_levels_t_dng_black_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->dng_black);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_levels_t_dng_fcblack_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, float *_swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->dng_fcblack;
+    for (ii = 0; ii < (size_t)4104; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_dng_levels_t_dng_fcblack_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->dng_fcblack);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_levels_t_dng_fblack_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, float _swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->dng_fblack = arg2;
+  
+}
+
+
+float _wrap_libraw_dng_levels_t_dng_fblack_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->dng_fblack);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_levels_t_dng_whitelevel_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->dng_whitelevel;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_dng_levels_t_dng_whitelevel_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->dng_whitelevel);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_levels_t_default_crop_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->default_crop;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_dng_levels_t_default_crop_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->default_crop);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_levels_t_preview_colorspace_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->preview_colorspace = arg2;
+  
+}
+
+
+intgo _wrap_libraw_dng_levels_t_preview_colorspace_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->preview_colorspace);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_levels_t_analogbalance_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, float *_swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->analogbalance;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_dng_levels_t_analogbalance_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->analogbalance);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_levels_t_asshotneutral_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, float *_swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->asshotneutral;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_dng_levels_t_asshotneutral_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->asshotneutral);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_levels_t_baseline_exposure_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, float _swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->baseline_exposure = arg2;
+  
+}
+
+
+float _wrap_libraw_dng_levels_t_baseline_exposure_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->baseline_exposure);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dng_levels_t_LinearResponseLimit_set_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0, float _swig_go_1) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->LinearResponseLimit = arg2;
+  
+}
+
+
+float _wrap_libraw_dng_levels_t_LinearResponseLimit_get_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->LinearResponseLimit);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_dng_levels_t *_wrap_new_libraw_dng_levels_t_librawgo_91c7e8cf36b5548d() {
+  libraw_dng_levels_t *result = 0 ;
+  libraw_dng_levels_t *_swig_go_result;
+  
+  
+  result = (libraw_dng_levels_t *)calloc(1, sizeof(libraw_dng_levels_t));
+  *(libraw_dng_levels_t **)&_swig_go_result = (libraw_dng_levels_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_dng_levels_t_librawgo_91c7e8cf36b5548d(libraw_dng_levels_t *_swig_go_0) {
+  libraw_dng_levels_t *arg1 = (libraw_dng_levels_t *) 0 ;
+  
+  arg1 = *(libraw_dng_levels_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_P1_color_t_romm_cam_set_librawgo_91c7e8cf36b5548d(libraw_P1_color_t *_swig_go_0, float *_swig_go_1) {
+  libraw_P1_color_t *arg1 = (libraw_P1_color_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_P1_color_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->romm_cam;
+    for (ii = 0; ii < (size_t)9; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_P1_color_t_romm_cam_get_librawgo_91c7e8cf36b5548d(libraw_P1_color_t *_swig_go_0) {
+  libraw_P1_color_t *arg1 = (libraw_P1_color_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_P1_color_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->romm_cam);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_P1_color_t *_wrap_new_libraw_P1_color_t_librawgo_91c7e8cf36b5548d() {
+  libraw_P1_color_t *result = 0 ;
+  libraw_P1_color_t *_swig_go_result;
+  
+  
+  result = (libraw_P1_color_t *)calloc(1, sizeof(libraw_P1_color_t));
+  *(libraw_P1_color_t **)&_swig_go_result = (libraw_P1_color_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_P1_color_t_librawgo_91c7e8cf36b5548d(libraw_P1_color_t *_swig_go_0) {
+  libraw_P1_color_t *arg1 = (libraw_P1_color_t *) 0 ;
+  
+  arg1 = *(libraw_P1_color_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_canon_makernotes_t_ColorDataVer_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->ColorDataVer = arg2;
+  
+}
+
+
+intgo _wrap_libraw_canon_makernotes_t_ColorDataVer_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->ColorDataVer);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_ColorDataSubVer_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->ColorDataSubVer = arg2;
+  
+}
+
+
+intgo _wrap_libraw_canon_makernotes_t_ColorDataSubVer_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->ColorDataSubVer);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_SpecularWhiteLevel_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->SpecularWhiteLevel = arg2;
+  
+}
+
+
+intgo _wrap_libraw_canon_makernotes_t_SpecularWhiteLevel_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->SpecularWhiteLevel);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_NormalWhiteLevel_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->NormalWhiteLevel = arg2;
+  
+}
+
+
+intgo _wrap_libraw_canon_makernotes_t_NormalWhiteLevel_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->NormalWhiteLevel);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_ChannelBlackLevel_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int *arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    int *b = (int *) arg1->ChannelBlackLevel;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_canon_makernotes_t_ChannelBlackLevel_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (int *)(int *) ((arg1)->ChannelBlackLevel);
+  *(int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AverageBlackLevel_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->AverageBlackLevel = arg2;
+  
+}
+
+
+intgo _wrap_libraw_canon_makernotes_t_AverageBlackLevel_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->AverageBlackLevel);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_multishot_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->multishot;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_canon_makernotes_t_multishot_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->multishot);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_MeteringMode_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->MeteringMode = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_MeteringMode_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->MeteringMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_SpotMeteringMode_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->SpotMeteringMode = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_SpotMeteringMode_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->SpotMeteringMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_FlashMeteringMode_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashMeteringMode = arg2;
+  
+}
+
+
+char _wrap_libraw_canon_makernotes_t_FlashMeteringMode_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->FlashMeteringMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_FlashExposureLock_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashExposureLock = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_FlashExposureLock_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->FlashExposureLock);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_ExposureMode_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->ExposureMode = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_ExposureMode_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->ExposureMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AESetting_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->AESetting = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_AESetting_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->AESetting);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_HighlightTonePriority_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->HighlightTonePriority = arg2;
+  
+}
+
+
+char _wrap_libraw_canon_makernotes_t_HighlightTonePriority_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->HighlightTonePriority);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->ImageStabilization = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->ImageStabilization);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->FocusMode = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->FocusMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFPoint_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFPoint = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_AFPoint_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->AFPoint);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_FocusContinuous_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->FocusContinuous = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_FocusContinuous_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->FocusContinuous);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFPointsInFocus30D_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFPointsInFocus30D = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_AFPointsInFocus30D_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->AFPointsInFocus30D);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFPointsInFocus1D_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, char *_swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  uchar *arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(uchar **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    uchar *b = (uchar *) arg1->AFPointsInFocus1D;
+    for (ii = 0; ii < (size_t)8; ii++) b[ii] = *((uchar *) arg2 + ii);
+  }
+  
+}
+
+
+char *_wrap_libraw_canon_makernotes_t_AFPointsInFocus1D_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  uchar *result = 0 ;
+  char *_swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar *)(uchar *) ((arg1)->AFPointsInFocus1D);
+  *(uchar **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFPointsInFocus5D_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFPointsInFocus5D = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_AFPointsInFocus5D_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFPointsInFocus5D);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFAreaMode_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFAreaMode = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_AFAreaMode_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFAreaMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_NumAFPoints_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->NumAFPoints = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_NumAFPoints_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->NumAFPoints);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_ValidAFPoints_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ValidAFPoints = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_ValidAFPoints_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ValidAFPoints);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFImageWidth_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFImageWidth = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_AFImageWidth_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFImageWidth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFImageHeight_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFImageHeight = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_AFImageHeight_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFImageHeight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFAreaWidths_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short *_swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(short **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    short *b = (short *) arg1->AFAreaWidths;
+    for (ii = 0; ii < (size_t)61; ii++) b[ii] = *((short *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_canon_makernotes_t_AFAreaWidths_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short *)(short *) ((arg1)->AFAreaWidths);
+  *(short **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFAreaHeights_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short *_swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(short **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    short *b = (short *) arg1->AFAreaHeights;
+    for (ii = 0; ii < (size_t)61; ii++) b[ii] = *((short *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_canon_makernotes_t_AFAreaHeights_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short *)(short *) ((arg1)->AFAreaHeights);
+  *(short **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFAreaXPositions_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short *_swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(short **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    short *b = (short *) arg1->AFAreaXPositions;
+    for (ii = 0; ii < (size_t)61; ii++) b[ii] = *((short *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_canon_makernotes_t_AFAreaXPositions_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short *)(short *) ((arg1)->AFAreaXPositions);
+  *(short **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFAreaYPositions_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short *_swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(short **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    short *b = (short *) arg1->AFAreaYPositions;
+    for (ii = 0; ii < (size_t)61; ii++) b[ii] = *((short *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_canon_makernotes_t_AFAreaYPositions_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short *)(short *) ((arg1)->AFAreaYPositions);
+  *(short **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFPointsInFocus_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short *_swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(short **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    short *b = (short *) arg1->AFPointsInFocus;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((short *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_canon_makernotes_t_AFPointsInFocus_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short *)(short *) ((arg1)->AFPointsInFocus);
+  *(short **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFPointsSelected_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short *_swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(short **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    short *b = (short *) arg1->AFPointsSelected;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((short *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_canon_makernotes_t_AFPointsSelected_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short *)(short *) ((arg1)->AFPointsSelected);
+  *(short **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_PrimaryAFPoint_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->PrimaryAFPoint = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_PrimaryAFPoint_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->PrimaryAFPoint);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_FlashMode_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashMode = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_FlashMode_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->FlashMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_FlashActivity_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashActivity = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_FlashActivity_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->FlashActivity);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_FlashBits_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashBits = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_FlashBits_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->FlashBits);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_ManualFlashOutput_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->ManualFlashOutput = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_ManualFlashOutput_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->ManualFlashOutput);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_FlashOutput_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashOutput = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_FlashOutput_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->FlashOutput);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_FlashGuideNumber_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashGuideNumber = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_FlashGuideNumber_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->FlashGuideNumber);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_ContinuousDrive_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->ContinuousDrive = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_ContinuousDrive_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->ContinuousDrive);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_SensorWidth_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorWidth = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_SensorWidth_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->SensorWidth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_SensorHeight_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorHeight = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_SensorHeight_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->SensorHeight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_SensorLeftBorder_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorLeftBorder = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_SensorLeftBorder_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->SensorLeftBorder);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_SensorTopBorder_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorTopBorder = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_SensorTopBorder_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->SensorTopBorder);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_SensorRightBorder_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorRightBorder = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_SensorRightBorder_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->SensorRightBorder);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_SensorBottomBorder_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorBottomBorder = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_SensorBottomBorder_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->SensorBottomBorder);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_BlackMaskLeftBorder_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->BlackMaskLeftBorder = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_BlackMaskLeftBorder_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->BlackMaskLeftBorder);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_BlackMaskTopBorder_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->BlackMaskTopBorder = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_BlackMaskTopBorder_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->BlackMaskTopBorder);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_BlackMaskRightBorder_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->BlackMaskRightBorder = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_BlackMaskRightBorder_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->BlackMaskRightBorder);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_BlackMaskBottomBorder_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->BlackMaskBottomBorder = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_BlackMaskBottomBorder_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->BlackMaskBottomBorder);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFMicroAdjMode_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFMicroAdjMode = arg2;
+  
+}
+
+
+intgo _wrap_libraw_canon_makernotes_t_AFMicroAdjMode_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->AFMicroAdjMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_AFMicroAdjValue_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, float _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFMicroAdjValue = arg2;
+  
+}
+
+
+float _wrap_libraw_canon_makernotes_t_AFMicroAdjValue_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->AFMicroAdjValue);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_MakernotesFlip_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->MakernotesFlip = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_MakernotesFlip_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->MakernotesFlip);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_RecordMode_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->RecordMode = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_RecordMode_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->RecordMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_SRAWQuality_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->SRAWQuality = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_SRAWQuality_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->SRAWQuality);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_wbi_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->wbi = arg2;
+  
+}
+
+
+intgo _wrap_libraw_canon_makernotes_t_wbi_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->wbi);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_firmware_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, float _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->firmware = arg2;
+  
+}
+
+
+float _wrap_libraw_canon_makernotes_t_firmware_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->firmware);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_canon_makernotes_t_RF_lensID_set_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->RF_lensID = arg2;
+  
+}
+
+
+short _wrap_libraw_canon_makernotes_t_RF_lensID_get_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->RF_lensID);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_canon_makernotes_t *_wrap_new_libraw_canon_makernotes_t_librawgo_91c7e8cf36b5548d() {
+  libraw_canon_makernotes_t *result = 0 ;
+  libraw_canon_makernotes_t *_swig_go_result;
+  
+  
+  result = (libraw_canon_makernotes_t *)calloc(1, sizeof(libraw_canon_makernotes_t));
+  *(libraw_canon_makernotes_t **)&_swig_go_result = (libraw_canon_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_canon_makernotes_t_librawgo_91c7e8cf36b5548d(libraw_canon_makernotes_t *_swig_go_0) {
+  libraw_canon_makernotes_t *arg1 = (libraw_canon_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_canon_makernotes_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_BaseISO_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->BaseISO = arg2;
+  
+}
+
+
+intgo _wrap_libraw_hasselblad_makernotes_t_BaseISO_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->BaseISO);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_Gain_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, double _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  double arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  arg2 = (double)_swig_go_1; 
+  
+  if (arg1) (arg1)->Gain = arg2;
+  
+}
+
+
+double _wrap_libraw_hasselblad_makernotes_t_Gain_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  double result;
+  double _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (double) ((arg1)->Gain);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_Sensor_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->Sensor, (const char *)arg2, 8-1);
+      arg1->Sensor[8-1] = 0;
+    } else {
+      arg1->Sensor[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_hasselblad_makernotes_t_Sensor_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->Sensor);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_SensorUnit_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->SensorUnit, (const char *)arg2, 64-1);
+      arg1->SensorUnit[64-1] = 0;
+    } else {
+      arg1->SensorUnit[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_hasselblad_makernotes_t_SensorUnit_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->SensorUnit);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_HostBody_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->HostBody, (const char *)arg2, 64-1);
+      arg1->HostBody[64-1] = 0;
+    } else {
+      arg1->HostBody[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_hasselblad_makernotes_t_HostBody_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->HostBody);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_SensorCode_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorCode = arg2;
+  
+}
+
+
+intgo _wrap_libraw_hasselblad_makernotes_t_SensorCode_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->SensorCode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_SensorSubCode_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorSubCode = arg2;
+  
+}
+
+
+intgo _wrap_libraw_hasselblad_makernotes_t_SensorSubCode_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->SensorSubCode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_CoatingCode_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->CoatingCode = arg2;
+  
+}
+
+
+intgo _wrap_libraw_hasselblad_makernotes_t_CoatingCode_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->CoatingCode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_uncropped_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->uncropped = arg2;
+  
+}
+
+
+intgo _wrap_libraw_hasselblad_makernotes_t_uncropped_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->uncropped);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_CaptureSequenceInitiator_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->CaptureSequenceInitiator, (const char *)arg2, 32-1);
+      arg1->CaptureSequenceInitiator[32-1] = 0;
+    } else {
+      arg1->CaptureSequenceInitiator[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_hasselblad_makernotes_t_CaptureSequenceInitiator_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->CaptureSequenceInitiator);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_SensorUnitConnector_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->SensorUnitConnector, (const char *)arg2, 64-1);
+      arg1->SensorUnitConnector[64-1] = 0;
+    } else {
+      arg1->SensorUnitConnector[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_hasselblad_makernotes_t_SensorUnitConnector_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->SensorUnitConnector);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_format_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->format = arg2;
+  
+}
+
+
+intgo _wrap_libraw_hasselblad_makernotes_t_format_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->format);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_nIFD_CM_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int *arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  arg2 = *(int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    int *b = (int *) arg1->nIFD_CM;
+    for (ii = 0; ii < (size_t)2; ii++) b[ii] = *((int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_hasselblad_makernotes_t_nIFD_CM_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (int *)(int *) ((arg1)->nIFD_CM);
+  *(int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_RecommendedCrop_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int *arg2 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  arg2 = *(int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    int *b = (int *) arg1->RecommendedCrop;
+    for (ii = 0; ii < (size_t)2; ii++) b[ii] = *((int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_hasselblad_makernotes_t_RecommendedCrop_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (int *)(int *) ((arg1)->RecommendedCrop);
+  *(int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_hasselblad_makernotes_t_mnColorMatrix_set_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0, double **_swig_go_1) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  double (*arg2)[3] ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  arg2 = *(double (**)[3])&_swig_go_1; 
+  
+  {
+    double (*inp)[3] = (double (*)[3])(arg2);
+    double (*dest)[3] = (double (*)[3])(arg1->mnColorMatrix);
+    size_t ii = 0;
+    for (; ii < 4; ++ii) {
+      double *ip = inp[ii];
+      double *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 3; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+double **_wrap_libraw_hasselblad_makernotes_t_mnColorMatrix_get_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  double (*result)[3] = 0 ;
+  double **_swig_go_result;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  result = (double (*)[3])(double (*)[3]) ((arg1)->mnColorMatrix);
+  *(double (**)[3])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_hasselblad_makernotes_t *_wrap_new_libraw_hasselblad_makernotes_t_librawgo_91c7e8cf36b5548d() {
+  libraw_hasselblad_makernotes_t *result = 0 ;
+  libraw_hasselblad_makernotes_t *_swig_go_result;
+  
+  
+  result = (libraw_hasselblad_makernotes_t *)calloc(1, sizeof(libraw_hasselblad_makernotes_t));
+  *(libraw_hasselblad_makernotes_t **)&_swig_go_result = (libraw_hasselblad_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_hasselblad_makernotes_t_librawgo_91c7e8cf36b5548d(libraw_hasselblad_makernotes_t *_swig_go_0) {
+  libraw_hasselblad_makernotes_t *arg1 = (libraw_hasselblad_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_hasselblad_makernotes_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_fuji_info_t_ExpoMidPointShift_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, float _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->ExpoMidPointShift = arg2;
+  
+}
+
+
+float _wrap_libraw_fuji_info_t_ExpoMidPointShift_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->ExpoMidPointShift);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_DynamicRange_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->DynamicRange = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_DynamicRange_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->DynamicRange);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_FilmMode_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->FilmMode = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_FilmMode_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->FilmMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_DynamicRangeSetting_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->DynamicRangeSetting = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_DynamicRangeSetting_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->DynamicRangeSetting);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_DevelopmentDynamicRange_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->DevelopmentDynamicRange = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_DevelopmentDynamicRange_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->DevelopmentDynamicRange);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_AutoDynamicRange_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AutoDynamicRange = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_AutoDynamicRange_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AutoDynamicRange);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_DRangePriority_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->DRangePriority = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_DRangePriority_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->DRangePriority);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_DRangePriorityAuto_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->DRangePriorityAuto = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_DRangePriorityAuto_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->DRangePriorityAuto);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_DRangePriorityFixed_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->DRangePriorityFixed = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_DRangePriorityFixed_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->DRangePriorityFixed);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_BrightnessCompensation_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, float _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->BrightnessCompensation = arg2;
+  
+}
+
+
+float _wrap_libraw_fuji_info_t_BrightnessCompensation_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->BrightnessCompensation);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_FocusMode_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->FocusMode = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_FocusMode_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->FocusMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_AFMode_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFMode = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_AFMode_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_FocusPixel_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short *_swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort *arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = *(ushort **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    ushort *b = (ushort *) arg1->FocusPixel;
+    for (ii = 0; ii < (size_t)2; ii++) b[ii] = *((ushort *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_fuji_info_t_FocusPixel_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort *)(ushort *) ((arg1)->FocusPixel);
+  *(ushort **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short *_swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort *arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = *(ushort **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    ushort *b = (ushort *) arg1->ImageStabilization;
+    for (ii = 0; ii < (size_t)3; ii++) b[ii] = *((ushort *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_fuji_info_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort *)(ushort *) ((arg1)->ImageStabilization);
+  *(ushort **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_FlashMode_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashMode = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_FlashMode_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->FlashMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_WB_Preset_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->WB_Preset = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_WB_Preset_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->WB_Preset);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_ShutterType_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ShutterType = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_ShutterType_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ShutterType);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_ExrMode_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ExrMode = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_ExrMode_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ExrMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_Macro_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->Macro = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_Macro_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->Macro);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_Rating_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->Rating = arg2;
+  
+}
+
+
+intgo _wrap_libraw_fuji_info_t_Rating_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->Rating);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_CropMode_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->CropMode = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_CropMode_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->CropMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_FrameRate_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->FrameRate = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_FrameRate_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->FrameRate);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_FrameWidth_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->FrameWidth = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_FrameWidth_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->FrameWidth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_FrameHeight_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->FrameHeight = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_FrameHeight_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->FrameHeight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_SerialSignature_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->SerialSignature, (const char *)arg2, 0x0c+1-1);
+      arg1->SerialSignature[0x0c+1-1] = 0;
+    } else {
+      arg1->SerialSignature[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_fuji_info_t_SerialSignature_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->SerialSignature);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_RAFVersion_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->RAFVersion, (const char *)arg2, 4+1-1);
+      arg1->RAFVersion[4+1-1] = 0;
+    } else {
+      arg1->RAFVersion[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_fuji_info_t_RAFVersion_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->RAFVersion);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_RAFDataVersion_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->RAFDataVersion = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_RAFDataVersion_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->RAFDataVersion);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_isTSNERDTS_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->isTSNERDTS = arg2;
+  
+}
+
+
+intgo _wrap_libraw_fuji_info_t_isTSNERDTS_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->isTSNERDTS);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_fuji_info_t_DriveMode_set_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->DriveMode = arg2;
+  
+}
+
+
+short _wrap_libraw_fuji_info_t_DriveMode_get_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->DriveMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_fuji_info_t *_wrap_new_libraw_fuji_info_t_librawgo_91c7e8cf36b5548d() {
+  libraw_fuji_info_t *result = 0 ;
+  libraw_fuji_info_t *_swig_go_result;
+  
+  
+  result = (libraw_fuji_info_t *)calloc(1, sizeof(libraw_fuji_info_t));
+  *(libraw_fuji_info_t **)&_swig_go_result = (libraw_fuji_info_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_fuji_info_t_librawgo_91c7e8cf36b5548d(libraw_fuji_info_t *_swig_go_0) {
+  libraw_fuji_info_t *arg1 = (libraw_fuji_info_t *) 0 ;
+  
+  arg1 = *(libraw_fuji_info_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_sensor_highspeed_crop_t_cleft_set_librawgo_91c7e8cf36b5548d(libraw_sensor_highspeed_crop_t *_swig_go_0, short _swig_go_1) {
+  libraw_sensor_highspeed_crop_t *arg1 = (libraw_sensor_highspeed_crop_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sensor_highspeed_crop_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->cleft = arg2;
+  
+}
+
+
+short _wrap_libraw_sensor_highspeed_crop_t_cleft_get_librawgo_91c7e8cf36b5548d(libraw_sensor_highspeed_crop_t *_swig_go_0) {
+  libraw_sensor_highspeed_crop_t *arg1 = (libraw_sensor_highspeed_crop_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sensor_highspeed_crop_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->cleft);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sensor_highspeed_crop_t_ctop_set_librawgo_91c7e8cf36b5548d(libraw_sensor_highspeed_crop_t *_swig_go_0, short _swig_go_1) {
+  libraw_sensor_highspeed_crop_t *arg1 = (libraw_sensor_highspeed_crop_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sensor_highspeed_crop_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ctop = arg2;
+  
+}
+
+
+short _wrap_libraw_sensor_highspeed_crop_t_ctop_get_librawgo_91c7e8cf36b5548d(libraw_sensor_highspeed_crop_t *_swig_go_0) {
+  libraw_sensor_highspeed_crop_t *arg1 = (libraw_sensor_highspeed_crop_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sensor_highspeed_crop_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ctop);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sensor_highspeed_crop_t_cwidth_set_librawgo_91c7e8cf36b5548d(libraw_sensor_highspeed_crop_t *_swig_go_0, short _swig_go_1) {
+  libraw_sensor_highspeed_crop_t *arg1 = (libraw_sensor_highspeed_crop_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sensor_highspeed_crop_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->cwidth = arg2;
+  
+}
+
+
+short _wrap_libraw_sensor_highspeed_crop_t_cwidth_get_librawgo_91c7e8cf36b5548d(libraw_sensor_highspeed_crop_t *_swig_go_0) {
+  libraw_sensor_highspeed_crop_t *arg1 = (libraw_sensor_highspeed_crop_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sensor_highspeed_crop_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->cwidth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sensor_highspeed_crop_t_cheight_set_librawgo_91c7e8cf36b5548d(libraw_sensor_highspeed_crop_t *_swig_go_0, short _swig_go_1) {
+  libraw_sensor_highspeed_crop_t *arg1 = (libraw_sensor_highspeed_crop_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sensor_highspeed_crop_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->cheight = arg2;
+  
+}
+
+
+short _wrap_libraw_sensor_highspeed_crop_t_cheight_get_librawgo_91c7e8cf36b5548d(libraw_sensor_highspeed_crop_t *_swig_go_0) {
+  libraw_sensor_highspeed_crop_t *arg1 = (libraw_sensor_highspeed_crop_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sensor_highspeed_crop_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->cheight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_sensor_highspeed_crop_t *_wrap_new_libraw_sensor_highspeed_crop_t_librawgo_91c7e8cf36b5548d() {
+  libraw_sensor_highspeed_crop_t *result = 0 ;
+  libraw_sensor_highspeed_crop_t *_swig_go_result;
+  
+  
+  result = (libraw_sensor_highspeed_crop_t *)calloc(1, sizeof(libraw_sensor_highspeed_crop_t));
+  *(libraw_sensor_highspeed_crop_t **)&_swig_go_result = (libraw_sensor_highspeed_crop_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_sensor_highspeed_crop_t_librawgo_91c7e8cf36b5548d(libraw_sensor_highspeed_crop_t *_swig_go_0) {
+  libraw_sensor_highspeed_crop_t *arg1 = (libraw_sensor_highspeed_crop_t *) 0 ;
+  
+  arg1 = *(libraw_sensor_highspeed_crop_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ExposureBracketValue_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, double _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  double arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (double)_swig_go_1; 
+  
+  if (arg1) (arg1)->ExposureBracketValue = arg2;
+  
+}
+
+
+double _wrap_libraw_nikon_makernotes_t_ExposureBracketValue_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  double result;
+  double _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (double) ((arg1)->ExposureBracketValue);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ActiveDLighting_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ActiveDLighting = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_ActiveDLighting_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ActiveDLighting);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ShootingMode_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ShootingMode = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_ShootingMode_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ShootingMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(uchar **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    uchar *b = (uchar *) arg1->ImageStabilization;
+    for (ii = 0; ii < (size_t)7; ii++) b[ii] = *((uchar *) arg2 + ii);
+  }
+  
+}
+
+
+char *_wrap_libraw_nikon_makernotes_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *result = 0 ;
+  char *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar *)(uchar *) ((arg1)->ImageStabilization);
+  *(uchar **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_VibrationReduction_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->VibrationReduction = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_VibrationReduction_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->VibrationReduction);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_VRMode_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->VRMode = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_VRMode_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->VRMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->FocusMode, (const char *)arg2, 7-1);
+      arg1->FocusMode[7-1] = 0;
+    } else {
+      arg1->FocusMode[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_nikon_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->FocusMode);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFPoint_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFPoint = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_AFPoint_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->AFPoint);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFPointsInFocus_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFPointsInFocus = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_AFPointsInFocus_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFPointsInFocus);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ContrastDetectAF_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->ContrastDetectAF = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_ContrastDetectAF_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->ContrastDetectAF);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFAreaMode_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFAreaMode = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_AFAreaMode_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->AFAreaMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_PhaseDetectAF_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->PhaseDetectAF = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_PhaseDetectAF_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->PhaseDetectAF);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_PrimaryAFPoint_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->PrimaryAFPoint = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_PrimaryAFPoint_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->PrimaryAFPoint);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFPointsUsed_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(uchar **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    uchar *b = (uchar *) arg1->AFPointsUsed;
+    for (ii = 0; ii < (size_t)29; ii++) b[ii] = *((uchar *) arg2 + ii);
+  }
+  
+}
+
+
+char *_wrap_libraw_nikon_makernotes_t_AFPointsUsed_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *result = 0 ;
+  char *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar *)(uchar *) ((arg1)->AFPointsUsed);
+  *(uchar **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFImageWidth_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFImageWidth = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_AFImageWidth_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFImageWidth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFImageHeight_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFImageHeight = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_AFImageHeight_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFImageHeight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFAreaXPposition_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFAreaXPposition = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_AFAreaXPposition_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFAreaXPposition);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFAreaYPosition_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFAreaYPosition = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_AFAreaYPosition_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFAreaYPosition);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFAreaWidth_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFAreaWidth = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_AFAreaWidth_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFAreaWidth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFAreaHeight_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFAreaHeight = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_AFAreaHeight_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFAreaHeight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ContrastDetectAFInFocus_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->ContrastDetectAFInFocus = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_ContrastDetectAFInFocus_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->ContrastDetectAFInFocus);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashSetting_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->FlashSetting, (const char *)arg2, 13-1);
+      arg1->FlashSetting[13-1] = 0;
+    } else {
+      arg1->FlashSetting[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_nikon_makernotes_t_FlashSetting_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->FlashSetting);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashType_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->FlashType, (const char *)arg2, 20-1);
+      arg1->FlashType[20-1] = 0;
+    } else {
+      arg1->FlashType[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_nikon_makernotes_t_FlashType_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->FlashType);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(uchar **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    uchar *b = (uchar *) arg1->FlashExposureCompensation;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((uchar *) arg2 + ii);
+  }
+  
+}
+
+
+char *_wrap_libraw_nikon_makernotes_t_FlashExposureCompensation_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *result = 0 ;
+  char *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar *)(uchar *) ((arg1)->FlashExposureCompensation);
+  *(uchar **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ExternalFlashExposureComp_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(uchar **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    uchar *b = (uchar *) arg1->ExternalFlashExposureComp;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((uchar *) arg2 + ii);
+  }
+  
+}
+
+
+char *_wrap_libraw_nikon_makernotes_t_ExternalFlashExposureComp_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *result = 0 ;
+  char *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar *)(uchar *) ((arg1)->ExternalFlashExposureComp);
+  *(uchar **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashExposureBracketValue_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(uchar **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    uchar *b = (uchar *) arg1->FlashExposureBracketValue;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((uchar *) arg2 + ii);
+  }
+  
+}
+
+
+char *_wrap_libraw_nikon_makernotes_t_FlashExposureBracketValue_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *result = 0 ;
+  char *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar *)(uchar *) ((arg1)->FlashExposureBracketValue);
+  *(uchar **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashMode_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashMode = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_FlashMode_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->FlashMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation2_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  signed char arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (signed char)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashExposureCompensation2 = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation2_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  signed char result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (signed char) ((arg1)->FlashExposureCompensation2);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation3_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  signed char arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (signed char)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashExposureCompensation3 = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation3_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  signed char result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (signed char) ((arg1)->FlashExposureCompensation3);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation4_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  signed char arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (signed char)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashExposureCompensation4 = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_FlashExposureCompensation4_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  signed char result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (signed char) ((arg1)->FlashExposureCompensation4);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashSource_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashSource = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_FlashSource_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->FlashSource);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashFirmware_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(uchar **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    uchar *b = (uchar *) arg1->FlashFirmware;
+    for (ii = 0; ii < (size_t)2; ii++) b[ii] = *((uchar *) arg2 + ii);
+  }
+  
+}
+
+
+char *_wrap_libraw_nikon_makernotes_t_FlashFirmware_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *result = 0 ;
+  char *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar *)(uchar *) ((arg1)->FlashFirmware);
+  *(uchar **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ExternalFlashFlags_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->ExternalFlashFlags = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_ExternalFlashFlags_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->ExternalFlashFlags);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashControlCommanderMode_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashControlCommanderMode = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_FlashControlCommanderMode_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->FlashControlCommanderMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashOutputAndCompensation_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashOutputAndCompensation = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_FlashOutputAndCompensation_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->FlashOutputAndCompensation);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashFocalLength_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashFocalLength = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_FlashFocalLength_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->FlashFocalLength);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashGNDistance_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashGNDistance = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_FlashGNDistance_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->FlashGNDistance);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashGroupControlMode_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(uchar **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    uchar *b = (uchar *) arg1->FlashGroupControlMode;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((uchar *) arg2 + ii);
+  }
+  
+}
+
+
+char *_wrap_libraw_nikon_makernotes_t_FlashGroupControlMode_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *result = 0 ;
+  char *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar *)(uchar *) ((arg1)->FlashGroupControlMode);
+  *(uchar **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashGroupOutputAndCompensation_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(uchar **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    uchar *b = (uchar *) arg1->FlashGroupOutputAndCompensation;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((uchar *) arg2 + ii);
+  }
+  
+}
+
+
+char *_wrap_libraw_nikon_makernotes_t_FlashGroupOutputAndCompensation_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar *result = 0 ;
+  char *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar *)(uchar *) ((arg1)->FlashGroupOutputAndCompensation);
+  *(uchar **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashColorFilter_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashColorFilter = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_FlashColorFilter_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->FlashColorFilter);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_NEFCompression_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->NEFCompression = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_NEFCompression_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->NEFCompression);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ExposureMode_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->ExposureMode = arg2;
+  
+}
+
+
+intgo _wrap_libraw_nikon_makernotes_t_ExposureMode_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->ExposureMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ExposureProgram_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->ExposureProgram = arg2;
+  
+}
+
+
+intgo _wrap_libraw_nikon_makernotes_t_ExposureProgram_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->ExposureProgram);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_nMEshots_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->nMEshots = arg2;
+  
+}
+
+
+intgo _wrap_libraw_nikon_makernotes_t_nMEshots_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->nMEshots);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_MEgainOn_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->MEgainOn = arg2;
+  
+}
+
+
+intgo _wrap_libraw_nikon_makernotes_t_MEgainOn_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->MEgainOn);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ME_WB_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, double *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  double *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(double **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    double *b = (double *) arg1->ME_WB;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((double *) arg2 + ii);
+  }
+  
+}
+
+
+double *_wrap_libraw_nikon_makernotes_t_ME_WB_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  double *result = 0 ;
+  double *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (double *)(double *) ((arg1)->ME_WB);
+  *(double **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFFineTune_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFFineTune = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_AFFineTune_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->AFFineTune);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFFineTuneIndex_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFFineTuneIndex = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_AFFineTuneIndex_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->AFFineTuneIndex);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_AFFineTuneAdj_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, int8_t *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  int8_t arg2 ;
+  int8_t *argp2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  argp2 = (int8_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null int8_t");
+  }
+  arg2 = (int8_t)*argp2;
+  
+  
+  if (arg1) (arg1)->AFFineTuneAdj = arg2;
+  
+}
+
+
+int8_t *_wrap_libraw_nikon_makernotes_t_AFFineTuneAdj_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  int8_t result;
+  int8_t *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result =  ((arg1)->AFFineTuneAdj);
+  {
+    int8_t * resultptr = (int8_t *)malloc(sizeof(int8_t));
+    memmove(resultptr, &result, sizeof(int8_t));
+    *(int8_t **)&_swig_go_result = resultptr;
+  }
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_LensDataVersion_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->LensDataVersion = arg2;
+  
+}
+
+
+intgo _wrap_libraw_nikon_makernotes_t_LensDataVersion_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->LensDataVersion);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_FlashInfoVersion_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashInfoVersion = arg2;
+  
+}
+
+
+intgo _wrap_libraw_nikon_makernotes_t_FlashInfoVersion_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->FlashInfoVersion);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_ColorBalanceVersion_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->ColorBalanceVersion = arg2;
+  
+}
+
+
+intgo _wrap_libraw_nikon_makernotes_t_ColorBalanceVersion_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->ColorBalanceVersion);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_key_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->key = arg2;
+  
+}
+
+
+char _wrap_libraw_nikon_makernotes_t_key_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->key);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_NEFBitDepth_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort *arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(ushort **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    ushort *b = (ushort *) arg1->NEFBitDepth;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((ushort *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_nikon_makernotes_t_NEFBitDepth_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort *)(ushort *) ((arg1)->NEFBitDepth);
+  *(ushort **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_HighSpeedCropFormat_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->HighSpeedCropFormat = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_HighSpeedCropFormat_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->HighSpeedCropFormat);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_SensorHighSpeedCrop_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, libraw_sensor_highspeed_crop_t *_swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  libraw_sensor_highspeed_crop_t *arg2 = (libraw_sensor_highspeed_crop_t *) 0 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_sensor_highspeed_crop_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorHighSpeedCrop = *arg2;
+  
+}
+
+
+libraw_sensor_highspeed_crop_t *_wrap_libraw_nikon_makernotes_t_SensorHighSpeedCrop_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  libraw_sensor_highspeed_crop_t *result = 0 ;
+  libraw_sensor_highspeed_crop_t *_swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_sensor_highspeed_crop_t *)& ((arg1)->SensorHighSpeedCrop);
+  *(libraw_sensor_highspeed_crop_t **)&_swig_go_result = (libraw_sensor_highspeed_crop_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_SensorWidth_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorWidth = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_SensorWidth_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->SensorWidth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikon_makernotes_t_SensorHeight_set_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorHeight = arg2;
+  
+}
+
+
+short _wrap_libraw_nikon_makernotes_t_SensorHeight_get_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->SensorHeight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_nikon_makernotes_t *_wrap_new_libraw_nikon_makernotes_t_librawgo_91c7e8cf36b5548d() {
+  libraw_nikon_makernotes_t *result = 0 ;
+  libraw_nikon_makernotes_t *_swig_go_result;
+  
+  
+  result = (libraw_nikon_makernotes_t *)calloc(1, sizeof(libraw_nikon_makernotes_t));
+  *(libraw_nikon_makernotes_t **)&_swig_go_result = (libraw_nikon_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_nikon_makernotes_t_librawgo_91c7e8cf36b5548d(libraw_nikon_makernotes_t *_swig_go_0) {
+  libraw_nikon_makernotes_t *arg1 = (libraw_nikon_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_nikon_makernotes_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_SensorCalibration_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  int *arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  arg2 = *(int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    int *b = (int *) arg1->SensorCalibration;
+    for (ii = 0; ii < (size_t)2; ii++) b[ii] = *((int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_olympus_makernotes_t_SensorCalibration_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (int *)(int *) ((arg1)->SensorCalibration);
+  *(int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, short *_swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort *arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  arg2 = *(ushort **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    ushort *b = (ushort *) arg1->FocusMode;
+    for (ii = 0; ii < (size_t)2; ii++) b[ii] = *((ushort *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_olympus_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort *)(ushort *) ((arg1)->FocusMode);
+  *(ushort **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_AutoFocus_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AutoFocus = arg2;
+  
+}
+
+
+short _wrap_libraw_olympus_makernotes_t_AutoFocus_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AutoFocus);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_AFPoint_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFPoint = arg2;
+  
+}
+
+
+short _wrap_libraw_olympus_makernotes_t_AFPoint_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFPoint);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_AFAreas_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->AFAreas;
+    for (ii = 0; ii < (size_t)64; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_olympus_makernotes_t_AFAreas_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->AFAreas);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_AFPointSelected_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, double *_swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  double *arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  arg2 = *(double **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    double *b = (double *) arg1->AFPointSelected;
+    for (ii = 0; ii < (size_t)5; ii++) b[ii] = *((double *) arg2 + ii);
+  }
+  
+}
+
+
+double *_wrap_libraw_olympus_makernotes_t_AFPointSelected_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  double *result = 0 ;
+  double *_swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (double *)(double *) ((arg1)->AFPointSelected);
+  *(double **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_AFResult_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFResult = arg2;
+  
+}
+
+
+short _wrap_libraw_olympus_makernotes_t_AFResult_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFResult);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_DriveMode_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, short *_swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort *arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  arg2 = *(ushort **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    ushort *b = (ushort *) arg1->DriveMode;
+    for (ii = 0; ii < (size_t)5; ii++) b[ii] = *((ushort *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_olympus_makernotes_t_DriveMode_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort *)(ushort *) ((arg1)->DriveMode);
+  *(ushort **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_ColorSpace_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ColorSpace = arg2;
+  
+}
+
+
+short _wrap_libraw_olympus_makernotes_t_ColorSpace_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ColorSpace);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_AFFineTune_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFFineTune = arg2;
+  
+}
+
+
+char _wrap_libraw_olympus_makernotes_t_AFFineTune_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->AFFineTune);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_AFFineTuneAdj_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, short *_swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  short *arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  arg2 = *(short **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    short *b = (short *) arg1->AFFineTuneAdj;
+    for (ii = 0; ii < (size_t)3; ii++) b[ii] = *((short *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_olympus_makernotes_t_AFFineTuneAdj_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  short *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (short *)(short *) ((arg1)->AFFineTuneAdj);
+  *(short **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_olympus_makernotes_t_CameraType2_set_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->CameraType2, (const char *)arg2, 6-1);
+      arg1->CameraType2[6-1] = 0;
+    } else {
+      arg1->CameraType2[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_olympus_makernotes_t_CameraType2_get_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->CameraType2);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+libraw_olympus_makernotes_t *_wrap_new_libraw_olympus_makernotes_t_librawgo_91c7e8cf36b5548d() {
+  libraw_olympus_makernotes_t *result = 0 ;
+  libraw_olympus_makernotes_t *_swig_go_result;
+  
+  
+  result = (libraw_olympus_makernotes_t *)calloc(1, sizeof(libraw_olympus_makernotes_t));
+  *(libraw_olympus_makernotes_t **)&_swig_go_result = (libraw_olympus_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_olympus_makernotes_t_librawgo_91c7e8cf36b5548d(libraw_olympus_makernotes_t *_swig_go_0) {
+  libraw_olympus_makernotes_t *arg1 = (libraw_olympus_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_olympus_makernotes_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_panasonic_makernotes_t_Compression_set_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->Compression = arg2;
+  
+}
+
+
+short _wrap_libraw_panasonic_makernotes_t_Compression_get_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->Compression);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_panasonic_makernotes_t_BlackLevelDim_set_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->BlackLevelDim = arg2;
+  
+}
+
+
+short _wrap_libraw_panasonic_makernotes_t_BlackLevelDim_get_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->BlackLevelDim);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_panasonic_makernotes_t_BlackLevel_set_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0, float *_swig_go_1) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->BlackLevel;
+    for (ii = 0; ii < (size_t)8; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_panasonic_makernotes_t_BlackLevel_get_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->BlackLevel);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_panasonic_makernotes_t_Multishot_set_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->Multishot = arg2;
+  
+}
+
+
+intgo _wrap_libraw_panasonic_makernotes_t_Multishot_get_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->Multishot);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_panasonic_makernotes_t_gamma_set_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0, float _swig_go_1) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->gamma = arg2;
+  
+}
+
+
+float _wrap_libraw_panasonic_makernotes_t_gamma_get_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->gamma);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_panasonic_makernotes_t_HighISOMultiplier_set_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  int *arg2 ;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  arg2 = *(int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    int *b = (int *) arg1->HighISOMultiplier;
+    for (ii = 0; ii < (size_t)3; ii++) b[ii] = *((int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_panasonic_makernotes_t_HighISOMultiplier_get_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  
+  result = (int *)(int *) ((arg1)->HighISOMultiplier);
+  *(int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_panasonic_makernotes_t *_wrap_new_libraw_panasonic_makernotes_t_librawgo_91c7e8cf36b5548d() {
+  libraw_panasonic_makernotes_t *result = 0 ;
+  libraw_panasonic_makernotes_t *_swig_go_result;
+  
+  
+  result = (libraw_panasonic_makernotes_t *)calloc(1, sizeof(libraw_panasonic_makernotes_t));
+  *(libraw_panasonic_makernotes_t **)&_swig_go_result = (libraw_panasonic_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_panasonic_makernotes_t_librawgo_91c7e8cf36b5548d(libraw_panasonic_makernotes_t *_swig_go_0) {
+  libraw_panasonic_makernotes_t *arg1 = (libraw_panasonic_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_panasonic_makernotes_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_pentax_makernotes_t_FocusMode_set_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->FocusMode = arg2;
+  
+}
+
+
+short _wrap_libraw_pentax_makernotes_t_FocusMode_get_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->FocusMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_pentax_makernotes_t_AFPointSelected_set_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFPointSelected = arg2;
+  
+}
+
+
+short _wrap_libraw_pentax_makernotes_t_AFPointSelected_get_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->AFPointSelected);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_pentax_makernotes_t_AFPointsInFocus_set_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFPointsInFocus = arg2;
+  
+}
+
+
+intgo _wrap_libraw_pentax_makernotes_t_AFPointsInFocus_get_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->AFPointsInFocus);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_pentax_makernotes_t_FocusPosition_set_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->FocusPosition = arg2;
+  
+}
+
+
+short _wrap_libraw_pentax_makernotes_t_FocusPosition_get_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->FocusPosition);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_pentax_makernotes_t_DriveMode_set_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0, char *_swig_go_1) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  uchar *arg2 ;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  arg2 = *(uchar **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    uchar *b = (uchar *) arg1->DriveMode;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((uchar *) arg2 + ii);
+  }
+  
+}
+
+
+char *_wrap_libraw_pentax_makernotes_t_DriveMode_get_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  uchar *result = 0 ;
+  char *_swig_go_result;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar *)(uchar *) ((arg1)->DriveMode);
+  *(uchar **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_pentax_makernotes_t_AFAdjustment_set_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFAdjustment = arg2;
+  
+}
+
+
+short _wrap_libraw_pentax_makernotes_t_AFAdjustment_get_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->AFAdjustment);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_pentax_makernotes_t_MultiExposure_set_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0, char _swig_go_1) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->MultiExposure = arg2;
+  
+}
+
+
+char _wrap_libraw_pentax_makernotes_t_MultiExposure_get_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->MultiExposure);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_pentax_makernotes_t_Quality_set_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->Quality = arg2;
+  
+}
+
+
+short _wrap_libraw_pentax_makernotes_t_Quality_get_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->Quality);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_pentax_makernotes_t *_wrap_new_libraw_pentax_makernotes_t_librawgo_91c7e8cf36b5548d() {
+  libraw_pentax_makernotes_t *result = 0 ;
+  libraw_pentax_makernotes_t *_swig_go_result;
+  
+  
+  result = (libraw_pentax_makernotes_t *)calloc(1, sizeof(libraw_pentax_makernotes_t));
+  *(libraw_pentax_makernotes_t **)&_swig_go_result = (libraw_pentax_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_pentax_makernotes_t_librawgo_91c7e8cf36b5548d(libraw_pentax_makernotes_t *_swig_go_0) {
+  libraw_pentax_makernotes_t *arg1 = (libraw_pentax_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_pentax_makernotes_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_samsung_makernotes_t_ImageSizeFull_set_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->ImageSizeFull;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_samsung_makernotes_t_ImageSizeFull_get_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->ImageSizeFull);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_samsung_makernotes_t_ImageSizeCrop_set_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->ImageSizeCrop;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_samsung_makernotes_t_ImageSizeCrop_get_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->ImageSizeCrop);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_samsung_makernotes_t_ColorSpace_set_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  int *arg2 ;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  arg2 = *(int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    int *b = (int *) arg1->ColorSpace;
+    for (ii = 0; ii < (size_t)2; ii++) b[ii] = *((int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_samsung_makernotes_t_ColorSpace_get_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  
+  result = (int *)(int *) ((arg1)->ColorSpace);
+  *(int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_samsung_makernotes_t_key_set_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->key;
+    for (ii = 0; ii < (size_t)11; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_samsung_makernotes_t_key_get_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->key);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_samsung_makernotes_t_DigitalGain_set_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0, double _swig_go_1) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  double arg2 ;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  arg2 = (double)_swig_go_1; 
+  
+  if (arg1) (arg1)->DigitalGain = arg2;
+  
+}
+
+
+double _wrap_libraw_samsung_makernotes_t_DigitalGain_get_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  double result;
+  double _swig_go_result;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  
+  result = (double) ((arg1)->DigitalGain);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_samsung_makernotes_t_DeviceType_set_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->DeviceType = arg2;
+  
+}
+
+
+intgo _wrap_libraw_samsung_makernotes_t_DeviceType_get_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->DeviceType);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_samsung_makernotes_t_LensFirmware_set_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->LensFirmware, (const char *)arg2, 32-1);
+      arg1->LensFirmware[32-1] = 0;
+    } else {
+      arg1->LensFirmware[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_samsung_makernotes_t_LensFirmware_get_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->LensFirmware);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+libraw_samsung_makernotes_t *_wrap_new_libraw_samsung_makernotes_t_librawgo_91c7e8cf36b5548d() {
+  libraw_samsung_makernotes_t *result = 0 ;
+  libraw_samsung_makernotes_t *_swig_go_result;
+  
+  
+  result = (libraw_samsung_makernotes_t *)calloc(1, sizeof(libraw_samsung_makernotes_t));
+  *(libraw_samsung_makernotes_t **)&_swig_go_result = (libraw_samsung_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_samsung_makernotes_t_librawgo_91c7e8cf36b5548d(libraw_samsung_makernotes_t *_swig_go_0) {
+  libraw_samsung_makernotes_t *arg1 = (libraw_samsung_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_samsung_makernotes_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_BlackLevelTop_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->BlackLevelTop = arg2;
+  
+}
+
+
+short _wrap_libraw_kodak_makernotes_t_BlackLevelTop_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->BlackLevelTop);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_BlackLevelBottom_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->BlackLevelBottom = arg2;
+  
+}
+
+
+short _wrap_libraw_kodak_makernotes_t_BlackLevelBottom_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->BlackLevelBottom);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_offset_left_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->offset_left = arg2;
+  
+}
+
+
+short _wrap_libraw_kodak_makernotes_t_offset_left_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->offset_left);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_offset_top_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->offset_top = arg2;
+  
+}
+
+
+short _wrap_libraw_kodak_makernotes_t_offset_top_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->offset_top);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_clipBlack_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->clipBlack = arg2;
+  
+}
+
+
+short _wrap_libraw_kodak_makernotes_t_clipBlack_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->clipBlack);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_clipWhite_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->clipWhite = arg2;
+  
+}
+
+
+short _wrap_libraw_kodak_makernotes_t_clipWhite_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->clipWhite);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_romm_camDaylight_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, float **_swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*arg2)[3] ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = *(float (**)[3])&_swig_go_1; 
+  
+  {
+    float (*inp)[3] = (float (*)[3])(arg2);
+    float (*dest)[3] = (float (*)[3])(arg1->romm_camDaylight);
+    size_t ii = 0;
+    for (; ii < 3; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 3; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_kodak_makernotes_t_romm_camDaylight_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*result)[3] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (float (*)[3])(float (*)[3]) ((arg1)->romm_camDaylight);
+  *(float (**)[3])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_romm_camTungsten_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, float **_swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*arg2)[3] ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = *(float (**)[3])&_swig_go_1; 
+  
+  {
+    float (*inp)[3] = (float (*)[3])(arg2);
+    float (*dest)[3] = (float (*)[3])(arg1->romm_camTungsten);
+    size_t ii = 0;
+    for (; ii < 3; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 3; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_kodak_makernotes_t_romm_camTungsten_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*result)[3] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (float (*)[3])(float (*)[3]) ((arg1)->romm_camTungsten);
+  *(float (**)[3])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_romm_camFluorescent_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, float **_swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*arg2)[3] ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = *(float (**)[3])&_swig_go_1; 
+  
+  {
+    float (*inp)[3] = (float (*)[3])(arg2);
+    float (*dest)[3] = (float (*)[3])(arg1->romm_camFluorescent);
+    size_t ii = 0;
+    for (; ii < 3; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 3; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_kodak_makernotes_t_romm_camFluorescent_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*result)[3] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (float (*)[3])(float (*)[3]) ((arg1)->romm_camFluorescent);
+  *(float (**)[3])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_romm_camFlash_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, float **_swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*arg2)[3] ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = *(float (**)[3])&_swig_go_1; 
+  
+  {
+    float (*inp)[3] = (float (*)[3])(arg2);
+    float (*dest)[3] = (float (*)[3])(arg1->romm_camFlash);
+    size_t ii = 0;
+    for (; ii < 3; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 3; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_kodak_makernotes_t_romm_camFlash_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*result)[3] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (float (*)[3])(float (*)[3]) ((arg1)->romm_camFlash);
+  *(float (**)[3])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_romm_camCustom_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, float **_swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*arg2)[3] ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = *(float (**)[3])&_swig_go_1; 
+  
+  {
+    float (*inp)[3] = (float (*)[3])(arg2);
+    float (*dest)[3] = (float (*)[3])(arg1->romm_camCustom);
+    size_t ii = 0;
+    for (; ii < 3; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 3; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_kodak_makernotes_t_romm_camCustom_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*result)[3] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (float (*)[3])(float (*)[3]) ((arg1)->romm_camCustom);
+  *(float (**)[3])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_romm_camAuto_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, float **_swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*arg2)[3] ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = *(float (**)[3])&_swig_go_1; 
+  
+  {
+    float (*inp)[3] = (float (*)[3])(arg2);
+    float (*dest)[3] = (float (*)[3])(arg1->romm_camAuto);
+    size_t ii = 0;
+    for (; ii < 3; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 3; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_kodak_makernotes_t_romm_camAuto_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float (*result)[3] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (float (*)[3])(float (*)[3]) ((arg1)->romm_camAuto);
+  *(float (**)[3])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_val018percent_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->val018percent = arg2;
+  
+}
+
+
+short _wrap_libraw_kodak_makernotes_t_val018percent_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->val018percent);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_val100percent_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->val100percent = arg2;
+  
+}
+
+
+short _wrap_libraw_kodak_makernotes_t_val100percent_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->val100percent);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_val170percent_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->val170percent = arg2;
+  
+}
+
+
+short _wrap_libraw_kodak_makernotes_t_val170percent_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->val170percent);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_MakerNoteKodak8a_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, short _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->MakerNoteKodak8a = arg2;
+  
+}
+
+
+short _wrap_libraw_kodak_makernotes_t_MakerNoteKodak8a_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->MakerNoteKodak8a);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_ISOCalibrationGain_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, float _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->ISOCalibrationGain = arg2;
+  
+}
+
+
+float _wrap_libraw_kodak_makernotes_t_ISOCalibrationGain_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->ISOCalibrationGain);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_kodak_makernotes_t_AnalogISO_set_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0, float _swig_go_1) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->AnalogISO = arg2;
+  
+}
+
+
+float _wrap_libraw_kodak_makernotes_t_AnalogISO_get_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->AnalogISO);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_kodak_makernotes_t *_wrap_new_libraw_kodak_makernotes_t_librawgo_91c7e8cf36b5548d() {
+  libraw_kodak_makernotes_t *result = 0 ;
+  libraw_kodak_makernotes_t *_swig_go_result;
+  
+  
+  result = (libraw_kodak_makernotes_t *)calloc(1, sizeof(libraw_kodak_makernotes_t));
+  *(libraw_kodak_makernotes_t **)&_swig_go_result = (libraw_kodak_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_kodak_makernotes_t_librawgo_91c7e8cf36b5548d(libraw_kodak_makernotes_t *_swig_go_0) {
+  libraw_kodak_makernotes_t *arg1 = (libraw_kodak_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_kodak_makernotes_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_p1_makernotes_t_Software_set_librawgo_91c7e8cf36b5548d(libraw_p1_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_p1_makernotes_t *arg1 = (libraw_p1_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_p1_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->Software, (const char *)arg2, 64-1);
+      arg1->Software[64-1] = 0;
+    } else {
+      arg1->Software[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_p1_makernotes_t_Software_get_librawgo_91c7e8cf36b5548d(libraw_p1_makernotes_t *_swig_go_0) {
+  libraw_p1_makernotes_t *arg1 = (libraw_p1_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_p1_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->Software);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_p1_makernotes_t_SystemType_set_librawgo_91c7e8cf36b5548d(libraw_p1_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_p1_makernotes_t *arg1 = (libraw_p1_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_p1_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->SystemType, (const char *)arg2, 64-1);
+      arg1->SystemType[64-1] = 0;
+    } else {
+      arg1->SystemType[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_p1_makernotes_t_SystemType_get_librawgo_91c7e8cf36b5548d(libraw_p1_makernotes_t *_swig_go_0) {
+  libraw_p1_makernotes_t *arg1 = (libraw_p1_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_p1_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->SystemType);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_p1_makernotes_t_FirmwareString_set_librawgo_91c7e8cf36b5548d(libraw_p1_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_p1_makernotes_t *arg1 = (libraw_p1_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_p1_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->FirmwareString, (const char *)arg2, 256-1);
+      arg1->FirmwareString[256-1] = 0;
+    } else {
+      arg1->FirmwareString[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_p1_makernotes_t_FirmwareString_get_librawgo_91c7e8cf36b5548d(libraw_p1_makernotes_t *_swig_go_0) {
+  libraw_p1_makernotes_t *arg1 = (libraw_p1_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_p1_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->FirmwareString);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_p1_makernotes_t_SystemModel_set_librawgo_91c7e8cf36b5548d(libraw_p1_makernotes_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_p1_makernotes_t *arg1 = (libraw_p1_makernotes_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_p1_makernotes_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->SystemModel, (const char *)arg2, 64-1);
+      arg1->SystemModel[64-1] = 0;
+    } else {
+      arg1->SystemModel[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_p1_makernotes_t_SystemModel_get_librawgo_91c7e8cf36b5548d(libraw_p1_makernotes_t *_swig_go_0) {
+  libraw_p1_makernotes_t *arg1 = (libraw_p1_makernotes_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_p1_makernotes_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->SystemModel);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+libraw_p1_makernotes_t *_wrap_new_libraw_p1_makernotes_t_librawgo_91c7e8cf36b5548d() {
+  libraw_p1_makernotes_t *result = 0 ;
+  libraw_p1_makernotes_t *_swig_go_result;
+  
+  
+  result = (libraw_p1_makernotes_t *)calloc(1, sizeof(libraw_p1_makernotes_t));
+  *(libraw_p1_makernotes_t **)&_swig_go_result = (libraw_p1_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_p1_makernotes_t_librawgo_91c7e8cf36b5548d(libraw_p1_makernotes_t *_swig_go_0) {
+  libraw_p1_makernotes_t *arg1 = (libraw_p1_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_p1_makernotes_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_sony_info_t_CameraType_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->CameraType = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_CameraType_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->CameraType);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_Sony0x9400_version_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->Sony0x9400_version = arg2;
+  
+}
+
+
+char _wrap_libraw_sony_info_t_Sony0x9400_version_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->Sony0x9400_version);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_Sony0x9400_ReleaseMode2_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->Sony0x9400_ReleaseMode2 = arg2;
+  
+}
+
+
+char _wrap_libraw_sony_info_t_Sony0x9400_ReleaseMode2_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->Sony0x9400_ReleaseMode2);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_Sony0x9400_SequenceImageNumber_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->Sony0x9400_SequenceImageNumber = arg2;
+  
+}
+
+
+intgo _wrap_libraw_sony_info_t_Sony0x9400_SequenceImageNumber_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->Sony0x9400_SequenceImageNumber);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_Sony0x9400_SequenceLength1_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->Sony0x9400_SequenceLength1 = arg2;
+  
+}
+
+
+char _wrap_libraw_sony_info_t_Sony0x9400_SequenceLength1_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->Sony0x9400_SequenceLength1);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_Sony0x9400_SequenceFileNumber_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->Sony0x9400_SequenceFileNumber = arg2;
+  
+}
+
+
+intgo _wrap_libraw_sony_info_t_Sony0x9400_SequenceFileNumber_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->Sony0x9400_SequenceFileNumber);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_Sony0x9400_SequenceLength2_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->Sony0x9400_SequenceLength2 = arg2;
+  
+}
+
+
+char _wrap_libraw_sony_info_t_Sony0x9400_SequenceLength2_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->Sony0x9400_SequenceLength2);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_AFAreaModeSetting_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, uint8_t *_swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uint8_t arg2 ;
+  uint8_t *argp2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  argp2 = (uint8_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null uint8_t");
+  }
+  arg2 = (uint8_t)*argp2;
+  
+  
+  if (arg1) (arg1)->AFAreaModeSetting = arg2;
+  
+}
+
+
+uint8_t *_wrap_libraw_sony_info_t_AFAreaModeSetting_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uint8_t result;
+  uint8_t *_swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result =  ((arg1)->AFAreaModeSetting);
+  {
+    uint8_t * resultptr = (uint8_t *)malloc(sizeof(uint8_t));
+    memmove(resultptr, &result, sizeof(uint8_t));
+    *(uint8_t **)&_swig_go_result = resultptr;
+  }
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_FlexibleSpotPosition_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short *_swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort *arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = *(ushort **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    ushort *b = (ushort *) arg1->FlexibleSpotPosition;
+    for (ii = 0; ii < (size_t)2; ii++) b[ii] = *((ushort *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_sony_info_t_FlexibleSpotPosition_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort *)(ushort *) ((arg1)->FlexibleSpotPosition);
+  *(ushort **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_AFPointSelected_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, uint8_t *_swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uint8_t arg2 ;
+  uint8_t *argp2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  argp2 = (uint8_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null uint8_t");
+  }
+  arg2 = (uint8_t)*argp2;
+  
+  
+  if (arg1) (arg1)->AFPointSelected = arg2;
+  
+}
+
+
+uint8_t *_wrap_libraw_sony_info_t_AFPointSelected_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uint8_t result;
+  uint8_t *_swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result =  ((arg1)->AFPointSelected);
+  {
+    uint8_t * resultptr = (uint8_t *)malloc(sizeof(uint8_t));
+    memmove(resultptr, &result, sizeof(uint8_t));
+    *(uint8_t **)&_swig_go_result = resultptr;
+  }
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_AFPointsUsed_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, uint8_t *_swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uint8_t *arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = *(uint8_t **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    uint8_t *b = (uint8_t *) arg1->AFPointsUsed;
+    for (ii = 0; ii < (size_t)10; ii++) b[ii] = *((uint8_t *) arg2 + ii);
+  }
+  
+}
+
+
+uint8_t (*_wrap_libraw_sony_info_t_AFPointsUsed_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0))[10] {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uint8_t *result = 0 ;
+  uint8_t (*_swig_go_result)[10];
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (uint8_t *)(uint8_t *) ((arg1)->AFPointsUsed);
+  *(uint8_t **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_AFTracking_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, uint8_t *_swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uint8_t arg2 ;
+  uint8_t *argp2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  argp2 = (uint8_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null uint8_t");
+  }
+  arg2 = (uint8_t)*argp2;
+  
+  
+  if (arg1) (arg1)->AFTracking = arg2;
+  
+}
+
+
+uint8_t *_wrap_libraw_sony_info_t_AFTracking_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uint8_t result;
+  uint8_t *_swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result =  ((arg1)->AFTracking);
+  {
+    uint8_t * resultptr = (uint8_t *)malloc(sizeof(uint8_t));
+    memmove(resultptr, &result, sizeof(uint8_t));
+    *(uint8_t **)&_swig_go_result = resultptr;
+  }
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_AFType_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, uint8_t *_swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uint8_t arg2 ;
+  uint8_t *argp2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  argp2 = (uint8_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null uint8_t");
+  }
+  arg2 = (uint8_t)*argp2;
+  
+  
+  if (arg1) (arg1)->AFType = arg2;
+  
+}
+
+
+uint8_t *_wrap_libraw_sony_info_t_AFType_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uint8_t result;
+  uint8_t *_swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result =  ((arg1)->AFType);
+  {
+    uint8_t * resultptr = (uint8_t *)malloc(sizeof(uint8_t));
+    memmove(resultptr, &result, sizeof(uint8_t));
+    *(uint8_t **)&_swig_go_result = resultptr;
+  }
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_FocusLocation_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short *_swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort *arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = *(ushort **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    ushort *b = (ushort *) arg1->FocusLocation;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((ushort *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_sony_info_t_FocusLocation_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort *)(ushort *) ((arg1)->FocusLocation);
+  *(ushort **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_AFMicroAdjValue_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, int8_t *_swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  int8_t arg2 ;
+  int8_t *argp2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  argp2 = (int8_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null int8_t");
+  }
+  arg2 = (int8_t)*argp2;
+  
+  
+  if (arg1) (arg1)->AFMicroAdjValue = arg2;
+  
+}
+
+
+int8_t *_wrap_libraw_sony_info_t_AFMicroAdjValue_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  int8_t result;
+  int8_t *_swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result =  ((arg1)->AFMicroAdjValue);
+  {
+    int8_t * resultptr = (int8_t *)malloc(sizeof(int8_t));
+    memmove(resultptr, &result, sizeof(int8_t));
+    *(int8_t **)&_swig_go_result = resultptr;
+  }
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_AFMicroAdjOn_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, int8_t *_swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  int8_t arg2 ;
+  int8_t *argp2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  argp2 = (int8_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null int8_t");
+  }
+  arg2 = (int8_t)*argp2;
+  
+  
+  if (arg1) (arg1)->AFMicroAdjOn = arg2;
+  
+}
+
+
+int8_t *_wrap_libraw_sony_info_t_AFMicroAdjOn_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  int8_t result;
+  int8_t *_swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result =  ((arg1)->AFMicroAdjOn);
+  {
+    int8_t * resultptr = (int8_t *)malloc(sizeof(int8_t));
+    memmove(resultptr, &result, sizeof(int8_t));
+    *(int8_t **)&_swig_go_result = resultptr;
+  }
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_AFMicroAdjRegisteredLenses_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFMicroAdjRegisteredLenses = arg2;
+  
+}
+
+
+char _wrap_libraw_sony_info_t_AFMicroAdjRegisteredLenses_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->AFMicroAdjRegisteredLenses);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_VariableLowPassFilter_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->VariableLowPassFilter = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_VariableLowPassFilter_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->VariableLowPassFilter);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_LongExposureNoiseReduction_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->LongExposureNoiseReduction = arg2;
+  
+}
+
+
+intgo _wrap_libraw_sony_info_t_LongExposureNoiseReduction_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->LongExposureNoiseReduction);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_HighISONoiseReduction_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->HighISONoiseReduction = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_HighISONoiseReduction_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->HighISONoiseReduction);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_HDR_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short *_swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort *arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = *(ushort **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    ushort *b = (ushort *) arg1->HDR;
+    for (ii = 0; ii < (size_t)2; ii++) b[ii] = *((ushort *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_sony_info_t_HDR_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort *)(ushort *) ((arg1)->HDR);
+  *(ushort **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_group2010_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->group2010 = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_group2010_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->group2010);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_real_iso_offset_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->real_iso_offset = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_real_iso_offset_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->real_iso_offset);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_MeteringMode_offset_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->MeteringMode_offset = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_MeteringMode_offset_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->MeteringMode_offset);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_ExposureProgram_offset_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ExposureProgram_offset = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_ExposureProgram_offset_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ExposureProgram_offset);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_ReleaseMode2_offset_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ReleaseMode2_offset = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_ReleaseMode2_offset_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ReleaseMode2_offset);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_MinoltaCamID_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->MinoltaCamID = arg2;
+  
+}
+
+
+intgo _wrap_libraw_sony_info_t_MinoltaCamID_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->MinoltaCamID);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_firmware_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, float _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->firmware = arg2;
+  
+}
+
+
+float _wrap_libraw_sony_info_t_firmware_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->firmware);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_ImageCount3_offset_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ImageCount3_offset = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_ImageCount3_offset_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ImageCount3_offset);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_ImageCount3_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->ImageCount3 = arg2;
+  
+}
+
+
+intgo _wrap_libraw_sony_info_t_ImageCount3_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->ImageCount3);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_ElectronicFrontCurtainShutter_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->ElectronicFrontCurtainShutter = arg2;
+  
+}
+
+
+intgo _wrap_libraw_sony_info_t_ElectronicFrontCurtainShutter_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->ElectronicFrontCurtainShutter);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_MeteringMode2_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->MeteringMode2 = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_MeteringMode2_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->MeteringMode2);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_SonyDateTime_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->SonyDateTime, (const char *)arg2, 20-1);
+      arg1->SonyDateTime[20-1] = 0;
+    } else {
+      arg1->SonyDateTime[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_sony_info_t_SonyDateTime_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->SonyDateTime);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_ShotNumberSincePowerUp_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->ShotNumberSincePowerUp = arg2;
+  
+}
+
+
+intgo _wrap_libraw_sony_info_t_ShotNumberSincePowerUp_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->ShotNumberSincePowerUp);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_PixelShiftGroupPrefix_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->PixelShiftGroupPrefix = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_PixelShiftGroupPrefix_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->PixelShiftGroupPrefix);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_PixelShiftGroupID_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->PixelShiftGroupID = arg2;
+  
+}
+
+
+intgo _wrap_libraw_sony_info_t_PixelShiftGroupID_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->PixelShiftGroupID);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_nShotsInPixelShiftGroup_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  char arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (char)_swig_go_1; 
+  
+  if (arg1) (arg1)->nShotsInPixelShiftGroup = arg2;
+  
+}
+
+
+char _wrap_libraw_sony_info_t_nShotsInPixelShiftGroup_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  char result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (char) ((arg1)->nShotsInPixelShiftGroup);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_numInPixelShiftGroup_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  char arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (char)_swig_go_1; 
+  
+  if (arg1) (arg1)->numInPixelShiftGroup = arg2;
+  
+}
+
+
+char _wrap_libraw_sony_info_t_numInPixelShiftGroup_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  char result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (char) ((arg1)->numInPixelShiftGroup);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_prd_ImageHeight_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->prd_ImageHeight = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_prd_ImageHeight_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->prd_ImageHeight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_prd_ImageWidth_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->prd_ImageWidth = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_prd_ImageWidth_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->prd_ImageWidth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_prd_RawBitDepth_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->prd_RawBitDepth = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_prd_RawBitDepth_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->prd_RawBitDepth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_prd_StorageMethod_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->prd_StorageMethod = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_prd_StorageMethod_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->prd_StorageMethod);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_prd_BayerPattern_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->prd_BayerPattern = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_prd_BayerPattern_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->prd_BayerPattern);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_SonyRawFileType_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->SonyRawFileType = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_SonyRawFileType_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->SonyRawFileType);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_RAWFileType_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->RAWFileType = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_RAWFileType_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->RAWFileType);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_Quality_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->Quality = arg2;
+  
+}
+
+
+intgo _wrap_libraw_sony_info_t_Quality_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->Quality);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_sony_info_t_FileFormat_set_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0, short _swig_go_1) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->FileFormat = arg2;
+  
+}
+
+
+short _wrap_libraw_sony_info_t_FileFormat_get_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->FileFormat);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_sony_info_t *_wrap_new_libraw_sony_info_t_librawgo_91c7e8cf36b5548d() {
+  libraw_sony_info_t *result = 0 ;
+  libraw_sony_info_t *_swig_go_result;
+  
+  
+  result = (libraw_sony_info_t *)calloc(1, sizeof(libraw_sony_info_t));
+  *(libraw_sony_info_t **)&_swig_go_result = (libraw_sony_info_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_sony_info_t_librawgo_91c7e8cf36b5548d(libraw_sony_info_t *_swig_go_0) {
+  libraw_sony_info_t *arg1 = (libraw_sony_info_t *) 0 ;
+  
+  arg1 = *(libraw_sony_info_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_colordata_t_curve_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, short *_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  ushort *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(ushort **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    ushort *b = (ushort *) arg1->curve;
+    for (ii = 0; ii < (size_t)0x10000; ii++) b[ii] = *((ushort *) arg2 + ii);
+  }
+  
+}
+
+
+short *_wrap_libraw_colordata_t_curve_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  ushort *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (ushort *)(ushort *) ((arg1)->curve);
+  *(ushort **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_cblack_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->cblack;
+    for (ii = 0; ii < (size_t)4104; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_colordata_t_cblack_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->cblack);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_black_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->black = arg2;
+  
+}
+
+
+intgo _wrap_libraw_colordata_t_black_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->black);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_data_maximum_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->data_maximum = arg2;
+  
+}
+
+
+intgo _wrap_libraw_colordata_t_data_maximum_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->data_maximum);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_maximum_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->maximum = arg2;
+  
+}
+
+
+intgo _wrap_libraw_colordata_t_maximum_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->maximum);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_linear_max_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, long long *_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  long *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(long **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    long *b = (long *) arg1->linear_max;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((long *) arg2 + ii);
+  }
+  
+}
+
+
+long long *_wrap_libraw_colordata_t_linear_max_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  long *result = 0 ;
+  long long *_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (long *)(long *) ((arg1)->linear_max);
+  *(long **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_fmaximum_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, float _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->fmaximum = arg2;
+  
+}
+
+
+float _wrap_libraw_colordata_t_fmaximum_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->fmaximum);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_fnorm_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, float _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->fnorm = arg2;
+  
+}
+
+
+float _wrap_libraw_colordata_t_fnorm_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->fnorm);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_white_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, short **_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  ushort (*arg2)[8] ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(ushort (**)[8])&_swig_go_1; 
+  
+  {
+    ushort (*inp)[8] = (ushort (*)[8])(arg2);
+    ushort (*dest)[8] = (ushort (*)[8])(arg1->white);
+    size_t ii = 0;
+    for (; ii < 8; ++ii) {
+      ushort *ip = inp[ii];
+      ushort *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 8; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+short **_wrap_libraw_colordata_t_white_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  ushort (*result)[8] = 0 ;
+  short **_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (ushort (*)[8])(ushort (*)[8]) ((arg1)->white);
+  *(ushort (**)[8])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_cam_mul_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, float *_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->cam_mul;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_colordata_t_cam_mul_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->cam_mul);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_pre_mul_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, float *_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->pre_mul;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_colordata_t_pre_mul_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->pre_mul);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_cmatrix_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, float **_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float (*arg2)[4] ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(float (**)[4])&_swig_go_1; 
+  
+  {
+    float (*inp)[4] = (float (*)[4])(arg2);
+    float (*dest)[4] = (float (*)[4])(arg1->cmatrix);
+    size_t ii = 0;
+    for (; ii < 3; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 4; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_colordata_t_cmatrix_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float (*result)[4] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (float (*)[4])(float (*)[4]) ((arg1)->cmatrix);
+  *(float (**)[4])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_ccm_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, float **_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float (*arg2)[4] ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(float (**)[4])&_swig_go_1; 
+  
+  {
+    float (*inp)[4] = (float (*)[4])(arg2);
+    float (*dest)[4] = (float (*)[4])(arg1->ccm);
+    size_t ii = 0;
+    for (; ii < 3; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 4; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_colordata_t_ccm_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float (*result)[4] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (float (*)[4])(float (*)[4]) ((arg1)->ccm);
+  *(float (**)[4])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_rgb_cam_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, float **_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float (*arg2)[4] ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(float (**)[4])&_swig_go_1; 
+  
+  {
+    float (*inp)[4] = (float (*)[4])(arg2);
+    float (*dest)[4] = (float (*)[4])(arg1->rgb_cam);
+    size_t ii = 0;
+    for (; ii < 3; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 4; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_colordata_t_rgb_cam_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float (*result)[4] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (float (*)[4])(float (*)[4]) ((arg1)->rgb_cam);
+  *(float (**)[4])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_cam_xyz_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, float **_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float (*arg2)[3] ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(float (**)[3])&_swig_go_1; 
+  
+  {
+    float (*inp)[3] = (float (*)[3])(arg2);
+    float (*dest)[3] = (float (*)[3])(arg1->cam_xyz);
+    size_t ii = 0;
+    for (; ii < 4; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 3; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_colordata_t_cam_xyz_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float (*result)[3] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (float (*)[3])(float (*)[3]) ((arg1)->cam_xyz);
+  *(float (**)[3])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_phase_one_data_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, struct ph1_t *_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  struct ph1_t *arg2 = (struct ph1_t *) 0 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(struct ph1_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->phase_one_data = *arg2;
+  
+}
+
+
+struct ph1_t *_wrap_libraw_colordata_t_phase_one_data_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  struct ph1_t *result = 0 ;
+  struct ph1_t *_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (struct ph1_t *)& ((arg1)->phase_one_data);
+  *(struct ph1_t **)&_swig_go_result = (struct ph1_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_flash_used_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, float _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->flash_used = arg2;
+  
+}
+
+
+float _wrap_libraw_colordata_t_flash_used_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->flash_used);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_canon_ev_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, float _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->canon_ev = arg2;
+  
+}
+
+
+float _wrap_libraw_colordata_t_canon_ev_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->canon_ev);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_model2_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->model2, (const char *)arg2, 64-1);
+      arg1->model2[64-1] = 0;
+    } else {
+      arg1->model2[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_colordata_t_model2_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->model2);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_UniqueCameraModel_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->UniqueCameraModel, (const char *)arg2, 64-1);
+      arg1->UniqueCameraModel[64-1] = 0;
+    } else {
+      arg1->UniqueCameraModel[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_colordata_t_UniqueCameraModel_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->UniqueCameraModel);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_LocalizedCameraModel_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->LocalizedCameraModel, (const char *)arg2, 64-1);
+      arg1->LocalizedCameraModel[64-1] = 0;
+    } else {
+      arg1->LocalizedCameraModel[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_colordata_t_LocalizedCameraModel_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->LocalizedCameraModel);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_ImageUniqueID_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->ImageUniqueID, (const char *)arg2, 64-1);
+      arg1->ImageUniqueID[64-1] = 0;
+    } else {
+      arg1->ImageUniqueID[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_colordata_t_ImageUniqueID_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->ImageUniqueID);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_RawDataUniqueID_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->RawDataUniqueID, (const char *)arg2, 17-1);
+      arg1->RawDataUniqueID[17-1] = 0;
+    } else {
+      arg1->RawDataUniqueID[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_colordata_t_RawDataUniqueID_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->RawDataUniqueID);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_OriginalRawFileName_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->OriginalRawFileName, (const char *)arg2, 64-1);
+      arg1->OriginalRawFileName[64-1] = 0;
+    } else {
+      arg1->OriginalRawFileName[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_colordata_t_OriginalRawFileName_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->OriginalRawFileName);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_profile_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, void *_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  void *arg2 = (void *) 0 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(void **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->profile = arg2;
+  
+}
+
+
+void *_wrap_libraw_colordata_t_profile_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  void *result = 0 ;
+  void *_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (void *) ((arg1)->profile);
+  *(void **)&_swig_go_result = (void *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_profile_length_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->profile_length = arg2;
+  
+}
+
+
+intgo _wrap_libraw_colordata_t_profile_length_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->profile_length);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_black_stat_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->black_stat;
+    for (ii = 0; ii < (size_t)8; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_colordata_t_black_stat_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->black_stat);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_dng_color_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, libraw_dng_color_t *_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  libraw_dng_color_t *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(libraw_dng_color_t **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    libraw_dng_color_t *b = (libraw_dng_color_t *) arg1->dng_color;
+    for (ii = 0; ii < (size_t)2; ii++) b[ii] = *((libraw_dng_color_t *) arg2 + ii);
+  }
+  
+}
+
+
+libraw_dng_color_t (*_wrap_libraw_colordata_t_dng_color_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0))[2] {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  libraw_dng_color_t *result = 0 ;
+  libraw_dng_color_t (*_swig_go_result)[2];
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (libraw_dng_color_t *)(libraw_dng_color_t *) ((arg1)->dng_color);
+  *(libraw_dng_color_t **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_dng_levels_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, libraw_dng_levels_t *_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  libraw_dng_levels_t *arg2 = (libraw_dng_levels_t *) 0 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(libraw_dng_levels_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->dng_levels = *arg2;
+  
+}
+
+
+libraw_dng_levels_t *_wrap_libraw_colordata_t_dng_levels_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  libraw_dng_levels_t *result = 0 ;
+  libraw_dng_levels_t *_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (libraw_dng_levels_t *)& ((arg1)->dng_levels);
+  *(libraw_dng_levels_t **)&_swig_go_result = (libraw_dng_levels_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_WB_Coeffs_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, intgo **_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  int (*arg2)[4] ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(int (**)[4])&_swig_go_1; 
+  
+  {
+    int (*inp)[4] = (int (*)[4])(arg2);
+    int (*dest)[4] = (int (*)[4])(arg1->WB_Coeffs);
+    size_t ii = 0;
+    for (; ii < 256; ++ii) {
+      int *ip = inp[ii];
+      int *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 4; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+intgo **_wrap_libraw_colordata_t_WB_Coeffs_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  int (*result)[4] = 0 ;
+  intgo **_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (int (*)[4])(int (*)[4]) ((arg1)->WB_Coeffs);
+  *(int (**)[4])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_WBCT_Coeffs_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, float **_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float (*arg2)[5] ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(float (**)[5])&_swig_go_1; 
+  
+  {
+    float (*inp)[5] = (float (*)[5])(arg2);
+    float (*dest)[5] = (float (*)[5])(arg1->WBCT_Coeffs);
+    size_t ii = 0;
+    for (; ii < 64; ++ii) {
+      float *ip = inp[ii];
+      float *dp = dest[ii];
+      size_t jj = 0;
+      for (; jj < 5; ++jj) dp[jj] = ip[jj];
+    }
+  }
+  
+}
+
+
+float **_wrap_libraw_colordata_t_WBCT_Coeffs_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  float (*result)[5] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (float (*)[5])(float (*)[5]) ((arg1)->WBCT_Coeffs);
+  *(float (**)[5])&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_as_shot_wb_applied_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->as_shot_wb_applied = arg2;
+  
+}
+
+
+intgo _wrap_libraw_colordata_t_as_shot_wb_applied_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->as_shot_wb_applied);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_P1_color_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, libraw_P1_color_t *_swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  libraw_P1_color_t *arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = *(libraw_P1_color_t **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    libraw_P1_color_t *b = (libraw_P1_color_t *) arg1->P1_color;
+    for (ii = 0; ii < (size_t)2; ii++) b[ii] = *((libraw_P1_color_t *) arg2 + ii);
+  }
+  
+}
+
+
+libraw_P1_color_t (*_wrap_libraw_colordata_t_P1_color_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0))[2] {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  libraw_P1_color_t *result = 0 ;
+  libraw_P1_color_t (*_swig_go_result)[2];
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (libraw_P1_color_t *)(libraw_P1_color_t *) ((arg1)->P1_color);
+  *(libraw_P1_color_t **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_raw_bps_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->raw_bps = arg2;
+  
+}
+
+
+intgo _wrap_libraw_colordata_t_raw_bps_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->raw_bps);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_colordata_t_ExifColorSpace_set_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->ExifColorSpace = arg2;
+  
+}
+
+
+intgo _wrap_libraw_colordata_t_ExifColorSpace_get_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->ExifColorSpace);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_colordata_t *_wrap_new_libraw_colordata_t_librawgo_91c7e8cf36b5548d() {
+  libraw_colordata_t *result = 0 ;
+  libraw_colordata_t *_swig_go_result;
+  
+  
+  result = (libraw_colordata_t *)calloc(1, sizeof(libraw_colordata_t));
+  *(libraw_colordata_t **)&_swig_go_result = (libraw_colordata_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_colordata_t_librawgo_91c7e8cf36b5548d(libraw_colordata_t *_swig_go_0) {
+  libraw_colordata_t *arg1 = (libraw_colordata_t *) 0 ;
+  
+  arg1 = *(libraw_colordata_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_thumbnail_t_tformat_set_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  enum LibRaw_thumbnail_formats arg2 ;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  arg2 = (enum LibRaw_thumbnail_formats)_swig_go_1; 
+  
+  if (arg1) (arg1)->tformat = arg2;
+  
+}
+
+
+intgo _wrap_libraw_thumbnail_t_tformat_get_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  enum LibRaw_thumbnail_formats result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  
+  result = (enum LibRaw_thumbnail_formats) ((arg1)->tformat);
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_thumbnail_t_twidth_set_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0, short _swig_go_1) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->twidth = arg2;
+  
+}
+
+
+short _wrap_libraw_thumbnail_t_twidth_get_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->twidth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_thumbnail_t_theight_set_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0, short _swig_go_1) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->theight = arg2;
+  
+}
+
+
+short _wrap_libraw_thumbnail_t_theight_get_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->theight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_thumbnail_t_tlength_set_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->tlength = arg2;
+  
+}
+
+
+intgo _wrap_libraw_thumbnail_t_tlength_get_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->tlength);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_thumbnail_t_tcolors_set_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->tcolors = arg2;
+  
+}
+
+
+intgo _wrap_libraw_thumbnail_t_tcolors_get_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->tcolors);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_thumbnail_t_thumb_set_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  char *arg2 = (char *) 0 ;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    free(arg1->thumb);
+    if (arg2) {
+      arg1->thumb = (char *) malloc(strlen((const char *)arg2)+1);
+      strcpy((char *)arg1->thumb, (const char *)arg2);
+    } else {
+      arg1->thumb = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_thumbnail_t_thumb_get_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  
+  result = (char *) ((arg1)->thumb);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+libraw_thumbnail_t *_wrap_new_libraw_thumbnail_t_librawgo_91c7e8cf36b5548d() {
+  libraw_thumbnail_t *result = 0 ;
+  libraw_thumbnail_t *_swig_go_result;
+  
+  
+  result = (libraw_thumbnail_t *)calloc(1, sizeof(libraw_thumbnail_t));
+  *(libraw_thumbnail_t **)&_swig_go_result = (libraw_thumbnail_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_thumbnail_t_librawgo_91c7e8cf36b5548d(libraw_thumbnail_t *_swig_go_0) {
+  libraw_thumbnail_t *arg1 = (libraw_thumbnail_t *) 0 ;
+  
+  arg1 = *(libraw_thumbnail_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_gps_info_t_latitude_set_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0, float *_swig_go_1) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->latitude;
+    for (ii = 0; ii < (size_t)3; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_gps_info_t_latitude_get_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->latitude);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_gps_info_t_longitude_set_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0, float *_swig_go_1) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->longitude;
+    for (ii = 0; ii < (size_t)3; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_gps_info_t_longitude_get_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->longitude);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_gps_info_t_gpstimestamp_set_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0, float *_swig_go_1) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->gpstimestamp;
+    for (ii = 0; ii < (size_t)3; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_gps_info_t_gpstimestamp_get_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->gpstimestamp);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_gps_info_t_altitude_set_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0, float _swig_go_1) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->altitude = arg2;
+  
+}
+
+
+float _wrap_libraw_gps_info_t_altitude_get_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->altitude);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_gps_info_t_altref_set_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  char arg2 ;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  arg2 = (char)_swig_go_1; 
+  
+  if (arg1) (arg1)->altref = arg2;
+  
+}
+
+
+char _wrap_libraw_gps_info_t_altref_get_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  char result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  
+  result = (char) ((arg1)->altref);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_gps_info_t_latref_set_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  char arg2 ;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  arg2 = (char)_swig_go_1; 
+  
+  if (arg1) (arg1)->latref = arg2;
+  
+}
+
+
+char _wrap_libraw_gps_info_t_latref_get_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  char result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  
+  result = (char) ((arg1)->latref);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_gps_info_t_longref_set_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  char arg2 ;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  arg2 = (char)_swig_go_1; 
+  
+  if (arg1) (arg1)->longref = arg2;
+  
+}
+
+
+char _wrap_libraw_gps_info_t_longref_get_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  char result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  
+  result = (char) ((arg1)->longref);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_gps_info_t_gpsstatus_set_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  char arg2 ;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  arg2 = (char)_swig_go_1; 
+  
+  if (arg1) (arg1)->gpsstatus = arg2;
+  
+}
+
+
+char _wrap_libraw_gps_info_t_gpsstatus_get_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  char result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  
+  result = (char) ((arg1)->gpsstatus);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_gps_info_t_gpsparsed_set_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0, char _swig_go_1) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  char arg2 ;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  arg2 = (char)_swig_go_1; 
+  
+  if (arg1) (arg1)->gpsparsed = arg2;
+  
+}
+
+
+char _wrap_libraw_gps_info_t_gpsparsed_get_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  char result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  
+  result = (char) ((arg1)->gpsparsed);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_gps_info_t *_wrap_new_libraw_gps_info_t_librawgo_91c7e8cf36b5548d() {
+  libraw_gps_info_t *result = 0 ;
+  libraw_gps_info_t *_swig_go_result;
+  
+  
+  result = (libraw_gps_info_t *)calloc(1, sizeof(libraw_gps_info_t));
+  *(libraw_gps_info_t **)&_swig_go_result = (libraw_gps_info_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_gps_info_t_librawgo_91c7e8cf36b5548d(libraw_gps_info_t *_swig_go_0) {
+  libraw_gps_info_t *arg1 = (libraw_gps_info_t *) 0 ;
+  
+  arg1 = *(libraw_gps_info_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_imgother_t_iso_speed_set_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0, float _swig_go_1) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->iso_speed = arg2;
+  
+}
+
+
+float _wrap_libraw_imgother_t_iso_speed_get_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->iso_speed);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_imgother_t_shutter_set_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0, float _swig_go_1) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->shutter = arg2;
+  
+}
+
+
+float _wrap_libraw_imgother_t_shutter_get_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->shutter);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_imgother_t_aperture_set_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0, float _swig_go_1) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->aperture = arg2;
+  
+}
+
+
+float _wrap_libraw_imgother_t_aperture_get_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->aperture);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_imgother_t_focal_len_set_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0, float _swig_go_1) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->focal_len = arg2;
+  
+}
+
+
+float _wrap_libraw_imgother_t_focal_len_get_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->focal_len);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_imgother_t_timestamp_set_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0, time_t *_swig_go_1) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  time_t arg2 ;
+  time_t *argp2 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
+  
+  if (arg1) (arg1)->timestamp = arg2;
+  
+}
+
+
+time_t *_wrap_libraw_imgother_t_timestamp_get_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  time_t result;
+  time_t *_swig_go_result;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  result =  ((arg1)->timestamp);
+  {
+    time_t * resultptr = (time_t *)malloc(sizeof(time_t));
+    memmove(resultptr, &result, sizeof(time_t));
+    *(time_t **)&_swig_go_result = resultptr;
+  }
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_imgother_t_shot_order_set_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->shot_order = arg2;
+  
+}
+
+
+intgo _wrap_libraw_imgother_t_shot_order_get_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->shot_order);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_imgother_t_gpsdata_set_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->gpsdata;
+    for (ii = 0; ii < (size_t)32; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_imgother_t_gpsdata_get_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->gpsdata);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_imgother_t_parsed_gps_set_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0, libraw_gps_info_t *_swig_go_1) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  libraw_gps_info_t *arg2 = (libraw_gps_info_t *) 0 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  arg2 = *(libraw_gps_info_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->parsed_gps = *arg2;
+  
+}
+
+
+libraw_gps_info_t *_wrap_libraw_imgother_t_parsed_gps_get_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  libraw_gps_info_t *result = 0 ;
+  libraw_gps_info_t *_swig_go_result;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  result = (libraw_gps_info_t *)& ((arg1)->parsed_gps);
+  *(libraw_gps_info_t **)&_swig_go_result = (libraw_gps_info_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_imgother_t_desc_set_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->desc, (const char *)arg2, 512-1);
+      arg1->desc[512-1] = 0;
+    } else {
+      arg1->desc[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_imgother_t_desc_get_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->desc);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_imgother_t_artist_set_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->artist, (const char *)arg2, 64-1);
+      arg1->artist[64-1] = 0;
+    } else {
+      arg1->artist[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_imgother_t_artist_get_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->artist);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_imgother_t_analogbalance_set_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0, float *_swig_go_1) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->analogbalance;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_imgother_t_analogbalance_get_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->analogbalance);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_imgother_t *_wrap_new_libraw_imgother_t_librawgo_91c7e8cf36b5548d() {
+  libraw_imgother_t *result = 0 ;
+  libraw_imgother_t *_swig_go_result;
+  
+  
+  result = (libraw_imgother_t *)calloc(1, sizeof(libraw_imgother_t));
+  *(libraw_imgother_t **)&_swig_go_result = (libraw_imgother_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_imgother_t_librawgo_91c7e8cf36b5548d(libraw_imgother_t *_swig_go_0) {
+  libraw_imgother_t *arg1 = (libraw_imgother_t *) 0 ;
+  
+  arg1 = *(libraw_imgother_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_metadata_common_t_FlashEC_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashEC = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_FlashEC_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->FlashEC);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_FlashGN_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->FlashGN = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_FlashGN_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->FlashGN);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_CameraTemperature_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->CameraTemperature = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_CameraTemperature_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->CameraTemperature);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_SensorTemperature_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorTemperature = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_SensorTemperature_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->SensorTemperature);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_SensorTemperature2_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->SensorTemperature2 = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_SensorTemperature2_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->SensorTemperature2);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_LensTemperature_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->LensTemperature = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_LensTemperature_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->LensTemperature);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_AmbientTemperature_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->AmbientTemperature = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_AmbientTemperature_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->AmbientTemperature);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_BatteryTemperature_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->BatteryTemperature = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_BatteryTemperature_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->BatteryTemperature);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_exifAmbientTemperature_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->exifAmbientTemperature = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_exifAmbientTemperature_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->exifAmbientTemperature);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_exifHumidity_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->exifHumidity = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_exifHumidity_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->exifHumidity);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_exifPressure_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->exifPressure = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_exifPressure_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->exifPressure);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_exifWaterDepth_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->exifWaterDepth = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_exifWaterDepth_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->exifWaterDepth);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_exifAcceleration_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->exifAcceleration = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_exifAcceleration_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->exifAcceleration);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_exifCameraElevationAngle_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->exifCameraElevationAngle = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_exifCameraElevationAngle_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->exifCameraElevationAngle);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_real_ISO_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->real_ISO = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_real_ISO_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->real_ISO);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_exifExposureIndex_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, float _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->exifExposureIndex = arg2;
+  
+}
+
+
+float _wrap_libraw_metadata_common_t_exifExposureIndex_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->exifExposureIndex);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_ColorSpace_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, short _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->ColorSpace = arg2;
+  
+}
+
+
+short _wrap_libraw_metadata_common_t_ColorSpace_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->ColorSpace);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_metadata_common_t_firmware_set_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->firmware, (const char *)arg2, 128-1);
+      arg1->firmware[128-1] = 0;
+    } else {
+      arg1->firmware[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_metadata_common_t_firmware_get_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->firmware);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+libraw_metadata_common_t *_wrap_new_libraw_metadata_common_t_librawgo_91c7e8cf36b5548d() {
+  libraw_metadata_common_t *result = 0 ;
+  libraw_metadata_common_t *_swig_go_result;
+  
+  
+  result = (libraw_metadata_common_t *)calloc(1, sizeof(libraw_metadata_common_t));
+  *(libraw_metadata_common_t **)&_swig_go_result = (libraw_metadata_common_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_metadata_common_t_librawgo_91c7e8cf36b5548d(libraw_metadata_common_t *_swig_go_0) {
+  libraw_metadata_common_t *arg1 = (libraw_metadata_common_t *) 0 ;
+  
+  arg1 = *(libraw_metadata_common_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_output_params_t_greybox_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->greybox;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_output_params_t_greybox_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->greybox);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_cropbox_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  unsigned int *arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = *(unsigned int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    unsigned int *b = (unsigned int *) arg1->cropbox;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((unsigned int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_output_params_t_cropbox_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  unsigned int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (unsigned int *)(unsigned int *) ((arg1)->cropbox);
+  *(unsigned int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_aber_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, double *_swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  double *arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = *(double **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    double *b = (double *) arg1->aber;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((double *) arg2 + ii);
+  }
+  
+}
+
+
+double *_wrap_libraw_output_params_t_aber_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  double *result = 0 ;
+  double *_swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (double *)(double *) ((arg1)->aber);
+  *(double **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_gamm_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, double *_swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  double *arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = *(double **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    double *b = (double *) arg1->gamm;
+    for (ii = 0; ii < (size_t)6; ii++) b[ii] = *((double *) arg2 + ii);
+  }
+  
+}
+
+
+double *_wrap_libraw_output_params_t_gamm_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  double *result = 0 ;
+  double *_swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (double *)(double *) ((arg1)->gamm);
+  *(double **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_user_mul_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, float *_swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float *arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    float *b = (float *) arg1->user_mul;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((float *) arg2 + ii);
+  }
+  
+}
+
+
+float *_wrap_libraw_output_params_t_user_mul_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (float *)(float *) ((arg1)->user_mul);
+  *(float **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_shot_select_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->shot_select = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_shot_select_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->shot_select);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_bright_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, float _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->bright = arg2;
+  
+}
+
+
+float _wrap_libraw_output_params_t_bright_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->bright);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_threshold_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, float _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->threshold = arg2;
+  
+}
+
+
+float _wrap_libraw_output_params_t_threshold_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->threshold);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_half_size_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->half_size = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_half_size_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->half_size);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_four_color_rgb_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->four_color_rgb = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_four_color_rgb_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->four_color_rgb);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_highlight_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->highlight = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_highlight_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->highlight);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_use_auto_wb_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->use_auto_wb = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_use_auto_wb_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->use_auto_wb);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_use_camera_wb_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->use_camera_wb = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_use_camera_wb_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->use_camera_wb);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_use_camera_matrix_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->use_camera_matrix = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_use_camera_matrix_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->use_camera_matrix);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_output_color_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->output_color = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_output_color_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->output_color);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_output_profile_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char *arg2 = (char *) 0 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    free(arg1->output_profile);
+    if (arg2) {
+      arg1->output_profile = (char *) malloc(strlen((const char *)arg2)+1);
+      strcpy((char *)arg1->output_profile, (const char *)arg2);
+    } else {
+      arg1->output_profile = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_output_params_t_output_profile_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (char *) ((arg1)->output_profile);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_camera_profile_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char *arg2 = (char *) 0 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    free(arg1->camera_profile);
+    if (arg2) {
+      arg1->camera_profile = (char *) malloc(strlen((const char *)arg2)+1);
+      strcpy((char *)arg1->camera_profile, (const char *)arg2);
+    } else {
+      arg1->camera_profile = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_output_params_t_camera_profile_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (char *) ((arg1)->camera_profile);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_bad_pixels_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char *arg2 = (char *) 0 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    free(arg1->bad_pixels);
+    if (arg2) {
+      arg1->bad_pixels = (char *) malloc(strlen((const char *)arg2)+1);
+      strcpy((char *)arg1->bad_pixels, (const char *)arg2);
+    } else {
+      arg1->bad_pixels = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_output_params_t_bad_pixels_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (char *) ((arg1)->bad_pixels);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_dark_frame_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char *arg2 = (char *) 0 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    free(arg1->dark_frame);
+    if (arg2) {
+      arg1->dark_frame = (char *) malloc(strlen((const char *)arg2)+1);
+      strcpy((char *)arg1->dark_frame, (const char *)arg2);
+    } else {
+      arg1->dark_frame = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_output_params_t_dark_frame_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (char *) ((arg1)->dark_frame);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_output_bps_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->output_bps = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_output_bps_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->output_bps);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_output_tiff_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->output_tiff = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_output_tiff_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->output_tiff);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_user_flip_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->user_flip = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_user_flip_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->user_flip);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_user_qual_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->user_qual = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_user_qual_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->user_qual);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_user_black_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->user_black = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_user_black_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->user_black);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_user_cblack_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo *_swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int *arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = *(int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    int *b = (int *) arg1->user_cblack;
+    for (ii = 0; ii < (size_t)4; ii++) b[ii] = *((int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_libraw_output_params_t_user_cblack_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int *)(int *) ((arg1)->user_cblack);
+  *(int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_user_sat_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->user_sat = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_user_sat_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->user_sat);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_med_passes_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->med_passes = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_med_passes_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->med_passes);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_auto_bright_thr_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, float _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->auto_bright_thr = arg2;
+  
+}
+
+
+float _wrap_libraw_output_params_t_auto_bright_thr_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->auto_bright_thr);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_adjust_maximum_thr_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, float _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->adjust_maximum_thr = arg2;
+  
+}
+
+
+float _wrap_libraw_output_params_t_adjust_maximum_thr_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->adjust_maximum_thr);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_no_auto_bright_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->no_auto_bright = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_no_auto_bright_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->no_auto_bright);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_use_fuji_rotate_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->use_fuji_rotate = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_use_fuji_rotate_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->use_fuji_rotate);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_green_matching_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->green_matching = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_green_matching_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->green_matching);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_dcb_iterations_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->dcb_iterations = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_dcb_iterations_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->dcb_iterations);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_dcb_enhance_fl_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->dcb_enhance_fl = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_dcb_enhance_fl_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->dcb_enhance_fl);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_fbdd_noiserd_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->fbdd_noiserd = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_fbdd_noiserd_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->fbdd_noiserd);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_exp_correc_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->exp_correc = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_exp_correc_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->exp_correc);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_exp_shift_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, float _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->exp_shift = arg2;
+  
+}
+
+
+float _wrap_libraw_output_params_t_exp_shift_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->exp_shift);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_exp_preser_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, float _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->exp_preser = arg2;
+  
+}
+
+
+float _wrap_libraw_output_params_t_exp_preser_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->exp_preser);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_use_rawspeed_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->use_rawspeed = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_use_rawspeed_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->use_rawspeed);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_use_dngsdk_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->use_dngsdk = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_use_dngsdk_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->use_dngsdk);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_no_auto_scale_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->no_auto_scale = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_no_auto_scale_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->no_auto_scale);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_no_interpolation_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->no_interpolation = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_no_interpolation_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->no_interpolation);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_raw_processing_options_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->raw_processing_options = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_raw_processing_options_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->raw_processing_options);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_max_raw_memory_mb_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->max_raw_memory_mb = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_max_raw_memory_mb_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->max_raw_memory_mb);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_sony_arw2_posterization_thr_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->sony_arw2_posterization_thr = arg2;
+  
+}
+
+
+intgo _wrap_libraw_output_params_t_sony_arw2_posterization_thr_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->sony_arw2_posterization_thr);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_coolscan_nef_gamma_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, float _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->coolscan_nef_gamma = arg2;
+  
+}
+
+
+float _wrap_libraw_output_params_t_coolscan_nef_gamma_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->coolscan_nef_gamma);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_p4shot_order_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->p4shot_order, (const char *)arg2, 5-1);
+      arg1->p4shot_order[5-1] = 0;
+    } else {
+      arg1->p4shot_order[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_output_params_t_p4shot_order_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->p4shot_order);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_output_params_t_custom_camera_strings_set_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0, _gostring_* _swig_go_1) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char **arg2 = (char **) 0 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  arg2 = *(char ***)&_swig_go_1; 
+  
+  if (arg1) (arg1)->custom_camera_strings = arg2;
+  
+}
+
+
+_gostring_* _wrap_libraw_output_params_t_custom_camera_strings_get_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  char **result = 0 ;
+  _gostring_* _swig_go_result;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  result = (char **) ((arg1)->custom_camera_strings);
+  *(char ***)&_swig_go_result = (char **)result; 
+  return _swig_go_result;
+}
+
+
+libraw_output_params_t *_wrap_new_libraw_output_params_t_librawgo_91c7e8cf36b5548d() {
+  libraw_output_params_t *result = 0 ;
+  libraw_output_params_t *_swig_go_result;
+  
+  
+  result = (libraw_output_params_t *)calloc(1, sizeof(libraw_output_params_t));
+  *(libraw_output_params_t **)&_swig_go_result = (libraw_output_params_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_output_params_t_librawgo_91c7e8cf36b5548d(libraw_output_params_t *_swig_go_0) {
+  libraw_output_params_t *arg1 = (libraw_output_params_t *) 0 ;
+  
+  arg1 = *(libraw_output_params_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_rawdata_t_raw_alloc_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, void *_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  void *arg2 = (void *) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(void **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->raw_alloc = arg2;
+  
+}
+
+
+void *_wrap_libraw_rawdata_t_raw_alloc_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  void *result = 0 ;
+  void *_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (void *) ((arg1)->raw_alloc);
+  *(void **)&_swig_go_result = (void *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_raw_image_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, short *_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  ushort *arg2 = (ushort *) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(ushort **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->raw_image = arg2;
+  
+}
+
+
+short *_wrap_libraw_rawdata_t_raw_image_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  ushort *result = 0 ;
+  short *_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (ushort *) ((arg1)->raw_image);
+  *(ushort **)&_swig_go_result = (ushort *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_color4_image_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, short **_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  ushort (*arg2)[4] = (ushort (*)[4]) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(ushort (**)[4])&_swig_go_1; 
+  
+  if (arg1) (arg1)->color4_image = (ushort (*)[4])arg2;
+  
+}
+
+
+short **_wrap_libraw_rawdata_t_color4_image_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  ushort (*result)[4] = 0 ;
+  short **_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (ushort (*)[4]) ((arg1)->color4_image);
+  *(ushort (**)[4])&_swig_go_result = (ushort (*)[4])result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_color3_image_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, short **_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  ushort (*arg2)[3] = (ushort (*)[3]) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(ushort (**)[3])&_swig_go_1; 
+  
+  if (arg1) (arg1)->color3_image = (ushort (*)[3])arg2;
+  
+}
+
+
+short **_wrap_libraw_rawdata_t_color3_image_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  ushort (*result)[3] = 0 ;
+  short **_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (ushort (*)[3]) ((arg1)->color3_image);
+  *(ushort (**)[3])&_swig_go_result = (ushort (*)[3])result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_float_image_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, float *_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  float *arg2 = (float *) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(float **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->float_image = arg2;
+  
+}
+
+
+float *_wrap_libraw_rawdata_t_float_image_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  float *result = 0 ;
+  float *_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (float *) ((arg1)->float_image);
+  *(float **)&_swig_go_result = (float *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_float3_image_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, float **_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  float (*arg2)[3] = (float (*)[3]) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(float (**)[3])&_swig_go_1; 
+  
+  if (arg1) (arg1)->float3_image = (float (*)[3])arg2;
+  
+}
+
+
+float **_wrap_libraw_rawdata_t_float3_image_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  float (*result)[3] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (float (*)[3]) ((arg1)->float3_image);
+  *(float (**)[3])&_swig_go_result = (float (*)[3])result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_float4_image_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, float **_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  float (*arg2)[4] = (float (*)[4]) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(float (**)[4])&_swig_go_1; 
+  
+  if (arg1) (arg1)->float4_image = (float (*)[4])arg2;
+  
+}
+
+
+float **_wrap_libraw_rawdata_t_float4_image_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  float (*result)[4] = 0 ;
+  float **_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (float (*)[4]) ((arg1)->float4_image);
+  *(float (**)[4])&_swig_go_result = (float (*)[4])result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_ph1_cblack_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, short **_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  short (*arg2)[2] = (short (*)[2]) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(short (**)[2])&_swig_go_1; 
+  
+  if (arg1) (arg1)->ph1_cblack = (short (*)[2])arg2;
+  
+}
+
+
+short **_wrap_libraw_rawdata_t_ph1_cblack_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  short (*result)[2] = 0 ;
+  short **_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (short (*)[2]) ((arg1)->ph1_cblack);
+  *(short (**)[2])&_swig_go_result = (short (*)[2])result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_ph1_rblack_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, short **_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  short (*arg2)[2] = (short (*)[2]) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(short (**)[2])&_swig_go_1; 
+  
+  if (arg1) (arg1)->ph1_rblack = (short (*)[2])arg2;
+  
+}
+
+
+short **_wrap_libraw_rawdata_t_ph1_rblack_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  short (*result)[2] = 0 ;
+  short **_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (short (*)[2]) ((arg1)->ph1_rblack);
+  *(short (**)[2])&_swig_go_result = (short (*)[2])result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_iparams_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, libraw_iparams_t *_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  libraw_iparams_t *arg2 = (libraw_iparams_t *) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(libraw_iparams_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->iparams = *arg2;
+  
+}
+
+
+libraw_iparams_t *_wrap_libraw_rawdata_t_iparams_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  libraw_iparams_t *result = 0 ;
+  libraw_iparams_t *_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (libraw_iparams_t *)& ((arg1)->iparams);
+  *(libraw_iparams_t **)&_swig_go_result = (libraw_iparams_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_sizes_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, libraw_image_sizes_t *_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  libraw_image_sizes_t *arg2 = (libraw_image_sizes_t *) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(libraw_image_sizes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->sizes = *arg2;
+  
+}
+
+
+libraw_image_sizes_t *_wrap_libraw_rawdata_t_sizes_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  libraw_image_sizes_t *result = 0 ;
+  libraw_image_sizes_t *_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (libraw_image_sizes_t *)& ((arg1)->sizes);
+  *(libraw_image_sizes_t **)&_swig_go_result = (libraw_image_sizes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_ioparams_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, libraw_internal_output_params_t *_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  libraw_internal_output_params_t *arg2 = (libraw_internal_output_params_t *) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(libraw_internal_output_params_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->ioparams = *arg2;
+  
+}
+
+
+libraw_internal_output_params_t *_wrap_libraw_rawdata_t_ioparams_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  libraw_internal_output_params_t *result = 0 ;
+  libraw_internal_output_params_t *_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (libraw_internal_output_params_t *)& ((arg1)->ioparams);
+  *(libraw_internal_output_params_t **)&_swig_go_result = (libraw_internal_output_params_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_rawdata_t_color_set_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0, libraw_colordata_t *_swig_go_1) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  libraw_colordata_t *arg2 = (libraw_colordata_t *) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  arg2 = *(libraw_colordata_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->color = *arg2;
+  
+}
+
+
+libraw_colordata_t *_wrap_libraw_rawdata_t_color_get_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  libraw_colordata_t *result = 0 ;
+  libraw_colordata_t *_swig_go_result;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  result = (libraw_colordata_t *)& ((arg1)->color);
+  *(libraw_colordata_t **)&_swig_go_result = (libraw_colordata_t *)result; 
+  return _swig_go_result;
+}
+
+
+libraw_rawdata_t *_wrap_new_libraw_rawdata_t_librawgo_91c7e8cf36b5548d() {
+  libraw_rawdata_t *result = 0 ;
+  libraw_rawdata_t *_swig_go_result;
+  
+  
+  result = (libraw_rawdata_t *)calloc(1, sizeof(libraw_rawdata_t));
+  *(libraw_rawdata_t **)&_swig_go_result = (libraw_rawdata_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_rawdata_t_librawgo_91c7e8cf36b5548d(libraw_rawdata_t *_swig_go_0) {
+  libraw_rawdata_t *arg1 = (libraw_rawdata_t *) 0 ;
+  
+  arg1 = *(libraw_rawdata_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_makernotes_lens_t_LensID_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, long long _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  unsigned long long arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (unsigned long long)_swig_go_1; 
+  
+  if (arg1) (arg1)->LensID = arg2;
+  
+}
+
+
+long long _wrap_libraw_makernotes_lens_t_LensID_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  unsigned long long result;
+  long long _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (unsigned long long) ((arg1)->LensID);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_Lens_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->Lens, (const char *)arg2, 128-1);
+      arg1->Lens[128-1] = 0;
+    } else {
+      arg1->Lens[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_makernotes_lens_t_Lens_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->Lens);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_LensFormat_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, short _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->LensFormat = arg2;
+  
+}
+
+
+short _wrap_libraw_makernotes_lens_t_LensFormat_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->LensFormat);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_LensMount_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, short _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->LensMount = arg2;
+  
+}
+
+
+short _wrap_libraw_makernotes_lens_t_LensMount_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->LensMount);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_CamID_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, long long _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  unsigned long long arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (unsigned long long)_swig_go_1; 
+  
+  if (arg1) (arg1)->CamID = arg2;
+  
+}
+
+
+long long _wrap_libraw_makernotes_lens_t_CamID_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  unsigned long long result;
+  long long _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (unsigned long long) ((arg1)->CamID);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_CameraFormat_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, short _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->CameraFormat = arg2;
+  
+}
+
+
+short _wrap_libraw_makernotes_lens_t_CameraFormat_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->CameraFormat);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_CameraMount_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, short _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->CameraMount = arg2;
+  
+}
+
+
+short _wrap_libraw_makernotes_lens_t_CameraMount_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->CameraMount);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_body_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->body, (const char *)arg2, 64-1);
+      arg1->body[64-1] = 0;
+    } else {
+      arg1->body[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_makernotes_lens_t_body_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->body);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_FocalType_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, short _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->FocalType = arg2;
+  
+}
+
+
+short _wrap_libraw_makernotes_lens_t_FocalType_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->FocalType);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_LensFeatures_pre_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->LensFeatures_pre, (const char *)arg2, 16-1);
+      arg1->LensFeatures_pre[16-1] = 0;
+    } else {
+      arg1->LensFeatures_pre[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_makernotes_lens_t_LensFeatures_pre_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->LensFeatures_pre);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_LensFeatures_suf_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->LensFeatures_suf, (const char *)arg2, 16-1);
+      arg1->LensFeatures_suf[16-1] = 0;
+    } else {
+      arg1->LensFeatures_suf[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_makernotes_lens_t_LensFeatures_suf_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->LensFeatures_suf);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_MinFocal_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MinFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_MinFocal_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MinFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_MaxFocal_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MaxFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_MaxFocal_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MaxFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_MaxAp4MinFocal_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MaxAp4MinFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_MaxAp4MinFocal_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MaxAp4MinFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_MaxAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MaxAp4MaxFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_MaxAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MaxAp4MaxFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_MinAp4MinFocal_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MinAp4MinFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_MinAp4MinFocal_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MinAp4MinFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_MinAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MinAp4MaxFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_MinAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MinAp4MaxFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_MaxAp_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MaxAp = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_MaxAp_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MaxAp);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_MinAp_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MinAp = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_MinAp_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MinAp);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_CurFocal_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->CurFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_CurFocal_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->CurFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_CurAp_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->CurAp = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_CurAp_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->CurAp);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_MaxAp4CurFocal_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MaxAp4CurFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_MaxAp4CurFocal_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MaxAp4CurFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_MinAp4CurFocal_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MinAp4CurFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_MinAp4CurFocal_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MinAp4CurFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_MinFocusDistance_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MinFocusDistance = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_MinFocusDistance_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MinFocusDistance);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_FocusRangeIndex_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->FocusRangeIndex = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_FocusRangeIndex_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->FocusRangeIndex);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_LensFStops_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->LensFStops = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_LensFStops_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->LensFStops);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_TeleconverterID_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, long long _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  unsigned long long arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (unsigned long long)_swig_go_1; 
+  
+  if (arg1) (arg1)->TeleconverterID = arg2;
+  
+}
+
+
+long long _wrap_libraw_makernotes_lens_t_TeleconverterID_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  unsigned long long result;
+  long long _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (unsigned long long) ((arg1)->TeleconverterID);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_Teleconverter_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->Teleconverter, (const char *)arg2, 128-1);
+      arg1->Teleconverter[128-1] = 0;
+    } else {
+      arg1->Teleconverter[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_makernotes_lens_t_Teleconverter_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->Teleconverter);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_AdapterID_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, long long _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  unsigned long long arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (unsigned long long)_swig_go_1; 
+  
+  if (arg1) (arg1)->AdapterID = arg2;
+  
+}
+
+
+long long _wrap_libraw_makernotes_lens_t_AdapterID_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  unsigned long long result;
+  long long _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (unsigned long long) ((arg1)->AdapterID);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_Adapter_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->Adapter, (const char *)arg2, 128-1);
+      arg1->Adapter[128-1] = 0;
+    } else {
+      arg1->Adapter[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_makernotes_lens_t_Adapter_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->Adapter);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_AttachmentID_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, long long _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  unsigned long long arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (unsigned long long)_swig_go_1; 
+  
+  if (arg1) (arg1)->AttachmentID = arg2;
+  
+}
+
+
+long long _wrap_libraw_makernotes_lens_t_AttachmentID_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  unsigned long long result;
+  long long _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (unsigned long long) ((arg1)->AttachmentID);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_Attachment_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->Attachment, (const char *)arg2, 128-1);
+      arg1->Attachment[128-1] = 0;
+    } else {
+      arg1->Attachment[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_makernotes_lens_t_Attachment_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->Attachment);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_FocalUnits_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, short _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->FocalUnits = arg2;
+  
+}
+
+
+short _wrap_libraw_makernotes_lens_t_FocalUnits_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->FocalUnits);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_lens_t_FocalLengthIn35mmFormat_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0, float _swig_go_1) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->FocalLengthIn35mmFormat = arg2;
+  
+}
+
+
+float _wrap_libraw_makernotes_lens_t_FocalLengthIn35mmFormat_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->FocalLengthIn35mmFormat);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_makernotes_lens_t *_wrap_new_libraw_makernotes_lens_t_librawgo_91c7e8cf36b5548d() {
+  libraw_makernotes_lens_t *result = 0 ;
+  libraw_makernotes_lens_t *_swig_go_result;
+  
+  
+  result = (libraw_makernotes_lens_t *)calloc(1, sizeof(libraw_makernotes_lens_t));
+  *(libraw_makernotes_lens_t **)&_swig_go_result = (libraw_makernotes_lens_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_makernotes_lens_t_librawgo_91c7e8cf36b5548d(libraw_makernotes_lens_t *_swig_go_0) {
+  libraw_makernotes_lens_t *arg1 = (libraw_makernotes_lens_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_lens_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_nikonlens_t_EffectiveMaxAp_set_librawgo_91c7e8cf36b5548d(libraw_nikonlens_t *_swig_go_0, float _swig_go_1) {
+  libraw_nikonlens_t *arg1 = (libraw_nikonlens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_nikonlens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->EffectiveMaxAp = arg2;
+  
+}
+
+
+float _wrap_libraw_nikonlens_t_EffectiveMaxAp_get_librawgo_91c7e8cf36b5548d(libraw_nikonlens_t *_swig_go_0) {
+  libraw_nikonlens_t *arg1 = (libraw_nikonlens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_nikonlens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->EffectiveMaxAp);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikonlens_t_LensIDNumber_set_librawgo_91c7e8cf36b5548d(libraw_nikonlens_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikonlens_t *arg1 = (libraw_nikonlens_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikonlens_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->LensIDNumber = arg2;
+  
+}
+
+
+char _wrap_libraw_nikonlens_t_LensIDNumber_get_librawgo_91c7e8cf36b5548d(libraw_nikonlens_t *_swig_go_0) {
+  libraw_nikonlens_t *arg1 = (libraw_nikonlens_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikonlens_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->LensIDNumber);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikonlens_t_LensFStops_set_librawgo_91c7e8cf36b5548d(libraw_nikonlens_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikonlens_t *arg1 = (libraw_nikonlens_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikonlens_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->LensFStops = arg2;
+  
+}
+
+
+char _wrap_libraw_nikonlens_t_LensFStops_get_librawgo_91c7e8cf36b5548d(libraw_nikonlens_t *_swig_go_0) {
+  libraw_nikonlens_t *arg1 = (libraw_nikonlens_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikonlens_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->LensFStops);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikonlens_t_MCUVersion_set_librawgo_91c7e8cf36b5548d(libraw_nikonlens_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikonlens_t *arg1 = (libraw_nikonlens_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikonlens_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->MCUVersion = arg2;
+  
+}
+
+
+char _wrap_libraw_nikonlens_t_MCUVersion_get_librawgo_91c7e8cf36b5548d(libraw_nikonlens_t *_swig_go_0) {
+  libraw_nikonlens_t *arg1 = (libraw_nikonlens_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikonlens_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->MCUVersion);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_nikonlens_t_LensType_set_librawgo_91c7e8cf36b5548d(libraw_nikonlens_t *_swig_go_0, char _swig_go_1) {
+  libraw_nikonlens_t *arg1 = (libraw_nikonlens_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_nikonlens_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->LensType = arg2;
+  
+}
+
+
+char _wrap_libraw_nikonlens_t_LensType_get_librawgo_91c7e8cf36b5548d(libraw_nikonlens_t *_swig_go_0) {
+  libraw_nikonlens_t *arg1 = (libraw_nikonlens_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_nikonlens_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->LensType);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_nikonlens_t *_wrap_new_libraw_nikonlens_t_librawgo_91c7e8cf36b5548d() {
+  libraw_nikonlens_t *result = 0 ;
+  libraw_nikonlens_t *_swig_go_result;
+  
+  
+  result = (libraw_nikonlens_t *)calloc(1, sizeof(libraw_nikonlens_t));
+  *(libraw_nikonlens_t **)&_swig_go_result = (libraw_nikonlens_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_nikonlens_t_librawgo_91c7e8cf36b5548d(libraw_nikonlens_t *_swig_go_0) {
+  libraw_nikonlens_t *arg1 = (libraw_nikonlens_t *) 0 ;
+  
+  arg1 = *(libraw_nikonlens_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_dnglens_t_MinFocal_set_librawgo_91c7e8cf36b5548d(libraw_dnglens_t *_swig_go_0, float _swig_go_1) {
+  libraw_dnglens_t *arg1 = (libraw_dnglens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_dnglens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MinFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_dnglens_t_MinFocal_get_librawgo_91c7e8cf36b5548d(libraw_dnglens_t *_swig_go_0) {
+  libraw_dnglens_t *arg1 = (libraw_dnglens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_dnglens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MinFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dnglens_t_MaxFocal_set_librawgo_91c7e8cf36b5548d(libraw_dnglens_t *_swig_go_0, float _swig_go_1) {
+  libraw_dnglens_t *arg1 = (libraw_dnglens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_dnglens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MaxFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_dnglens_t_MaxFocal_get_librawgo_91c7e8cf36b5548d(libraw_dnglens_t *_swig_go_0) {
+  libraw_dnglens_t *arg1 = (libraw_dnglens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_dnglens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MaxFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dnglens_t_MaxAp4MinFocal_set_librawgo_91c7e8cf36b5548d(libraw_dnglens_t *_swig_go_0, float _swig_go_1) {
+  libraw_dnglens_t *arg1 = (libraw_dnglens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_dnglens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MaxAp4MinFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_dnglens_t_MaxAp4MinFocal_get_librawgo_91c7e8cf36b5548d(libraw_dnglens_t *_swig_go_0) {
+  libraw_dnglens_t *arg1 = (libraw_dnglens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_dnglens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MaxAp4MinFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_dnglens_t_MaxAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(libraw_dnglens_t *_swig_go_0, float _swig_go_1) {
+  libraw_dnglens_t *arg1 = (libraw_dnglens_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_dnglens_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MaxAp4MaxFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_dnglens_t_MaxAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(libraw_dnglens_t *_swig_go_0) {
+  libraw_dnglens_t *arg1 = (libraw_dnglens_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_dnglens_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MaxAp4MaxFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_dnglens_t *_wrap_new_libraw_dnglens_t_librawgo_91c7e8cf36b5548d() {
+  libraw_dnglens_t *result = 0 ;
+  libraw_dnglens_t *_swig_go_result;
+  
+  
+  result = (libraw_dnglens_t *)calloc(1, sizeof(libraw_dnglens_t));
+  *(libraw_dnglens_t **)&_swig_go_result = (libraw_dnglens_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_dnglens_t_librawgo_91c7e8cf36b5548d(libraw_dnglens_t *_swig_go_0) {
+  libraw_dnglens_t *arg1 = (libraw_dnglens_t *) 0 ;
+  
+  arg1 = *(libraw_dnglens_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_lensinfo_t_MinFocal_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, float _swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MinFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_lensinfo_t_MinFocal_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MinFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_MaxFocal_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, float _swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MaxFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_lensinfo_t_MaxFocal_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MaxFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_MaxAp4MinFocal_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, float _swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MaxAp4MinFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_lensinfo_t_MaxAp4MinFocal_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MaxAp4MinFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_MaxAp4MaxFocal_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, float _swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->MaxAp4MaxFocal = arg2;
+  
+}
+
+
+float _wrap_libraw_lensinfo_t_MaxAp4MaxFocal_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->MaxAp4MaxFocal);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_EXIF_MaxAp_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, float _swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->EXIF_MaxAp = arg2;
+  
+}
+
+
+float _wrap_libraw_lensinfo_t_EXIF_MaxAp_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->EXIF_MaxAp);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_LensMake_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->LensMake, (const char *)arg2, 128-1);
+      arg1->LensMake[128-1] = 0;
+    } else {
+      arg1->LensMake[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_lensinfo_t_LensMake_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->LensMake);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_Lens_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->Lens, (const char *)arg2, 128-1);
+      arg1->Lens[128-1] = 0;
+    } else {
+      arg1->Lens[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_lensinfo_t_Lens_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->Lens);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_LensSerial_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->LensSerial, (const char *)arg2, 128-1);
+      arg1->LensSerial[128-1] = 0;
+    } else {
+      arg1->LensSerial[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_lensinfo_t_LensSerial_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->LensSerial);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_InternalLensSerial_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->InternalLensSerial, (const char *)arg2, 128-1);
+      arg1->InternalLensSerial[128-1] = 0;
+    } else {
+      arg1->InternalLensSerial[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_lensinfo_t_InternalLensSerial_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->InternalLensSerial);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_FocalLengthIn35mmFormat_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, short _swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->FocalLengthIn35mmFormat = arg2;
+  
+}
+
+
+short _wrap_libraw_lensinfo_t_FocalLengthIn35mmFormat_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->FocalLengthIn35mmFormat);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_nikon_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, libraw_nikonlens_t *_swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  libraw_nikonlens_t *arg2 = (libraw_nikonlens_t *) 0 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  arg2 = *(libraw_nikonlens_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->nikon = *arg2;
+  
+}
+
+
+libraw_nikonlens_t *_wrap_libraw_lensinfo_t_nikon_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  libraw_nikonlens_t *result = 0 ;
+  libraw_nikonlens_t *_swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (libraw_nikonlens_t *)& ((arg1)->nikon);
+  *(libraw_nikonlens_t **)&_swig_go_result = (libraw_nikonlens_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_dng_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, libraw_dnglens_t *_swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  libraw_dnglens_t *arg2 = (libraw_dnglens_t *) 0 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  arg2 = *(libraw_dnglens_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->dng = *arg2;
+  
+}
+
+
+libraw_dnglens_t *_wrap_libraw_lensinfo_t_dng_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  libraw_dnglens_t *result = 0 ;
+  libraw_dnglens_t *_swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (libraw_dnglens_t *)& ((arg1)->dng);
+  *(libraw_dnglens_t **)&_swig_go_result = (libraw_dnglens_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_lensinfo_t_makernotes_set_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0, libraw_makernotes_lens_t *_swig_go_1) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  libraw_makernotes_lens_t *arg2 = (libraw_makernotes_lens_t *) 0 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  arg2 = *(libraw_makernotes_lens_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->makernotes = *arg2;
+  
+}
+
+
+libraw_makernotes_lens_t *_wrap_libraw_lensinfo_t_makernotes_get_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  libraw_makernotes_lens_t *result = 0 ;
+  libraw_makernotes_lens_t *_swig_go_result;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  result = (libraw_makernotes_lens_t *)& ((arg1)->makernotes);
+  *(libraw_makernotes_lens_t **)&_swig_go_result = (libraw_makernotes_lens_t *)result; 
+  return _swig_go_result;
+}
+
+
+libraw_lensinfo_t *_wrap_new_libraw_lensinfo_t_librawgo_91c7e8cf36b5548d() {
+  libraw_lensinfo_t *result = 0 ;
+  libraw_lensinfo_t *_swig_go_result;
+  
+  
+  result = (libraw_lensinfo_t *)calloc(1, sizeof(libraw_lensinfo_t));
+  *(libraw_lensinfo_t **)&_swig_go_result = (libraw_lensinfo_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_lensinfo_t_librawgo_91c7e8cf36b5548d(libraw_lensinfo_t *_swig_go_0) {
+  libraw_lensinfo_t *arg1 = (libraw_lensinfo_t *) 0 ;
+  
+  arg1 = *(libraw_lensinfo_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_makernotes_t_canon_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_canon_makernotes_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_canon_makernotes_t *arg2 = (libraw_canon_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_canon_makernotes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->canon = *arg2;
+  
+}
+
+
+libraw_canon_makernotes_t *_wrap_libraw_makernotes_t_canon_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_canon_makernotes_t *result = 0 ;
+  libraw_canon_makernotes_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_canon_makernotes_t *)& ((arg1)->canon);
+  *(libraw_canon_makernotes_t **)&_swig_go_result = (libraw_canon_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_t_nikon_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_nikon_makernotes_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_nikon_makernotes_t *arg2 = (libraw_nikon_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_nikon_makernotes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->nikon = *arg2;
+  
+}
+
+
+libraw_nikon_makernotes_t *_wrap_libraw_makernotes_t_nikon_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_nikon_makernotes_t *result = 0 ;
+  libraw_nikon_makernotes_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_nikon_makernotes_t *)& ((arg1)->nikon);
+  *(libraw_nikon_makernotes_t **)&_swig_go_result = (libraw_nikon_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_t_hasselblad_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_hasselblad_makernotes_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_hasselblad_makernotes_t *arg2 = (libraw_hasselblad_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_hasselblad_makernotes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->hasselblad = *arg2;
+  
+}
+
+
+libraw_hasselblad_makernotes_t *_wrap_libraw_makernotes_t_hasselblad_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_hasselblad_makernotes_t *result = 0 ;
+  libraw_hasselblad_makernotes_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_hasselblad_makernotes_t *)& ((arg1)->hasselblad);
+  *(libraw_hasselblad_makernotes_t **)&_swig_go_result = (libraw_hasselblad_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_t_fuji_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_fuji_info_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_fuji_info_t *arg2 = (libraw_fuji_info_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_fuji_info_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->fuji = *arg2;
+  
+}
+
+
+libraw_fuji_info_t *_wrap_libraw_makernotes_t_fuji_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_fuji_info_t *result = 0 ;
+  libraw_fuji_info_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_fuji_info_t *)& ((arg1)->fuji);
+  *(libraw_fuji_info_t **)&_swig_go_result = (libraw_fuji_info_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_t_olympus_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_olympus_makernotes_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_olympus_makernotes_t *arg2 = (libraw_olympus_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_olympus_makernotes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->olympus = *arg2;
+  
+}
+
+
+libraw_olympus_makernotes_t *_wrap_libraw_makernotes_t_olympus_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_olympus_makernotes_t *result = 0 ;
+  libraw_olympus_makernotes_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_olympus_makernotes_t *)& ((arg1)->olympus);
+  *(libraw_olympus_makernotes_t **)&_swig_go_result = (libraw_olympus_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_t_sony_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_sony_info_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_sony_info_t *arg2 = (libraw_sony_info_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_sony_info_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->sony = *arg2;
+  
+}
+
+
+libraw_sony_info_t *_wrap_libraw_makernotes_t_sony_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_sony_info_t *result = 0 ;
+  libraw_sony_info_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_sony_info_t *)& ((arg1)->sony);
+  *(libraw_sony_info_t **)&_swig_go_result = (libraw_sony_info_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_t_kodak_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_kodak_makernotes_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_kodak_makernotes_t *arg2 = (libraw_kodak_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_kodak_makernotes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->kodak = *arg2;
+  
+}
+
+
+libraw_kodak_makernotes_t *_wrap_libraw_makernotes_t_kodak_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_kodak_makernotes_t *result = 0 ;
+  libraw_kodak_makernotes_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_kodak_makernotes_t *)& ((arg1)->kodak);
+  *(libraw_kodak_makernotes_t **)&_swig_go_result = (libraw_kodak_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_t_panasonic_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_panasonic_makernotes_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_panasonic_makernotes_t *arg2 = (libraw_panasonic_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_panasonic_makernotes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->panasonic = *arg2;
+  
+}
+
+
+libraw_panasonic_makernotes_t *_wrap_libraw_makernotes_t_panasonic_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_panasonic_makernotes_t *result = 0 ;
+  libraw_panasonic_makernotes_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_panasonic_makernotes_t *)& ((arg1)->panasonic);
+  *(libraw_panasonic_makernotes_t **)&_swig_go_result = (libraw_panasonic_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_t_pentax_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_pentax_makernotes_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_pentax_makernotes_t *arg2 = (libraw_pentax_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_pentax_makernotes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->pentax = *arg2;
+  
+}
+
+
+libraw_pentax_makernotes_t *_wrap_libraw_makernotes_t_pentax_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_pentax_makernotes_t *result = 0 ;
+  libraw_pentax_makernotes_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_pentax_makernotes_t *)& ((arg1)->pentax);
+  *(libraw_pentax_makernotes_t **)&_swig_go_result = (libraw_pentax_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_t_phaseone_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_p1_makernotes_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_p1_makernotes_t *arg2 = (libraw_p1_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_p1_makernotes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->phaseone = *arg2;
+  
+}
+
+
+libraw_p1_makernotes_t *_wrap_libraw_makernotes_t_phaseone_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_p1_makernotes_t *result = 0 ;
+  libraw_p1_makernotes_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_p1_makernotes_t *)& ((arg1)->phaseone);
+  *(libraw_p1_makernotes_t **)&_swig_go_result = (libraw_p1_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_t_samsung_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_samsung_makernotes_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_samsung_makernotes_t *arg2 = (libraw_samsung_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_samsung_makernotes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->samsung = *arg2;
+  
+}
+
+
+libraw_samsung_makernotes_t *_wrap_libraw_makernotes_t_samsung_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_samsung_makernotes_t *result = 0 ;
+  libraw_samsung_makernotes_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_samsung_makernotes_t *)& ((arg1)->samsung);
+  *(libraw_samsung_makernotes_t **)&_swig_go_result = (libraw_samsung_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_makernotes_t_common_set_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0, libraw_metadata_common_t *_swig_go_1) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_metadata_common_t *arg2 = (libraw_metadata_common_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  arg2 = *(libraw_metadata_common_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->common = *arg2;
+  
+}
+
+
+libraw_metadata_common_t *_wrap_libraw_makernotes_t_common_get_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  libraw_metadata_common_t *result = 0 ;
+  libraw_metadata_common_t *_swig_go_result;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  result = (libraw_metadata_common_t *)& ((arg1)->common);
+  *(libraw_metadata_common_t **)&_swig_go_result = (libraw_metadata_common_t *)result; 
+  return _swig_go_result;
+}
+
+
+libraw_makernotes_t *_wrap_new_libraw_makernotes_t_librawgo_91c7e8cf36b5548d() {
+  libraw_makernotes_t *result = 0 ;
+  libraw_makernotes_t *_swig_go_result;
+  
+  
+  result = (libraw_makernotes_t *)calloc(1, sizeof(libraw_makernotes_t));
+  *(libraw_makernotes_t **)&_swig_go_result = (libraw_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_makernotes_t_librawgo_91c7e8cf36b5548d(libraw_makernotes_t *_swig_go_0) {
+  libraw_makernotes_t *arg1 = (libraw_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_makernotes_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_shootinginfo_t_DriveMode_set_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0, short _swig_go_1) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->DriveMode = arg2;
+  
+}
+
+
+short _wrap_libraw_shootinginfo_t_DriveMode_get_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->DriveMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_shootinginfo_t_FocusMode_set_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0, short _swig_go_1) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->FocusMode = arg2;
+  
+}
+
+
+short _wrap_libraw_shootinginfo_t_FocusMode_get_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->FocusMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_shootinginfo_t_MeteringMode_set_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0, short _swig_go_1) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->MeteringMode = arg2;
+  
+}
+
+
+short _wrap_libraw_shootinginfo_t_MeteringMode_get_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->MeteringMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_shootinginfo_t_AFPoint_set_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0, short _swig_go_1) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->AFPoint = arg2;
+  
+}
+
+
+short _wrap_libraw_shootinginfo_t_AFPoint_get_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->AFPoint);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_shootinginfo_t_ExposureMode_set_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0, short _swig_go_1) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->ExposureMode = arg2;
+  
+}
+
+
+short _wrap_libraw_shootinginfo_t_ExposureMode_get_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->ExposureMode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_shootinginfo_t_ExposureProgram_set_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0, short _swig_go_1) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->ExposureProgram = arg2;
+  
+}
+
+
+short _wrap_libraw_shootinginfo_t_ExposureProgram_get_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->ExposureProgram);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_shootinginfo_t_ImageStabilization_set_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0, short _swig_go_1) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short arg2 ;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  arg2 = (short)_swig_go_1; 
+  
+  if (arg1) (arg1)->ImageStabilization = arg2;
+  
+}
+
+
+short _wrap_libraw_shootinginfo_t_ImageStabilization_get_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  short result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  result = (short) ((arg1)->ImageStabilization);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_shootinginfo_t_BodySerial_set_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->BodySerial, (const char *)arg2, 64-1);
+      arg1->BodySerial[64-1] = 0;
+    } else {
+      arg1->BodySerial[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_shootinginfo_t_BodySerial_get_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->BodySerial);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_shootinginfo_t_InternalBodySerial_set_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->InternalBodySerial, (const char *)arg2, 64-1);
+      arg1->InternalBodySerial[64-1] = 0;
+    } else {
+      arg1->InternalBodySerial[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_shootinginfo_t_InternalBodySerial_get_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->InternalBodySerial);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+libraw_shootinginfo_t *_wrap_new_libraw_shootinginfo_t_librawgo_91c7e8cf36b5548d() {
+  libraw_shootinginfo_t *result = 0 ;
+  libraw_shootinginfo_t *_swig_go_result;
+  
+  
+  result = (libraw_shootinginfo_t *)calloc(1, sizeof(libraw_shootinginfo_t));
+  *(libraw_shootinginfo_t **)&_swig_go_result = (libraw_shootinginfo_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_shootinginfo_t_librawgo_91c7e8cf36b5548d(libraw_shootinginfo_t *_swig_go_0) {
+  libraw_shootinginfo_t *arg1 = (libraw_shootinginfo_t *) 0 ;
+  
+  arg1 = *(libraw_shootinginfo_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_custom_camera_t_fsize_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->fsize = arg2;
+  
+}
+
+
+intgo _wrap_libraw_custom_camera_t_fsize_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->fsize);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_rw_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, short _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->rw = arg2;
+  
+}
+
+
+short _wrap_libraw_custom_camera_t_rw_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->rw);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_rh_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, short _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->rh = arg2;
+  
+}
+
+
+short _wrap_libraw_custom_camera_t_rh_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->rh);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_lm_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, char _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->lm = arg2;
+  
+}
+
+
+char _wrap_libraw_custom_camera_t_lm_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->lm);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_tm_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, char _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->tm = arg2;
+  
+}
+
+
+char _wrap_libraw_custom_camera_t_tm_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->tm);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_rm_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, char _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->rm = arg2;
+  
+}
+
+
+char _wrap_libraw_custom_camera_t_rm_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->rm);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_bm_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, char _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->bm = arg2;
+  
+}
+
+
+char _wrap_libraw_custom_camera_t_bm_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->bm);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_lf_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, short _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->lf = arg2;
+  
+}
+
+
+short _wrap_libraw_custom_camera_t_lf_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->lf);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_cf_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, char _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->cf = arg2;
+  
+}
+
+
+char _wrap_libraw_custom_camera_t_cf_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->cf);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_max_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, char _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->max = arg2;
+  
+}
+
+
+char _wrap_libraw_custom_camera_t_max_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->max);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_flags_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, char _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (uchar)_swig_go_1; 
+  
+  if (arg1) (arg1)->flags = arg2;
+  
+}
+
+
+char _wrap_libraw_custom_camera_t_flags_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  uchar result;
+  char _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (uchar) ((arg1)->flags);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_t_make_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->t_make, (const char *)arg2, 10-1);
+      arg1->t_make[10-1] = 0;
+    } else {
+      arg1->t_make[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_custom_camera_t_t_make_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->t_make);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_t_model_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, _gostring_ _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  char *arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  arg2 = (char *)malloc(_swig_go_1.n + 1);
+  memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
+  arg2[_swig_go_1.n] = '\0';
+  
+  
+  {
+    if(arg2) {
+      strncpy((char*)arg1->t_model, (const char *)arg2, 20-1);
+      arg1->t_model[20-1] = 0;
+    } else {
+      arg1->t_model[0] = 0;
+    }
+  }
+  
+  free(arg2); 
+}
+
+
+_gostring_ _wrap_libraw_custom_camera_t_t_model_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  char *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (char *)(char *) ((arg1)->t_model);
+  _swig_go_result = Swig_AllocateString((char*)result, result ? strlen((char*)result) : 0); 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_custom_camera_t_offset_set_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0, short _swig_go_1) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->offset = arg2;
+  
+}
+
+
+short _wrap_libraw_custom_camera_t_offset_get_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->offset);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+libraw_custom_camera_t *_wrap_new_libraw_custom_camera_t_librawgo_91c7e8cf36b5548d() {
+  libraw_custom_camera_t *result = 0 ;
+  libraw_custom_camera_t *_swig_go_result;
+  
+  
+  result = (libraw_custom_camera_t *)calloc(1, sizeof(libraw_custom_camera_t));
+  *(libraw_custom_camera_t **)&_swig_go_result = (libraw_custom_camera_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_custom_camera_t_librawgo_91c7e8cf36b5548d(libraw_custom_camera_t *_swig_go_0) {
+  libraw_custom_camera_t *arg1 = (libraw_custom_camera_t *) 0 ;
+  
+  arg1 = *(libraw_custom_camera_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_libraw_data_t_image_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, short **_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  ushort (*arg2)[4] = (ushort (*)[4]) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(ushort (**)[4])&_swig_go_1; 
+  
+  if (arg1) (arg1)->image = (ushort (*)[4])arg2;
+  
+}
+
+
+short **_wrap_libraw_data_t_image_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  ushort (*result)[4] = 0 ;
+  short **_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (ushort (*)[4]) ((arg1)->image);
+  *(ushort (**)[4])&_swig_go_result = (ushort (*)[4])result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_sizes_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, libraw_image_sizes_t *_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_image_sizes_t *arg2 = (libraw_image_sizes_t *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(libraw_image_sizes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->sizes = *arg2;
+  
+}
+
+
+libraw_image_sizes_t *_wrap_libraw_data_t_sizes_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_image_sizes_t *result = 0 ;
+  libraw_image_sizes_t *_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (libraw_image_sizes_t *)& ((arg1)->sizes);
+  *(libraw_image_sizes_t **)&_swig_go_result = (libraw_image_sizes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_idata_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, libraw_iparams_t *_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_iparams_t *arg2 = (libraw_iparams_t *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(libraw_iparams_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->idata = *arg2;
+  
+}
+
+
+libraw_iparams_t *_wrap_libraw_data_t_idata_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_iparams_t *result = 0 ;
+  libraw_iparams_t *_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (libraw_iparams_t *)& ((arg1)->idata);
+  *(libraw_iparams_t **)&_swig_go_result = (libraw_iparams_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_lens_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, libraw_lensinfo_t *_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_lensinfo_t *arg2 = (libraw_lensinfo_t *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(libraw_lensinfo_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->lens = *arg2;
+  
+}
+
+
+libraw_lensinfo_t *_wrap_libraw_data_t_lens_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_lensinfo_t *result = 0 ;
+  libraw_lensinfo_t *_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (libraw_lensinfo_t *)& ((arg1)->lens);
+  *(libraw_lensinfo_t **)&_swig_go_result = (libraw_lensinfo_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_makernotes_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, libraw_makernotes_t *_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_makernotes_t *arg2 = (libraw_makernotes_t *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(libraw_makernotes_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->makernotes = *arg2;
+  
+}
+
+
+libraw_makernotes_t *_wrap_libraw_data_t_makernotes_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_makernotes_t *result = 0 ;
+  libraw_makernotes_t *_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (libraw_makernotes_t *)& ((arg1)->makernotes);
+  *(libraw_makernotes_t **)&_swig_go_result = (libraw_makernotes_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_shootinginfo_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, libraw_shootinginfo_t *_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_shootinginfo_t *arg2 = (libraw_shootinginfo_t *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(libraw_shootinginfo_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->shootinginfo = *arg2;
+  
+}
+
+
+libraw_shootinginfo_t *_wrap_libraw_data_t_shootinginfo_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_shootinginfo_t *result = 0 ;
+  libraw_shootinginfo_t *_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (libraw_shootinginfo_t *)& ((arg1)->shootinginfo);
+  *(libraw_shootinginfo_t **)&_swig_go_result = (libraw_shootinginfo_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_params_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, libraw_output_params_t *_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_output_params_t *arg2 = (libraw_output_params_t *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(libraw_output_params_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->params = *arg2;
+  
+}
+
+
+libraw_output_params_t *_wrap_libraw_data_t_params_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_output_params_t *result = 0 ;
+  libraw_output_params_t *_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (libraw_output_params_t *)& ((arg1)->params);
+  *(libraw_output_params_t **)&_swig_go_result = (libraw_output_params_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_progress_flags_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->progress_flags = arg2;
+  
+}
+
+
+intgo _wrap_libraw_data_t_progress_flags_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->progress_flags);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_process_warnings_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->process_warnings = arg2;
+  
+}
+
+
+intgo _wrap_libraw_data_t_process_warnings_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->process_warnings);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_color_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, libraw_colordata_t *_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_colordata_t *arg2 = (libraw_colordata_t *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(libraw_colordata_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->color = *arg2;
+  
+}
+
+
+libraw_colordata_t *_wrap_libraw_data_t_color_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_colordata_t *result = 0 ;
+  libraw_colordata_t *_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (libraw_colordata_t *)& ((arg1)->color);
+  *(libraw_colordata_t **)&_swig_go_result = (libraw_colordata_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_other_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, libraw_imgother_t *_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_imgother_t *arg2 = (libraw_imgother_t *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(libraw_imgother_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->other = *arg2;
+  
+}
+
+
+libraw_imgother_t *_wrap_libraw_data_t_other_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_imgother_t *result = 0 ;
+  libraw_imgother_t *_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (libraw_imgother_t *)& ((arg1)->other);
+  *(libraw_imgother_t **)&_swig_go_result = (libraw_imgother_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_thumbnail_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, libraw_thumbnail_t *_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_thumbnail_t *arg2 = (libraw_thumbnail_t *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(libraw_thumbnail_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->thumbnail = *arg2;
+  
+}
+
+
+libraw_thumbnail_t *_wrap_libraw_data_t_thumbnail_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_thumbnail_t *result = 0 ;
+  libraw_thumbnail_t *_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (libraw_thumbnail_t *)& ((arg1)->thumbnail);
+  *(libraw_thumbnail_t **)&_swig_go_result = (libraw_thumbnail_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_rawdata_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, libraw_rawdata_t *_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_rawdata_t *arg2 = (libraw_rawdata_t *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(libraw_rawdata_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->rawdata = *arg2;
+  
+}
+
+
+libraw_rawdata_t *_wrap_libraw_data_t_rawdata_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  libraw_rawdata_t *result = 0 ;
+  libraw_rawdata_t *_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (libraw_rawdata_t *)& ((arg1)->rawdata);
+  *(libraw_rawdata_t **)&_swig_go_result = (libraw_rawdata_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_libraw_data_t_parent_class_set_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, void *_swig_go_1) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  void *arg2 = (void *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  arg2 = *(void **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->parent_class = arg2;
+  
+}
+
+
+void *_wrap_libraw_data_t_parent_class_get_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  void *result = 0 ;
+  void *_swig_go_result;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  result = (void *) ((arg1)->parent_class);
+  *(void **)&_swig_go_result = (void *)result; 
+  return _swig_go_result;
+}
+
+
+libraw_data_t *_wrap_new_libraw_data_t_librawgo_91c7e8cf36b5548d() {
+  libraw_data_t *result = 0 ;
+  libraw_data_t *_swig_go_result;
+  
+  
+  result = (libraw_data_t *)calloc(1, sizeof(libraw_data_t));
+  *(libraw_data_t **)&_swig_go_result = (libraw_data_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_libraw_data_t_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
+  libraw_data_t *arg1 = (libraw_data_t *) 0 ;
+  
+  arg1 = *(libraw_data_t **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+void _wrap_fuji_compressed_params_q_table_set_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0, int8_t *_swig_go_1) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int8_t *arg2 = (int8_t *) 0 ;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  arg2 = *(int8_t **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->q_table = arg2;
+  
+}
+
+
+int8_t *_wrap_fuji_compressed_params_q_table_get_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int8_t *result = 0 ;
+  int8_t *_swig_go_result;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  
+  result = (int8_t *) ((arg1)->q_table);
+  *(int8_t **)&_swig_go_result = (int8_t *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_fuji_compressed_params_q_point_set_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0, intgo *_swig_go_1) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int *arg2 ;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  arg2 = *(int **)&_swig_go_1; 
+  
+  {
+    size_t ii;
+    int *b = (int *) arg1->q_point;
+    for (ii = 0; ii < (size_t)5; ii++) b[ii] = *((int *) arg2 + ii);
+  }
+  
+}
+
+
+intgo *_wrap_fuji_compressed_params_q_point_get_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int *result = 0 ;
+  intgo *_swig_go_result;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  
+  result = (int *)(int *) ((arg1)->q_point);
+  *(int **)&_swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_fuji_compressed_params_max_bits_set_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0, intgo _swig_go_1) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->max_bits = arg2;
+  
+}
+
+
+intgo _wrap_fuji_compressed_params_max_bits_get_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->max_bits);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_fuji_compressed_params_min_value_set_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0, intgo _swig_go_1) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->min_value = arg2;
+  
+}
+
+
+intgo _wrap_fuji_compressed_params_min_value_get_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->min_value);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_fuji_compressed_params_raw_bits_set_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0, intgo _swig_go_1) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->raw_bits = arg2;
+  
+}
+
+
+intgo _wrap_fuji_compressed_params_raw_bits_get_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->raw_bits);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_fuji_compressed_params_total_values_set_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0, intgo _swig_go_1) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->total_values = arg2;
+  
+}
+
+
+intgo _wrap_fuji_compressed_params_total_values_get_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->total_values);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_fuji_compressed_params_maxDiff_set_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0, intgo _swig_go_1) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->maxDiff = arg2;
+  
+}
+
+
+intgo _wrap_fuji_compressed_params_maxDiff_get_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->maxDiff);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_fuji_compressed_params_line_width_set_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0, short _swig_go_1) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  ushort arg2 ;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  arg2 = (ushort)_swig_go_1; 
+  
+  if (arg1) (arg1)->line_width = arg2;
+  
+}
+
+
+short _wrap_fuji_compressed_params_line_width_get_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  ushort result;
+  short _swig_go_result;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  
+  result = (ushort) ((arg1)->line_width);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+struct fuji_compressed_params *_wrap_new_fuji_compressed_params_librawgo_91c7e8cf36b5548d() {
+  struct fuji_compressed_params *result = 0 ;
+  struct fuji_compressed_params *_swig_go_result;
+  
+  
+  result = (struct fuji_compressed_params *)calloc(1, sizeof(struct fuji_compressed_params));
+  *(struct fuji_compressed_params **)&_swig_go_result = (struct fuji_compressed_params *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_fuji_compressed_params_librawgo_91c7e8cf36b5548d(struct fuji_compressed_params *_swig_go_0) {
+  struct fuji_compressed_params *arg1 = (struct fuji_compressed_params *) 0 ;
+  
+  arg1 = *(struct fuji_compressed_params **)&_swig_go_0; 
+  
+  free((char *) arg1);
+  
+}
+
+
+long long _wrap_LIBRAW_USE_STREAMS_DATASTREAM_MAXSIZE_librawgo_91c7e8cf36b5548d() {
   long result;
   long long _swig_go_result;
   
@@ -266,7 +23152,7 @@ long long _wrap_LIBRAW_USE_STREAMS_DATASTREAM_MAXSIZE_librawgo_09f81801a9d9dec9(
 }
 
 
-_gostring_ _wrap_libraw_strerror_librawgo_09f81801a9d9dec9(intgo _swig_go_0) {
+_gostring_ _wrap_libraw_strerror_librawgo_91c7e8cf36b5548d(intgo _swig_go_0) {
   int arg1 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -279,7 +23165,7 @@ _gostring_ _wrap_libraw_strerror_librawgo_09f81801a9d9dec9(intgo _swig_go_0) {
 }
 
 
-_gostring_ _wrap_libraw_strprogress_librawgo_09f81801a9d9dec9(intgo _swig_go_0) {
+_gostring_ _wrap_libraw_strprogress_librawgo_91c7e8cf36b5548d(intgo _swig_go_0) {
   enum LibRaw_progress arg1 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -292,7 +23178,7 @@ _gostring_ _wrap_libraw_strprogress_librawgo_09f81801a9d9dec9(intgo _swig_go_0) 
 }
 
 
-libraw_data_t *_wrap_libraw_init_librawgo_09f81801a9d9dec9(intgo _swig_go_0) {
+libraw_data_t *_wrap_libraw_init_librawgo_91c7e8cf36b5548d(intgo _swig_go_0) {
   unsigned int arg1 ;
   libraw_data_t *result = 0 ;
   libraw_data_t *_swig_go_result;
@@ -305,7 +23191,7 @@ libraw_data_t *_wrap_libraw_init_librawgo_09f81801a9d9dec9(intgo _swig_go_0) {
 }
 
 
-intgo _wrap_libraw_open_file_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_libraw_open_file_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, _gostring_ _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   char *arg2 = (char *) 0 ;
   int result;
@@ -325,11 +23211,10 @@ intgo _wrap_libraw_open_file_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0
 }
 
 
-intgo _wrap_libraw_open_file_ex_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, _gostring_ _swig_go_1, INT64 *_swig_go_2) {
+intgo _wrap_libraw_open_file_ex_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   char *arg2 = (char *) 0 ;
   INT64 arg3 ;
-  INT64 *argp3 ;
   int result;
   intgo _swig_go_result;
   
@@ -339,13 +23224,7 @@ intgo _wrap_libraw_open_file_ex_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_g
   memcpy(arg2, _swig_go_1.p, _swig_go_1.n);
   arg2[_swig_go_1.n] = '\0';
   
-  
-  argp3 = (INT64 *)_swig_go_2;
-  if (argp3 == NULL) {
-    _swig_gopanic("Attempt to dereference null INT64");
-  }
-  arg3 = (INT64)*argp3;
-  
+  arg3 = (INT64)_swig_go_2; 
   
   result = (int)libraw_open_file_ex(arg1,(char const *)arg2,arg3);
   _swig_go_result = result; 
@@ -354,7 +23233,7 @@ intgo _wrap_libraw_open_file_ex_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_g
 }
 
 
-intgo _wrap_libraw_open_buffer_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
+intgo _wrap_libraw_open_buffer_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   void *arg2 = (void *) 0 ;
   size_t arg3 ;
@@ -371,7 +23250,7 @@ intgo _wrap_libraw_open_buffer_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go
 }
 
 
-intgo _wrap_libraw_unpack_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+intgo _wrap_libraw_unpack_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -384,7 +23263,7 @@ intgo _wrap_libraw_unpack_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
 }
 
 
-intgo _wrap_libraw_unpack_thumb_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+intgo _wrap_libraw_unpack_thumb_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -397,7 +23276,7 @@ intgo _wrap_libraw_unpack_thumb_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_g
 }
 
 
-void _wrap_libraw_recycle_datastream_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+void _wrap_libraw_recycle_datastream_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   
   arg1 = *(libraw_data_t **)&_swig_go_0; 
@@ -407,7 +23286,7 @@ void _wrap_libraw_recycle_datastream_librawgo_09f81801a9d9dec9(libraw_data_t *_s
 }
 
 
-void _wrap_libraw_recycle_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+void _wrap_libraw_recycle_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   
   arg1 = *(libraw_data_t **)&_swig_go_0; 
@@ -417,7 +23296,7 @@ void _wrap_libraw_recycle_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
 }
 
 
-void _wrap_libraw_close_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+void _wrap_libraw_close_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   
   arg1 = *(libraw_data_t **)&_swig_go_0; 
@@ -427,7 +23306,7 @@ void _wrap_libraw_close_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
 }
 
 
-void _wrap_libraw_subtract_black_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+void _wrap_libraw_subtract_black_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   
   arg1 = *(libraw_data_t **)&_swig_go_0; 
@@ -437,7 +23316,7 @@ void _wrap_libraw_subtract_black_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_
 }
 
 
-intgo _wrap_libraw_raw2image_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+intgo _wrap_libraw_raw2image_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -450,7 +23329,7 @@ intgo _wrap_libraw_raw2image_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0
 }
 
 
-void _wrap_libraw_free_image_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+void _wrap_libraw_free_image_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   
   arg1 = *(libraw_data_t **)&_swig_go_0; 
@@ -460,7 +23339,7 @@ void _wrap_libraw_free_image_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0
 }
 
 
-_gostring_ _wrap_libraw_version_librawgo_09f81801a9d9dec9() {
+_gostring_ _wrap_libraw_version_librawgo_91c7e8cf36b5548d() {
   char *result = 0 ;
   _gostring_ _swig_go_result;
   
@@ -471,7 +23350,7 @@ _gostring_ _wrap_libraw_version_librawgo_09f81801a9d9dec9() {
 }
 
 
-intgo _wrap_libraw_versionNumber_librawgo_09f81801a9d9dec9() {
+intgo _wrap_libraw_versionNumber_librawgo_91c7e8cf36b5548d() {
   int result;
   intgo _swig_go_result;
   
@@ -482,7 +23361,7 @@ intgo _wrap_libraw_versionNumber_librawgo_09f81801a9d9dec9() {
 }
 
 
-_gostring_* _wrap_libraw_cameraList_librawgo_09f81801a9d9dec9() {
+_gostring_* _wrap_libraw_cameraList_librawgo_91c7e8cf36b5548d() {
   char **result = 0 ;
   _gostring_* _swig_go_result;
   
@@ -493,7 +23372,7 @@ _gostring_* _wrap_libraw_cameraList_librawgo_09f81801a9d9dec9() {
 }
 
 
-intgo _wrap_libraw_cameraCount_librawgo_09f81801a9d9dec9() {
+intgo _wrap_libraw_cameraCount_librawgo_91c7e8cf36b5548d() {
   int result;
   intgo _swig_go_result;
   
@@ -504,20 +23383,13 @@ intgo _wrap_libraw_cameraCount_librawgo_09f81801a9d9dec9() {
 }
 
 
-void _wrap_libraw_set_memerror_handler_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, memory_callback *_swig_go_1, void *_swig_go_2) {
+void _wrap_libraw_set_memerror_handler_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, void* _swig_go_1, void *_swig_go_2) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
-  memory_callback arg2 ;
+  memory_callback arg2 = (memory_callback) 0 ;
   void *arg3 = (void *) 0 ;
-  memory_callback *argp2 ;
   
   arg1 = *(libraw_data_t **)&_swig_go_0; 
-  
-  argp2 = (memory_callback *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null memory_callback");
-  }
-  arg2 = (memory_callback)*argp2;
-  
+  arg2 = *(memory_callback *)&_swig_go_1; 
   arg3 = *(void **)&_swig_go_2; 
   
   libraw_set_memerror_handler(arg1,arg2,arg3);
@@ -525,20 +23397,13 @@ void _wrap_libraw_set_memerror_handler_librawgo_09f81801a9d9dec9(libraw_data_t *
 }
 
 
-void _wrap_libraw_set_exifparser_handler_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, exif_parser_callback *_swig_go_1, void *_swig_go_2) {
+void _wrap_libraw_set_exifparser_handler_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, void* _swig_go_1, void *_swig_go_2) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
-  exif_parser_callback arg2 ;
+  exif_parser_callback arg2 = (exif_parser_callback) 0 ;
   void *arg3 = (void *) 0 ;
-  exif_parser_callback *argp2 ;
   
   arg1 = *(libraw_data_t **)&_swig_go_0; 
-  
-  argp2 = (exif_parser_callback *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null exif_parser_callback");
-  }
-  arg2 = (exif_parser_callback)*argp2;
-  
+  arg2 = *(exif_parser_callback *)&_swig_go_1; 
   arg3 = *(void **)&_swig_go_2; 
   
   libraw_set_exifparser_handler(arg1,arg2,arg3);
@@ -546,20 +23411,13 @@ void _wrap_libraw_set_exifparser_handler_librawgo_09f81801a9d9dec9(libraw_data_t
 }
 
 
-void _wrap_libraw_set_dataerror_handler_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, data_callback *_swig_go_1, void *_swig_go_2) {
+void _wrap_libraw_set_dataerror_handler_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, void* _swig_go_1, void *_swig_go_2) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
-  data_callback arg2 ;
+  data_callback arg2 = (data_callback) 0 ;
   void *arg3 = (void *) 0 ;
-  data_callback *argp2 ;
   
   arg1 = *(libraw_data_t **)&_swig_go_0; 
-  
-  argp2 = (data_callback *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null data_callback");
-  }
-  arg2 = (data_callback)*argp2;
-  
+  arg2 = *(data_callback *)&_swig_go_1; 
   arg3 = *(void **)&_swig_go_2; 
   
   libraw_set_dataerror_handler(arg1,arg2,arg3);
@@ -567,20 +23425,13 @@ void _wrap_libraw_set_dataerror_handler_librawgo_09f81801a9d9dec9(libraw_data_t 
 }
 
 
-void _wrap_libraw_set_progress_handler_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, progress_callback *_swig_go_1, void *_swig_go_2) {
+void _wrap_libraw_set_progress_handler_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, void* _swig_go_1, void *_swig_go_2) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
-  progress_callback arg2 ;
+  progress_callback arg2 = (progress_callback) 0 ;
   void *arg3 = (void *) 0 ;
-  progress_callback *argp2 ;
   
   arg1 = *(libraw_data_t **)&_swig_go_0; 
-  
-  argp2 = (progress_callback *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null progress_callback");
-  }
-  arg2 = (progress_callback)*argp2;
-  
+  arg2 = *(progress_callback *)&_swig_go_1; 
   arg3 = *(void **)&_swig_go_2; 
   
   libraw_set_progress_handler(arg1,arg2,arg3);
@@ -588,7 +23439,7 @@ void _wrap_libraw_set_progress_handler_librawgo_09f81801a9d9dec9(libraw_data_t *
 }
 
 
-_gostring_ _wrap_libraw_unpack_function_name_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+_gostring_ _wrap_libraw_unpack_function_name_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -601,7 +23452,7 @@ _gostring_ _wrap_libraw_unpack_function_name_librawgo_09f81801a9d9dec9(libraw_da
 }
 
 
-intgo _wrap_libraw_get_decoder_info_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, libraw_decoder_info_t *_swig_go_1) {
+intgo _wrap_libraw_get_decoder_info_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, libraw_decoder_info_t *_swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   libraw_decoder_info_t *arg2 = (libraw_decoder_info_t *) 0 ;
   int result;
@@ -616,7 +23467,7 @@ intgo _wrap_libraw_get_decoder_info_librawgo_09f81801a9d9dec9(libraw_data_t *_sw
 }
 
 
-intgo _wrap_libraw_COLOR_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_libraw_COLOR_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -633,7 +23484,7 @@ intgo _wrap_libraw_COLOR_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, in
 }
 
 
-intgo _wrap_libraw_capabilities_librawgo_09f81801a9d9dec9() {
+intgo _wrap_libraw_capabilities_librawgo_91c7e8cf36b5548d() {
   unsigned int result;
   intgo _swig_go_result;
   
@@ -644,7 +23495,7 @@ intgo _wrap_libraw_capabilities_librawgo_09f81801a9d9dec9() {
 }
 
 
-intgo _wrap_libraw_adjust_sizes_info_only_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+intgo _wrap_libraw_adjust_sizes_info_only_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -657,7 +23508,7 @@ intgo _wrap_libraw_adjust_sizes_info_only_librawgo_09f81801a9d9dec9(libraw_data_
 }
 
 
-intgo _wrap_libraw_dcraw_ppm_tiff_writer_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_libraw_dcraw_ppm_tiff_writer_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, _gostring_ _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   char *arg2 = (char *) 0 ;
   int result;
@@ -677,7 +23528,7 @@ intgo _wrap_libraw_dcraw_ppm_tiff_writer_librawgo_09f81801a9d9dec9(libraw_data_t
 }
 
 
-intgo _wrap_libraw_dcraw_thumb_writer_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_libraw_dcraw_thumb_writer_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, _gostring_ _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   char *arg2 = (char *) 0 ;
   int result;
@@ -697,7 +23548,7 @@ intgo _wrap_libraw_dcraw_thumb_writer_librawgo_09f81801a9d9dec9(libraw_data_t *_
 }
 
 
-intgo _wrap_libraw_dcraw_process_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+intgo _wrap_libraw_dcraw_process_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -710,7 +23561,7 @@ intgo _wrap_libraw_dcraw_process_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_
 }
 
 
-libraw_processed_image_t *_wrap_libraw_dcraw_make_mem_image_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo *_swig_go_1) {
+libraw_processed_image_t *_wrap_libraw_dcraw_make_mem_image_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo *_swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int *arg2 = (int *) 0 ;
   libraw_processed_image_t *result = 0 ;
@@ -725,7 +23576,7 @@ libraw_processed_image_t *_wrap_libraw_dcraw_make_mem_image_librawgo_09f81801a9d
 }
 
 
-libraw_processed_image_t *_wrap_libraw_dcraw_make_mem_thumb_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo *_swig_go_1) {
+libraw_processed_image_t *_wrap_libraw_dcraw_make_mem_thumb_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo *_swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int *arg2 = (int *) 0 ;
   libraw_processed_image_t *result = 0 ;
@@ -740,7 +23591,7 @@ libraw_processed_image_t *_wrap_libraw_dcraw_make_mem_thumb_librawgo_09f81801a9d
 }
 
 
-void _wrap_libraw_dcraw_clear_mem_librawgo_09f81801a9d9dec9(libraw_processed_image_t *_swig_go_0) {
+void _wrap_libraw_dcraw_clear_mem_librawgo_91c7e8cf36b5548d(libraw_processed_image_t *_swig_go_0) {
   libraw_processed_image_t *arg1 = (libraw_processed_image_t *) 0 ;
   
   arg1 = *(libraw_processed_image_t **)&_swig_go_0; 
@@ -750,7 +23601,7 @@ void _wrap_libraw_dcraw_clear_mem_librawgo_09f81801a9d9dec9(libraw_processed_ima
 }
 
 
-void _wrap_libraw_set_demosaic_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
+void _wrap_libraw_set_demosaic_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   
@@ -762,7 +23613,7 @@ void _wrap_libraw_set_demosaic_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go
 }
 
 
-void _wrap_libraw_set_output_color_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
+void _wrap_libraw_set_output_color_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   
@@ -774,7 +23625,7 @@ void _wrap_libraw_set_output_color_librawgo_09f81801a9d9dec9(libraw_data_t *_swi
 }
 
 
-void _wrap_libraw_set_user_mul_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1, float _swig_go_2) {
+void _wrap_libraw_set_user_mul_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1, float _swig_go_2) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   float arg3 ;
@@ -788,7 +23639,7 @@ void _wrap_libraw_set_user_mul_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go
 }
 
 
-void _wrap_libraw_set_output_bps_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
+void _wrap_libraw_set_output_bps_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   
@@ -800,7 +23651,7 @@ void _wrap_libraw_set_output_bps_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_
 }
 
 
-void _wrap_libraw_set_gamma_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1, float _swig_go_2) {
+void _wrap_libraw_set_gamma_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1, float _swig_go_2) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   float arg3 ;
@@ -814,7 +23665,7 @@ void _wrap_libraw_set_gamma_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0,
 }
 
 
-void _wrap_libraw_set_no_auto_bright_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
+void _wrap_libraw_set_no_auto_bright_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   
@@ -826,7 +23677,7 @@ void _wrap_libraw_set_no_auto_bright_librawgo_09f81801a9d9dec9(libraw_data_t *_s
 }
 
 
-void _wrap_libraw_set_bright_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, float _swig_go_1) {
+void _wrap_libraw_set_bright_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, float _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   float arg2 ;
   
@@ -838,7 +23689,7 @@ void _wrap_libraw_set_bright_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0
 }
 
 
-void _wrap_libraw_set_highlight_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
+void _wrap_libraw_set_highlight_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   
@@ -850,7 +23701,7 @@ void _wrap_libraw_set_highlight_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_g
 }
 
 
-void _wrap_libraw_set_fbdd_noiserd_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
+void _wrap_libraw_set_fbdd_noiserd_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   
@@ -862,7 +23713,7 @@ void _wrap_libraw_set_fbdd_noiserd_librawgo_09f81801a9d9dec9(libraw_data_t *_swi
 }
 
 
-intgo _wrap_libraw_get_raw_height_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+intgo _wrap_libraw_get_raw_height_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -875,7 +23726,7 @@ intgo _wrap_libraw_get_raw_height_librawgo_09f81801a9d9dec9(libraw_data_t *_swig
 }
 
 
-intgo _wrap_libraw_get_raw_width_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+intgo _wrap_libraw_get_raw_width_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -888,7 +23739,7 @@ intgo _wrap_libraw_get_raw_width_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_
 }
 
 
-intgo _wrap_libraw_get_iheight_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+intgo _wrap_libraw_get_iheight_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -901,7 +23752,7 @@ intgo _wrap_libraw_get_iheight_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go
 }
 
 
-intgo _wrap_libraw_get_iwidth_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+intgo _wrap_libraw_get_iwidth_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -914,7 +23765,7 @@ intgo _wrap_libraw_get_iwidth_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_
 }
 
 
-float _wrap_libraw_get_cam_mul_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
+float _wrap_libraw_get_cam_mul_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   float result;
@@ -929,7 +23780,7 @@ float _wrap_libraw_get_cam_mul_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go
 }
 
 
-float _wrap_libraw_get_pre_mul_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
+float _wrap_libraw_get_pre_mul_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   float result;
@@ -944,7 +23795,7 @@ float _wrap_libraw_get_pre_mul_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go
 }
 
 
-float _wrap_libraw_get_rgb_cam_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+float _wrap_libraw_get_rgb_cam_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -961,7 +23812,7 @@ float _wrap_libraw_get_rgb_cam_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go
 }
 
 
-intgo _wrap_libraw_get_color_maximum_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+intgo _wrap_libraw_get_color_maximum_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -974,7 +23825,7 @@ intgo _wrap_libraw_get_color_maximum_librawgo_09f81801a9d9dec9(libraw_data_t *_s
 }
 
 
-void _wrap_libraw_set_output_tif_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
+void _wrap_libraw_set_output_tif_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0, intgo _swig_go_1) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   int arg2 ;
   
@@ -986,7 +23837,7 @@ void _wrap_libraw_set_output_tif_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_
 }
 
 
-libraw_iparams_t *_wrap_libraw_get_iparams_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+libraw_iparams_t *_wrap_libraw_get_iparams_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   libraw_iparams_t *result = 0 ;
   libraw_iparams_t *_swig_go_result;
@@ -999,7 +23850,7 @@ libraw_iparams_t *_wrap_libraw_get_iparams_librawgo_09f81801a9d9dec9(libraw_data
 }
 
 
-libraw_lensinfo_t *_wrap_libraw_get_lensinfo_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+libraw_lensinfo_t *_wrap_libraw_get_lensinfo_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   libraw_lensinfo_t *result = 0 ;
   libraw_lensinfo_t *_swig_go_result;
@@ -1012,7 +23863,7 @@ libraw_lensinfo_t *_wrap_libraw_get_lensinfo_librawgo_09f81801a9d9dec9(libraw_da
 }
 
 
-libraw_imgother_t *_wrap_libraw_get_imgother_librawgo_09f81801a9d9dec9(libraw_data_t *_swig_go_0) {
+libraw_imgother_t *_wrap_libraw_get_imgother_librawgo_91c7e8cf36b5548d(libraw_data_t *_swig_go_0) {
   libraw_data_t *arg1 = (libraw_data_t *) 0 ;
   libraw_imgother_t *result = 0 ;
   libraw_imgother_t *_swig_go_result;

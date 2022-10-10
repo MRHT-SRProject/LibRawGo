@@ -4,7 +4,8 @@
 #include <libraw/libraw.h>
 %}
 
+%include "libraw_const.h"
+%include "libraw_types.h"
 %include "libraw.h"
-
 
 
