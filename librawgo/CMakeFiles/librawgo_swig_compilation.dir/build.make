@@ -73,7 +73,7 @@ CMakeFiles/librawgo.dir/librawgoGO.stamp: /home/rich/code/LibRawGo/src/librawgo.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rich/code/LibRawGo/librawgo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Swig compile /home/rich/code/LibRawGo/src/librawgo.i for go"
 	/usr/bin/cmake -E make_directory /home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir /home/rich/code/LibRawGo/librawgo /home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir
 	/usr/bin/cmake -E touch /home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO.stamp
-	/usr/bin/cmake -E env SWIG_LIB=/usr/share/swig/4.0.2 /usr/bin/swig -go -I/home/rich/code/LibRawGo/include -go -intgosize 64 -cpperraswarn -outdir /home/rich/code/LibRawGo/librawgo -o /home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO_wrap.c /home/rich/code/LibRawGo/src/librawgo.i
+	/usr/bin/cmake -E env SWIG_LIB=/usr/share/swig/4.0.2 /usr/bin/swig -go -I/home/rich/code/LibRawGo/include -go -intgosize 64 -outdir /home/rich/code/LibRawGo/librawgo -c++ -o /home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx /home/rich/code/LibRawGo/src/librawgo.i
 
 librawgo_swig_compilation: CMakeFiles/librawgo.dir/librawgoGO.stamp
 librawgo_swig_compilation: CMakeFiles/librawgo_swig_compilation

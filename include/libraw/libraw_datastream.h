@@ -81,7 +81,7 @@ it under the terms of the one of two licenses as you choose:
 class LibRaw_buffer_datastream;
 class LibRaw_bit_buffer;
 
-class DllDef LibRaw_abstract_datastream
+class LibRaw_abstract_datastream
 {
 public:
   LibRaw_abstract_datastream() { };
@@ -110,13 +110,13 @@ public:
 
 #ifdef LIBRAW_WIN32_DLLDEFS
 #ifdef LIBRAW_USE_AUTOPTR
-template class DllDef std::auto_ptr<std::streambuf>;
+template class std::auto_ptr<std::streambuf>;
 #else
-template class DllDef std::unique_ptr<std::streambuf>;
+template class std::unique_ptr<std::streambuf>;
 #endif
 #endif
 
-class DllDef LibRaw_file_datastream : public LibRaw_abstract_datastream
+class LibRaw_file_datastream : public LibRaw_abstract_datastream
 {
 protected:
 #ifdef LIBRAW_USE_AUTOPTR
@@ -153,7 +153,7 @@ public:
 #endif
 };
 
-class DllDef LibRaw_buffer_datastream : public LibRaw_abstract_datastream
+class LibRaw_buffer_datastream : public LibRaw_abstract_datastream
 {
 public:
   LibRaw_buffer_datastream(void *buffer, size_t bsize);
@@ -179,7 +179,7 @@ private:
   size_t streampos, streamsize;
 };
 
-class DllDef LibRaw_bigfile_datastream : public LibRaw_abstract_datastream
+class LibRaw_bigfile_datastream : public LibRaw_abstract_datastream
 {
 public:
   LibRaw_bigfile_datastream(const char *fname);
@@ -220,7 +220,7 @@ protected:
 };
 
 #ifdef LIBRAW_WIN32_CALLS
-class DllDef LibRaw_windows_datastream : public LibRaw_buffer_datastream
+class LibRaw_windows_datastream : public LibRaw_buffer_datastream
 {
 public:
   /* ctor: high level constructor opens a file by name */

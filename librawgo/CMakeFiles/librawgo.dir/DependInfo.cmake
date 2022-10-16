@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO_wrap.c" "CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o" "gcc" "CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o.d"
+  "/home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx" "CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o" "gcc" "CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o.d"
   )
 
 # Targets to which this target links.

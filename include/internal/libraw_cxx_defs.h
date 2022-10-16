@@ -20,8 +20,8 @@ it under the terms of the one of two licenses as you choose:
 #include <math.h>
 #include <errno.h>
 #include <float.h>
-#include <new>
-#include <exception>
+// #include <new>
+// #include <exception>
 #include <sys/types.h>
 #include <sys/stat.h>
 #define LIBRAW_LIBRARY_BUILD

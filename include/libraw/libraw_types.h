@@ -134,12 +134,12 @@ typedef unsigned long long UINT64;
                                        int len, unsigned int ord, void *ifp,
                                        INT64 base);
 
-  DllDef void default_memory_callback(void *data, const char *file,
+  void default_memory_callback(void *data, const char *file,
                                       const char *where);
 
   typedef void (*data_callback)(void *data, const char *file, const int offset);
 
-  DllDef void default_data_callback(void *data, const char *file,
+  void default_data_callback(void *data, const char *file,
                                     const int offset);
 
   typedef int (*progress_callback)(void *data, enum LibRaw_progress stage,

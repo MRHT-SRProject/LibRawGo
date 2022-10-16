@@ -61,9 +61,9 @@ message("\n--------------------------------\n")
 
 
 set(${PROJECT_NAME}_sources ${CMAKE_SOURCE_DIR}/src/librawgo.i )
-set_property(SOURCE {${PROJECT_NAME}_sources} PROPERTY CPLUSPLUS ON)
 
 
+set_property(SOURCE ${${PROJECT_NAME}_sources} PROPERTY CPLUSPLUS ON)
 swig_add_library(${PROJECT_NAME} TYPE STATIC LANGUAGE go SOURCES ${${PROJECT_NAME}_sources})
 
 # NOTE: this will slow down compilation, but you'll have static code analysis :)

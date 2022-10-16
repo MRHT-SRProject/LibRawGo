@@ -27,7 +27,7 @@ it under the terms of the one of two licenses as you choose:
 
 #define LIBRAW_MSIZE 512
 
-class DllDef libraw_memmgr
+class libraw_memmgr
 {
 public:
   libraw_memmgr(unsigned ee) : extra_bytes(ee)

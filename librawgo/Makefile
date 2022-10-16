@@ -142,29 +142,29 @@ librawgo_swig_compilation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/librawgo_swig_compilation.dir/build.make CMakeFiles/librawgo_swig_compilation.dir/build
 .PHONY : librawgo_swig_compilation/fast
 
-CMakeFiles/librawgo.dir/librawgoGO_wrap.o: CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o
+CMakeFiles/librawgo.dir/librawgoGO_wrap.o: CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o
 .PHONY : CMakeFiles/librawgo.dir/librawgoGO_wrap.o
 
 # target to build an object file
-CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/librawgo.dir/build.make CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o
-.PHONY : CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o
+CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/librawgo.dir/build.make CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o
+.PHONY : CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o
 
-CMakeFiles/librawgo.dir/librawgoGO_wrap.i: CMakeFiles/librawgo.dir/librawgoGO_wrap.c.i
+CMakeFiles/librawgo.dir/librawgoGO_wrap.i: CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.i
 .PHONY : CMakeFiles/librawgo.dir/librawgoGO_wrap.i
 
 # target to preprocess a source file
-CMakeFiles/librawgo.dir/librawgoGO_wrap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/librawgo.dir/build.make CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.i
-.PHONY : CMakeFiles/librawgo.dir/librawgoGO_wrap.c.i
+CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/librawgo.dir/build.make CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.i
+.PHONY : CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.i
 
-CMakeFiles/librawgo.dir/librawgoGO_wrap.s: CMakeFiles/librawgo.dir/librawgoGO_wrap.c.s
+CMakeFiles/librawgo.dir/librawgoGO_wrap.s: CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.s
 .PHONY : CMakeFiles/librawgo.dir/librawgoGO_wrap.s
 
 # target to generate assembly for a file
-CMakeFiles/librawgo.dir/librawgoGO_wrap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/librawgo.dir/build.make CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.s
-.PHONY : CMakeFiles/librawgo.dir/librawgoGO_wrap.c.s
+CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/librawgo.dir/build.make CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.s
+.PHONY : CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.s
 
 # Help Target
 help:

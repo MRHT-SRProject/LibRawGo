@@ -69,31 +69,31 @@ include CMakeFiles/librawgo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/librawgo.dir/flags.make
 
-CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o: CMakeFiles/librawgo.dir/flags.make
-CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o: CMakeFiles/librawgo.dir/librawgoGO_wrap.c
-CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o: CMakeFiles/librawgo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rich/code/LibRawGo/librawgo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o -MF CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o.d -o CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o -c /home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO_wrap.c
+CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o: CMakeFiles/librawgo.dir/flags.make
+CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o: CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx
+CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o: CMakeFiles/librawgo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rich/code/LibRawGo/librawgo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o"
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy="/usr/bin/clang-tidy;--extra-arg-before=--driver-mode=g++" --source=/home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx -- /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o -MF CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o.d -o CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o -c /home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx
 
-CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO_wrap.c > CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.i
+CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx > CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.i
 
-CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO_wrap.c -o CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.s
+CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rich/code/LibRawGo/librawgo/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx -o CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.s
 
 # Object files for target librawgo
 librawgo_OBJECTS = \
-"CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o"
+"CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o"
 
 # External object files for target librawgo
 librawgo_EXTERNAL_OBJECTS =
 
-librawgo.a: CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.c.o
+librawgo.a: CMakeFiles/librawgo.dir/CMakeFiles/librawgo.dir/librawgoGO_wrap.cxx.o
 librawgo.a: CMakeFiles/librawgo.dir/build.make
 librawgo.a: CMakeFiles/librawgo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rich/code/LibRawGo/librawgo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library librawgo.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rich/code/LibRawGo/librawgo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library librawgo.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/librawgo.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/librawgo.dir/link.txt --verbose=$(VERBOSE)
 
