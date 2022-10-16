@@ -1,16 +1,27 @@
-%module librawgo
-%{
-/* Put headers and other declarations here */
-#define __cplusplus 201402L
-#include "internal/libraw_cxx_defs.h"
-#include "libraw/libraw_alloc.h"
-#include "libraw/libraw_datastream.h"
-#include "libraw/libraw_internal.h"
-#include "libraw/libraw_types.h"
-#include "libraw/libraw_version.h"
-#include "libraw/libraw.h"
+/* -*- C++ -*-
+ * Copyright 2019-2020 LibRaw LLC (info@libraw.org)
+ *
+ LibRaw is free software; you can redistribute it and/or modify
+ it under the terms of the one of two licenses as you choose:
 
-static const char * const static_camera_list[] = {
+1. GNU LESSER GENERAL PUBLIC LICENSE version 2.1
+   (See file LICENSE.LGPL provided in LibRaw distribution archive for details).
+
+2. COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0
+   (See file LICENSE.CDDL provided in LibRaw distribution archive for details).
+
+ */
+
+#include "../../internal/libraw_cxx_defs.h"
+#ifdef USE_RAWSPEED
+/* we need separate file for that */
+#include "../../RawSpeed/rawspeed_xmldata.cpp"
+const int RAWSPEED_DATA_COUNT =
+    (sizeof(_rawspeed_data_xml) / sizeof(_rawspeed_data_xml[0]));
+#endif
+// clang-format off
+// Supported cameras:
+static const char *static_camera_list[] = {
 	"Adobe Digital Negative (DNG)",
 	"AgfaPhoto DC-833m",
 	"Alcatel 5035D",
@@ -1167,101 +1178,10 @@ static const char * const static_camera_list[] = {
 	"Zenit M",
 	NULL
 };
+// clang-format on
 
-struct int_pair
+const char **LibRaw::cameraList() { return static_camera_list; }
+int LibRaw::cameraCount()
 {
-  int value1;
-  int value2;
-};
-
-enum _xt_lines
-{
-  _R0 = 0,
-  _R1,
-  _R2,
-  _R3,
-  _R4,
-  _G0,
-  _G1,
-  _G2,
-  _G3,
-  _G4,
-  _G5,
-  _G6,
-  _G7,
-  _B0,
-  _B1,
-  _B2,
-  _B3,
-  _B4,
-  _ltotal
-};
-
-struct fuji_compressed_block
-{
-  int cur_bit;            // current bit being read (from left to right)
-  int cur_pos;            // current position in a buffer
-  INT64 cur_buf_offset;   // offset of this buffer in a file
-  unsigned max_read_size; // Amount of data to be read
-  int cur_buf_size;       // buffer size
-  uchar *cur_buf;         // currently read block
-  int fillbytes;          // Counter to add extra byte for block size N*16
-  LibRaw_abstract_datastream *input;
-  struct int_pair grad_even[3][41]; // tables of gradients
-  struct int_pair grad_odd[3][41];
-  ushort *linealloc;
-  ushort *linebuf[_ltotal];
-};
-
-static void fuji_fill_buffer(struct fuji_compressed_block *info);
-static void fuji_zerobits(struct fuji_compressed_block *info, int *count);
-static void fuji_read_code(struct fuji_compressed_block *info, int *data,
-                                  int bits_to_read);
-static int bitDiff(int value1, int value2);
-static void fuji_decode_interpolation_even(int line_width, ushort *line_buf,
-                                           int pos);
-static void fuji_extend_generic(ushort *linebuf[_ltotal], int line_width,
-                                int start, int end);
-static void fuji_extend_red(ushort *linebuf[_ltotal], int line_width);
-static void fuji_extend_green(ushort *linebuf[_ltotal], int line_width);
-static void fuji_extend_blue(ushort *linebuf[_ltotal], int line_width);
-
-
-%}
-
-%include "internal/libraw_cxx_defs.h"
-%include "libraw/libraw_alloc.h"
-%include "libraw/libraw_datastream.h"
-%include "libraw/libraw_internal.h"
-%include "libraw/libraw_types.h"
-%include "libraw/libraw_version.h"
-%include "libraw/libraw.h"
-
-%include "libraw_datastream.cpp"
-%include "tables/cameralist.cpp"
-%include "decoders/fuji_compressed.cpp"
-%include "decoders/crx.cpp"
-%include "decoders/fp_dng.cpp"
-%include "decoders/decoders_libraw.cpp"
-%include "decoders/unpack.cpp"
-%include "decoders/unpack_thumb.cpp"
-
-%include "integration/dngsdk_glue.cpp"
-%include "integration/rawspeed_glue.cpp"
-
-%include "tables/colorconst.cpp"
-%include "utils/utils_libraw.cpp"
-%include "utils/init_close_utils.cpp"
-%include "utils/decoder_info.cpp"
-%include "utils/open.cpp"
-%include "utils/phaseone_processing.cpp"
-%include "utils/thumb_utils.cpp"
-
-%include "write/tiff_writer.cpp"
-%include "preprocessing/subtract_black.cpp"
-%include "preprocessing/raw2image.cpp"
-%include "postprocessing/postprocessing_utils.cpp"
-%include "postprocessing/dcraw_process.cpp"
-%include "postprocessing/mem_image.cpp"
-
-
+  return (sizeof(static_camera_list) / sizeof(static_camera_list[0])) - 1;
+}

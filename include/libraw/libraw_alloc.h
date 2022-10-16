@@ -21,13 +21,13 @@ it under the terms of the one of two licenses as you choose:
 
 #include <stdlib.h>
 #include <string.h>
-#include "libraw_const.h"
+#include "libraw/libraw_const.h"
 
 #ifdef __cplusplus
 
 #define LIBRAW_MSIZE 512
 
-class  libraw_memmgr
+class DllDef libraw_memmgr
 {
 public:
   libraw_memmgr(unsigned ee) : extra_bytes(ee)

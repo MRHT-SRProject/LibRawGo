@@ -23,8 +23,8 @@ it under the terms of the one of two licenses as you choose:
 
 #ifdef __cplusplus
 
-#include "libraw_datastream.h"
-#include "libraw_types.h"
+#include "libraw/libraw_datastream.h"
+#include "libraw/libraw_types.h"
 
 class LibRaw_TLS
 {

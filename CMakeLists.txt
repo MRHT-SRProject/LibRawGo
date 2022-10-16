@@ -60,8 +60,8 @@ message("clang-tidy:\t\t${CLANG_TIDY}")
 message("\n--------------------------------\n")
 
 
-
 set(${PROJECT_NAME}_sources ${CMAKE_SOURCE_DIR}/src/librawgo.i )
+set_property(SOURCE {${PROJECT_NAME}_sources} PROPERTY CPLUSPLUS ON)
 
 
 swig_add_library(${PROJECT_NAME} TYPE STATIC LANGUAGE go SOURCES ${${PROJECT_NAME}_sources})
@@ -73,7 +73,8 @@ set_property(
     PROPERTY CXX_CLANG_TIDY "${CLANG_TIDY}")
     endif()
 
-    set_property(TARGET ${PROJECT_NAME} PROPERTY SWIG_COMPILE_OPTIONS -go -intgosize 64 -cpperraswarn)
+    set_property(TARGET ${PROJECT_NAME} PROPERTY USE_SWIG_DEPENDENCIES TRUE)
+    set_property(TARGET ${PROJECT_NAME} PROPERTY SWIG_COMPILE_OPTIONS -go -intgosize 64)
     set_property(TARGET ${PROJECT_NAME} PROPERTY SWIG_USE_TARGET_INCLUDE_DIRECTORIES TRUE)
     target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include)
 

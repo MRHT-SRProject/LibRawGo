@@ -85,8 +85,8 @@ extern "C"
 #define NO_LCMS
 #endif
 
-#include "libraw_const.h"
-#include "libraw_version.h"
+#include "libraw/libraw_const.h"
+#include "libraw/libraw_version.h"
 
 #ifdef _WIN32
   typedef __int64 INT64;
@@ -99,18 +99,18 @@ typedef unsigned long long UINT64;
   typedef unsigned char uchar;
   typedef unsigned short ushort;
 
-#ifdef LIBRAW_WIN32_S
+#ifdef LIBRAW_WIN32_DLLDEFS
 #ifdef LIBRAW_NODLL
-#define 
+#define DllDef
 #else
 #ifdef LIBRAW_BUILDLIB
-#define  __declspec(dllexport)
+#define DllDef __declspec(dllexport)
 #else
-#define  __declspec(dllimport)
+#define DllDef __declspec(dllimport)
 #endif
 #endif
 #else
-#define 
+#define DllDef
 #endif
 
   typedef struct
@@ -134,12 +134,12 @@ typedef unsigned long long UINT64;
                                        int len, unsigned int ord, void *ifp,
                                        INT64 base);
 
-   void default_memory_callback(void *data, const char *file,
+  DllDef void default_memory_callback(void *data, const char *file,
                                       const char *where);
 
   typedef void (*data_callback)(void *data, const char *file, const int offset);
 
-   void default_data_callback(void *data, const char *file,
+  DllDef void default_data_callback(void *data, const char *file,
                                     const int offset);
 
   typedef int (*progress_callback)(void *data, enum LibRaw_progress stage,

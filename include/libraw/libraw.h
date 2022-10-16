@@ -5,12 +5,16 @@
  *
  * LibRaw C++ interface
  *
+
 LibRaw is free software; you can redistribute it and/or modify
 it under the terms of the one of two licenses as you choose:
+
 1. GNU LESSER GENERAL PUBLIC LICENSE version 2.1
    (See file LICENSE.LGPL provided in LibRaw distribution archive for details).
+
 2. COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0
    (See file LICENSE.CDDL provided in LibRaw distribution archive for details).
+
 */
 
 #ifndef _LIBRAW_CLASS_H
@@ -42,8 +46,8 @@ it under the terms of the one of two licenses as you choose:
 
 /* DLLs: Microsoft or Intel compiler */
 # if defined(_MSC_VER) || defined(__INTEL_COMPILER)
-# ifndef LIBRAW_WIN32_S
-#  define LIBRAW_WIN32_S
+# ifndef LIBRAW_WIN32_DLLDEFS
+#  define LIBRAW_WIN32_DLLDEFS
 # endif
 #endif
 
@@ -60,93 +64,93 @@ it under the terms of the one of two licenses as you choose:
 
 #endif
 
-#include "libraw_datastream.h"
-#include "libraw_types.h"
-#include "libraw_const.h"
-#include "libraw_internal.h"
-#include "libraw_alloc.h"
+#include "libraw/libraw_datastream.h"
+#include "libraw/libraw_types.h"
+#include "libraw/libraw_const.h"
+#include "libraw/libraw_internal.h"
+#include "libraw/libraw_alloc.h"
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
-   const char *libraw_strerror(int errorcode);
-   const char *libraw_strprogress(enum LibRaw_progress);
+  DllDef const char *libraw_strerror(int errorcode);
+  DllDef const char *libraw_strprogress(enum LibRaw_progress);
   /* LibRaw C API */
-   libraw_data_t *libraw_init(unsigned int flags);
-   int libraw_open_file(libraw_data_t *, const char *);
-   int libraw_open_file_ex(libraw_data_t *, const char *,
+  DllDef libraw_data_t *libraw_init(unsigned int flags);
+  DllDef int libraw_open_file(libraw_data_t *, const char *);
+  DllDef int libraw_open_file_ex(libraw_data_t *, const char *,
                                  INT64 max_buff_sz);
 #if defined(_WIN32) || defined(WIN32)
-   int libraw_open_wfile(libraw_data_t *, const wchar_t *);
-   int libraw_open_wfile_ex(libraw_data_t *, const wchar_t *,
+  DllDef int libraw_open_wfile(libraw_data_t *, const wchar_t *);
+  DllDef int libraw_open_wfile_ex(libraw_data_t *, const wchar_t *,
                                   INT64 max_buff_sz);
 #endif
-   int libraw_open_buffer(libraw_data_t *, void *buffer, size_t size);
-   int libraw_unpack(libraw_data_t *);
-   int libraw_unpack_thumb(libraw_data_t *);
-   void libraw_recycle_datastream(libraw_data_t *);
-   void libraw_recycle(libraw_data_t *);
-   void libraw_close(libraw_data_t *);
-   void libraw_subtract_black(libraw_data_t *);
-   int libraw_raw2image(libraw_data_t *);
-   void libraw_free_image(libraw_data_t *);
+  DllDef int libraw_open_buffer(libraw_data_t *, void *buffer, size_t size);
+  DllDef int libraw_unpack(libraw_data_t *);
+  DllDef int libraw_unpack_thumb(libraw_data_t *);
+  DllDef void libraw_recycle_datastream(libraw_data_t *);
+  DllDef void libraw_recycle(libraw_data_t *);
+  DllDef void libraw_close(libraw_data_t *);
+  DllDef void libraw_subtract_black(libraw_data_t *);
+  DllDef int libraw_raw2image(libraw_data_t *);
+  DllDef void libraw_free_image(libraw_data_t *);
   /* version helpers */
-   const char *libraw_version();
-   int libraw_versionNumber();
+  DllDef const char *libraw_version();
+  DllDef int libraw_versionNumber();
   /* Camera list */
-   const char **libraw_cameraList();
-   int libraw_cameraCount();
+  DllDef const char **libraw_cameraList();
+  DllDef int libraw_cameraCount();
 
   /* helpers */
-   void libraw_set_memerror_handler(libraw_data_t *, memory_callback cb,
+  DllDef void libraw_set_memerror_handler(libraw_data_t *, memory_callback cb,
                                           void *datap);
-   void libraw_set_exifparser_handler(libraw_data_t *,
+  DllDef void libraw_set_exifparser_handler(libraw_data_t *,
                                             exif_parser_callback cb,
                                             void *datap);
-   void libraw_set_dataerror_handler(libraw_data_t *, data_callback func,
+  DllDef void libraw_set_dataerror_handler(libraw_data_t *, data_callback func,
                                            void *datap);
-   void libraw_set_progress_handler(libraw_data_t *, progress_callback cb,
+  DllDef void libraw_set_progress_handler(libraw_data_t *, progress_callback cb,
                                           void *datap);
-   const char *libraw_unpack_function_name(libraw_data_t *lr);
-   int libraw_get_decoder_info(libraw_data_t *lr,
+  DllDef const char *libraw_unpack_function_name(libraw_data_t *lr);
+  DllDef int libraw_get_decoder_info(libraw_data_t *lr,
                                      libraw_decoder_info_t *d);
-   int libraw_COLOR(libraw_data_t *, int row, int col);
-   unsigned libraw_capabilities();
+  DllDef int libraw_COLOR(libraw_data_t *, int row, int col);
+  DllDef unsigned libraw_capabilities();
 
   /* DCRAW compatibility */
-   int libraw_adjust_sizes_info_only(libraw_data_t *);
-   int libraw_dcraw_ppm_tiff_writer(libraw_data_t *lr,
+  DllDef int libraw_adjust_sizes_info_only(libraw_data_t *);
+  DllDef int libraw_dcraw_ppm_tiff_writer(libraw_data_t *lr,
                                           const char *filename);
-   int libraw_dcraw_thumb_writer(libraw_data_t *lr, const char *fname);
-   int libraw_dcraw_process(libraw_data_t *lr);
-   libraw_processed_image_t *
+  DllDef int libraw_dcraw_thumb_writer(libraw_data_t *lr, const char *fname);
+  DllDef int libraw_dcraw_process(libraw_data_t *lr);
+  DllDef libraw_processed_image_t *
   libraw_dcraw_make_mem_image(libraw_data_t *lr, int *errc);
-   libraw_processed_image_t *
+  DllDef libraw_processed_image_t *
   libraw_dcraw_make_mem_thumb(libraw_data_t *lr, int *errc);
-   void libraw_dcraw_clear_mem(libraw_processed_image_t *);
+  DllDef void libraw_dcraw_clear_mem(libraw_processed_image_t *);
   /* getters/setters used by 3DLut Creator */
-   void libraw_set_demosaic(libraw_data_t *lr, int value);
-   void libraw_set_output_color(libraw_data_t *lr, int value);
-   void libraw_set_user_mul(libraw_data_t *lr, int index, float val);
-   void libraw_set_output_bps(libraw_data_t *lr, int value);
-   void libraw_set_gamma(libraw_data_t *lr, int index, float value);
-   void libraw_set_no_auto_bright(libraw_data_t *lr, int value);
-   void libraw_set_bright(libraw_data_t *lr, float value);
-   void libraw_set_highlight(libraw_data_t *lr, int value);
-   void libraw_set_fbdd_noiserd(libraw_data_t *lr, int value);
-   int libraw_get_raw_height(libraw_data_t *lr);
-   int libraw_get_raw_width(libraw_data_t *lr);
-   int libraw_get_iheight(libraw_data_t *lr);
-   int libraw_get_iwidth(libraw_data_t *lr);
-   float libraw_get_cam_mul(libraw_data_t *lr, int index);
-   float libraw_get_pre_mul(libraw_data_t *lr, int index);
-   float libraw_get_rgb_cam(libraw_data_t *lr, int index1, int index2);
-   int libraw_get_color_maximum(libraw_data_t *lr);
-   void libraw_set_output_tif(libraw_data_t *lr, int value);
-   libraw_iparams_t *libraw_get_iparams(libraw_data_t *lr);
-   libraw_lensinfo_t *libraw_get_lensinfo(libraw_data_t *lr);
-   libraw_imgother_t *libraw_get_imgother(libraw_data_t *lr);
+  DllDef void libraw_set_demosaic(libraw_data_t *lr, int value);
+  DllDef void libraw_set_output_color(libraw_data_t *lr, int value);
+  DllDef void libraw_set_user_mul(libraw_data_t *lr, int index, float val);
+  DllDef void libraw_set_output_bps(libraw_data_t *lr, int value);
+  DllDef void libraw_set_gamma(libraw_data_t *lr, int index, float value);
+  DllDef void libraw_set_no_auto_bright(libraw_data_t *lr, int value);
+  DllDef void libraw_set_bright(libraw_data_t *lr, float value);
+  DllDef void libraw_set_highlight(libraw_data_t *lr, int value);
+  DllDef void libraw_set_fbdd_noiserd(libraw_data_t *lr, int value);
+  DllDef int libraw_get_raw_height(libraw_data_t *lr);
+  DllDef int libraw_get_raw_width(libraw_data_t *lr);
+  DllDef int libraw_get_iheight(libraw_data_t *lr);
+  DllDef int libraw_get_iwidth(libraw_data_t *lr);
+  DllDef float libraw_get_cam_mul(libraw_data_t *lr, int index);
+  DllDef float libraw_get_pre_mul(libraw_data_t *lr, int index);
+  DllDef float libraw_get_rgb_cam(libraw_data_t *lr, int index1, int index2);
+  DllDef int libraw_get_color_maximum(libraw_data_t *lr);
+  DllDef void libraw_set_output_tif(libraw_data_t *lr, int value);
+  DllDef libraw_iparams_t *libraw_get_iparams(libraw_data_t *lr);
+  DllDef libraw_lensinfo_t *libraw_get_lensinfo(libraw_data_t *lr);
+  DllDef libraw_imgother_t *libraw_get_imgother(libraw_data_t *lr);
 
 #ifdef __cplusplus
 }
@@ -154,7 +158,7 @@ extern "C"
 
 #ifdef __cplusplus
 
-class  LibRaw
+class DllDef LibRaw
 {
 public:
   libraw_data_t imgdata;
