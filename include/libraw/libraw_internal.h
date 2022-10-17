@@ -26,34 +26,40 @@ it under the terms of the one of two licenses as you choose:
 #include "libraw/libraw_datastream.h"
 #include "libraw/libraw_types.h"
 
-class LibRaw_TLS
-{
-public:
-  struct
+  typedef struct GetBits
   {
     unsigned bitbuf;
     int vbits, reset;
-  } getbits;
-  struct
+  } GetBits;
+  typedef struct PH1Bits
   {
     UINT64 bitbuf;
     int vbits;
 
-  } ph1_bits;
-  struct
+  } PH1Bits;
+  typedef struct SonyDecrypt
   {
     unsigned pad[128], p;
-  } sony_decrypt;
-  struct
+  } SonyDecrypt;
+  typedef struct PanaData
   {
     uchar buf[0x4002];
     int vpos, padding;
-  } pana_data;
-  uchar jpeg_buffer[4096];
-  struct
+  } PanaData;
+
+  typedef struct AHDData
   {
     float cbrt[0x10000], xyz_cam[3][4];
-  } ahd_data;
+  } AHDData;
+
+class LibRaw_TLS
+{
+public:
+    uchar jpeg_buffer[4096];
+    GetBits getbits;
+    PH1Bits ph1_bits;
+    PanaData pana_data;
+    AHDData ahd_data;
   void init()
   {
     getbits.bitbuf = 0;
@@ -214,15 +220,17 @@ struct jhead
   ushort quant[64], idct[64], *huff[20], *free[20], *row;
 };
 
+typedef   union Val {
+    char c[4];
+    short s[2];
+    int i;
+  } vval;
+
 struct libraw_tiff_tag
 {
   ushort tag, type;
   int count;
-  union {
-    char c[4];
-    short s[2];
-    int i;
-  } val;
+  vval val;
 };
 
 struct tiff_hdr

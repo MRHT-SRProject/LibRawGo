@@ -18,14 +18,14 @@ it under the terms of the one of two licenses as you choose:
 
 #include "../../internal/libraw_cxx_defs.h"
 
-#ifdef _abs
-#undef _abs
-#undef _min
-#undef _max
+#ifdef __abs
+#undef __abs
+#undef __min
+#undef __max
 #endif
-#define _abs(x) (((int)(x) ^ ((int)(x) >> 31)) - ((int)(x) >> 31))
-#define _min(a, b) ((a) < (b) ? (a) : (b))
-#define _max(a, b) ((a) > (b) ? (a) : (b))
+#define __abs(x) (((int)(x) ^ ((int)(x) >> 31)) - ((int)(x) >> 31))
+#define __min(a, b) ((a) < (b) ? (a) : (b))
+#define __max(a, b) ((a) > (b) ? (a) : (b))
 
 struct int_pair
 {
@@ -147,7 +147,7 @@ static inline void fuji_fill_buffer(struct fuji_compressed_block *info)
 #endif
       info->input->seek(info->cur_buf_offset, SEEK_SET);
       info->cur_buf_size = info->input->read(
-          info->cur_buf, 1, _min(info->max_read_size, XTRANS_BUF_SIZE));
+          info->cur_buf, 1, __min(info->max_read_size, XTRANS_BUF_SIZE));
 #ifndef LIBRAW_USE_OPENMP
       info->input->unlock();
 #endif
@@ -155,7 +155,7 @@ static inline void fuji_fill_buffer(struct fuji_compressed_block *info)
       {
         if (info->fillbytes > 0)
         {
-          int ls = _max(1, _min(info->fillbytes, XTRANS_BUF_SIZE));
+          int ls = __max(1, __min(info->fillbytes, XTRANS_BUF_SIZE));
           memset(info->cur_buf, 0, ls);
           info->fillbytes -= ls;
         }
@@ -177,7 +177,7 @@ void LibRaw::init_fuji_block(struct fuji_compressed_block *info,
 
   INT64 fsize = libraw_internal_data.internal_data.input->size();
   info->max_read_size =
-      _min(unsigned(fsize - raw_offset), dsize); // Data size may be incorrect?
+      __min(unsigned(fsize - raw_offset), dsize); // Data size may be incorrect?
   info->fillbytes = 1;
 
   info->input = libraw_internal_data.internal_data.input;
@@ -397,10 +397,10 @@ fuji_decode_sample_even(struct fuji_compressed_block *info,
   int grad, gradient, diffRcRb, diffRfRb, diffRdRb;
 
   grad = fuji_quant_gradient(params, Rb - Rf, Rc - Rb);
-  gradient = _abs(grad);
-  diffRcRb = _abs(Rc - Rb);
-  diffRfRb = _abs(Rf - Rb);
-  diffRdRb = _abs(Rd - Rb);
+  gradient = __abs(grad);
+  diffRcRb = __abs(Rc - Rb);
+  diffRfRb = __abs(Rf - Rb);
+  diffRdRb = __abs(Rd - Rb);
 
   if (diffRcRb > diffRfRb && diffRcRb > diffRdRb)
     interp_val = Rf + Rd + 2 * Rb;
@@ -431,7 +431,7 @@ fuji_decode_sample_even(struct fuji_compressed_block *info,
   else
     code /= 2;
 
-  grads[gradient].value1 += _abs(code);
+  grads[gradient].value1 += __abs(code);
   if (grads[gradient].value2 == params->min_value)
   {
     grads[gradient].value1 >>= 1;
@@ -448,7 +448,7 @@ fuji_decode_sample_even(struct fuji_compressed_block *info,
     interp_val -= params->total_values;
 
   if (interp_val >= 0)
-    line_buf_cur[0] = _min(interp_val, params->q_point[4]);
+    line_buf_cur[0] = __min(interp_val, params->q_point[4]);
   else
     line_buf_cur[0] = 0;
   return errcnt;
@@ -473,7 +473,7 @@ fuji_decode_sample_odd(struct fuji_compressed_block *info,
   int grad, gradient;
 
   grad = fuji_quant_gradient(params, Rb - Rc, Rc - Ra);
-  gradient = _abs(grad);
+  gradient = __abs(grad);
 
   if ((Rb > Rc && Rb > Rd) || (Rb < Rc && Rb < Rd))
     interp_val = (Rg + Ra + 2 * Rb) >> 2;
@@ -502,7 +502,7 @@ fuji_decode_sample_odd(struct fuji_compressed_block *info,
   else
     code /= 2;
 
-  grads[gradient].value1 += _abs(code);
+  grads[gradient].value1 += __abs(code);
   if (grads[gradient].value2 == params->min_value)
   {
     grads[gradient].value1 >>= 1;
@@ -519,7 +519,7 @@ fuji_decode_sample_odd(struct fuji_compressed_block *info,
     interp_val -= params->total_values;
 
   if (interp_val >= 0)
-    line_buf_cur[0] = _min(interp_val, params->q_point[4]);
+    line_buf_cur[0] = __min(interp_val, params->q_point[4]);
   else
     line_buf_cur[0] = 0;
   return errcnt;
@@ -533,9 +533,9 @@ static void fuji_decode_interpolation_even(int line_width, ushort *line_buf,
   int Rc = line_buf_cur[-3 - line_width];
   int Rd = line_buf_cur[-1 - line_width];
   int Rf = line_buf_cur[-4 - 2 * line_width];
-  int diffRcRb = _abs(Rc - Rb);
-  int diffRfRb = _abs(Rf - Rb);
-  int diffRdRb = _abs(Rd - Rb);
+  int diffRcRb = __abs(Rc - Rb);
+  int diffRfRb = __abs(Rf - Rb);
+  int diffRdRb = __abs(Rd - Rb);
   if (diffRcRb > diffRfRb && diffRcRb > diffRdRb)
     *line_buf_cur = (Rf + Rd + 2 * Rb) >> 2;
   else if (diffRdRb > diffRcRb && diffRdRb > diffRfRb)

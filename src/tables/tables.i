@@ -1159,3 +1159,4 @@ static const char * const static_camera_list[] = {
 %}
 
 %include cameralist.cpp
+%include colorconst.cpp

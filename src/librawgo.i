@@ -1,4 +1,7 @@
 %module librawgo
+%insert(cgo_comment) %{
+#cgo LDFLAGS: -L ${SRCDIR} -lrawgo -lraw
+%}
 %{
 /* Put headers and other declarations here */
 #include "internal/libraw_cxx_defs.h"
@@ -22,22 +25,11 @@
 %include "tables/tables.i"
 %include "decoders/decoders.i"
 
-%include "integration/dngsdk_glue.cpp"
-%include "integration/rawspeed_glue.cpp"
+%include "integration/integration.i"
+%include "utils/utils.i"
 
-%include "tables/colorconst.cpp"
-%include "utils/utils_libraw.cpp"
-%include "utils/init_close_utils.cpp"
-%include "utils/decoder_info.cpp"
-%include "utils/open.cpp"
-%include "utils/phaseone_processing.cpp"
-%include "utils/thumb_utils.cpp"
-
-%include "write/tiff_writer.cpp"
-%include "preprocessing/subtract_black.cpp"
-%include "preprocessing/raw2image.cpp"
-%include "postprocessing/postprocessing_utils.cpp"
-%include "postprocessing/dcraw_process.cpp"
-%include "postprocessing/mem_image.cpp"
+%include "write/write.i"
+%include "preprocessing/preprocessing.i"
+%include "postprocessing/postprocessing.i"
 
 

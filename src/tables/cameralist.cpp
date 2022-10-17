@@ -21,7 +21,7 @@ const int RAWSPEED_DATA_COUNT =
 #endif
 // clang-format off
 // Supported cameras:
-static const char *static_camera_list[] = {
+static const char * const static_camera_list [] = {
 	"Adobe Digital Negative (DNG)",
 	"AgfaPhoto DC-833m",
 	"Alcatel 5035D",
