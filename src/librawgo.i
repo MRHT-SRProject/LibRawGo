@@ -1,5 +1,5 @@
 %insert(cgo_comment) %{
-#cgo LDFLAGS: -L ${SRCDIR} -lrawgo -lraw
+#cgo LDFLAGS: -L ${SRCDIR} -lrawgo -lraw -lstdc++
 %}
 
 %module librawgo
