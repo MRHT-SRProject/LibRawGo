@@ -46,6 +46,8 @@ unpack_thumb.cpp
 ../../internal/libraw_cxx_defs.h
 /home/rich/code/LibRawGo/internal/libraw_cxx_defs.h
 
+/home/rich/code/LibRawGo/src/float.i
+
 /home/rich/code/LibRawGo/src/integration/integration.i
 
 /home/rich/code/LibRawGo/src/libraw_datastream.cpp
@@ -81,6 +83,10 @@ libraw/libraw_version.h
 /home/rich/code/LibRawGo/src/libraw/libraw_version.h
 libraw/libraw.h
 /home/rich/code/LibRawGo/src/libraw/libraw.h
+math.i
+-
+float.i
+/home/rich/code/LibRawGo/src/float.i
 libraw/libraw_alloc.h
 /home/rich/code/LibRawGo/src/libraw/libraw_alloc.h
 libraw/libraw_datastream.h

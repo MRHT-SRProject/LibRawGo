@@ -9,6 +9,7 @@ CMakeFiles/librawgo.dir/librawgoGO.stamp
  /home/rich/code/LibRawGo/src/decoders/fuji_compressed.cpp
  /home/rich/code/LibRawGo/src/decoders/unpack.cpp
  /home/rich/code/LibRawGo/src/decoders/unpack_thumb.cpp
+ /home/rich/code/LibRawGo/src/float.i
  /home/rich/code/LibRawGo/src/integration/integration.i
  /home/rich/code/LibRawGo/src/libraw_datastream.cpp
  /home/rich/code/LibRawGo/src/librawgo.i

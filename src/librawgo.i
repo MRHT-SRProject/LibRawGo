@@ -5,9 +5,6 @@
 %module librawgo
 %{
 /* Put headers and other declarations here */
-#ifndef __cplusplus
-#define __cplusplus 201402L
-#endif
 #include "internal/libraw_cxx_defs.h"
 #include "libraw/libraw_alloc.h"
 #include "libraw/libraw_datastream.h"
@@ -17,7 +14,8 @@
 #include "libraw/libraw.h"
 
 %}
-
+%include <math.i>
+%include "float.i"
 %include "libraw/libraw_alloc.h"
 %include "libraw/libraw_datastream.h"
 %include "libraw/libraw_internal.h"
