@@ -1,9 +1,13 @@
-%module librawgo
 %insert(cgo_comment) %{
 #cgo LDFLAGS: -L ${SRCDIR} -lrawgo -lraw
 %}
+
+%module librawgo
 %{
 /* Put headers and other declarations here */
+#ifndef __cplusplus
+#define __cplusplus 201402L
+#endif
 #include "internal/libraw_cxx_defs.h"
 #include "libraw/libraw_alloc.h"
 #include "libraw/libraw_datastream.h"
